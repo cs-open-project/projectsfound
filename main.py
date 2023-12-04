@@ -29,7 +29,7 @@ all.update(non_exist)
 
 existed_projects = content.read_md()
 
-fp = open("CHANGELOG_PROJECTS.md", "wa", encoding="utf-8")
+fp = open("CHANGELOG_PROJECTS.md", "a", encoding="utf-8")
 
 hasNew = False
 for key in all:

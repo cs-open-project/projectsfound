@@ -1923,331 +1923,331 @@ Description: Wayang is a cross-platform data processing system that aims at deco
 
 介绍: Wayang is a cross-platform data processing system that aims at decoupling the business logic of data analytics applications from concrete data processing platforms, such as Apache Flink or Apache Spark. Hence, it tames the complexity that arises from the "Cambrian explosion" of novel data processing platforms that we currently witness.
 
-### Any23[]Attic]
+### Any23[Attic]
 
 Description: Apache Any23 is used in major Web of Data applications. It is written in Java and licensed under the Apache License v2.0. Apache Any23 can be used in various ways: * As a library in Java applications that consume structured data from the Web. * As a command-line tool for extracting and converting between the supported formats. * As online service API available at any23.org.
 
 介绍: Apache Any23 is used in major Web of Data applications. It is written in Java and licensed under the Apache License v2.0. Apache Any23 can be used in various ways: * As a library in Java applications that consume structured data from the Web. * As a command-line tool for extracting and converting between the supported formats. * As online service API available at any23.org.
 
-### Apex[]Attic]
+### Apex[Attic]
 
 Description: Apache Apex is a unified platform for big data stream and batch processing. Use cases include ingestion, ETL, real-time analytics, alerts and real-time actions. Apex is a Hadoop-native YARN implementation and uses HDFS by default. It simplifies development and productization of Hadoop applications by reducing time to market. Key features include Enterprise Grade Operability with Fault Tolerance, State Management, Event Processing Guarantees, No Data Loss, In-memory Performance & Scalability and Native Window Support.
 
 介绍: Apache Apex is a unified platform for big data stream and batch processing. Use cases include ingestion, ETL, real-time analytics, alerts and real-time actions. Apex is a Hadoop-native YARN implementation and uses HDFS by default. It simplifies development and productization of Hadoop applications by reducing time to market. Key features include Enterprise Grade Operability with Fault Tolerance, State Management, Event Processing Guarantees, No Data Loss, In-memory Performance & Scalability and Native Window Support.
 
-### Beehive[]Attic]
+### Beehive[Attic]
 
 Description: Our goal is to make J2EE programming easier by building a simple object model on J2EE and Struts. Using Java 5 annotations, Beehive reduces the coding necessary for J2EE. The initial Beehive project has three pieces.  NetUI: An annotation-driven web application programming framework that is built atop Struts. NetUI centralizes navigation logic, state, metadata, and exception handling in a single encapsulated and reusable Page Flow Controller class. In addition, NetUI provides a set of JSP tags for rendering HTML / XHTML and higher-level UI constructs such as data grids and trees and has first-class integration with JavaServer Faces and Struts.  Controls: A lightweight, metadata-driven component framework that reduces the complexity of being a client of enterprise resources. Controls provide a unified client abstraction that can be implemented to access a diverse set of enterprise resources using a single configuration model.  Web Service Metadata (WSM): An implementation of JSR 181 which standardizes a simplified, annotation-driven model for building Java web services.  In addition, Beehive includes a set of system controls that are abstractions for low-level J2EE resource APIs such as EJB, JMS, JDBC, and web services.
 
 介绍: Our goal is to make J2EE programming easier by building a simple object model on J2EE and Struts. Using Java 5 annotations, Beehive reduces the coding necessary for J2EE. The initial Beehive project has three pieces.  NetUI: An annotation-driven web application programming framework that is built atop Struts. NetUI centralizes navigation logic, state, metadata, and exception handling in a single encapsulated and reusable Page Flow Controller class. In addition, NetUI provides a set of JSP tags for rendering HTML / XHTML and higher-level UI constructs such as data grids and trees and has first-class integration with JavaServer Faces and Struts.  Controls: A lightweight, metadata-driven component framework that reduces the complexity of being a client of enterprise resources. Controls provide a unified client abstraction that can be implemented to access a diverse set of enterprise resources using a single configuration model.  Web Service Metadata (WSM): An implementation of JSR 181 which standardizes a simplified, annotation-driven model for building Java web services.  In addition, Beehive includes a set of system controls that are abstractions for low-level J2EE resource APIs such as EJB, JMS, JDBC, and web services.
 
-### Buildr[]Attic]
+### Buildr[Attic]
 
 Description: We wanted something that's simple and intuitive to use, so we only need to tell it what to do, and it takes care of the rest.  But also something we can easily extend for those one-off tasks, with a language that's a joy to use.
 
 介绍: We wanted something that's simple and intuitive to use, so we only need to tell it what to do, and it takes care of the rest.  But also something we can easily extend for those one-off tasks, with a language that's a joy to use.
 
-### Chemistry[]Attic]
+### Chemistry[Attic]
 
 Description: Apache Chemistry provides open source implementations of the Content Management Interoperability Services (CMIS) specification. Libraries are available for Java, Python, PHP and .NET.
 
 介绍: Apache Chemistry provides open source implementations of the Content Management Interoperability Services (CMIS) specification. Libraries are available for Java, Python, PHP and .NET.
 
-### Chukwa[]Attic]
+### Chukwa[Attic]
 
 Description:  Chukwa is an open source data collection system for monitoring  large distributed systems. Chukwa is built on top of  the Hadoop Distributed File System (HDFS) and Map/Reduce framework  and inherits Hadoop’s scalability and robustness. Chukwa also includes  a ﬂexible and powerful toolkit for displaying, monitoring and analyzing  results to make the best use of the collected data. 
 
 介绍:  Chukwa is an open source data collection system for monitoring  large distributed systems. Chukwa is built on top of  the Hadoop Distributed File System (HDFS) and Map/Reduce framework  and inherits Hadoop’s scalability and robustness. Chukwa also includes  a ﬂexible and powerful toolkit for displaying, monitoring and analyzing  results to make the best use of the collected data. 
 
-### Clerezza[]Attic]
+### Clerezza[Attic]
 
 Description: Clerezza allows to easily develop semantic web applications by providing tools to manipulate RDF data, create RESTful Web Services and Renderlets using ScalaServerPages. Contents are stored as triples based on W3C RDF specification. These triples are stored via Clerezza’s Smart Content Binding (SCB). SCB defines a technology-agnostic layer to access and modify triple stores. It provides a java implementation of the graph data model specified by W3C RDF and functionalities to operate on that data model. SCB offers a service interface to access multiple named graphs and it can use various providers to manage RDF graphs in a technology specific manner, e.g., using Jena or Sesame. It also provides for adaptors that allow an application to use various APIs (including the Jena api) to process RDF graphs. Furthermore, SCB offers a serialization and a parsing service to convert a graph into a certain representation (format) and vice versa.
 
 介绍: Clerezza allows to easily develop semantic web applications by providing tools to manipulate RDF data, create RESTful Web Services and Renderlets using ScalaServerPages. Contents are stored as triples based on W3C RDF specification. These triples are stored via Clerezza’s Smart Content Binding (SCB). SCB defines a technology-agnostic layer to access and modify triple stores. It provides a java implementation of the graph data model specified by W3C RDF and functionalities to operate on that data model. SCB offers a service interface to access multiple named graphs and it can use various providers to manage RDF graphs in a technology specific manner, e.g., using Jena or Sesame. It also provides for adaptors that allow an application to use various APIs (including the Jena api) to process RDF graphs. Furthermore, SCB offers a serialization and a parsing service to convert a graph into a certain representation (format) and vice versa.
 
-### Click[]Attic]
+### Click[Attic]
 
 Description: Apache Click is a modern Java web application framework, providing a natural rich client style programming model. Click provides a page and component oriented design with a event based programming model. Leveraging a stateless architecture Click encourages loosely coupled pages for easier maintenance. Click is designed to be very easy to learn and use, with developers getting up and running within a day. Support is provided for Velocity, JSP or FreeMarker page rendering. Click also provides exceptional performance for high volume web sites. 
 
 介绍: Apache Click is a modern Java web application framework, providing a natural rich client style programming model. Click provides a page and component oriented design with a event based programming model. Leveraging a stateless architecture Click encourages loosely coupled pages for easier maintenance. Click is designed to be very easy to learn and use, with developers getting up and running within a day. Support is provided for Velocity, JSP or FreeMarker page rendering. Click also provides exceptional performance for high volume web sites. 
 
-### Continuum[]Attic]
+### Continuum[Attic]
 
 Description: Whether you have a centralized build team or want to put control of releases in the hands of developers, Apache Continuum can help you improve quality and maintain a consistent build environment. Follow us on Twitter @apachecontinuum to get the latest news and updates!
 
 介绍: Whether you have a centralized build team or want to put control of releases in the hands of developers, Apache Continuum can help you improve quality and maintain a consistent build environment. Follow us on Twitter @apachecontinuum to get the latest news and updates!
 
-### Crunch[]Attic]
+### Crunch[Attic]
 
 Description: The Apache Crunch Java library provides a framework for writing, testing, and running MapReduce pipelines. Its goal is to make pipelines that are composed of many user-defined functions simple to write, easy to test, and efficient to run.  Running on top of Hadoop MapReduce and Apache Spark, the Apache Crunch™ library is a simple Java API for tasks like joining and data aggregation that are tedious to implement on plain MapReduce. The APIs are especially useful when processing data that does not fit naturally into relational model, such as time series, serialized object formats like protocol buffers or Avro records, and HBase rows and columns. For Scala users, there is the Scrunch API, which is built on top of the Java APIs and includes a REPL (read-eval-print loop) for creating MapReduce pipelines.
 
 介绍: The Apache Crunch Java library provides a framework for writing, testing, and running MapReduce pipelines. Its goal is to make pipelines that are composed of many user-defined functions simple to write, easy to test, and efficient to run.  Running on top of Hadoop MapReduce and Apache Spark, the Apache Crunch™ library is a simple Java API for tasks like joining and data aggregation that are tedious to implement on plain MapReduce. The APIs are especially useful when processing data that does not fit naturally into relational model, such as time series, serialized object formats like protocol buffers or Avro records, and HBase rows and columns. For Scala users, there is the Scrunch API, which is built on top of the Java APIs and includes a REPL (read-eval-print loop) for creating MapReduce pipelines.
 
-### Deltacloud[]Attic]
+### Deltacloud[Attic]
 
 Description: Deltacloud contains a cloud abstraction API - whether the Deltacloud classic API, the DMTF CIMI API or even the EC2 API. Each abstraction API works as a wrapper around a large number of clouds, shielding users from their differences. For every cloud provider there is a driver "speaking" that cloud provider's native API, freeing you from dealing with the particulars of each cloud's API.
 
 介绍: Deltacloud contains a cloud abstraction API - whether the Deltacloud classic API, the DMTF CIMI API or even the EC2 API. Each abstraction API works as a wrapper around a large number of clouds, shielding users from their differences. For every cloud provider there is a driver "speaking" that cloud provider's native API, freeing you from dealing with the particulars of each cloud's API.
 
-### DeviceMap[]Attic]
+### DeviceMap[Attic]
 
 Description: Apache Devicemap is a data repository containing devices attributes, and their related browsers, and operating systems. The project also maintains an api to classify these attributes. 
 
 介绍: Apache Devicemap is a data repository containing devices attributes, and their related browsers, and operating systems. The project also maintains an api to classify these attributes. 
 
-### DirectMemory[]Attic]
+### DirectMemory[Attic]
 
 Description: Apache DirectMemory is a off-heap cache for the Java Virtual Machine
 
 介绍: Apache DirectMemory is a off-heap cache for the Java Virtual Machine
 
-### ECS[]Attic]
+### ECS[Attic]
 
 Description: The Element Construction Set is a Java API for generating elements for various markup languages it directly supports HTML 4.0 and XML, but can easily be extended to create tags for any markup language.
 
 介绍: The Element Construction Set is a Java API for generating elements for various markup languages it directly supports HTML 4.0 and XML, but can easily be extended to create tags for any markup language.
 
-### ESME[]Attic]
+### ESME[Attic]
 
 Description: Apache ESME (Enterprise Social Messaging Environment) is a secure and highly scalable microsharing and micromessaging platform that allows people to discover and meet one another and get controlled access to other sources of information, all in a business process context.    You can hardly turn a web page these days without seeing a story that describes how people are using social networks, whether it is Twitter, Facebook or some other service to develop and build their personal communities. In business, we increasingly see blogs and wikis demonstrating utility in problem solving and communications but the real time nature of business process problem solving largely remains untouched by social networking tools. Existing services, while attractive do not scale well and have proven unreliable. This is unacceptable to business which must be 'Always On' and able to support people in their daily working lives. Such applications must therefore be scalable and reliable but also provide a lot more. When solving problems, how good might it be if a user was able to tap into the collective knowledge of her peers or surrounding groups of people with whom she might naturally network in the workplace setting? How much quicker and with greater precision might she be able to solve daily problems? What if there was a communications mechanism that takes the best of what services like Twitter offers and co-mingled that with readily recognizable business processes? That solution is Apache ESME.
 
 介绍: Apache ESME (Enterprise Social Messaging Environment) is a secure and highly scalable microsharing and micromessaging platform that allows people to discover and meet one another and get controlled access to other sources of information, all in a business process context.    You can hardly turn a web page these days without seeing a story that describes how people are using social networks, whether it is Twitter, Facebook or some other service to develop and build their personal communities. In business, we increasingly see blogs and wikis demonstrating utility in problem solving and communications but the real time nature of business process problem solving largely remains untouched by social networking tools. Existing services, while attractive do not scale well and have proven unreliable. This is unacceptable to business which must be 'Always On' and able to support people in their daily working lives. Such applications must therefore be scalable and reliable but also provide a lot more. When solving problems, how good might it be if a user was able to tap into the collective knowledge of her peers or surrounding groups of people with whom she might naturally network in the workplace setting? How much quicker and with greater precision might she be able to solve daily problems? What if there was a communications mechanism that takes the best of what services like Twitter offers and co-mingled that with readily recognizable business processes? That solution is Apache ESME.
 
-### Etch[]Attic]
+### Etch[Attic]
 
 Description: Etch is a cross-platform, language- and transport-independent framework for building and consuming network services. The Etch toolset includes a network service description language, a compiler, and binding libraries for a variety of programming languages. Etch is also transport-independent, allowing for a variety of different transports to be used based on need and circumstance. The goal of Etch is to make it simple to define small, focused services that can be easily accessed, combined, and deployed in a similar manner. With Etch, service development and consumption becomes no more difficult than library development and consumption.
 
 介绍: Etch is a cross-platform, language- and transport-independent framework for building and consuming network services. The Etch toolset includes a network service description language, a compiler, and binding libraries for a variety of programming languages. Etch is also transport-independent, allowing for a variety of different transports to be used based on need and circumstance. The goal of Etch is to make it simple to define small, focused services that can be easily accessed, combined, and deployed in a similar manner. With Etch, service development and consumption becomes no more difficult than library development and consumption.
 
-### Excalibur[]Attic]
+### Excalibur[Attic]
 
 Description: The predecessor of Apache Avalon, Apache Excalibur hosts the Avalon framework, a Java container framework, the Excalibur and Fortress inversion of control containers, and a rich library of components.  Excalibur code powers Apache James and Cocoon and numerous other open source and commercial projects.
 
 介绍: The predecessor of Apache Avalon, Apache Excalibur hosts the Avalon framework, a Java container framework, the Excalibur and Fortress inversion of control containers, and a rich library of components.  Excalibur code powers Apache James and Cocoon and numerous other open source and commercial projects.
 
-### Falcon[]Attic]
+### Falcon[Attic]
 
 Description: Apache Falcon is a data processing and management solution for Hadoop designed for data motion, coordination of data pipelines, lifecycle management, and data discovery. Falcon enables end consumers to quickly onboard their data and its associated processing and management tasks on Hadoop clusters.
 
 介绍: Apache Falcon is a data processing and management solution for Hadoop designed for data motion, coordination of data pipelines, lifecycle management, and data discovery. Falcon enables end consumers to quickly onboard their data and its associated processing and management tasks on Hadoop clusters.
 
-### Forrest[]Attic]
+### Forrest[Attic]
 
 Description:  Apache Forrest™ software is a publishing framework that transforms input from various sources into a unified presentation in one or more output formats. The modular and extensible plug-in architecture of Apache Forrest is based on Apache Cocoon and the relevant industry standards that separate presentation from content. Forrest can generate static documents, or be used as a dynamic server, or be deployed by its automated facility. 
 
 介绍:  Apache Forrest™ software is a publishing framework that transforms input from various sources into a unified presentation in one or more output formats. The modular and extensible plug-in architecture of Apache Forrest is based on Apache Cocoon and the relevant industry standards that separate presentation from content. Forrest can generate static documents, or be used as a dynamic server, or be deployed by its automated facility. 
 
-### Giraph[]Attic]
+### Giraph[Attic]
 
 Description: Apache Giraph is an iterative graph processing system built for high scalability. For example, it is currently used at Facebook to analyze the social graph formed by users and their connections. 
 
 介绍: Apache Giraph is an iterative graph processing system built for high scalability. For example, it is currently used at Facebook to analyze the social graph formed by users and their connections. 
 
-### Hama[]Attic]
+### Hama[Attic]
 
 Description: The Apache Hama is an efficient and scalable general-purpose BSP computing engine which can be used to speed up a large variety of compute-intensive analytics applications.
 
 介绍: The Apache Hama is an efficient and scalable general-purpose BSP computing engine which can be used to speed up a large variety of compute-intensive analytics applications.
 
-### Harmony[]Attic]
+### Harmony[Attic]
 
 Description: Apache Harmony software is a modular Java runtime with class libraries and associated tools. 
 
 介绍: Apache Harmony software is a modular Java runtime with class libraries and associated tools. 
 
-### Hivemind[]Attic]
+### Hivemind[Attic]
 
 Description: HiveMind is a framework for creating applications, not an application, or even an application server, itself. The 'core' of HiveMind is the startup logic that knows how to parse and understand the module deployment descriptors, and use that information to instantiate and initialize all those services and configurations.
 
 介绍: HiveMind is a framework for creating applications, not an application, or even an application server, itself. The 'core' of HiveMind is the startup logic that knows how to parse and understand the module deployment descriptors, and use that information to instantiate and initialize all those services and configurations.
 
-### Jakarta Cactus[]Attic]
+### Jakarta Cactus[Attic]
 
 Description: The intent of Cactus is to lower the cost of writing tests for server-side code. It uses JUnit and extends it.  Cactus implements an in-container strategy, meaning that tests are executed inside the container. 
 
 介绍: The intent of Cactus is to lower the cost of writing tests for server-side code. It uses JUnit and extends it.  Cactus implements an in-container strategy, meaning that tests are executed inside the container. 
 
-### Lens[]Attic]
+### Lens[Attic]
 
 Description: Lens provides an Unified Analytics interface. Lens aims to cut the Data Analytics silos by providing a single view of data across multiple tiered data stores and optimal execution environment for the analytical query. It seamlessly integrates Hadoop with traditional data warehouses to appear like one. 
 
 介绍: Lens provides an Unified Analytics interface. Lens aims to cut the Data Analytics silos by providing a single view of data across multiple tiered data stores and optimal execution environment for the analytical query. It seamlessly integrates Hadoop with traditional data warehouses to appear like one. 
 
-### Lenya[]Attic]
+### Lenya[Attic]
 
 Description: Apache Lenya is an Open Source Java/XML Content Management Framework and comes with revision control, site management, scheduling, search, WYSIWYG editors, and workflow.
 
 介绍: Apache Lenya is an Open Source Java/XML Content Management Framework and comes with revision control, site management, scheduling, search, WYSIWYG editors, and workflow.
 
-### Lucy[]Attic]
+### Lucy[Attic]
 
 Description: The Apache Lucy search engine library provides full-text search for dynamic programming languages.
 
 介绍: The Apache Lucy search engine library provides full-text search for dynamic programming languages.
 
-### Marmotta[]Attic]
+### Marmotta[Attic]
 
 Description: The goal of Apache Marmotta is to provide an open implementation of a Linked Data Platform that can be used, extended and deployed easily by organizations who want to publish Linked Data or build custom applications on Linked Data
 
 介绍: The goal of Apache Marmotta is to provide an open implementation of a Linked Data Platform that can be used, extended and deployed easily by organizations who want to publish Linked Data or build custom applications on Linked Data
 
-### MetaModel[]Attic]
+### MetaModel[Attic]
 
 Description: With MetaModel you get a uniform connector and query API to many very different datastore types, including: Relational (JDBC) databases, CSV files, Excel spreadsheets, XML files, JSON files, Fixed width files, MongoDB, Apache CouchDB, Apache HBase, Apache Cassandra, ElasticSearch, OpenOffice.org databases, Salesforce.com, SugarCRM and even collections of plain old Java objects (POJOs).  MetaModel isn't a data mapping framework. Instead we emphasize abstraction of metadata and ability to add data sources at runtime, making MetaModel great for generic data processing applications, less so for applications modeled around a particular domain.
 
 介绍: With MetaModel you get a uniform connector and query API to many very different datastore types, including: Relational (JDBC) databases, CSV files, Excel spreadsheets, XML files, JSON files, Fixed width files, MongoDB, Apache CouchDB, Apache HBase, Apache Cassandra, ElasticSearch, OpenOffice.org databases, Salesforce.com, SugarCRM and even collections of plain old Java objects (POJOs).  MetaModel isn't a data mapping framework. Instead we emphasize abstraction of metadata and ability to add data sources at runtime, making MetaModel great for generic data processing applications, less so for applications modeled around a particular domain.
 
-### MRUnit[]Attic]
+### MRUnit[Attic]
 
 Description: The Apache MRUnit is a Java library that helps developers unit test Apache Hadoop map reduce jobs.
 
 介绍: The Apache MRUnit is a Java library that helps developers unit test Apache Hadoop map reduce jobs.
 
-### MXNet[]Attic]
+### MXNet[Attic]
 
 Description: Apache MXNet is a deep learning framework designed for both efficiency and flexibility. It's lightweight, Portable, Flexible Distributed/Mobile Deep Learning with dynamic, mutation-aware data-flow dependency scheduler; for Python, R, Julia, Scala, Go, Javascript and more
 
 介绍: Apache MXNet is a deep learning framework designed for both efficiency and flexibility. It's lightweight, Portable, Flexible Distributed/Mobile Deep Learning with dynamic, mutation-aware data-flow dependency scheduler; for Python, R, Julia, Scala, Go, Javascript and more
 
-### ODE[]Attic]
+### ODE[Attic]
 
 Description: Apache ODE (Orchestration Director Engine) executes business processes written following the WS-BPEL standard. It talks to web services, sending and receiving messages, handling data manipulation and error recovery as described by your process definition. It supports both long and short living process executions to orchestrate all the services that are part of your application.  WS-BPEL is an XML-based language defining several constructs to write business processes. It defines a set of basic control structures like conditions or loops as well as elements to invoke web services and receive messages from services. It relies on WSDL to express web services interfaces. Message structures can be manipulated, assigning parts or the whole of them to variables that can in turn be used to send other messages.
 
 介绍: Apache ODE (Orchestration Director Engine) executes business processes written following the WS-BPEL standard. It talks to web services, sending and receiving messages, handling data manipulation and error recovery as described by your process definition. It supports both long and short living process executions to orchestrate all the services that are part of your application.  WS-BPEL is an XML-based language defining several constructs to write business processes. It defines a set of basic control structures like conditions or loops as well as elements to invoke web services and receive messages from services. It relies on WSDL to express web services interfaces. Message structures can be manipulated, assigning parts or the whole of them to variables that can in turn be used to send other messages.
 
-### Oltu - Parent[]Attic]
+### Oltu - Parent[Attic]
 
 Description: Apache Oltu is an OAuth protocol implementation in Java.
 
 介绍: Apache Oltu is an OAuth protocol implementation in Java.
 
-### OODT[]Attic]
+### OODT[Attic]
 
 Description: Apache OODT software is component based, and offers a software architecture beyond simple science applications.
 
 介绍: Apache OODT software is component based, and offers a software architecture beyond simple science applications.
 
-### Open Climate Workbench[]Attic]
+### Open Climate Workbench[Attic]
 
 Description: Apache Open Climate Workbench is an effort to develop software that performs climate model evaluation using model outputs from a variety of different sources (the Earth System Grid Federation, the Coordinated Regional Downscaling Experiment, the U.S. National Climate Assessment and the North American Regional Climate Change Assessment Program) and temporal/spatial scales with remote sensing data from NASA, NOAA and other agencies. The toolkit includes capabilities for rebinning, metrics computation and visualization.
 
 介绍: Apache Open Climate Workbench is an effort to develop software that performs climate model evaluation using model outputs from a variety of different sources (the Earth System Grid Federation, the Coordinated Regional Downscaling Experiment, the U.S. National Climate Assessment and the North American Regional Climate Change Assessment Program) and temporal/spatial scales with remote sensing data from NASA, NOAA and other agencies. The toolkit includes capabilities for rebinning, metrics computation and visualization.
 
-### ORO[]Attic]
+### ORO[Attic]
 
 Description: A set of text-processing Java classes that provide Perl5 compatible regular expressions, AWK-like regular expressions, glob expressions, and utility classes for performing substitutions, splits, filtering filenames, etc.
 
 介绍: A set of text-processing Java classes that provide Perl5 compatible regular expressions, AWK-like regular expressions, glob expressions, and utility classes for performing substitutions, splits, filtering filenames, etc.
 
-### Polygene[]Attic]
+### Polygene[Attic]
 
 Description: Apache Polygene is a community based effort exploring Composite Oriented Programming for domain centric application development. This includes evolved concepts from Aspect Oriented Programming, Dependency Injection and Domain Driven Design. Composite Oriented Programming allows developers to work with 'fragments', smaller than classes, and 'compose' fragments into larger 'composites' which acts like the regular objects. Polygene also tackles the enforcement of application composition, i.e. composites are declared in modules, modules are contained in layers and access between layers are controlled/enforced. Apache Polygene™ (Java Edition), first Apache Polygene sub-project, is an implementation of Composite Oriented Programming, using the standard Java platform, without the use of any pre-processors or new language elements. Everything you know from Java still applies and you can leverage both your experience and toolkits to become more productive with Composite Oriented Programming today.
 
 介绍: Apache Polygene is a community based effort exploring Composite Oriented Programming for domain centric application development. This includes evolved concepts from Aspect Oriented Programming, Dependency Injection and Domain Driven Design. Composite Oriented Programming allows developers to work with 'fragments', smaller than classes, and 'compose' fragments into larger 'composites' which acts like the regular objects. Polygene also tackles the enforcement of application composition, i.e. composites are declared in modules, modules are contained in layers and access between layers are controlled/enforced. Apache Polygene™ (Java Edition), first Apache Polygene sub-project, is an implementation of Composite Oriented Programming, using the standard Java platform, without the use of any pre-processors or new language elements. Everything you know from Java still applies and you can leverage both your experience and toolkits to become more productive with Composite Oriented Programming today.
 
-### PredictionIO[]Attic]
+### PredictionIO[Attic]
 
 Description: PredictionIO is an open source Machine Learning Server built on top of state-of-the-art open source stack, that enables developers to manage and deploy production-ready predictive services for various kinds of machine learning tasks.
 
 介绍: PredictionIO is an open source Machine Learning Server built on top of state-of-the-art open source stack, that enables developers to manage and deploy production-ready predictive services for various kinds of machine learning tasks.
 
-### REEF[]Attic]
+### REEF[Attic]
 
 Description:  Apache REEF (Retainable Evaluator Execution Framework) is a development framework that provides a control-plane for scheduling and coordinating task-level (data-plane) work on cluster resources obtained from a Resource Manager. REEF provides mechanisms that facilitate resource reuse for data caching, and state management abstractions that greatly ease the development of elastic data processing workflows on cloud platforms that support a Resource Manager service. 
 
 介绍:  Apache REEF (Retainable Evaluator Execution Framework) is a development framework that provides a control-plane for scheduling and coordinating task-level (data-plane) work on cluster resources obtained from a Resource Manager. REEF provides mechanisms that facilitate resource reuse for data caching, and state management abstractions that greatly ease the development of elastic data processing workflows on cloud platforms that support a Resource Manager service. 
 
-### Regexp[]Attic]
+### Regexp[Attic]
 
 Description: 100% Pure Java Regular Expression package
 
 介绍: 100% Pure Java Regular Expression package
 
-### River[]Attic]
+### River[Attic]
 
 Description: Apache River software provides a JINI service, which is a service oriented architecture that defines a programming model which both exploits and extends Java technology to enable the construction of secure, distributed systems consisting of federations of services and clients. Jini technology can be used to build adaptive network systems that are scalable, evolvable and flexible as typically required in dynamic computing environments.
 
 介绍: Apache River software provides a JINI service, which is a service oriented architecture that defines a programming model which both exploits and extends Java technology to enable the construction of secure, distributed systems consisting of federations of services and clients. Jini technology can be used to build adaptive network systems that are scalable, evolvable and flexible as typically required in dynamic computing environments.
 
-### Shale[]Attic]
+### Shale[Attic]
 
 Description: Shale is a modern web application framework, fundamentaly based on JavaServer Faces, and focused on improving ease of use for developers adopting JSF as a foundational technology in their own development environments.
 
 介绍: Shale is a modern web application framework, fundamentaly based on JavaServer Faces, and focused on improving ease of use for developers adopting JSF as a foundational technology in their own development environments.
 
-### Shindig[]Attic]
+### Shindig[Attic]
 
 Description: Apache Shindig is a container for hosting social application consisting of four parts:  Gadget Container JavaScript: core JavaScript foundation for general gadget functionality (read more about gadget functionality). This JavaScript manages security, communication, UI layout, and feature extensions, such as the OpenSocial API. Gadget Rendering Server: used to render the gadget XML into JavaScript and HTML for the container to expose via the container JavaScript. OpenSocial Container JavaScript: JavaScript environment that sits on top of the Gadget Container JavaScript and provides OpenSocial specific functionality (profiles, friends, activities, datastore). OpenSocial Data Server: an implementation of the server interface to container-specific information, including the OpenSocial REST APIs, with clear extension points so others can connect it to their own backends.  Apache Shindig is the reference implementation of OpenSocial API specifications, versions 0.8.x and 0.9.x, a standard set of Social Network APIs.
 
 介绍: Apache Shindig is a container for hosting social application consisting of four parts:  Gadget Container JavaScript: core JavaScript foundation for general gadget functionality (read more about gadget functionality). This JavaScript manages security, communication, UI layout, and feature extensions, such as the OpenSocial API. Gadget Rendering Server: used to render the gadget XML into JavaScript and HTML for the container to expose via the container JavaScript. OpenSocial Container JavaScript: JavaScript environment that sits on top of the Gadget Container JavaScript and provides OpenSocial specific functionality (profiles, friends, activities, datastore). OpenSocial Data Server: an implementation of the server interface to container-specific information, including the OpenSocial REST APIs, with clear extension points so others can connect it to their own backends.  Apache Shindig is the reference implementation of OpenSocial API specifications, versions 0.8.x and 0.9.x, a standard set of Social Network APIs.
 
-### Sqoop[]Attic]
+### Sqoop[Attic]
 
 Description: Apache Sqoop(TM) is a tool designed for efficiently transferring bulk data between Apache Hadoop and structured datastores such as relational databases.
 
 介绍: Apache Sqoop(TM) is a tool designed for efficiently transferring bulk data between Apache Hadoop and structured datastores such as relational databases.
 
-### Stanbol[]Attic]
+### Stanbol[Attic]
 
 Description: Apache Stanbol is a modular software stack and reusable set of components for semantic content management.
 
 介绍: Apache Stanbol is a modular software stack and reusable set of components for semantic content management.
 
-### Stratos[]Attic]
+### Stratos[Attic]
 
 Description: Apache Stratos is a highly-extensible Platform-as-a-Service (PaaS) framework that helps run Apache Tomcat, PHP, and MySQL applications and can be extended to support many more environments on all major cloud infrastructures. For developers, Stratos provides a cloud-based environment for developing, testing, and running scalable applications. IT providers benefit from high utilization rates, automated resource management, and platform-wide insight including monitoring and billing.
 
 介绍: Apache Stratos is a highly-extensible Platform-as-a-Service (PaaS) framework that helps run Apache Tomcat, PHP, and MySQL applications and can be extended to support many more environments on all major cloud infrastructures. For developers, Stratos provides a cloud-based environment for developing, testing, and running scalable applications. IT providers benefit from high utilization rates, automated resource management, and platform-wide insight including monitoring and billing.
 
-### Tajo[]Attic]
+### Tajo[Attic]
 
 Description:  The main goal of Apache Tajo project is to build an advanced open source data warehouse system in Hadoop for processing web-scale data sets. Basically, Tajo provides SQL standard as a query language. Tajo is designed for both interactive and batch queries on data sets stored on HDFS and other data sources. Without hurting query response times, Tajo provides fault-tolerance and dynamic load balancing which are necessary for long-running queries. Tajo employs a cost-based and progressive query optimization techniques for reoptimizing running queries in order to avoid the worst query plans. 
 
 介绍:  The main goal of Apache Tajo project is to build an advanced open source data warehouse system in Hadoop for processing web-scale data sets. Basically, Tajo provides SQL standard as a query language. Tajo is designed for both interactive and batch queries on data sets stored on HDFS and other data sources. Without hurting query response times, Tajo provides fault-tolerance and dynamic load balancing which are necessary for long-running queries. Tajo employs a cost-based and progressive query optimization techniques for reoptimizing running queries in order to avoid the worst query plans. 
 
-### Tiles[]Attic]
+### Tiles[Attic]
 
 Description: Apache Tiles™ is a templating framework built to simplify the development of web application user interfaces.  Tiles allows authors to define page fragments which can be assembled into a  complete page at runtime. These fragments, or tiles, can be used as simple  includes in order to reduce the duplication of common page elements or embedded  within other tiles to develop a series of reusable templates. These templates  streamline the development of a consistent look and feel across an entire application. 
 
 介绍: Apache Tiles™ is a templating framework built to simplify the development of web application user interfaces.  Tiles allows authors to define page fragments which can be assembled into a  complete page at runtime. These fragments, or tiles, can be used as simple  includes in order to reduce the duplication of common page elements or embedded  within other tiles to develop a series of reusable templates. These templates  streamline the development of a consistent look and feel across an entire application. 
 
-### Trafodion[]Attic]
+### Trafodion[Attic]
 
 Description: Trafodion builds on the scalability, elasticity, and flexibility of Hadoop. Trafodion extends Hadoop to provide guaranteed transactional integrity, enabling new kinds of big data applications to run on Hadoop.
 
 介绍: Trafodion builds on the scalability, elasticity, and flexibility of Hadoop. Trafodion extends Hadoop to provide guaranteed transactional integrity, enabling new kinds of big data applications to run on Hadoop.
 
-### Tuscany[]Attic]
+### Tuscany[Attic]
 
 Description: Apache Tuscany simplifies the task of developing SOA solutions by providing a comprehensive infrastructure for SOA development and management that is based on Service Component Architecture (SCA) standard. With SCA as it's foundation, Tuscany offers solution developers the following advantages:  Provides a model for creating composite applications by defining the services in the fabric and their relationships with one another. The services can be implemented in any technology. Enables service developers to create reusable services that only contain business logic. Protocols are pushed out of business logic and are handled through pluggable bindings. This lowers development cost. Applications can easily adapt to infrastructure changes without recoding since protocols are handled via pluggable bindings and quality of services (transaction, security) are handled declaratively. Existing applications can work with new SCA compositions. This allows for incremental growth towards a more flexible architecture, outsourcing or providing services to others. 
 
 介绍: Apache Tuscany simplifies the task of developing SOA solutions by providing a comprehensive infrastructure for SOA development and management that is based on Service Component Architecture (SCA) standard. With SCA as it's foundation, Tuscany offers solution developers the following advantages:  Provides a model for creating composite applications by defining the services in the fabric and their relationships with one another. The services can be implemented in any technology. Enables service developers to create reusable services that only contain business logic. Protocols are pushed out of business logic and are handled through pluggable bindings. This lowers development cost. Applications can easily adapt to infrastructure changes without recoding since protocols are handled via pluggable bindings and quality of services (transaction, security) are handled declaratively. Existing applications can work with new SCA compositions. This allows for incremental growth towards a more flexible architecture, outsourcing or providing services to others. 
 
-### VXQuery[]Attic]
+### VXQuery[Attic]
 
 Description: Apache VXQuery will be a standards compliant XML Query processor implemented in Java. The focus is on the evaluation of queries on large amounts of XML data. Specifically the goal is to evaluate queries on large collections of relatively small XML documents. To achieve this queries will be evaluated on a cluster of shared nothing machines.
 
 介绍: Apache VXQuery will be a standards compliant XML Query processor implemented in Java. The focus is on the evaluation of queries on large amounts of XML data. Specifically the goal is to evaluate queries on large collections of relatively small XML documents. To achieve this queries will be evaluated on a cluster of shared nothing machines.
 
-### Whirr[]Attic]
+### Whirr[Attic]
 
 Description: Apache Whirr is a set of libraries for running cloud services  Whirr provides: 1. A cloud-neutral way to run services. You don't have to worry about the idiosyncrasies of each provider. 2. A common service API. The details of provisioning are particular to the service. 3. Smart defaults for services. You can get a properly configured system running quickly, while still being able to override settings as needed.  You can also use Whirr as a command line tool for deploying clusters.
 
 介绍: Apache Whirr is a set of libraries for running cloud services  Whirr provides: 1. A cloud-neutral way to run services. You don't have to worry about the idiosyncrasies of each provider. 2. A common service API. The details of provisioning are particular to the service. 3. Smart defaults for services. You can get a properly configured system running quickly, while still being able to override settings as needed.  You can also use Whirr as a command line tool for deploying clusters.
 
-### Wink[]Attic]
+### Wink[Attic]
 
 Description: Apache Wink is a simple yet solid framework for building RESTful Web services. It is comprised of a Server module and a Client module for developing and consuming RESTful Web services. 
 
 介绍: Apache Wink is a simple yet solid framework for building RESTful Web services. It is comprised of a Server module and a Client module for developing and consuming RESTful Web services. 
 
-### Wookie[]Attic]
+### Wookie[Attic]
 
 Description: Apache Wookie is a Java server application that allows you to upload and deploy widgets for your applications; widgets can not only include all the usual kinds of mini-applications, badges, and gadgets, but also fully-collaborative applications such as chats, quizzes, and games.
 
 介绍: Apache Wookie is a Java server application that allows you to upload and deploy widgets for your applications; widgets can not only include all the usual kinds of mini-applications, badges, and gadgets, but also fully-collaborative applications such as chats, quizzes, and games.
 
-### Xindice[]Attic]
+### Xindice[Attic]
 
 Description: Pure Java based native XML database. Supports XPath and XUpdate.
 

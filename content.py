@@ -39,7 +39,7 @@ def generate_md(projects, filename="README.md"):
         for project in incubating_projects:
             write_project(file, project, "[{}]".format(Incubating_Mark))
         for project in attic_projects:
-            write_project(file, project, "[]{}]".format(Attic_Mark))
+            write_project(file, project, "[{}]".format(Attic_Mark))
 
 
 def write_project(file_out, project, suffix=""):
