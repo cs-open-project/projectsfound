@@ -1797,18 +1797,6 @@ Description: DevLake is a development data platform, providing the data infrastr
 
 介绍: DevLake is a development data platform, providing the data infrastructure for developer teams to analyze and improve their engineering productivity.
 
-### Fury[Incubating]
-
-Description: A blazing fast multi-language serialization framework powered by jit and zero-copy
-
-介绍: A blazing fast multi-language serialization framework powered by jit and zero-copy
-
-### HoraeDB[Incubating]
-
-Description: HoraeDB is a high-performance, distributed, cloud native time-series database.
-
-介绍: HoraeDB is a high-performance, distributed, cloud native time-series database.
-
 ### HugeGraph[Incubating]
 
 Description: A large-scale and easy-to-use graph database
