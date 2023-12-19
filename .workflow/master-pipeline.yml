@@ -1,6 +1,13 @@
 version: '1.0'
 name: master-pipeline
 displayName: MasterPipeline
+triggers:
+  trigger: auto
+  schedule:
+    - cron: '* 0 6 ? * 6 *'
+variables:
+  global:
+    - TOKEN
 stages:
   - stage: 
     name: compile
@@ -27,9 +34,3 @@ stages:
           - git add README.md CHANGELOG_PROJECTS.md
           - git commit -F release.txt
           - if [ "$?" == "0" ] ; then git push https://923463801%40qq.com:${TOKEN}@gitee.com/cs-open-project/projectsfound.git master ; fi
-
-triggers:
-  push:
-    branches:
-      include:
-        - master
