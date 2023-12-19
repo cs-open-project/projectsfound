@@ -1,4 +1,5 @@
 import json
+import logging
 from urllib import request
 
 
@@ -20,6 +21,7 @@ def getIncubatingProjects(url):
         name = str.removesuffix(project["name"], " (Incubating)")
 
         # Since podlings（incubating） are loaded first, DOAPs take precedence
+        # 因为 projects 里也会有 incubator 的项目，所以必须统一格式
         incub_projects["incubator-" + id] = {
             "name": name,
             "description": project["description"],
@@ -84,6 +86,7 @@ def updateNonExistDescription(url, non_exist):
             project["description"] = ""
 
 
+# 获取所有的 committees，有的 apache 项目共用一个 committee （如 apache commons 存在多个链接），incubating 项目都属于一个 Incubator committee
 def getCommittees(url):
     response = request.urlopen(url)
     data = response.read()
@@ -95,3 +98,36 @@ def getCommittees(url):
         committees[committee["id"]] = committee["name"]
 
     return committees
+
+
+def getApacheProjects():
+    committees = getCommittees("https://projects.apache.org/json/foundation/committees.json")
+    logging.info("get committees")
+
+    # 获取所有的 incubator 项目
+    incubatings = getIncubatingProjects("https://projects.apache.org/json/foundation/podlings.json")
+    logging.info("get incubating projects")
+
+    # 这里可能会有 incubating 的项目，其 pmc 为 incubator，项目名为 incubator-xxx
+    projects = getProjects("https://projects.apache.org/json/foundation/projects.json")
+    logging.info("get graduated projects")
+
+    all_projects = {}
+    all_projects.update(incubatings)
+    all_projects.update(projects)
+    # no DOAP file written by the PMC: creating default content
+    non_exist = handlerNoDOAPProjects(committees, all_projects)
+    logging.info("handle no doap projects")
+
+    # 从 incubating 项目历史中，获取 描述信息
+    updateNonExistDescription("https://projects.apache.org/json/foundation/podlings-history.json", non_exist)
+    logging.info("update no doap projects")
+    all_projects.update(non_exist)
+
+    format_projects = {}
+    for name in all_projects:
+        project = all_projects[name]
+        format_name = str.removeprefix(project["name"], "Apache").strip()
+        project["name"] = format_name
+        format_projects[format_name] = project
+    return format_projects
