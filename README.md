@@ -15,13 +15,13 @@ Description: This is a library of Ant tasks that help developing .NET software. 
 
 介绍: This is a library of Ant tasks that help developing .NET software.  It includes the "old" .NET tasks like a C# compiler task but also comes with support for NUnit testing or running the popular NAnt or MSBuild build tools.
 
-### Accumulo
+### Accumulo[分布式KV存储]
 
 Description: The Apache Accumulo sorted, distributed key/value store is based on Google's BigTable design. It is built on top of Apache Hadoop, Apache Zookeeper, and Apache Thrift. It features a few novel improvements on the BigTable design in the form of cell-level access labels and a server-side programming mechanism that can modify key/value pairs at various points in the data management process.
 
-介绍: The Apache Accumulo sorted, distributed key/value store is based on Google's BigTable design. It is built on top of Apache Hadoop, Apache Zookeeper, and Apache Thrift. It features a few novel improvements on the BigTable design in the form of cell-level access labels and a server-side programming mechanism that can modify key/value pairs at various points in the data management process.
+介绍: 基于Apache Hadoop，Apache Zookeeper, Apache Thrift 构建的，可靠的、可伸缩的、高性能的排序分布式KV数据存储系统。
 
-### ActiveMQ
+### ActiveMQ[消息队列]
 
 Description: ActiveMQ is a fast and powerful Message Broker which supports many Cross Language Clients and Protocols and many advanced features while fully supporting JMS 1.1 and J2EE 1.4.
 
@@ -39,7 +39,7 @@ Description: Apache Airavata is a micro-service architecture based software fram
 
 介绍: Apache Airavata is a micro-service architecture based software framework for executing and managing computational jobs and workflows on distributed computing resources including local clusters, supercomputers, national grids, academic and commercial clouds. Airavata is dominantly used to build Web-based science gateways and assist to compose, manage, execute, and monitor large scale applications (wrapped as Web services) and workflows composed of these services.
 
-### Airflow
+### Airflow[调度和监控工作流]
 
 Description: The mission of Apache Airflow is the creation and maintenance of software related to workflow automation and scheduling that can be used to author and manage data pipelines. 
 
@@ -51,7 +51,7 @@ Description: Apache Allura is an open source implementation of a software "forge
 
 介绍: Apache Allura is an open source implementation of a software "forge", a web site that manages source code repositories, bug reports, discussions, wiki pages, blogs and more for any number of individual projects.
 
-### Ambari
+### Ambari[Hadoop管理监控工具]
 
 Description: Apache Ambari makes Hadoop cluster provisioning, managing, and monitoring dead simple.
 
@@ -63,7 +63,7 @@ Description: Anakia is an XML transformation tool that uses JDOM and Velocity to
 
 介绍: Anakia is an XML transformation tool that uses JDOM and Velocity to transform XML documents into the format of your choice. It provides an alternative to using Ant's style task and XSL to process XML files.
 
-### Ant
+### Ant[构建工具]
 
 Description: Apache Ant is a Java-based build tool.
 
@@ -75,13 +75,13 @@ Description: The Ant Library provides Ant tasks for testing Ant task, it can als
 
 介绍: The Ant Library provides Ant tasks for testing Ant task, it can also be used to drive functional and integration tests of arbitrary applications with Ant.
 
-### APISIX
+### APISIX[云原生的API服务网关]
 
 Description: APISIX is a cloud-native microservices API gateway, delivering the ultimate performance, security,open source and scalable platform for all your APIs and microservices.
 
 介绍: APISIX is a cloud-native microservices API gateway, delivering the ultimate performance, security,open source and scalable platform for all your APIs and microservices.
 
-### Archiva
+### Archiva[远程资源库maven等管理软件]
 
 Description: Archiva is the perfect companion for build tools such as Maven, Continuum, and ANT. Archiva offers several capabilities, amongst which remote repository proxying, security access management, build artifact storage, delivery, browsing, indexing and usage reporting, extensible scanning functionality and many more!
 
@@ -93,25 +93,25 @@ Description: The Aries project is delivering a set of pluggable Java components 
 
 介绍: The Aries project is delivering a set of pluggable Java components enabling an enterprise OSGi application programming model. This includes implementations and extensions of application-focused specifications defined by the OSGi Alliance Enterprise Expert Group (EEG) and an assembly format for multi-bundle applications, for deployment to a variety of OSGi based runtimes.
 
-### Arrow
+### Arrow[跨语言的内存数据格式]
 
 Description: Apache Arrow defines a language-independent columnar memory format for flat and hierarchical data, organized for efficient analytic operations on modern hardware like CPUs and GPUs. The Arrow memory format also supports zero-copy reads for lightning-fast data access without serialization overhead.  Arrow's libraries implement the format and provide building blocks for a range of use cases, including high performance analytics. Many popular projects use Arrow to ship columnar data efficiently or as the basis for analytic engines.  Libraries are available for C, C++, C#, Go, Java, JavaScript, Julia, MATLAB, Python, R, Ruby, and Rust.  Apache Arrow is software created by and for the developer community. We are dedicated to open, kind communication and consensus decision making. Our committers come from a range of organizations and backgrounds, and we welcome all to participate with us.
 
 介绍: Apache Arrow defines a language-independent columnar memory format for flat and hierarchical data, organized for efficient analytic operations on modern hardware like CPUs and GPUs. The Arrow memory format also supports zero-copy reads for lightning-fast data access without serialization overhead.  Arrow's libraries implement the format and provide building blocks for a range of use cases, including high performance analytics. Many popular projects use Arrow to ship columnar data efficiently or as the basis for analytic engines.  Libraries are available for C, C++, C#, Go, Java, JavaScript, Julia, MATLAB, Python, R, Ruby, and Rust.  Apache Arrow is software created by and for the developer community. We are dedicated to open, kind communication and consensus decision making. Our committers come from a range of organizations and backgrounds, and we welcome all to participate with us.
 
-### AsterixDB
+### AsterixDB[大数据管理系统]
 
 Description: Apache AsterixDB is a scalable big data management system (BDMS) that provides storage, management, and query capabilities for large collections of semi-structured data.
 
 介绍: Apache AsterixDB is a scalable big data management system (BDMS) that provides storage, management, and query capabilities for large collections of semi-structured data.
 
-### Atlas
+### Atlas[大数据的元数据管理和数据治理平台]
 
 Description: Apache Atlas is a scalable and extensible set of core foundational governance services that enables enterprises to effectively and efficiently meet their compliance requirements within Hadoop and allows integration with the complete enterprise data ecosystem
 
 介绍: Apache Atlas is a scalable and extensible set of core foundational governance services that enables enterprises to effectively and efficiently meet their compliance requirements within Hadoop and allows integration with the complete enterprise data ecosystem
 
-### Avro
+### Avro[行式序列化]
 
 Description: Apache Avro is a data serialization system.
 
@@ -123,17 +123,17 @@ Description: Apache Axiom is a StAX-based, XML Infoset compliant object model wh
 
 介绍: Apache Axiom is a StAX-based, XML Infoset compliant object model which supports on-demand building of the object tree. It supports a novel "pull-through" model which allows one to turn off the tree building and directly access the underlying pull event stream. It also has built in support for XML Optimized Packaging (XOP) and MTOM, the combination of which allows XML to carry binary data efficiently and in a transparent manner. The combination of these is an easy to use API with a very high performant architecture!
 
-### Axis2
+### Axis2[Web服务的核心支援引擎]
 
 Description: Apache Axis2 is a toolkit for creating and using Web Services, including SOAP, MTOM, XML/HTTP and advanced WS-* standards such as WSRM and WSSecurity. Axis2 includes a very fast runtime engine, together with tooling support for WSDL and WS-Policy, and plugin support for WS-Addressing, WS-ReliableMessaging, WS-Security,  WS-Eventing, WS-Transactions, WS-Trust and WS-SecureConversation. Axis2 runs either standalone or hosted in Tomcat or other servlet containers.  
 
 介绍: Apache Axis2 is a toolkit for creating and using Web Services, including SOAP, MTOM, XML/HTTP and advanced WS-* standards such as WSRM and WSSecurity. Axis2 includes a very fast runtime engine, together with tooling support for WSDL and WS-Policy, and plugin support for WS-Addressing, WS-ReliableMessaging, WS-Security,  WS-Eventing, WS-Transactions, WS-Trust and WS-SecureConversation. Axis2 runs either standalone or hosted in Tomcat or other servlet containers.  
 
-### Bahir
+### Bahir[Spark/Flink扩展]
 
-Description: 
+Description: extensions to multiple distributed analytic platforms, extending their reach with a diversity of streaming connectors and SQL data sources.
 
-介绍: 
+介绍: extensions to multiple distributed analytic platforms, extending their reach with a diversity of streaming connectors and SQL data sources.
 
 ### Batik
 
@@ -141,7 +141,7 @@ Description: Batik is a Java-based toolkit for applications or applets to use im
 
 介绍: Batik is a Java-based toolkit for applications or applets to use images in the Scalable Vector Graphics (SVG) format for various purposes, such as display, generation and manipulation.
 
-### Beam
+### Beam[统一编程模型的批流一体的数据处理]
 
 Description: Apache Beam is a unified programming model for both batch and streaming data processing, enabling efficient execution across diverse distributed execution engines and providing extensibility points for connecting to different technologies and user communities.
 
@@ -153,25 +153,25 @@ Description: Bigtop is a project for the development of packaging and tests of t
 
 介绍: Bigtop is a project for the development of packaging and tests of the Apache Hadoop ecosystem.  The primary goal of Bigtop is to build a community around the packaging and interoperability  testing of Hadoop-related projects. This includes testing at various levels (packaging, platform,  runtime, upgrade, etc...) developed by a community with a focus on the system as a whole, rather  than individual projects. In short we strive to be for Hadoop what Debian is to Linux.
 
-### Bloodhound
+### Bloodhound[项目的进展和缺陷跟踪]
 
 Description: Apache Bloodhound has been created to be an open source collaboration tool to track the progress of and help distribute tasks within a project. With a particular focus on software development it includes integration with popular source control software including Apache Subversion, Git and Mercurial.
 
 介绍: Apache Bloodhound has been created to be an open source collaboration tool to track the progress of and help distribute tasks within a project. With a particular focus on software development it includes integration with popular source control software including Apache Subversion, Git and Mercurial.
 
-### BookKeeper
+### BookKeeper[扩展、高可用、低延迟的存储服务]
 
 Description: BookKeeper is a reliable replicated log service. It can be used to turn any standalone service into a highly available replicated service. BookKeeper is highly available (no single point of failure), and scales horizontally as more storage nodes are added.
 
 介绍: BookKeeper is a reliable replicated log service. It can be used to turn any standalone service into a highly available replicated service. BookKeeper is highly available (no single point of failure), and scales horizontally as more storage nodes are added.
 
-### Brooklyn
+### Brooklyn[多数据中心的应用程序的蓝图和管理平台]
 
 Description: Brooklyn is about deploying and managing applications: composing a full stack for an application; deploying to cloud and non-cloud targets; using monitoring tools to collect key health/performance metrics; responding to situations such as a failing node; and adding or removing capacity to match demand.
 
 介绍: Brooklyn is about deploying and managing applications: composing a full stack for an application; deploying to cloud and non-cloud targets; using monitoring tools to collect key health/performance metrics; responding to situations such as a failing node; and adding or removing capacity to match demand.
 
-### bRPC
+### bRPC[百度的RPC开源]
 
 Description: bRPC is an Industrial-grade RPC framework using C++ Language, which is often used in high performance system such as Search, Storage, Machine learning, Advertisement, Recommendation etc. "bRPC" means "better RPC".
 
@@ -183,13 +183,13 @@ Description:
 
 介绍: 
 
-### BVal
+### BVal[JavaBean数据验证]
 
 Description: The goal of the Apache BVal project is to deliver an implementation of the Java Bean Validation Specfication (JSR303/346) which is TCK compliant and works on Java SE 6 or later. The initial codebase for the project was donated to the ASF by a SGA from Agimatec GmbH and uses the Apache Software License v2.0.
 
 介绍: The goal of the Apache BVal project is to deliver an implementation of the Java Bean Validation Specfication (JSR303/346) which is TCK compliant and works on Java SE 6 or later. The initial codebase for the project was donated to the ASF by a SGA from Agimatec GmbH and uses the Apache Software License v2.0.
 
-### Calcite
+### Calcite[开源SQL解析工具]
 
 Description: Calcite is a framework for writing data management systems.  It converts queries, represented in relational algebra, into an efficient executable form using pluggable query transformation rules. There is an optional SQL parser and JDBC driver. Calcite does not store data or have a preferred execution engine. Data formats, execution algorithms, planning rules, operator types, metadata, and cost model are added at runtime as plugins.
 
@@ -201,25 +201,25 @@ Description: Camel is an Open Source integration framework that empowers you to 
 
 介绍: Camel is an Open Source integration framework that empowers you to quickly and easily integrate various systems consuming or producing data
 
-### CarbonData
+### CarbonData[索引列式数据格式]
 
 Description: Apache CarbonData is a new big data file format for faster interactive query using advanced columnar storage, index, compression and encoding techniques to improve computing efficiency, which helps in speeding up queries by an order of magnitude faster over PetaBytes of data.
 
 介绍: Apache CarbonData is a new big data file format for faster interactive query using advanced columnar storage, index, compression and encoding techniques to improve computing efficiency, which helps in speeding up queries by an order of magnitude faster over PetaBytes of data.
 
-### Cassandra
+### Cassandra[NOSQL数据库]
 
 Description: Linear scalability and proven fault-tolerance on commodity hardware or cloud infrastructure make Apache Cassandra the perfect platform for mission-critical data. Cassandra's support for replicating across multiple datacenters is best-in-class.  Cassandra is in use at Netflix, Twitter, Urban Airship, Constant Contact, Reddit, Cisco, OpenX, Digg, CloudKick, Ooyala, and more companies that have large, active data sets.  Cassandra provides full Hadoop integration, including with Pig and Hive.
 
 介绍: Linear scalability and proven fault-tolerance on commodity hardware or cloud infrastructure make Apache Cassandra the perfect platform for mission-critical data. Cassandra's support for replicating across multiple datacenters is best-in-class.  Cassandra is in use at Netflix, Twitter, Urban Airship, Constant Contact, Reddit, Cisco, OpenX, Digg, CloudKick, Ooyala, and more companies that have large, active data sets.  Cassandra provides full Hadoop integration, including with Pig and Hive.
 
-### Causeway
+### Causeway[Java开发App框架]
 
 Description: Apache Causeway is a framework for rapidly developing domain-driven apps in Java. Write your business logic in entities, domain services and repositories, and the framework dynamically (at runtime) generates a representation of that domain model as a webapp or as a RESTful API. For prototyping or production.
 
 介绍: Apache Causeway is a framework for rapidly developing domain-driven apps in Java. Write your business logic in entities, domain services and repositories, and the framework dynamically (at runtime) generates a representation of that domain model as a webapp or as a RESTful API. For prototyping or production.
 
-### Cayenne
+### Cayenne[Java ORM 框架]
 
 Description: Cayenne is a powerful, full-featured, opensource framework created for developers working with relational databases. it seamlessly maps any relational database to Java objects, reducing development time and adding considerable functionality to any application which requires a database. Developers using Cayenne will be able to concentrate on the core business requirements and the data model instead of the SQL details. The application can then be easily moved to any JDBC-capable database. In addition to management of persistent Java objects mapped to relational databases, Cayenne provides a plethora of features including single method call queries and updates (including atomic updates of all modified objects), seamless integration of multiple databases into a single virtual data source, three tier persistence with caching on the remote client, paging of results, record locking, and many more features.
 
@@ -237,13 +237,13 @@ Description: Apache Chainsaw is a GUI log viewer.
 
 介绍: Apache Chainsaw is a GUI log viewer.
 
-### CloudStack
+### CloudStack[高可用性及扩展性的云计算平台]
 
 Description: Apache CloudStack is open source software designed to deploy and manage large  networks of virtual machines, as a highly available, highly scalable Infrastructure as  a Service (IaaS) cloud computing platform. CloudStack is used by a number of service  providers to offer public cloud services, and by many companies to provide an  on-premises (private) cloud offering, or as part of a hybrid cloud solution.  CloudStack is a turnkey solution that includes the entire "stack" of features most  organizations want with an IaaS cloud: compute orchestration, Network-as-a-Service,  user and account management, a full and open native API, resource accounting, and a  first-class User Interface (UI).  CloudStack currently supports the most popular hypervisors: VMware, KVM, XenServer and  Xen Cloud Platform (XCP).  Users can manage their cloud with an easy to use Web interface, command line tools, and  / or a full-featured RESTful API. In addition, CloudStack provides an API that's  compatible with AWS EC2 and S3 for organizations that wish to deploy hybrid clouds.
 
 介绍: Apache CloudStack is open source software designed to deploy and manage large  networks of virtual machines, as a highly available, highly scalable Infrastructure as  a Service (IaaS) cloud computing platform. CloudStack is used by a number of service  providers to offer public cloud services, and by many companies to provide an  on-premises (private) cloud offering, or as part of a hybrid cloud solution.  CloudStack is a turnkey solution that includes the entire "stack" of features most  organizations want with an IaaS cloud: compute orchestration, Network-as-a-Service,  user and account management, a full and open native API, resource accounting, and a  first-class User Interface (UI).  CloudStack currently supports the most popular hypervisors: VMware, KVM, XenServer and  Xen Cloud Platform (XCP).  Users can manage their cloud with an easy to use Web interface, command line tools, and  / or a full-featured RESTful API. In addition, CloudStack provides an API that's  compatible with AWS EC2 and S3 for organizations that wish to deploy hybrid clouds.
 
-### Cocoon
+### Cocoon[Web开发框架]
 
 Description: Apache Cocoon is a web development framework built around the concepts of separation of concerns (making sure people can interact and collaborate on a project, without stepping on each other toes) and component-based web development. Cocoon implements these concepts around the notion of "component pipelines", each component on the pipeline specializing on a particular operation. This makes it possible to use a "building block" approach for web solutions, hooking together components into pipelines without any required programming.
 
@@ -525,7 +525,7 @@ Description: This is a library of Ant tasks and types uses Apache Commons Compre
 
 介绍: This is a library of Ant tasks and types uses Apache Commons Compress to support additional archive formats like ar, pack200, xz and cpio.
 
-### Cordova
+### Cordova[跨平台的移动应用程序开发框架]
 
 Description: Apache Cordova is a tool to create cross-platform apps from standard web technologies (HTML, CSS, and JavaScript). Its primary purpose is to provide a bridge for native device API access and to bundle for distribution.
 
@@ -537,55 +537,55 @@ Description: Apache CouchDB is a database that completely embraces the web. Stor
 
 介绍: Apache CouchDB is a database that completely embraces the web. Store your data with JSON documents. Access your documents with your web browser, via HTTP. Query, combine, and transform your documents with JavaScript. Apache CouchDB works well with modern web and mobile apps. CouchDB's killer feature is its ability to distribute data efficiently using Apache CouchDB’s incremental replication. Apache CouchDB supports master-master setups with automatic conflict detection.
 
-### cTAKES
+### cTAKES[临床的文本分析和知识提取系统]
 
 Description: Apache clinical Text Analysis and Knowledge Extraction System (cTAKES) is an open-source natural language processing system for information extraction from electronic medical record clinical free-text. It processes clinical notes, identifying types of clinical named entities from various dictionaries including the Unified Medical Language System (UMLS) - medications, diseases/disorders, signs/symptoms, anatomical sites and procedures. Each named entity has attributes for the text span, the ontology mapping code, subject (patient, family member, etc.) and context (negated/not negated, conditional, generic, degree of certainty). Some of the attributes are expressed as relations, for example the location of a clinical condition (locationOf relation) or the severity of a clinical condition (degreeOf relation).
 
 介绍: Apache clinical Text Analysis and Knowledge Extraction System (cTAKES) is an open-source natural language processing system for information extraction from electronic medical record clinical free-text. It processes clinical notes, identifying types of clinical named entities from various dictionaries including the Unified Medical Language System (UMLS) - medications, diseases/disorders, signs/symptoms, anatomical sites and procedures. Each named entity has attributes for the text span, the ontology mapping code, subject (patient, family member, etc.) and context (negated/not negated, conditional, generic, degree of certainty). Some of the attributes are expressed as relations, for example the location of a clinical condition (locationOf relation) or the severity of a clinical condition (degreeOf relation).
 
-### Curator
+### Curator[Zookeeper的封装类库]
 
 Description: Apache Curator is a Java/JVM client library for Apache ZooKeeper, a distributed coordination service.  It includes a highlevel API framework and utilities to make using Apache ZooKeeper much easier and more reliable. It also  includes recipes for common use cases and extensions such as service discovery and a Java 8 asynchronous DSL.
 
 介绍: Apache Curator is a Java/JVM client library for Apache ZooKeeper, a distributed coordination service.  It includes a highlevel API framework and utilities to make using Apache ZooKeeper much easier and more reliable. It also  includes recipes for common use cases and extensions such as service discovery and a Java 8 asynchronous DSL.
 
-### CXF
+### CXF[开源的Service框架]
 
 Description: Apache CXF is an open source services framework. CXF helps you build and develop services using frontend programming APIs like JAX-WS and JAX-RS. These services can speak a variety of protocols such as SOAP, XML/HTTP, RESTful HTTP, or CORBA and work over a variety of transports such as HTTP, JMS or JBI.
 
 介绍: Apache CXF is an open source services framework. CXF helps you build and develop services using frontend programming APIs like JAX-WS and JAX-RS. These services can speak a variety of protocols such as SOAP, XML/HTTP, RESTful HTTP, or CORBA and work over a variety of transports such as HTTP, JMS or JBI.
 
-### Daffodil
+### Daffodil[数据格式描述语言DFDL开源实现]
 
 Description: Apache Daffodil is an open-source implementation of the DFDL specification that uses DFDL data descriptions to parse fixed format data into an infoset. This infoset is commonly converted into XML or JSON to enable the use of well-established XML or JSON technologies and libraries to consume, inspect, and manipulate fixed format data in existing solutions. Daffodil is also capable of serializing or "unparsing" data back to the original data format. The DFDL infoset can also be converted directly to/from the  data structures carried by data processing frameworks so as to bypass any XML/JSON overheads. 
 
-介绍: Apache Daffodil is an open-source implementation of the DFDL specification that uses DFDL data descriptions to parse fixed format data into an infoset. This infoset is commonly converted into XML or JSON to enable the use of well-established XML or JSON technologies and libraries to consume, inspect, and manipulate fixed format data in existing solutions. Daffodil is also capable of serializing or "unparsing" data back to the original data format. The DFDL infoset can also be converted directly to/from the  data structures carried by data processing frameworks so as to bypass any XML/JSON overheads. 
+介绍: 库，数据格式描述语言（Data Format Description Language）DFDL 1.0 规范的开源实现，以实现通用数据交换。 
 
-### DataFu
+### DataFu[Hadoop类库集合]
 
 Description: Apache DataFu consists of two libraries:  Apache DataFu Pig is a collection of useful user-defined functions for data analysis in Apache Pig.  Apache DataFu Hourglass is a library for incrementally processing data using Apache Hadoop MapReduce. This library was inspired by the prevelance of sliding window computations over daily tracking data. Computations such as these typically happen at regular intervals (e.g. daily, weekly), and therefore the sliding nature of the computations means that much of the work is unnecessarily repeated. DataFu's Hourglass was created to make these computations more efficient, yielding sometimes 50-95% reductions in computational resources.
 
 介绍: Apache DataFu consists of two libraries:  Apache DataFu Pig is a collection of useful user-defined functions for data analysis in Apache Pig.  Apache DataFu Hourglass is a library for incrementally processing data using Apache Hadoop MapReduce. This library was inspired by the prevelance of sliding window computations over daily tracking data. Computations such as these typically happen at regular intervals (e.g. daily, weekly), and therefore the sliding nature of the computations means that much of the work is unnecessarily repeated. DataFu's Hourglass was created to make these computations more efficient, yielding sometimes 50-95% reductions in computational resources.
 
-### DataSketches
+### DataSketches[高性能大数据流算法库]
 
 Description: DataSketches is an open source, high-performance library of stochastic streaming algorithms commonly called "sketches" in the data sciences. Sketches are small, stateful programs that process massive data as a stream and can provide approximate answers, with mathematical guarantees, to computationally difficult queries orders-of-magnitude faster than traditional, exact methods.
 
 介绍: DataSketches is an open source, high-performance library of stochastic streaming algorithms commonly called "sketches" in the data sciences. Sketches are small, stateful programs that process massive data as a stream and can provide approximate answers, with mathematical guarantees, to computationally difficult queries orders-of-magnitude faster than traditional, exact methods.
 
-### DeltaSpike
+### DeltaSpike[上下文跟依赖注入扩展]
 
 Description: Apache DeltaSpike is  a suite of portable CDI (Contexts & Dependency Injection) extensions intended to make application development easier when working with CDI and Java EE.  Some of its key features include:  - A core runtime that supports component configuration, type safe messaging and internationalization, and exception handling. - A suite of utilities to make programmatic bean lookup easier. - A plugin for Java SE to bootstrap both JBoss Weld and Apache OpenWebBeans outside of a container. - JSF integration, including backporting of JSF 2.2 features for Java EE 6. - JPA integration and transaction support. - A Data module, to create an easy to use repository pattern on top of JPA. - Quartz integration  Testing support is also provided, to allow you to do low level unit testing of your CDI enabled projects.
 
 介绍: Apache DeltaSpike is  a suite of portable CDI (Contexts & Dependency Injection) extensions intended to make application development easier when working with CDI and Java EE.  Some of its key features include:  - A core runtime that supports component configuration, type safe messaging and internationalization, and exception handling. - A suite of utilities to make programmatic bean lookup easier. - A plugin for Java SE to bootstrap both JBoss Weld and Apache OpenWebBeans outside of a container. - JSF integration, including backporting of JSF 2.2 features for Java EE 6. - JPA integration and transaction support. - A Data module, to create an easy to use repository pattern on top of JPA. - Quartz integration  Testing support is also provided, to allow you to do low level unit testing of your CDI enabled projects.
 
-### Derby
+### Derby[关系型数据库，可内嵌]
 
 Description: Apache Derby is an open source relational database implemented entirely in Java. It has a small footprint that makes it easy to embed in any Java-based application, but it also supports the more familiar client/server mode. It is based on the Java, JDBC, and SQL standards, making code developed more portable to standards-compliant databases.
 
 介绍: Apache Derby is an open source relational database implemented entirely in Java. It has a small footprint that makes it easy to embed in any Java-based application, but it also supports the more familiar client/server mode. It is based on the Java, JDBC, and SQL standards, making code developed more portable to standards-compliant databases.
 
-### Directory
+### Directory[LDAP和Kerberos标准实现]
 
 Description: The Apache Directory project provides directory solutions entirely written in Java. These include a directory server, which has been certified as LDAP v3 compliant by the Open Group (ApacheDS), and Eclipse-based directory tools (Apache Directory Studio).
 
@@ -603,49 +603,49 @@ Description: Apache Directory Studio is a complete directory tooling platform in
 
 介绍: Apache Directory Studio is a complete directory tooling platform intended to be used with any LDAP server however it is particularly designed for use with ApacheDS. It is an Eclipse RCP application, composed of several Eclipse (OSGi) plugins, that can be easily upgraded with additional ones. These plugins can even run within Eclipse itself.
 
-### DolphinScheduler
+### DolphinScheduler[分布式可视化DAG工作流任务调度系统]
 
 Description: DolphinScheduler is a distributed ETL scheduling engine with powerful DAG visualization interface..
 
 介绍: DolphinScheduler is a distributed ETL scheduling engine with powerful DAG visualization interface..
 
-### Doris
+### Doris[MPP数据仓库，OLAP]
 
 Description: Apache Doris is an easy-to-use, high-performance and real-time analytical database based on MPP architecture, known for its extreme speed and ease of use. It only requires a sub-second response time to return query results under massive data and can support not only high-concurrent point query scenarios but also high-throughput complex analysis scenarios. All this makes Apache Doris an ideal tool for scenarios including report analysis, ad-hoc query, unified data warehouse, and data lake query acceleration. On Apache Doris, users can build various applications, such as user behavior analysis, AB test platform, log retrieval analysis, user portrait analysis, and order analysis.
 
 介绍: Apache Doris is an easy-to-use, high-performance and real-time analytical database based on MPP architecture, known for its extreme speed and ease of use. It only requires a sub-second response time to return query results under massive data and can support not only high-concurrent point query scenarios but also high-throughput complex analysis scenarios. All this makes Apache Doris an ideal tool for scenarios including report analysis, ad-hoc query, unified data warehouse, and data lake query acceleration. On Apache Doris, users can build various applications, such as user behavior analysis, AB test platform, log retrieval analysis, user portrait analysis, and order analysis.
 
-### Drill
+### Drill[分布式MPP查询系统]
 
 Description: Apache Drill is a distributed MPP query layer that supports SQL and alternative query languages against NoSQL and Hadoop data storage systems. It was inspired in part by Google's Dremel.
 
 介绍: Apache Drill is a distributed MPP query layer that supports SQL and alternative query languages against NoSQL and Hadoop data storage systems. It was inspired in part by Google's Dremel.
 
-### Druid
+### Druid[OLAP数据仓库]
 
 Description: Apache Druid is a high performance real-time analytics database. Druid's main value add is to reduce time to insight and action.  Apache Druid is designed for workflows where fast queries and ingest really matter. Druid excels at powering UIs, running operational (ad-hoc) queries, or handling high concurrency. Consider Druid as an open source alternative to data warehouses for a variety of use cases.
 
 介绍: Apache Druid is a high performance real-time analytics database. Druid's main value add is to reduce time to insight and action.  Apache Druid is designed for workflows where fast queries and ingest really matter. Druid excels at powering UIs, running operational (ad-hoc) queries, or handling high concurrency. Consider Druid as an open source alternative to data warehouses for a variety of use cases.
 
-### Dubbo
+### Dubbo[Java RPC框架]
 
 Description: Dubbo is a high-performance, lightweight, java based RPC framework.
 
 介绍: Dubbo is a high-performance, lightweight, java based RPC framework.
 
-### ECharts
+### ECharts[JS可视化库]
 
 Description: Apache ECharts is a free, powerful charting and visualization library offering easy ways to add intuitive, interactive, and highly customizable charts to your commercial products. It is written in pure JavaScript and based on zrender, which is a whole new lightweight canvas library.
 
 介绍: Apache ECharts is a free, powerful charting and visualization library offering easy ways to add intuitive, interactive, and highly customizable charts to your commercial products. It is written in pure JavaScript and based on zrender, which is a whole new lightweight canvas library.
 
-### Empire-db
+### Empire-db[关系型数据持久化组件，类似Hibernate/Mybatis]
 
 Description:  Apache Empire-db is intended for developers who strive to have full SQL freedom when  formulating queries and DML-Statements - without ever having to use string literals - and who also want to be able to control when and how statements are executed.   Unlike other approaches Empire-db does not rely on Java Annotations or Mapping-files for building queries but rather uses a Java Object model that is easy to access and extend. For Data Access and Data Interchange developers can choose between traditional  Java Beans and a more sophisticated dynamic interface provided by Record and  DataListEntriy classes.  Empire-db is DBMS vendor independent and provides handlers for Oracle, Microsoft SQLServer,  PostgreSQL, MySQL, HsqlDB, Derby, H2 and more.	 
 
 介绍:  Apache Empire-db is intended for developers who strive to have full SQL freedom when  formulating queries and DML-Statements - without ever having to use string literals - and who also want to be able to control when and how statements are executed.   Unlike other approaches Empire-db does not rely on Java Annotations or Mapping-files for building queries but rather uses a Java Object model that is easy to access and extend. For Data Access and Data Interchange developers can choose between traditional  Java Beans and a more sophisticated dynamic interface provided by Record and  DataListEntriy classes.  Empire-db is DBMS vendor independent and provides handlers for Oracle, Microsoft SQLServer,  PostgreSQL, MySQL, HsqlDB, Derby, H2 and more.	 
 
-### EventMesh
+### EventMesh[云原生基础服务，类似ServiceMesh]
 
 Description: EventMesh is a new generation serverless event middleware for building distributed event-driven applications.
 
@@ -657,37 +657,37 @@ Description: OSGi framework implementation and related technologies.
 
 介绍: OSGi framework implementation and related technologies.
 
-### Fineract
+### Fineract[核心银行系统平台化建设]
 
 Description: At Apache Fineract, our mission is to build, maintain and enhance a cloud-ready core banking system for robust, scalable, and secure operations of financial institutions.
 
 介绍: At Apache Fineract, our mission is to build, maintain and enhance a cloud-ready core banking system for robust, scalable, and secure operations of financial institutions.
 
-### Flagon
+### Flagon[测试平台]
 
 Description: Flagon is a software tool usability testing platform
 
 介绍: Flagon is a software tool usability testing platform
 
-### Flex
+### Flex[跨平台的Web开发框架]
 
 Description: Apache Flex® is a highly productive, open source application framework for building and maintaining expressive web applications that deploy consistently on all major browsers, desktops and devices (including smartphones, tablets and tv). It provides a modern, standards-based language and programming model that supports common design patterns suitable for developers from many backgrounds. Flex applications can be deployed to the ubiquitous Adobe® Flash® Player in the browser, Adobe® AIR™ on desktop and mobile or to native Android™, IOS™, QNX®, Windows® or Mac® applications.
 
 介绍: Apache Flex® is a highly productive, open source application framework for building and maintaining expressive web applications that deploy consistently on all major browsers, desktops and devices (including smartphones, tablets and tv). It provides a modern, standards-based language and programming model that supports common design patterns suitable for developers from many backgrounds. Flex applications can be deployed to the ubiquitous Adobe® Flash® Player in the browser, Adobe® AIR™ on desktop and mobile or to native Android™, IOS™, QNX®, Windows® or Mac® applications.
 
-### Flink
+### Flink[实时流处理系统]
 
 Description: Flink is an open source system for expressive, declarative, fast, and efficient data analysis. It combines the scalability and programming flexibility of distributed MapReduce-like platforms with the efficiency, out-of-core execution, and query optimization capabilities found in parallel databases.
 
 介绍: Flink is an open source system for expressive, declarative, fast, and efficient data analysis. It combines the scalability and programming flexibility of distributed MapReduce-like platforms with the efficiency, out-of-core execution, and query optimization capabilities found in parallel databases.
 
-### Flume
+### Flume[日志收集系统]
 
 Description: Apache Flume is a distributed, reliable, and available system for efficiently collecting, aggregating and moving large amounts of log data from many different sources to a centralized data store
 
 介绍: Apache Flume is a distributed, reliable, and available system for efficiently collecting, aggregating and moving large amounts of log data from many different sources to a centralized data store
 
-### Fluo
+### Fluo[Google搜索引擎的开源实现]
 
 Description: Apache Fluo is a distributed processing system that lets users make incremental updates to large data sets. With Apache Fluo, users can set up workflows that execute cross node transactions when data changes. These workflows enable users to continuously join new data into large existing data sets without reprocessing all data. Apache Fluo is built on Apache Accumulo.
 
@@ -717,7 +717,7 @@ Description: Apache Fortress is a standards-based authorization system, written 
 
 介绍: Apache Fortress is a standards-based authorization system, written in Java, that provides role-based access control, delegated administration and password policy services using an LDAP backend.
 
-### FreeMarker
+### FreeMarker[模板引擎类库]
 
 Description:  Apache FreeMarker is a template engine: a Java library to generate text output (HTML web pages, e-mails, configuration files, source code, etc.) based on templates and changing data. Templates are written in the FreeMarker Template Language (FTL), which is a simple, specialized language (not a full-blown programming language). Usually, a general-purpose programming language (like Java) is used to prepare the data (issue database queries, do business calculations). Then, Apache FreeMarker displays that prepared data using templates. In the template you are focusing on how to present the data, and outside the template you are focusing on what data to present. 
 
@@ -729,145 +729,145 @@ Description: The Apache FtpServer application is a 100% pure Java FTP server. It
 
 介绍: The Apache FtpServer application is a 100% pure Java FTP server. It's designed to be a complete and portable FTP server engine solution based on currently available open protocols. FtpServer can be run standalone as a Windows service or Unix/Linux daemon, or embedded into a Java application. We also provide support for integration within Spring applications and provide our releases as OSGi bundles.
 
-### Geode
+### Geode[缓存等数据管理平台，类似分布式缓存Redis]
 
 Description: Apache Geode is a data management platform that provides real-time, consistent access to data-intensive applications throughout widely distributed cloud architectures. Geode pools memory, CPU, network resources, and optionally local disk across multiple processes to manage application objects and behavior. It uses dynamic replication and data partitioning techniques to implement high availability, improved performance, scalability, and fault tolerance. In addition to being a distributed data container, Geode is an in-memory data management system that provides reliable asynchronous event notifications and guaranteed message delivery.
 
 介绍: Apache Geode is a data management platform that provides real-time, consistent access to data-intensive applications throughout widely distributed cloud architectures. Geode pools memory, CPU, network resources, and optionally local disk across multiple processes to manage application objects and behavior. It uses dynamic replication and data partitioning techniques to implement high availability, improved performance, scalability, and fault tolerance. In addition to being a distributed data container, Geode is an in-memory data management system that provides reliable asynchronous event notifications and guaranteed message delivery.
 
-### Geronimo
+### Geronimo[JavaEE Web服务]
 
 Description: Apache Geronimo is an open source server runtime that integrates the best open source projects to create Java/OSGi server runtimes that meet the needs of enterprise developers and system administrators. Our most popular distribution is a fully certified Java EE 5 application server runtime.
 
 介绍: Apache Geronimo is an open source server runtime that integrates the best open source projects to create Java/OSGi server runtimes that meet the needs of enterprise developers and system administrators. Our most popular distribution is a fully certified Java EE 5 application server runtime.
 
-### Gobblin
+### Gobblin[Hadoop 通用数据摄取框架]
 
 Description: A distributed data integration framework that simplifies common aspects of big data integration such as data ingestion, replication, organization and lifecycle management for both streaming and batch data ecosystems.
 
 介绍: A distributed data integration framework that simplifies common aspects of big data integration such as data ingestion, replication, organization and lifecycle management for both streaming and batch data ecosystems.
 
-### Gora
+### Gora[ORM框架，为大数据提供内存数据模型与数据的持久化]
 
 Description: Although there are various excellent ORM frameworks for relational databases, data modeling in NoSQL data stores differ profoundly from their relational cousins. Moreover, data-model agnostic frameworks such as JDO are not sufficient for use cases, where one needs to use the full power of the data models in column stores. Gora fills this gap by giving the user an easy-to-use in-memory data model and persistence for big data framework with data store specific mappings and built in Apache Hadoop support.
 
 介绍: Although there are various excellent ORM frameworks for relational databases, data modeling in NoSQL data stores differ profoundly from their relational cousins. Moreover, data-model agnostic frameworks such as JDO are not sufficient for use cases, where one needs to use the full power of the data models in column stores. Gora fills this gap by giving the user an easy-to-use in-memory data model and persistence for big data framework with data store specific mappings and built in Apache Hadoop support.
 
-### Griffin
+### Griffin[大数据的数据质量解决方案]
 
 Description: Griffin is a open source Data Quality solution for distributed data systems at any scale in both streaming or batch data context
 
 介绍: Griffin is a open source Data Quality solution for distributed data systems at any scale in both streaming or batch data context
 
-### Groovy
+### Groovy[基于 JVM 平台的动态/敏捷编程语言]
 
 Description: Apache Groovy is a powerful, optionally typed and dynamic language, with static-typing and static compilation capabilities, for the Java platform aimed at improving developer productivity thanks to a concise, familiar and easy to learn syntax. It integrates smoothly with any Java program, and immediately delivers to your application powerful features, including scripting capabilities, Domain-Specific Language authoring, runtime and compile-time meta-programming and functional programming.
 
 介绍: Apache Groovy is a powerful, optionally typed and dynamic language, with static-typing and static compilation capabilities, for the Java platform aimed at improving developer productivity thanks to a concise, familiar and easy to learn syntax. It integrates smoothly with any Java program, and immediately delivers to your application powerful features, including scripting capabilities, Domain-Specific Language authoring, runtime and compile-time meta-programming and functional programming.
 
-### Guacamole
+### Guacamole[基于Web的远程桌面]
 
 Description: Apache Guacamole is a clientless remote desktop gateway which supports standard protocols like VNC, RDP, and SSH. We call it "clientless" because no plugins or client software are required. Once Guacamole is installed on a server, all you need to access your desktops is a web browser.
 
 介绍: Apache Guacamole is a clientless remote desktop gateway which supports standard protocols like VNC, RDP, and SSH. We call it "clientless" because no plugins or client software are required. Once Guacamole is installed on a server, all you need to access your desktops is a web browser.
 
-### Gump
+### Gump[持续集成工具]
 
 Description: Gump provides large scale continuous integration for various open source projects.
 
 介绍: Gump provides large scale continuous integration for various open source projects.
 
-### Hadoop
+### Hadoop[大数据存储计算调度框架]
 
 Description: The Apache Hadoop software library is a framework that allows for the distributed processing of large data sets across clusters of computers using simple programming models. It is designed to scale up from single servers to thousands of machines, each offering local computation and storage. Rather than rely on hardware to deliver high-availability, the library itself is designed to detect and handle failures at the application layer, so delivering a highly-available service on top of a cluster of computers, each of which may be prone to failures.
 
 介绍: The Apache Hadoop software library is a framework that allows for the distributed processing of large data sets across clusters of computers using simple programming models. It is designed to scale up from single servers to thousands of machines, each offering local computation and storage. Rather than rely on hardware to deliver high-availability, the library itself is designed to detect and handle failures at the application layer, so delivering a highly-available service on top of a cluster of computers, each of which may be prone to failures.
 
-### HAWQ
+### HAWQ[MPP的Hadoop SQL分析平台]
 
 Description: HAWQ is an advanced enterprise SQL on Hadoop analytic engine built around a robust and high-performance massively-parallel processing (MPP) SQL framework evolved from Pivotal Greenplum Database.
 
 介绍: HAWQ is an advanced enterprise SQL on Hadoop analytic engine built around a robust and high-performance massively-parallel processing (MPP) SQL framework evolved from Pivotal Greenplum Database.
 
-### HBase
+### HBase[NOSQL，KV数据库]
 
 Description: Use Apache HBase software when you need random, realtime read/write access to your Big Data. This project's goal is the hosting of very large tables -- billions of rows X millions of columns -- atop clusters of commodity hardware. HBase is an open-source, distributed, versioned, column-oriented store modeled after Google's Bigtable: A Distributed Storage System for Structured Data by Chang et al. Just as Bigtable leverages the distributed data storage provided by the Google File System, HBase provides Bigtable-like capabilities on top of Hadoop and HDFS. 
 
 介绍: Use Apache HBase software when you need random, realtime read/write access to your Big Data. This project's goal is the hosting of very large tables -- billions of rows X millions of columns -- atop clusters of commodity hardware. HBase is an open-source, distributed, versioned, column-oriented store modeled after Google's Bigtable: A Distributed Storage System for Structured Data by Chang et al. Just as Bigtable leverages the distributed data storage provided by the Google File System, HBase provides Bigtable-like capabilities on top of Hadoop and HDFS. 
 
-### Helix
+### Helix[集群管理框架，用于自动化的分区、复制和资源分布]
 
 Description: Apache Helix is a generic cluster management framework used for the automatic management of partitioned, replicated and distributed resources hosted on a cluster of nodes. Helix automates reassignment of resources in the face of node failure and recovery, cluster expansion, and reconfiguration.
 
 介绍: Apache Helix is a generic cluster management framework used for the automatic management of partitioned, replicated and distributed resources hosted on a cluster of nodes. Helix automates reassignment of resources in the face of node failure and recovery, cluster expansion, and reconfiguration.
 
-### Hive
+### Hive[Hadoop数据仓库]
 
 Description: The Apache Hive (TM) data warehouse software facilitates querying and managing large datasets residing in distributed storage. Built on top of Apache Hadoop (TM), it provides  * tools to enable easy data extract/transform/load (ETL) * a mechanism to impose structure on a variety of data formats * access to files stored either directly in Apache HDFS (TM) or in other data storage systems such as Apache HBase (TM) * query execution via MapReduce  Hive defines a simple SQL-like query language, called HiveQL, that enables users familiar with SQL to query the data. At the same time, this language also allows programmers who are familiar with the MapReduce framework to be able to plug in their custom mappers and reducers to perform more sophisticated analysis that may not be supported by the built-in capabilities of the language. HiveQL can also be extended with custom scalar functions (UDF's), aggregations (UDAF's), and table functions (UDTF's). 
 
 介绍: The Apache Hive (TM) data warehouse software facilitates querying and managing large datasets residing in distributed storage. Built on top of Apache Hadoop (TM), it provides  * tools to enable easy data extract/transform/load (ETL) * a mechanism to impose structure on a variety of data formats * access to files stored either directly in Apache HDFS (TM) or in other data storage systems such as Apache HBase (TM) * query execution via MapReduce  Hive defines a simple SQL-like query language, called HiveQL, that enables users familiar with SQL to query the data. At the same time, this language also allows programmers who are familiar with the MapReduce framework to be able to plug in their custom mappers and reducers to perform more sophisticated analysis that may not be supported by the built-in capabilities of the language. HiveQL can also be extended with custom scalar functions (UDF's), aggregations (UDAF's), and table functions (UDTF's). 
 
-### Hop
+### Hop[数据编排工具]
 
 Description: The Hop Orchestration Platform, or Apache Hop, aims to facilitate all aspects of data and metadata orchestration.  Hop is an entirely new open source data integration platform that is easy to use, fast and flexible  Hop aims to be the future of data integration. Visual development enables developers to be more productive than they can be through code. Our Design once, run anywhere workflows and pipelines can be designed in the Hop Gui and run on the Hop native engine (local or remote), or on Spark, Flink, Google Dataflow or AWS EMR through Beam. Lifecycle Management enables developers and administrators to switch between projects, environments and purposes without leaving your train of thought.  
 
 介绍: The Hop Orchestration Platform, or Apache Hop, aims to facilitate all aspects of data and metadata orchestration.  Hop is an entirely new open source data integration platform that is easy to use, fast and flexible  Hop aims to be the future of data integration. Visual development enables developers to be more productive than they can be through code. Our Design once, run anywhere workflows and pipelines can be designed in the Hop Gui and run on the Hop native engine (local or remote), or on Spark, Flink, Google Dataflow or AWS EMR through Beam. Lifecycle Management enables developers and administrators to switch between projects, environments and purposes without leaving your train of thought.  
 
-### HTTP Server
+### HTTP Server[Web服务器]
 
 Description:  The Apache HTTP Server is an open-source HTTP server for modern operating systems including UNIX, Microsoft Windows, Mac OS/X and Netware. The goal of this project is to provide a secure, efficient and extensible server that provides HTTP services observing the current HTTP standards. Apache has been the most popular web server on the Internet since April of 1996. 
 
 介绍:  The Apache HTTP Server is an open-source HTTP server for modern operating systems including UNIX, Microsoft Windows, Mac OS/X and Netware. The goal of this project is to provide a secure, efficient and extensible server that provides HTTP services observing the current HTTP standards. Apache has been the most popular web server on the Internet since April of 1996. 
 
-### HttpComponents Client
+### HttpComponents Client[HTTP 协议的客户端]
 
 Description:  HttpClient is a library for client-side HTTP communication built on HttpCore. It provides connection management, cookie management, and authentication. This is the successor to the widely used Jakarta Commons HttpClient 3.1. 
 
 介绍:  HttpClient is a library for client-side HTTP communication built on HttpCore. It provides connection management, cookie management, and authentication. This is the successor to the widely used Jakarta Commons HttpClient 3.1. 
 
-### HttpComponents Core
+### HttpComponents Core[Http 服务器编程工具包]
 
 Description:  HttpCore is a set of low level HTTP transport components that can be used to build custom client and server side HTTP services with a minimal footprint. HttpCore supports two I/O models: blocking I/O model based on the classic Java I/O and non-blocking, event driven I/O model based on Java NIO. 
 
 介绍:  HttpCore is a set of low level HTTP transport components that can be used to build custom client and server side HTTP services with a minimal footprint. HttpCore supports two I/O models: blocking I/O model based on the classic Java I/O and non-blocking, event driven I/O model based on Java NIO. 
 
-### Hudi
+### Hudi[数据湖]
 
 Description: Hudi (pronounced “Hoodie”) brings stream processing to big data, providing upserts, deletes and incremental data streams.
 
 介绍: Hudi (pronounced “Hoodie”) brings stream processing to big data, providing upserts, deletes and incremental data streams.
 
-### Iceberg
+### Iceberg[数据湖]
 
 Description: Iceberg brings the reliability and simplicity of SQL tables to big data, while making it possible for engines like Spark, Trino, Flink, Presto, Hive and Impala to safely work with the same tables, at the same time.
 
 介绍: Iceberg brings the reliability and simplicity of SQL tables to big data, while making it possible for engines like Spark, Trino, Flink, Presto, Hive and Impala to safely work with the same tables, at the same time.
 
-### Ignite
+### Ignite[分布式数据库]
 
 Description: Apache Ignite is a distributed database for high-performance computing with in-memory speed.
 
 介绍: Apache Ignite is a distributed database for high-performance computing with in-memory speed.
 
-### Impala
+### Impala[MPP SQL查询]
 
 Description: Impala is a high-performance C++ and Java SQL query engine for data stored in Apache Hadoop-based clusters.
 
 介绍: Impala is a high-performance C++ and Java SQL query engine for data stored in Apache Hadoop-based clusters.
 
-### InLong
+### InLong[数据集成框架]
 
 Description: Apache InLong is a one-stop, full-scenario integration framework for massive data that supports Data Ingestion, Data Synchronization, and Data Subscription, and it provides automatic, safe, reliable, and high-performance data transmission capabilities to facilitate the construction of streaming-based data analysis, modeling, and applications.
 
 介绍: Apache InLong is a one-stop, full-scenario integration framework for massive data that supports Data Ingestion, Data Synchronization, and Data Subscription, and it provides automatic, safe, reliable, and high-performance data transmission capabilities to facilitate the construction of streaming-based data analysis, modeling, and applications.
 
-### IoTDB
+### IoTDB[物联网数据库，收集、存储、管理与分析]
 
 Description: Apache IoTDB (Database for Internet of Things) is an integrated data management engine designed for time series data. It provides users with services for data collection, storage and analysis. Due to its light-weight architecture, high performance and rich feature set together with its deep integration with Apache Hadoop, Spark and Flink. Apache IoTDB can meet the requirements of massive data storage, high-speed data ingestion and complex data analysis in the IoT industrial fields.
 
 介绍: Apache IoTDB (Database for Internet of Things) is an integrated data management engine designed for time series data. It provides users with services for data collection, storage and analysis. Due to its light-weight architecture, high performance and rich feature set together with its deep integration with Apache Hadoop, Spark and Flink. Apache IoTDB can meet the requirements of massive data storage, high-speed data ingestion and complex data analysis in the IoT industrial fields.
 
-### Ivy
+### Ivy[项目依赖管理工具，与Ant集成]
 
 Description: Apache Ivy is a very powerful dependency manager oriented toward Java dependency management, even though it could be used to manage dependencies of any kind.
 
@@ -879,55 +879,55 @@ Description: The now retired IvyDE lets you manage your dependencies declared in
 
 介绍: The now retired IvyDE lets you manage your dependencies declared in an ivy.xml in your Java Eclipse projects. IvyDE will contribute to the classpath of your Java project, with the classpath container. It also bring an editor of ivy.xml files, with completion.
 
-### Jackrabbit
+### Jackrabbit[Java内容仓库规范的实现]
 
 Description:  Apache Jackrabbit is a fully conforming implementation of the Content Repository for Java Technology API (JCR). A content repository is a hierarchical content store with support for structured and unstructured content, full text search, versioning, transactions, observation, and more. Typical applications that use content repositories include content management, document management, and records management systems. 
 
-介绍:  Apache Jackrabbit is a fully conforming implementation of the Content Repository for Java Technology API (JCR). A content repository is a hierarchical content store with support for structured and unstructured content, full text search, versioning, transactions, observation, and more. Typical applications that use content repositories include content management, document management, and records management systems. 
+介绍:  JCR(Java Content Repository)，即Java内容仓库规范，定义了一套规范API，用于文件和元数据的存储管理、全文检索等。JBoss ModeShape、Apache Jackrabbit等都是JCR规范的具体实现。
 
-### JAMES
+### JAMES[Java企业邮箱服务]
 
 Description: The Apache Java Enterprise Mail Server (a.k.a. Apache James) is a 100% pure Java SMTP and POP3 Mail server and NNTP News server. We have designed James to be a complete and portable enterprise mail engine solution based on currently available open protocols.  James is also a mail application platform. We have developed a Java API to let you write Java code to process emails that we call the mailet API. A mailet can generate an automatic reply, update a database, prevent spam, build a message archive, or whatever you can imagine. A matcher determines whether your mailet should process an email in the server. The James project hosts the Mailet API, and James provides an implementation of this mail application platform API. 
 
 介绍: The Apache Java Enterprise Mail Server (a.k.a. Apache James) is a 100% pure Java SMTP and POP3 Mail server and NNTP News server. We have designed James to be a complete and portable enterprise mail engine solution based on currently available open protocols.  James is also a mail application platform. We have developed a Java API to let you write Java code to process emails that we call the mailet API. A mailet can generate an automatic reply, update a database, prevent spam, build a message archive, or whatever you can imagine. A matcher determines whether your mailet should process an email in the server. The James project hosts the Mailet API, and James provides an implementation of this mail application platform API. 
 
-### jclouds
+### jclouds[云计算 Java 开发工具包]
 
 Description: Apache jclouds is an open source multi-cloud toolkit for the Java platform that gives you the freedom to create applications that are portable across clouds while giving you full control to use cloud-specific features.
 
 介绍: Apache jclouds is an open source multi-cloud toolkit for the Java platform that gives you the freedom to create applications that are portable across clouds while giving you full control to use cloud-specific features.
 
-### Jena
+### Jena[构建语义 Web 程序的 Java 框架]
 
 Description: Apache Jena provides a complete framework for building Semantic Web and Linked Data applications in Java, and provides: parsers for RDF/XML, Turtle and N-triples; a Java programming API; a complete implementation of the SPARQL query language; a rule-based inference engine for RDFS and OWL entailments; TDB (a non-SQL persistent triple store); SDB (a persistent triples store built on a relational store) and Fuseki, an RDF server using web protocols. Jena complies with all relevant recommendations for RDF and related technologies from the W3C.
 
 介绍: Apache Jena provides a complete framework for building Semantic Web and Linked Data applications in Java, and provides: parsers for RDF/XML, Turtle and N-triples; a Java programming API; a complete implementation of the SPARQL query language; a rule-based inference engine for RDFS and OWL entailments; TDB (a non-SQL persistent triple store); SDB (a persistent triples store built on a relational store) and Fuseki, an RDF server using web protocols. Jena complies with all relevant recommendations for RDF and related technologies from the W3C.
 
-### JMeter
+### JMeter[Web测试工具]
 
 Description: Apache JMeter may be used to test performance both on static and dynamic resources (files, Servlets, Perl scripts, Java Objects, Data Bases and Queries, FTP Servers and more). It can be used to simulate a heavy load on a server, network or object to test its strength or to analyze overall performance under different load types. You can use it to make a graphical analysis of performance or to test your server/script/object behavior under heavy concurrent load. 
 
 介绍: Apache JMeter may be used to test performance both on static and dynamic resources (files, Servlets, Perl scripts, Java Objects, Data Bases and Queries, FTP Servers and more). It can be used to simulate a heavy load on a server, network or object to test its strength or to analyze overall performance under different load types. You can use it to make a graphical analysis of performance or to test your server/script/object behavior under heavy concurrent load. 
 
-### Johnzon
+### Johnzon[Web测试工具]
 
 Description: Implementation of JSR-353 JavaTM API for JSON Processing (Renamed from Fleece)
 
 介绍: Implementation of JSR-353 JavaTM API for JSON Processing (Renamed from Fleece)
 
-### JSPWiki
+### JSPWiki[Wiki服务]
 
 Description:  Apache JSPWiki is a feature-rich and extensible WikiWiki engine built around the standard JEE  components (Java, servlets, JSP). It features: - WikiMarkup/Structured Text - File attachments  - Templates support - Data storage through 2 WikiPage Providers, with the capability to plug new ones - Security: Authorization and authentication fine grain control - Easy plugin and page filter interfaces - UTF-8 support - JSP-based - Easy-ish installation - Page locking to prevent editing conflicts - Support for Multiple Wikis - Custom User Preferences 
 
 介绍:  Apache JSPWiki is a feature-rich and extensible WikiWiki engine built around the standard JEE  components (Java, servlets, JSP). It features: - WikiMarkup/Structured Text - File attachments  - Templates support - Data storage through 2 WikiPage Providers, with the capability to plug new ones - Security: Authorization and authentication fine grain control - Easy plugin and page filter interfaces - UTF-8 support - JSP-based - Easy-ish installation - Page locking to prevent editing conflicts - Support for Multiple Wikis - Custom User Preferences 
 
-### Juneau
+### Juneau[编组 POJO和开发 REST微服务和 AP]
 
 Description: Apache Juneau is a toolkit for marshalling POJOs to a wide variety of content types using a common framework, and for creating sophisticated self-documenting REST interfaces and microservices using VERY little code.
 
-介绍: Apache Juneau is a toolkit for marshalling POJOs to a wide variety of content types using a common framework, and for creating sophisticated self-documenting REST interfaces and microservices using VERY little code.
+介绍: 编组 POJO（普通 Java 对象）和开发 REST（表征状态转移）微服务和 API。
 
-### Kafka
+### Kafka[分布式消息订阅-发布]
 
 Description: A single Kafka broker can handle hundreds of megabytes of reads and writes per second from thousands of clients. Kafka is designed to allow a single cluster to serve as the central data backbone for a large organization. It can be elastically and transparently expanded without downtime. Data streams are partitioned and spread over a cluster of machines to allow data streams larger than the capability of any single machine and to allow clusters of co-ordinated consumers. Kafka has a modern cluster-centric design that offers strong durability and fault-tolerance guarantees. Messages are persisted on disk and replicated within the cluster to prevent data loss. Each broker can handle terabytes of messages without performance impact.
 
@@ -939,25 +939,25 @@ Description: Apache Karaf is a small OSGi based runtime which provides a lightwe
 
 介绍: Apache Karaf is a small OSGi based runtime which provides a lightweight container onto which various components and applications can be deployed.
 
-### Kerby
+### Kerby[Java Kerberos]
 
 Description: Apache Kerby is a Java Kerberos binding. It provides a rich, intuitive and interoperable implementation, library, KDC and various facilities that integrates PKI, OTP and token (OAuth2) as desired in modern environments such as cloud, Hadoop and mobile.
 
 介绍: Apache Kerby is a Java Kerberos binding. It provides a rich, intuitive and interoperable implementation, library, KDC and various facilities that integrates PKI, OTP and token (OAuth2) as desired in modern environments such as cloud, Hadoop and mobile.
 
-### Kibble
+### Kibble[可视化活动报告分析平台]
 
 Description: Apache Kibble is a suite of tools for collecting, aggregating and visualizing activity in software projects. 
 
-介绍: Apache Kibble is a suite of tools for collecting, aggregating and visualizing activity in software projects. 
+介绍: 一个活动报告平台，用于收集、汇总、分析和可视化软件项目和社区中的活动。
 
-### Knox
+### Knox[Hadoop 部署交互的应用网关]
 
 Description: The Apache Knox Gateway is a REST API Gateway for interacting with Hadoop clusters.  The Knox Gateway provides a single access point for all REST interactions with Hadoop clusters.  In this capacity, the Knox Gateway is able to provide valuable functionality to aid in the control, integration, monitoring and automation of critical administrative and analytical needs of the enterprise.  Authentication (LDAP and Active Directory Authentication Provider) Federation/SSO (HTTP Header Based Identity Federation) Authorization (Service Level Authorization) Auditing While there are a number of benefits for unsecured Hadoop clusters, the Knox Gateway also complements the kerberos secured cluster quite nicely.  Coupled with proper network isolation of a Kerberos secured Hadoop cluster, the Knox Gateway provides the enterprise with a solution that:  Integrates well with enterprise identity management solutions Protects the details of the Hadoop cluster deployment (hosts and ports are hidden from endusers) Simplifies the number of services that clients need to interact with
 
-介绍: The Apache Knox Gateway is a REST API Gateway for interacting with Hadoop clusters.  The Knox Gateway provides a single access point for all REST interactions with Hadoop clusters.  In this capacity, the Knox Gateway is able to provide valuable functionality to aid in the control, integration, monitoring and automation of critical administrative and analytical needs of the enterprise.  Authentication (LDAP and Active Directory Authentication Provider) Federation/SSO (HTTP Header Based Identity Federation) Authorization (Service Level Authorization) Auditing While there are a number of benefits for unsecured Hadoop clusters, the Knox Gateway also complements the kerberos secured cluster quite nicely.  Coupled with proper network isolation of a Kerberos secured Hadoop cluster, the Knox Gateway provides the enterprise with a solution that:  Integrates well with enterprise identity management solutions Protects the details of the Hadoop cluster deployment (hosts and ports are hidden from endusers) Simplifies the number of services that clients need to interact with
+介绍: 通过REST API和UI与Apache Hadoop 部署交互的应用网关。
 
-### Kudu
+### Kudu[列式存储系统]
 
 Description: Apache Kudu is a columnar storage manager developed for the Apache Hadoop platform.
 
@@ -969,25 +969,25 @@ Description: Kvrocks is a distributed key-value NoSQL database, supporting the r
 
 介绍: Kvrocks is a distributed key-value NoSQL database, supporting the rich data structure
 
-### Kylin
+### Kylin[大数据分析型数据仓库]
 
 Description: Apache Kylin is an open source, distributed Analytical Data Warehouse for Big Data; it was designed to provide OLAP (Online Analytical Processing) capability in the big data era. By renovating the multi-dimensional cube and precalculation technology on Hadoop and Spark, Kylin is able to achieve near constant query speed regardless of the ever-growing data volume. Reducing query latency from minutes to sub-second, Kylin brings online analytics back to big data.
 
 介绍: Apache Kylin is an open source, distributed Analytical Data Warehouse for Big Data; it was designed to provide OLAP (Online Analytical Processing) capability in the big data era. By renovating the multi-dimensional cube and precalculation technology on Hadoop and Spark, Kylin is able to achieve near constant query speed regardless of the ever-growing data volume. Reducing query latency from minutes to sub-second, Kylin brings online analytics back to big data.
 
-### Kyuubi
+### Kyuubi[分布式的无服务SQL]
 
 Description: Kyuubi is a distributed multi-tenant Thrift JDBC/ODBC server for large-scale data management, processing, and analytics, built on top of Apache Spark and designed to support more engines.
 
-介绍: Kyuubi is a distributed multi-tenant Thrift JDBC/ODBC server for large-scale data management, processing, and analytics, built on top of Apache Spark and designed to support more engines.
+介绍: 一个构建在 Spark、Flink、Trino 等计算引擎之上的，**分布式、多租户的企业级大数据网关**，致力于在 **Lakehouse 之上提供 Serverless SQL 服务**。
 
-### Libcloud
+### Libcloud[Python访问云计算服务的统一接口]
 
 Description: Apache Libcloud is a standard Python library that abstracts away differences among multiple cloud provider APIs. It allows users to manage cloud servers, cloud storage and load-balancers.
 
 介绍: Apache Libcloud is a standard Python library that abstracts away differences among multiple cloud provider APIs. It allows users to manage cloud servers, cloud storage and load-balancers.
 
-### Linkis
+### Linkis[计算中间层]
 
 Description: Apache Linkis is a computation middleware project, which decouples the upper applications and the underlying data engines, provides standardized interfaces (REST, JDBC etc.) to easily connect to various underlying engines (Spark, Presto, Flink, etc.).
 
@@ -1017,7 +1017,7 @@ Description: Apache log4php is a logging framework for PHP.
 
 介绍: Apache log4php is a logging framework for PHP.
 
-### Lucene Core
+### Lucene Core[搜索引擎库]
 
 Description: Apache Lucene is a high-performance, full-featured text search engine library written entirely in Java. It is a technology suitable for nearly any application that requires full-text search, especially cross-platform. 
 
@@ -1029,49 +1029,49 @@ Description: Lucene.Net is a port of the Lucene search engine library, written i
 
 介绍: Lucene.Net is a port of the Lucene search engine library, written in C# and targeted at .NET runtime users. The Lucene search library is based on an inverted index. Lucene.Net has three primary goals:  1. Maintain the existing line-by-line port from Java to C#, fully automating and commoditizing the process such that the project can easily synchronize with the Java Lucene release schedule; 2. Maintaining the high-performance requirements expected of a first class C# search engine library; 3. Maximize usability and power when used within the .NET runtime. To that end, it will present a highly idiomatic, carefully tailored API that takes advantage of many of the special features of the .NET runtime. 
 
-### MADlib
+### MADlib[基于SQL的数据库内置的可扩展机的器学习库]
 
 Description: Big Data Machine Learning in SQL for Data Scientists.
 
 介绍: Big Data Machine Learning in SQL for Data Scientists.
 
-### Mahout
+### Mahout[大数据机器学习库]
 
 Description: Scalable machine learning library
 
 介绍: Scalable machine learning library
 
-### ManifoldCF
+### ManifoldCF[JAVA实现的爬虫框架]
 
 Description: ManifoldCF is an effort to provide an open source framework for connecting source content repositories like Microsoft Sharepoint and EMC Documentum, to target repositories or indexes, such as Apache Solr , OpenSearchServer or ElasticSearch. ManifoldCF also defines a security model for target repositories that permits them to enforce source-repository security policies.
 
 介绍: ManifoldCF is an effort to provide an open source framework for connecting source content repositories like Microsoft Sharepoint and EMC Documentum, to target repositories or indexes, such as Apache Solr , OpenSearchServer or ElasticSearch. ManifoldCF also defines a security model for target repositories that permits them to enforce source-repository security policies.
 
-### Maven
+### Maven[项目开发/管理框架]
 
 Description: Maven is a project development management and comprehension tool. Based on the concept of a project object model: builds, dependency management, documentation creation, site publication, and distribution publication are all controlled from the declarative file. Maven can be extended by plugins to utilise a number of other development tools for reporting or the build process.
 
 介绍: Maven is a project development management and comprehension tool. Based on the concept of a project object model: builds, dependency management, documentation creation, site publication, and distribution publication are all controlled from the declarative file. Maven can be extended by plugins to utilise a number of other development tools for reporting or the build process.
 
-### Maven Doxia
+### Maven Doxia[内容生成框架]
 
 Description: Doxia is a content generation framework which aims to provide its users with powerful techniques for generating static and dynamic content: Doxia can be used in web-based publishing context to generate static sites, in addition to being incorporated into dynamic content generation systems like blogs, wikis and content management systems.
 
 介绍: Doxia is a content generation framework which aims to provide its users with powerful techniques for generating static and dynamic content: Doxia can be used in web-based publishing context to generate static sites, in addition to being incorporated into dynamic content generation systems like blogs, wikis and content management systems.
 
-### Mesos
+### Mesos[集群资源管理框架]
 
 Description: Apache Mesos is a cluster manager that provides efficient resource isolation  and sharing across distributed applications, or frameworks. It can run Hadoop,  MPI, Hypertable, Spark, and other frameworks on a dynamically shared pool of  nodes. 
 
 介绍: Apache Mesos is a cluster manager that provides efficient resource isolation  and sharing across distributed applications, or frameworks. It can run Hadoop,  MPI, Hypertable, Spark, and other frameworks on a dynamically shared pool of  nodes. 
 
-### MINA
+### MINA[网络应用框架]
 
 Description: Apache MINA is a network application framework which helps users develop high performance and high scalability network applications easily. It provides an abstract, event-driven, asynchronous API over various transports such as TCP/IP and UDP/IP via Java NIO.
 
 介绍: Apache MINA is a network application framework which helps users develop high performance and high scalability network applications easily. It provides an abstract, event-driven, asynchronous API over various transports such as TCP/IP and UDP/IP via Java NIO.
 
-### Mnemonic
+### Mnemonic[非易失性混合内存存储的库，可与Spark集成]
 
 Description: Mnemonic is a Java based non-volatile memory library for in-place structured data processing and computing.
 
@@ -1107,13 +1107,13 @@ Description: Apache NetBeans is and IDE for many language (java, php, ...). Apac
 
 介绍: Apache NetBeans is and IDE for many language (java, php, ...). Apache NetBeans is a platform that can be extended by third party developer.
 
-### NiFi
+### NiFi[数据流设计的可靠的数据处理和分发系统]
 
 Description: The mission of NiFi is the creation and maintenance of software related to providing an easy to use, powerful, and reliable system to process and distribute data.  Apache NiFi MiNiFi is an edge data collection agent built to seamlessly integrate with and leverage the command and control of NiFi. There are both Java and C++ implementations.  Apache NiFi Registry is a centralized registry for key configuration items including flow versions, assets, and extensions for Apache NiFi and Apache MiNiFi.
 
 介绍: The mission of NiFi is the creation and maintenance of software related to providing an easy to use, powerful, and reliable system to process and distribute data.  Apache NiFi MiNiFi is an edge data collection agent built to seamlessly integrate with and leverage the command and control of NiFi. There are both Java and C++ implementations.  Apache NiFi Registry is a centralized registry for key configuration items including flow versions, assets, and extensions for Apache NiFi and Apache MiNiFi.
 
-### Nutch
+### Nutch[网络爬虫软件]
 
 Description: Apache Nutch is a highly extensible and scalable open source web crawler software project. Stemming from Apache Lucene, Nutch is a well matured, production ready batch crawler relying on Apache Hadoop data structures, which are great for batch processing. Nutch has a modular architecture and provides pluggable and extensible interfaces such as Parse, Index and ScoringFilter's for custom implementations e.g. Apache Tika for parsing. Additionally, pluggable indexers exists for Apache Solr, Elastic Search, etc. Nutch can run on a single machine, but gains a lot of its strength from running in a Hadoop cluster. The now retired branch Nutch 2.x differed from 1.x in one key area: storage is abstracted away from any specific underlying data store by using Apache Gora for handling object to persistent mappings and to store fetch time, status, content, parsed text, outlinks, inlinks, etc. into a number of NoSQL storage solutions.
 
@@ -1125,79 +1125,79 @@ Description: NuttX is a mature, real-time embedded operating system (RTOS).
 
 介绍: NuttX is a mature, real-time embedded operating system (RTOS).
 
-### OFBiz
+### OFBiz[开源ERP解决方案]
 
 Description:  Apache OFBiz is an open source product for the automation of enterprise processes that includes framework components and business applications for ERP (Enterprise Resource Planning), CRM (Customer Relationship Management), E-Business / E-Commerce, SCM (Supply Chain Management), MRP (Manufacturing Resource Planning), MMS/EAM (Maintenance Management System/Enterprise Asset Management). Apache OFBiz provides a foundation and starting point for reliable, secure and scalable enterprise solutions, see https://ofbiz.apache.org/ for more. 
 
 介绍:  Apache OFBiz is an open source product for the automation of enterprise processes that includes framework components and business applications for ERP (Enterprise Resource Planning), CRM (Customer Relationship Management), E-Business / E-Commerce, SCM (Supply Chain Management), MRP (Manufacturing Resource Planning), MMS/EAM (Maintenance Management System/Enterprise Asset Management). Apache OFBiz provides a foundation and starting point for reliable, secure and scalable enterprise solutions, see https://ofbiz.apache.org/ for more. 
 
-### Olingo
+### Olingo[实现开放数据协议(OData)的Java库]
 
 Description: Apache Olingo is a Java library that implements the Open Data Protocol (OData). Apache Olingo serves client and server aspects of OData. It currently supports OData 2.0 and support OData 4.0 (beta). The latter is the OASIS version of the protocol: OASIS Open Data Protocol (OData) TC.  The extensions part of Olingo for OData 2.0 contains additional features like the support of JPA persistency or annotated bean classes. 
 
 介绍: Apache Olingo is a Java library that implements the Open Data Protocol (OData). Apache Olingo serves client and server aspects of OData. It currently supports OData 2.0 and support OData 4.0 (beta). The latter is the OASIS version of the protocol: OASIS Open Data Protocol (OData) TC.  The extensions part of Olingo for OData 2.0 contains additional features like the support of JPA persistency or annotated bean classes. 
 
-### Oozie
+### Oozie[Hadoop工作流调度]
 
 Description: Oozie is a workflow scheduler system to manage Apache Hadoop jobs. Oozie is integrated with the rest of the Hadoop stack supporting several types of Hadoop jobs out of the box (such as Java map-reduce, Streaming map-reduce, Pig, Hive, Sqoop and Distcp) as well as system specific jobs (such as Java programs and shell scripts).
 
 介绍: Oozie is a workflow scheduler system to manage Apache Hadoop jobs. Oozie is integrated with the rest of the Hadoop stack supporting several types of Hadoop jobs out of the box (such as Java map-reduce, Streaming map-reduce, Pig, Hive, Sqoop and Distcp) as well as system specific jobs (such as Java programs and shell scripts).
 
-### OpenJPA
+### OpenJPA[Java持久化实现]
 
 Description: Apache OpenJPA is a Java persistence project at The Apache Software Foundation that can be used as a stand-alone POJO persistence layer or integrated into any Java EE compliant container and many other lightweight frameworks, such as Tomcat and Spring.  The 1.x releases are a production ready, feature-rich, compliant implementation of the Java Persistence API (JPA) 1.0 part of the JSR-220 Enterprise Java Beans 3.0 specification, which pass the Sun JPA 1.0b Technology Compatibility Kit.  The 2.x releases are a production ready, compliant implement of the JSR-317 Java Persistence 2.0 specification, which is backwards compatible to the JPA 1.0 specification and passes the Sun JPA 2.0 Technology Compatibility Kit.
 
 介绍: Apache OpenJPA is a Java persistence project at The Apache Software Foundation that can be used as a stand-alone POJO persistence layer or integrated into any Java EE compliant container and many other lightweight frameworks, such as Tomcat and Spring.  The 1.x releases are a production ready, feature-rich, compliant implementation of the Java Persistence API (JPA) 1.0 part of the JSR-220 Enterprise Java Beans 3.0 specification, which pass the Sun JPA 1.0b Technology Compatibility Kit.  The 2.x releases are a production ready, compliant implement of the JSR-317 Java Persistence 2.0 specification, which is backwards compatible to the JPA 1.0 specification and passes the Sun JPA 2.0 Technology Compatibility Kit.
 
-### OpenMeetings
+### OpenMeetings[视频会议，及时消息]
 
 Description:  The Apache OpenMeetings provides video conferencing, instant messaging, white board,  collaborative document editing and other groupware tools using API functions  of the Red5 Streaming Server for Remoting and Streaming. 
 
 介绍:  The Apache OpenMeetings provides video conferencing, instant messaging, white board,  collaborative document editing and other groupware tools using API functions  of the Red5 Streaming Server for Remoting and Streaming. 
 
-### OpenNLP
+### OpenNLP[NLP工具类]
 
 Description: Apache OpenNLP software supports the most common NLP tasks, such as tokenization, sentence segmentation, part-of-speech tagging, named entity extraction, chunking, parsing, and coreference resolution. These tasks are usually required to build more advanced text processing services. OpenNLP also includes maximum entropy and perceptron based machine learning.
 
 介绍: Apache OpenNLP software supports the most common NLP tasks, such as tokenization, sentence segmentation, part-of-speech tagging, named entity extraction, chunking, parsing, and coreference resolution. These tasks are usually required to build more advanced text processing services. OpenNLP also includes maximum entropy and perceptron based machine learning.
 
-### OpenOffice
+### OpenOffice[类似于微软MS Office软件跨平台的办公室软件]
 
 Description: Apache OpenOffice is a leading open-source, office-document productivity suite providing six productivity applications (Writer, Calc, Impress, Draw, Math, Base) based around the OpenDocument Format (ODF). OpenOffice is released on Windows, macOS (OS X), Linux 32-bit DEB+RPM, Linux 64-bit DEB+RPM and in 41 languages.
 
 介绍: Apache OpenOffice is a leading open-source, office-document productivity suite providing six productivity applications (Writer, Calc, Impress, Draw, Math, Base) based around the OpenDocument Format (ODF). OpenOffice is released on Windows, macOS (OS X), Linux 32-bit DEB+RPM, Linux 64-bit DEB+RPM and in 41 languages.
 
-### OpenWebBeans
+### OpenWebBeans[JavaEE依赖注入]
 
 Description: OpenWebBeans is an ALv2-licensed implementation of the "Contexts and Dependency Injection for the Java EE platform" specification which is defined as JSR-299.
 
 介绍: OpenWebBeans is an ALv2-licensed implementation of the "Contexts and Dependency Injection for the Java EE platform" specification which is defined as JSR-299.
 
-### OpenWhisk
+### OpenWhisk[分布式无服务器平台，开源FaaS平台]
 
 Description: distributed Serverless computing platform
 
 介绍: distributed Serverless computing platform
 
-### ORC
+### ORC[列式存储格式]
 
 Description: ORC is a self-describing type-aware columnar file format designed for Hadoop workloads. It is optimized for large streaming reads, but with integrated support for finding required rows quickly. Storing data in a columnar format lets the reader read, decompress, and process only the values that are required for the current query.
 
 介绍: ORC is a self-describing type-aware columnar file format designed for Hadoop workloads. It is optimized for large streaming reads, but with integrated support for finding required rows quickly. Storing data in a columnar format lets the reader read, decompress, and process only the values that are required for the current query.
 
-### Ozone
+### Ozone[Hadoop云原生的分布式对象存储]
 
 Description: Apache Ozone is a highly scalable, distributed storage for Analytics, Big data and Cloud Native applications. Ozone supports S3 compatible object APIs as well as a Hadoop Compatible File System implementation. It is optimized for both efficient object store and file system operations. It is built on a highly available, replicated block storage layer called Hadoop Distributed Data Store (HDDS). Applications using frameworks like Apache Spark, YARN and Hive work natively without any modifications. 
 
 介绍: Apache Ozone is a highly scalable, distributed storage for Analytics, Big data and Cloud Native applications. Ozone supports S3 compatible object APIs as well as a Hadoop Compatible File System implementation. It is optimized for both efficient object store and file system operations. It is built on a highly available, replicated block storage layer called Hadoop Distributed Data Store (HDDS). Applications using frameworks like Apache Spark, YARN and Hive work natively without any modifications. 
 
-### Parquet
+### Parquet[列式存储格式]
 
 Description: Apache Parquet is an open source, column-oriented data file format designed for efficient data storage and retrieval. It provides efficient data compression and encoding schemes with enhanced performance to handle complex data in bulk. Parquet is available in multiple languages including Java, C++, and Python.
 
 介绍: Apache Parquet is an open source, column-oriented data file format designed for efficient data storage and retrieval. It provides efficient data compression and encoding schemes with enhanced performance to handle complex data in bulk. Parquet is available in multiple languages including Java, C++, and Python.
 
-### PDFBox
+### PDFBox[Java处理PDF的类库]
 
 Description: The Apache PDFBox library is an open source Java tool for working with PDF documents.
 
@@ -1209,49 +1209,49 @@ Description: Apache Petri deals with the assessment of, education in, and adopti
 
 介绍: Apache Petri deals with the assessment of, education in, and adoption of the Foundation's policies and procedures for collaborative development and the pros and cons of joining the Foundation.
 
-### Phoenix
+### Phoenix[基于HBase的OLTP和OLAP]
 
 Description: Apache Phoenix enables OLTP and operational analytics for Apache Hadoop by providing a relational database layer leveraging Apache HBase as its backing store. It includes integration with Apache Spark, Pig, Flume, Map Reduce, and other products in the Hadoop ecosystem. It is accessed as a JDBC driver and enables querying, updating, and managing HBase tables through standard SQL.
 
 介绍: Apache Phoenix enables OLTP and operational analytics for Apache Hadoop by providing a relational database layer leveraging Apache HBase as its backing store. It includes integration with Apache Spark, Pig, Flume, Map Reduce, and other products in the Hadoop ecosystem. It is accessed as a JDBC driver and enables querying, updating, and managing HBase tables through standard SQL.
 
-### Pig
+### Pig[大数据分析系统]
 
 Description: Apache Pig is a platform for analyzing large data sets that consists of a high-level language for expressing data analysis programs, coupled with infrastructure for evaluating these programs. The salient property of Pig programs is that their structure is amenable to substantial parallelization, which in turns enables them to handle very large data sets.  Pig's infrastructure layer consists of a compiler that produces sequences of Map-Reduce programs. Pig's language layer consists of a textual language called Pig Latin, which has the following key properties:  * Ease of programming. It is trivial to achieve parallel execution of simple, "embarrassingly parallel" data analysis tasks. Complex tasks comprised of multiple interrelated data transformations are explicitly encoded as data flow sequences, making them easy to write, understand, and maintain. * Optimization opportunities. The way in which tasks are encoded permits the system to optimize their execution automatically, allowing the user to focus on semantics rather than efficiency. * Extensibility. Users can create their own functions to do special-purpose processing. 
 
 介绍: Apache Pig is a platform for analyzing large data sets that consists of a high-level language for expressing data analysis programs, coupled with infrastructure for evaluating these programs. The salient property of Pig programs is that their structure is amenable to substantial parallelization, which in turns enables them to handle very large data sets.  Pig's infrastructure layer consists of a compiler that produces sequences of Map-Reduce programs. Pig's language layer consists of a textual language called Pig Latin, which has the following key properties:  * Ease of programming. It is trivial to achieve parallel execution of simple, "embarrassingly parallel" data analysis tasks. Complex tasks comprised of multiple interrelated data transformations are explicitly encoded as data flow sequences, making them easy to write, understand, and maintain. * Optimization opportunities. The way in which tasks are encoded permits the system to optimize their execution automatically, allowing the user to focus on semantics rather than efficiency. * Extensibility. Users can create their own functions to do special-purpose processing. 
 
-### Pinot
+### Pinot[实时分布式的 OLAP 数据存储和分析系统]
 
 Description: Apache Pinot is a real-time distributed online analytical processing (OLAP) datastore. Use Pinot to ingest and immediately query data from streaming or batch data sources (including, Apache Kafka, Amazon Kinesis, Hadoop HDFS, Amazon S3, Azure ADLS, and Google Cloud Storage). Apache Pinot includes the following: Ultra low-latency analytics even at extremely high throughput. Columnar data store with several smart indexing and pre-aggregation techniques. Scaling up and out with no upper bound. Consistent performance based on the size of your cluster and an expected query per second (QPS) threshold. It's perfect for user-facing real-time analytics and other analytical use cases, including internal dashboards, anomaly detection, and ad hoc data exploration.
 
 介绍: Apache Pinot is a real-time distributed online analytical processing (OLAP) datastore. Use Pinot to ingest and immediately query data from streaming or batch data sources (including, Apache Kafka, Amazon Kinesis, Hadoop HDFS, Amazon S3, Azure ADLS, and Google Cloud Storage). Apache Pinot includes the following: Ultra low-latency analytics even at extremely high throughput. Columnar data store with several smart indexing and pre-aggregation techniques. Scaling up and out with no upper bound. Consistent performance based on the size of your cluster and an expected query per second (QPS) threshold. It's perfect for user-facing real-time analytics and other analytical use cases, including internal dashboards, anomaly detection, and ad hoc data exploration.
 
-### Pivot
+### Pivot[构建可安装的网络应用]
 
 Description: Apache Pivot is an open-source platform for building installable Internet applications (IIAs). It combines the enhanced productivity and usability features of a modern user interface toolkit with the robustness of the Java platform. 
 
 介绍: Apache Pivot is an open-source platform for building installable Internet applications (IIAs). It combines the enhanced productivity and usability features of a modern user interface toolkit with the robustness of the Java platform. 
 
-### PLC4X
+### PLC4X[可编程逻辑控制器的统一API]
 
 Description: PLC4X is a set of libraries for communicating with industrial programmable logic controllers (PLCs) using a variety of protocols but with a shared API.
 
 介绍: PLC4X is a set of libraries for communicating with industrial programmable logic controllers (PLCs) using a variety of protocols but with a shared API.
 
-### POI
+### POI[MS Office编程的Java API]
 
 Description: APIs for manipulating various file formats based upon Open Office XML (ECMA-376) and Microsoft's OLE 2 Compound Document formats using pure Java. Apache POI is your Java Excel, Word and PowerPoint solution. We have a complete API for porting other OOXML and OLE 2 Compound Document formats and welcome others to participate.
 
 介绍: APIs for manipulating various file formats based upon Open Office XML (ECMA-376) and Microsoft's OLE 2 Compound Document formats using pure Java. Apache POI is your Java Excel, Word and PowerPoint solution. We have a complete API for porting other OOXML and OLE 2 Compound Document formats and welcome others to participate.
 
-### Portable Runtime
+### Portable Runtime[跨平台库]
 
 Description:  The mission of the Apache Portable Runtime (APR) project is to create and maintain software libraries that provide a predictable and consistent interface to underlying platform-specific implementations. The primary goal is to provide an API to which software developers may code and be assured of predictable if not identical behaviour regardless of the platform on which their software is built, relieving them of the need to code special-case conditions to work around or take advantage of platform-specific deficiencies or features. 
 
 介绍:  The mission of the Apache Portable Runtime (APR) project is to create and maintain software libraries that provide a predictable and consistent interface to underlying platform-specific implementations. The primary goal is to provide an API to which software developers may code and be assured of predictable if not identical behaviour regardless of the platform on which their software is built, relieving them of the need to code special-case conditions to work around or take advantage of platform-specific deficiencies or features. 
 
-### Portals
+### Portals[协作的软件开发项目，提供门户网站相关软件]
 
 Description: The Apache Portals project provides various software products, including Apache Jetspeed-2, Apache Pluto, and Apache Portals Applications.
 
@@ -1263,25 +1263,25 @@ Description: The Apache Props Antlib is a library of supplementary handlers for 
 
 介绍: The Apache Props Antlib is a library of supplementary handlers for Apache Ant properties resolution.  The types provided are instances of org.apache.tools.ant.PropertyHelper.Delegate and can be invoked using the <propertyhelper> task provided in Ant 1.8.0.
 
-### Pulsar
+### Pulsar[分布式发布-订阅消息系统]
 
 Description: Pulsar is a highly scalable, low latency messaging platform running on commodity hardware. It provides simple pub-sub semantics over topics, guaranteed at-least-once delivery of messages, automatic cursor management for subscribers, and cross-datacenter replication.
 
 介绍: Pulsar is a highly scalable, low latency messaging platform running on commodity hardware. It provides simple pub-sub semantics over topics, guaranteed at-least-once delivery of messages, automatic cursor management for subscribers, and cross-datacenter replication.
 
-### PyLucene
+### PyLucene[Lucene的PythonAPI]
 
 Description: PyLucene is a Python extension for accessing Java Lucene TM. Its goal is to allow you to use Lucene's text indexing and searching capabilities from Python.
 
 介绍: PyLucene is a Python extension for accessing Java Lucene TM. Its goal is to allow you to use Lucene's text indexing and searching capabilities from Python.
 
-### Qpid
+### Qpid[AMQP企业消息实现]
 
 Description: Apache Qpid implements the latest AMQP specification, the first open standard for enterprise messaging, and provides transaction management, queuing, distribution, security, management, clustering, federation and heterogeneous multi-platform support and a lot more.
 
 介绍: Apache Qpid implements the latest AMQP specification, the first open standard for enterprise messaging, and provides transaction management, queuing, distribution, security, management, clustering, federation and heterogeneous multi-platform support and a lot more.
 
-### Ranger
+### Ranger[Hadoop数据权限监控管理平台]
 
 Description:  The Ranger project is a framework to enable, monitor and manage comprehensive data security across the Hadoop platform. (The podling was originally called Argus) 
 
@@ -1293,127 +1293,127 @@ Description: Apache Rat improves accuracy and efficiency when reviewing and audi
 
 介绍: Apache Rat improves accuracy and efficiency when reviewing and auditing releases.  It is heuristic in nature: making guesses about possible problems.  It will produce false positives and cannot find every possible issue with a release.  It's reports require interpretation.  Apache Rat was developed in response to a need felt in the Apache Incubator to be able to  review releases for the most common faults less labour intensively. It is therefore highly tuned  to the Apache style of releases.
 
-### Ratis
+### Ratis[可自定制的Java Raft实现]
 
 Description: Ratis is a java implementation for RAFT consensus protocol
 
 介绍: Ratis is a java implementation for RAFT consensus protocol
 
-### rivet
+### rivet[Tcl 语义的Web框架]
 
 Description: Apache Rivet is a system for creating dynamic web content via the Tcl programming language integrated with Apache Web Server. It is designed to be fast, powerful and extensible, consume few system resources, be easy to learn, and to provide the user with a platform that can also be used for other programming tasks outside the web (GUI's, system administration tasks, text processing, database manipulation, XML, and so on). In order to meet these goals Tcl programming language was chosen to combine with the Apache HTTP Server.
 
 介绍: Apache Rivet is a system for creating dynamic web content via the Tcl programming language integrated with Apache Web Server. It is designed to be fast, powerful and extensible, consume few system resources, be easy to learn, and to provide the user with a platform that can also be used for other programming tasks outside the web (GUI's, system administration tasks, text processing, database manipulation, XML, and so on). In order to meet these goals Tcl programming language was chosen to combine with the Apache HTTP Server.
 
-### RocketMQ
+### RocketMQ[消息队列]
 
 Description: RocketMQ is a fast, low latency, reliable, scalable, distributed, easy to use message-oriented middleware, especially for processing large amounts of streaming data.
 
 介绍: RocketMQ is a fast, low latency, reliable, scalable, distributed, easy to use message-oriented middleware, especially for processing large amounts of streaming data.
 
-### Roller
+### Roller[Java版本的WebBlog系统]
 
 Description: Apache Roller is a full-featured, multi-user and group-blog server suitable for blog sites large and small. It runs as a Java web application that should be able to run on most any Java EE server and relational database. Roller's installation guide covers deployment on Tomcat, GlassFish, and JBoss application servers using a MySQL, Derby, or PostgreSQL database. Users however have reported success running Roller on other app servers and databases.  -    Multi-user blogging: can support tens of thousands of users and blogs -    Group blogging with three permisson levels (editor, author and limited) -    Support for comment moderation and comment spam prevention measures -    Bloggers have complete control over blog layout/style via Apache Velocity-driven templates -    Built-in search engine indexes weblog entry content -    Pluggable cache and rendering system -    Support for blog clients that support MetaWeblog API -    All blogs have entry and comment feeds in both RSS 2.0 and Atom 1.0 formats
 
 介绍: Apache Roller is a full-featured, multi-user and group-blog server suitable for blog sites large and small. It runs as a Java web application that should be able to run on most any Java EE server and relational database. Roller's installation guide covers deployment on Tomcat, GlassFish, and JBoss application servers using a MySQL, Derby, or PostgreSQL database. Users however have reported success running Roller on other app servers and databases.  -    Multi-user blogging: can support tens of thousands of users and blogs -    Group blogging with three permisson levels (editor, author and limited) -    Support for comment moderation and comment spam prevention measures -    Bloggers have complete control over blog layout/style via Apache Velocity-driven templates -    Built-in search engine indexes weblog entry content -    Pluggable cache and rendering system -    Support for blog clients that support MetaWeblog API -    All blogs have entry and comment feeds in both RSS 2.0 and Atom 1.0 formats
 
-### Royale
+### Royale[开源前端应用程序技术，MXML & AS3]
 
 Description: Apache Royale implements the principles of Apache Flex to support development of applications designed for JavaScript instead of Adobe Flash/AIR runtimes. Apache Royale improves developer productivity in creating applications to run wherever JavaScript runs, including on browsers, in Apache Cordova applications, on Node, and on other platforms.
 
 介绍: Apache Royale implements the principles of Apache Flex to support development of applications designed for JavaScript instead of Adobe Flash/AIR runtimes. Apache Royale improves developer productivity in creating applications to run wherever JavaScript runs, including on browsers, in Apache Cordova applications, on Node, and on other platforms.
 
-### Rya
+### Rya[RDF数据的存储、获取和分析]
 
 Description: Rya (pronounced "ree-uh" /rēə/) is a cloud-based RDF triple store that supports SPARQL queries. Rya is a scalable RDF data management system built on top of Accumulo. Rya uses novel storage methods, indexing schemes, and query processing techniques that scale to billions of triples across multiple nodes. Rya provides fast and easy access to the data through SPARQL, a conventional query mechanism for RDF data.
 
 介绍: Rya (pronounced "ree-uh" /rēə/) is a cloud-based RDF triple store that supports SPARQL queries. Rya is a scalable RDF data management system built on top of Accumulo. Rya uses novel storage methods, indexing schemes, and query processing techniques that scale to billions of triples across multiple nodes. Rya provides fast and easy access to the data through SPARQL, a conventional query mechanism for RDF data.
 
-### Samza
+### Samza[分布式流处理框架]
 
 Description: Apache Samza provides a system for processing stream data from publish-subscribe systems such as Apache Kafka. The developer writes a stream processing task, and executes it as a Samza job. Samza then routes messages between stream processing tasks and the publish-subscribe systems that the messages are addressed to.
 
 介绍: Apache Samza provides a system for processing stream data from publish-subscribe systems such as Apache Kafka. The developer writes a stream processing task, and executes it as a Samza job. Samza then routes messages between stream processing tasks and the publish-subscribe systems that the messages are addressed to.
 
-### Sandesha2
+### Sandesha2[WS-RM的实现]
 
 Description: Apache Sandesha2 is an Axis2 module that implements the WS-ReliableMessaging specification. It can be used both on the client side and on the server side.
 
 介绍: Apache Sandesha2 is an Axis2 module that implements the WS-ReliableMessaging specification. It can be used both on the client side and on the server side.
 
-### Santuario
+### Santuario[XML数字签名和加解密规范的实现]
 
 Description: Library implementing XML Digital Signature Specification & XML Encryption Specification
 
 介绍: Library implementing XML Digital Signature Specification & XML Encryption Specification
 
-### SeaTunnel
+### SeaTunnel[数据集成框架]
 
 Description: SeaTunnel is a next-generation super high-performance, distributed, massive data integration tool. It can synchronize tens of billions of data stably and efficiently every day, and has been used in the production of many companies.
 
 介绍: SeaTunnel is a next-generation super high-performance, distributed, massive data integration tool. It can synchronize tens of billions of data stably and efficiently every day, and has been used in the production of many companies.
 
-### Sedona
+### Sedona[大规模空间数据的集群计算系统，基于Spark]
 
 Description: Sedona is a big geospatial data processing engine. It provides an easy to use APIs for spatial data scientists to manage, wrangle, and process geospatial data.
 
 介绍: Sedona is a big geospatial data processing engine. It provides an easy to use APIs for spatial data scientists to manage, wrangle, and process geospatial data.
 
-### Serf
+### Serf[基于APR的C的HTTP Client库]
 
 Description: The serf library is a high performance C-based HTTP client library built upon the Apache Portable Runtime (APR) library
 
 介绍: The serf library is a high performance C-based HTTP client library built upon the Apache Portable Runtime (APR) library
 
-### ServiceComb
+### ServiceComb[微服务框架，对标SpringCloud]
 
 Description: ServiceComb is a microservice framework that provides a set of tools and components to make development and deployment of cloud applications easier.
 
 介绍: ServiceComb is a microservice framework that provides a set of tools and components to make development and deployment of cloud applications easier.
 
-### ServiceMix
+### ServiceMix[开源ESB,适合SOA项目的集成]
 
 Description: Apache ServiceMix is a flexible, open-source integration container that unifies the features and functionality of Apache ActiveMQ, Camel, CXF, and Karaf into a powerful runtime platform you can use to build your own integrations solutions. It provides a complete, enterprise ready ESB exclusively powered by OSGi.
 
 介绍: Apache ServiceMix is a flexible, open-source integration container that unifies the features and functionality of Apache ActiveMQ, Camel, CXF, and Karaf into a powerful runtime platform you can use to build your own integrations solutions. It provides a complete, enterprise ready ESB exclusively powered by OSGi.
 
-### ShardingSphere
+### ShardingSphere[分布式数据库中间件解决方案]
 
 Description: ShardingSphere related to a database clustering system providing data sharding, distributed transactions, and distributed database management.
 
 介绍: ShardingSphere related to a database clustering system providing data sharding, distributed transactions, and distributed database management.
 
-### ShenYu
+### ShenYu[基于Java的微服务API网关]
 
 Description: ShenYu is a high performance Microservices API gateway in Java ecosystem, compatible with a variety of mainstream framework systems, it supports hot plugin loading.
 
 介绍: ShenYu is a high performance Microservices API gateway in Java ecosystem, compatible with a variety of mainstream framework systems, it supports hot plugin loading.
 
-### Shiro
+### Shiro[Java安全框架]
 
 Description: Apache Shiro is a powerful and flexible open-source security framework that cleanly handles authentication, authorization, enterprise session management, single sign-on and cryptography services.
 
 介绍: Apache Shiro is a powerful and flexible open-source security framework that cleanly handles authentication, authorization, enterprise session management, single sign-on and cryptography services.
 
-### SINGA
+### SINGA[分布式深度学习平台]
 
 Description: SINGA is a distributed deep learning platform.
 
 介绍: SINGA is a distributed deep learning platform.
 
-### SkyWalking
+### SkyWalking[Java分布式应用追踪系统]
 
 Description: Use Apache SkyWalking when you need an application performance monitor tool for distributed systems, especially designed for microservices, cloud native and container-based (Docker, K8s, Mesos) architectures.
 
 介绍: Use Apache SkyWalking when you need an application performance monitor tool for distributed systems, especially designed for microservices, cloud native and container-based (Docker, K8s, Mesos) architectures.
 
-### Sling
+### Sling[Web内容存储框架]
 
 Description:  Apache Sling is a web framework that uses a Java Content Repository, such as Apache Jackrabbit,  to store and manage content. Sling applications use either scripts or Java servlets, selected based on simple name conventions,  to process HTTP requests in a RESTful way. The embedded Apache Felix OSGi framework and console provide a dynamic runtime environment, where  code and content bundles can be loaded, unloaded and reconfigured at runtime. As the first web framework dedicated to JSR-170 Java Content Repositories, Sling makes it very  simple to implement simple applications, while providing an enterprise-level framework for more complex applications. 
 
 介绍:  Apache Sling is a web framework that uses a Java Content Repository, such as Apache Jackrabbit,  to store and manage content. Sling applications use either scripts or Java servlets, selected based on simple name conventions,  to process HTTP requests in a RESTful way. The embedded Apache Felix OSGi framework and console provide a dynamic runtime environment, where  code and content bundles can be loaded, unloaded and reconfigured at runtime. As the first web framework dedicated to JSR-170 Java Content Repositories, Sling makes it very  simple to implement simple applications, while providing an enterprise-level framework for more complex applications. 
 
-### Solr
+### Solr[全文搜索服务，基于Lucene]
 
 Description: Solr is an open source enterprise search server based on the Lucene Java search library, with Rest-like JSON/HTTP APIs, high performance, high availability, powerful analytics, hit highlighting, faceted search, caching, replication, and a web administration interface. 
 
@@ -1425,19 +1425,19 @@ Description: Manages Solr resources in Kubernetes
 
 介绍: Manages Solr resources in Kubernetes
 
-### SpamAssassin
+### SpamAssassin[识别垃圾邮件的系统]
 
 Description: Apache SpamAssassin is an extensible email filter which is used to identify spam. Using its rule base, it uses a wide range of advanced heuristic and statistical analysis tests on mail headers and body text to identify "spam", also known as unsolicited bulk email. Once identified, the mail can then be optionally tagged as spam for later filtering. It provides a command line tool to perform filtering, a client-server system to filter large volumes of mail, and Mail::SpamAssassin, a set of Perl modules.
 
 介绍: Apache SpamAssassin is an extensible email filter which is used to identify spam. Using its rule base, it uses a wide range of advanced heuristic and statistical analysis tests on mail headers and body text to identify "spam", also known as unsolicited bulk email. Once identified, the mail can then be optionally tagged as spam for later filtering. It provides a command line tool to perform filtering, a client-server system to filter large volumes of mail, and Mail::SpamAssassin, a set of Perl modules.
 
-### Spark
+### Spark[大数据处理系统]
 
 Description: Apache Spark is a fast and general engine for large-scale data processing. It offers high-level APIs in Java, Scala, Python and R, as well as a rich set of libraries including stream processing, machine learning, and graph analytics.
 
 介绍: Apache Spark is a fast and general engine for large-scale data processing. It offers high-level APIs in Java, Scala, Python and R, as well as a rich set of libraries including stream processing, machine learning, and graph analytics.
 
-### Spatial Information System
+### Spatial Information System[空间信息管理系统]
 
 Description: Apache SIS provides data structures for geographic data and associated metadata along with methods to manipulate those data structures. The library is an implementation of GeoAPI interfaces and can be used for desktop or server applications.
 
@@ -1449,25 +1449,25 @@ Description: Apache SSHD is a 100% pure java library to support the SSH protocol
 
 介绍: Apache SSHD is a 100% pure java library to support the SSH protocols on both the client and server side. This library is based on Apache MINA, a scalable and high performance asynchronous IO library. SSHD does not really aim at being a replacement for the SSH client or SSH server from Unix operating systems, but rather provides support for Java based applications requiring SSH support.
 
-### Steve
+### Steve[Python在线投票工具]
 
 Description: Apache STeVe is a collection of online voting tools, used by the ASF, to handle STV and other voting methods.
 
 介绍: Apache STeVe is a collection of online voting tools, used by the ASF, to handle STV and other voting methods.
 
-### Storm
+### Storm[分布式实时计算系统]
 
 Description: Apache Storm is a distributed real-time computation system. Similar to how Hadoop provides a set of general primitives for doing batch processing, Storm provides a set of general primitives for doing real-time computation.
 
 介绍: Apache Storm is a distributed real-time computation system. Similar to how Hadoop provides a set of general primitives for doing batch processing, Storm provides a set of general primitives for doing real-time computation.
 
-### StreamPipes
+### StreamPipes[企业IoT工具箱，用于连接、分析、探索IoT数据]
 
 Description: StreamPipes is a self-service (Industrial) IoT toolbox to enable non-technical users to connect, analyze and explore (Industrial) IoT data streams.
 
 介绍: StreamPipes is a self-service (Industrial) IoT toolbox to enable non-technical users to connect, analyze and explore (Industrial) IoT data streams.
 
-### Streams
+### Streams[实现ActivityStreams 技术的轻量级框架]
 
 Description: Apache Streams is a lightweight server for ActivityStreams.
 
@@ -1479,43 +1479,43 @@ Description: The Apache Struts Project offers the Apache Struts 2 web framework 
 
 介绍: The Apache Struts Project offers the Apache Struts 2 web framework which is a comprehensive and modular tooling stack for creating web-based Java applications. Struts 2, emerged from the WebWork 2 framework, is an excellent choice for teams who value elegant solutions to difficult problems. 
 
-### Submarine
+### Submarine[云原生的机器学习平台]
 
 Description: Apache Submarine (Submarine for short) is an End-to-End Machine Learning Platform to allow data scientists to create end-to-end machine learning workflows. On Submarine, data scientists can finish each stage in the ML model lifecycle, including data exploration, data pipeline creation, model training, serving, and monitoring.
 
 介绍: Apache Submarine (Submarine for short) is an End-to-End Machine Learning Platform to allow data scientists to create end-to-end machine learning workflows. On Submarine, data scientists can finish each stage in the ML model lifecycle, including data exploration, data pipeline creation, model training, serving, and monitoring.
 
-### Subversion
+### Subversion[开源的集中式版本控制系统]
 
 Description: Subversion exists to be universally recognized and adopted as an open-source, centralized version control system characterized by its reliability as a safe haven for valuable data; the simplicity of its model and usage; and its ability to support the needs of a wide variety of users and projects, from individuals to large-scale enterprise operations.
 
 介绍: Subversion exists to be universally recognized and adopted as an open-source, centralized version control system characterized by its reliability as a safe haven for valuable data; the simplicity of its model and usage; and its ability to support the needs of a wide variety of users and projects, from individuals to large-scale enterprise operations.
 
-### Superset
+### Superset[数据可视化平台]
 
 Description: Superset is an enterprise-ready web application for data exploration, data visualization and dashboarding.
 
 介绍: Superset is an enterprise-ready web application for data exploration, data visualization and dashboarding.
 
-### Synapse
+### Synapse[XML 和 Web 服务管理与集成代理]
 
 Description: Apache Synapse is a simple and highly effective ESB, Web Services intermediary and SOA framework. It can be added to your existing network very simply either as a services gateway or as an HTTP proxy. Once Apache Synapse is mediating your service requests it can perform many functions including routing, load-balancing, transformation and protocol switching. Apache Synapse can be used to build an Enterprise Service Bus (ESB) or Service Oriented Architecture (SOA).  Apache Synapse has been designed to support very fast XML routing with a streaming XML design based upon Apache Axiom. in addition, the use of a completely asynchronous architecture and non-blocking IO based on Java NIO ensures that Synapse has very low overhead and can scale to support thousands of concurrent clients without dropping messages.
 
 介绍: Apache Synapse is a simple and highly effective ESB, Web Services intermediary and SOA framework. It can be added to your existing network very simply either as a services gateway or as an HTTP proxy. Once Apache Synapse is mediating your service requests it can perform many functions including routing, load-balancing, transformation and protocol switching. Apache Synapse can be used to build an Enterprise Service Bus (ESB) or Service Oriented Architecture (SOA).  Apache Synapse has been designed to support very fast XML routing with a streaming XML design based upon Apache Axiom. in addition, the use of a completely asynchronous architecture and non-blocking IO based on Java NIO ensures that Synapse has very low overhead and can scale to support thousands of concurrent clients without dropping messages.
 
-### Syncope
+### Syncope[JAVA EE 开发的开源的适用于企业的数字身份管理系统]
 
 Description: Apache Syncope is an Open Source system for managing digital identities in enterprise environments, implemented in Java EE technology and released under Apache 2.0 license.  Identity management (or IdM) represents the joint result of business process and IT to manage user data on systems and applications. IdM involves considering user attributes, roles, resources and entitlements in trying to give a decent answer to the question bumping at every time in IT administrators' mind:  Who has access to What, When, How, and Why?
 
 介绍: Apache Syncope is an Open Source system for managing digital identities in enterprise environments, implemented in Java EE technology and released under Apache 2.0 license.  Identity management (or IdM) represents the joint result of business process and IT to manage user data on systems and applications. IdM involves considering user attributes, roles, resources and entitlements in trying to give a decent answer to the question bumping at every time in IT administrators' mind:  Who has access to What, When, How, and Why?
 
-### SystemDS
+### SystemDS[原SystemML，大数据的机器学习平台]
 
-Description: 
+Description: A machine learning platform optimal for big data.
 
-介绍: 
+介绍: A machine learning platform optimal for big data.
 
-### Tapestry
+### Tapestry[面向组件的JavaWeb应用框架]
 
 Description: Tapestry is a component-oriented Java web application framework. Its design emphasizes ease of use and developer productivity. Component classes are simple POJOs, with Tapestry using byte code manipulation to enhance classes at runtime. Configuration is via annotations and naming conventions rather than XML. Web page and component templates use regular (X)HTML that can be edited by any web designer. Live Class Reloading enables you to edit Java code and immediately see results by reloading the page in the web browser, resulting in a very fast "code it - see it - fix it" loop. 
 
@@ -1533,25 +1533,25 @@ Description: Texen is a general purpose text generating utility. It is capable o
 
 介绍: Texen is a general purpose text generating utility. It is capable of producing almost any sort of text output. Driven by Ant, essentially an Ant Task, Texen uses a control template, an optional set of worker templates, and control context to govern the generated output. Although TexenTask can be used directly, it is usually subclassed to initialize your control context before generating any output.
 
-### Tez
+### Tez[基于Yarn的支持 DAG 作业的开源计算框架]
 
 Description: Apache Tez is an effort to develop a generic application framework which can be used to process arbitrarily complex directed-acyclic graphs (DAGs) of data-processing tasks and also a re-usable set of data-processing primitives which can be used by other projects.
 
 介绍: Apache Tez is an effort to develop a generic application framework which can be used to process arbitrarily complex directed-acyclic graphs (DAGs) of data-processing tasks and also a re-usable set of data-processing primitives which can be used by other projects.
 
-### Thrift
+### Thrift[RPC框架]
 
 Description: Apache Thrift allows you to define data types and service interfaces in a simple definition file. Taking that file as input, the compiler generates code to be used to easily build RPC clients and servers that communicate seamlessly across programming languages. Instead of writing a load of boilerplate code to serialize and transport your objects and invoke remote methods, you can get right down to business. 
 
 介绍: Apache Thrift allows you to define data types and service interfaces in a simple definition file. Taking that file as input, the compiler generates code to be used to easily build RPC clients and servers that communicate seamlessly across programming languages. Instead of writing a load of boilerplate code to serialize and transport your objects and invoke remote methods, you can get right down to business. 
 
-### Tika
+### Tika[内容抽取的工具集合]
 
 Description: The Apache Tika toolkit is an ASFv2 licensed open source tool for extracting information  from digital documents. Tika allows search engines, content management systems and other  applications that work with various kinds of digital documents to easily detect and extract  metadata and content from all major file formats. 
 
 介绍: The Apache Tika toolkit is an ASFv2 licensed open source tool for extracting information  from digital documents. Tika allows search engines, content management systems and other  applications that work with various kinds of digital documents to easily detect and extract  metadata and content from all major file formats. 
 
-### TinkerPop
+### TinkerPop[Java图计算系统]
 
 Description: TinkerPop is a graph computing framework written in Java
 
@@ -1563,31 +1563,31 @@ Description: The goal of Tobago is to provide the community with a well designed
 
 介绍: The goal of Tobago is to provide the community with a well designed set of user interface components based on JSF.
 
-### Tomcat
+### Tomcat[Web Server]
 
 Description: Apache Tomcat is a web server that is an open source software implementation of the Java Servlet, JavaServer Pages, Java Expression Language and Java WebSocket technologies. The Java Servlet, JavaServer Pages, Java Expression Language and Java WebSocket specifications are developed under the Java Community Process. Apache Tomcat is developed in an open and participatory environment and released under the Apache License version 2.  Apache Tomcat is intended to be a collaboration of the best-of-breed developers from around the world. We invite you to participate in this open development project.  Apache Tomcat powers numerous large-scale, mission-critical web applications across a diverse range of industries and organizations. Some of these users and their stories are listed on the PoweredBy wiki page.
 
 介绍: Apache Tomcat is a web server that is an open source software implementation of the Java Servlet, JavaServer Pages, Java Expression Language and Java WebSocket technologies. The Java Servlet, JavaServer Pages, Java Expression Language and Java WebSocket specifications are developed under the Java Community Process. Apache Tomcat is developed in an open and participatory environment and released under the Apache License version 2.  Apache Tomcat is intended to be a collaboration of the best-of-breed developers from around the world. We invite you to participate in this open development project.  Apache Tomcat powers numerous large-scale, mission-critical web applications across a diverse range of industries and organizations. Some of these users and their stories are listed on the PoweredBy wiki page.
 
-### TomEE
+### TomEE[J2EE 6 认证的 Tomcat 企业版本]
 
 Description: Apache TomEE Web Profile delivers Servlets, JSP, JSF, JTA, JPA, CDI, Bean Validation and EJB Lite. Apache TomEE Plus has all the features of TomEE with the addition of JAX-RS (RESTfull Services), JAX-WS (Web Services), JMS (Java Message Service) and JCA (the Java Connector Architecture). The additional functionality is delivered via Apache CXF, Apache ActiveMQ and the Geronimo Connector library
 
 介绍: Apache TomEE Web Profile delivers Servlets, JSP, JSF, JTA, JPA, CDI, Bean Validation and EJB Lite. Apache TomEE Plus has all the features of TomEE with the addition of JAX-RS (RESTfull Services), JAX-WS (Web Services), JMS (Java Message Service) and JCA (the Java Connector Architecture). The additional functionality is delivered via Apache CXF, Apache ActiveMQ and the Geronimo Connector library
 
-### Torque
+### Torque[Java的对象关系映射]
 
 Description: Torque is an object-relational mapper for Java. In other words, Torque lets you access and manipulate data in a relational database using java objects. Unlike most other object-relational mappers, Torque does not use reflection to access user-provided classes, but it generates the necessary classes (including the Data Objects) from an XML schema describing the database layout (which can either be written by hand or generated from an existing database). The XML schema can also be used to generate and execute a SQL script which creates all the tables in the database.
 
 介绍: Torque is an object-relational mapper for Java. In other words, Torque lets you access and manipulate data in a relational database using java objects. Unlike most other object-relational mappers, Torque does not use reflection to access user-provided classes, but it generates the necessary classes (including the Data Objects) from an XML schema describing the database layout (which can either be written by hand or generated from an existing database). The XML schema can also be used to generate and execute a SQL script which creates all the tables in the database.
 
-### Traffic Control
+### Traffic Control[分布式、可扩展的冗余解决方案，可用于构建CDN]
 
 Description: With Apache Traffic Control, operators can setup a Content Delivery Network to quickly and efficiently deliver content to their users. Traffic Control is a highly distributed, scalable and redundant solution meeting the needs of operators from small to large.
 
 介绍: With Apache Traffic Control, operators can setup a Content Delivery Network to quickly and efficiently deliver content to their users. Traffic Control is a highly distributed, scalable and redundant solution meeting the needs of operators from small to large.
 
-### Traffic Server
+### Traffic Server[HTTP缓存代理服务器]
 
 Description: Apache Traffic Server is fast, scalable and extensible HTTP/1.1 compliant caching proxy server. ATS can be used as a reverse, forward or even transparent HTTP proxy. 
 
@@ -1599,37 +1599,37 @@ Description:
 
 介绍: 
 
-### Turbine
+### Turbine[构建Web应用]
 
 Description: Turbine is a servlet based framework that allows experienced Java developers to quickly build web applications. Turbine allows you to use personalize the web sites and to use user logins to restrict access to parts of your application.  Turbine is a matured and well established framework that is used as the base of many other projects (like e.g. the excellent Jetspeed 1 Portals framework.  Turbine is an excellent choice for developing applications that make use of a services-oriented architecture. Some of the functionality provided with Turbine includes a security management system, a scheduling service, XML-defined form validation server, and an XML-RPC service for web services. It is a simple task to create new services particular to your application.  The Turbine core is free of any dependency on a presentation layer technology. Both JavaServer Pages (JSP) and Velocity are supported inside Turbine. For developers already familiar with JSP, or have existing JSP tag libraries, Turbine offers support for the Sun standard. Velocity is the favorite view technology of most users of the Turbine framework; try it out and see if Velocity can help you develop your web applications faster and work more easily with non-programming designers.  Turbine is developed in an open, participatory environment and released under the Apache Software License. Turbine is intended to be a collaboration of the best-of-breed developers from around the world. We invite you to participate in this open development project. To learn more about getting involved, look at our "How to Help" pages. 
 
 介绍: Turbine is a servlet based framework that allows experienced Java developers to quickly build web applications. Turbine allows you to use personalize the web sites and to use user logins to restrict access to parts of your application.  Turbine is a matured and well established framework that is used as the base of many other projects (like e.g. the excellent Jetspeed 1 Portals framework.  Turbine is an excellent choice for developing applications that make use of a services-oriented architecture. Some of the functionality provided with Turbine includes a security management system, a scheduling service, XML-defined form validation server, and an XML-RPC service for web services. It is a simple task to create new services particular to your application.  The Turbine core is free of any dependency on a presentation layer technology. Both JavaServer Pages (JSP) and Velocity are supported inside Turbine. For developers already familiar with JSP, or have existing JSP tag libraries, Turbine offers support for the Sun standard. Velocity is the favorite view technology of most users of the Turbine framework; try it out and see if Velocity can help you develop your web applications faster and work more easily with non-programming designers.  Turbine is developed in an open, participatory environment and released under the Apache Software License. Turbine is intended to be a collaboration of the best-of-breed developers from around the world. We invite you to participate in this open development project. To learn more about getting involved, look at our "How to Help" pages. 
 
-### TVM
+### TVM[端到端的深度学习编译框架]
 
 Description: Apache TVM is an open source machine learning compiler framework for CPUs, GPUs, and machine learning accelerators. It aims to enable machine learning engineers to optimize and run computations efficiently on any hardware backend.
 
 介绍: Apache TVM is an open source machine learning compiler framework for CPUs, GPUs, and machine learning accelerators. It aims to enable machine learning engineers to optimize and run computations efficiently on any hardware backend.
 
-### UIMA
+### UIMA[非结构化信息管理应用]
 
 Description: The Apache UIMA project supports the community working on the analysis of unstructured information with a unifying Java and C++ framework, tooling, and analysis components, guided by the OASIS UIMA standard. It includes support for very large scaleout using networked clusters of compute nodes.
 
 介绍: The Apache UIMA project supports the community working on the analysis of unstructured information with a unifying Java and C++ framework, tooling, and analysis components, guided by the OASIS UIMA standard. It includes support for very large scaleout using networked clusters of compute nodes.
 
-### Unomi
+### Unomi[Java开源客户数据平台CDP,Customer Data Platform]
 
 Description: Unomi is a reference implementation of the OASIS Context Server specification currently being worked on by the OASIS Context Server Technical Committee. It provides a high-performance user profile and event tracking server.
 
 介绍: Unomi is a reference implementation of the OASIS Context Server specification currently being worked on by the OASIS Context Server Technical Committee. It provides a high-performance user profile and event tracking server.
 
-### VCL
+### VCL[计算资源管理平台]
 
 Description: VCL is a modular cloud computing platform which dynamically provisions and brokers remote access to compute resources including virtual machines, bare-metal computers, and resources in other cloud platforms. A self-service web portal is used to request resources and for administration.
 
 介绍: VCL is a modular cloud computing platform which dynamically provisions and brokers remote access to compute resources including virtual machines, bare-metal computers, and resources in other cloud platforms. A self-service web portal is used to request resources and for administration.
 
-### Velocity
+### Velocity[基于Java的模板引擎]
 
 Description: Velocity is a Java-based template engine. It permits anyone to use a simple yet powerful template language to reference objects defined in Java code.  When Velocity is used for web development, Web designers can work in parallel with Java programmers to develop web sites according to the Model-View-Controller (MVC) model, meaning that web page designers can focus solely on creating a site that looks good, and programmers can focus solely on writing top-notch code. Velocity separates Java code from the web pages, making the web site more maintainable over its lifespan and providing a viable alternative to Java Server Pages (JSPs) or PHP. 
 
@@ -1671,49 +1671,49 @@ Description: The production Whimsy server also has a number of tools that automa
 
 介绍: The production Whimsy server also has a number of tools that automate some organizational processes, like adding PMC members to official corporate rosters or reading, updating, and approving the monthly board agenda.
 
-### Whisker
+### Whisker[应用程序对其发行版内容的许可特征建模]
 
 Description: Apache Whisker allows an application to models the licensing characteristics of the contents of its distributions. Use cases are auditing the model against the contents of a distribution, reporting on the contents of a distribution and generation licensing documents (LICENSE, NOTICE and so on) for a distribution. Whisker distributes tooling for the command line and build system such as Maven.
 
 介绍: Apache Whisker allows an application to models the licensing characteristics of the contents of its distributions. Use cases are auditing the model against the contents of a distribution, reporting on the contents of a distribution and generation licensing documents (LICENSE, NOTICE and so on) for a distribution. Whisker distributes tooling for the command line and build system such as Maven.
 
-### Wicket
+### Wicket[Java Web应用框架]
 
 Description: Write maintainable, secure and scalable web applications using just Java and HTML. Invented in 2004, Wicket is one of the few survivors of the Java serverside web framework wars of the mid 2000's, and a proud member of the Apache Software Foundation.
 
 介绍: Write maintainable, secure and scalable web applications using just Java and HTML. Invented in 2004, Wicket is one of the few survivors of the Java serverside web framework wars of the mid 2000's, and a proud member of the Apache Software Foundation.
 
-### Woden
+### Woden[WSDL文档处理库]
 
 Description: The Woden project is a subproject of the Apache Web Services Project to develop a Java class library for reading, manipulating, creating and writing WSDL documents, initially to support WSDL 2.0 but with the longer term aim of supporting past, present and future versions of WSDL.  There are two main deliverables: an API and an implementation. The Woden API will consist of a set of Java interfaces. The WSDL 2.0-specific portion of the Woden API will conform to the W3C WSDL 2.0 specification. The implementation will be a high performance implementation directly usable in other Apache projects such as Axis2. 
 
 介绍: The Woden project is a subproject of the Apache Web Services Project to develop a Java class library for reading, manipulating, creating and writing WSDL documents, initially to support WSDL 2.0 but with the longer term aim of supporting past, present and future versions of WSDL.  There are two main deliverables: an API and an implementation. The Woden API will consist of a set of Java interfaces. The WSDL 2.0-specific portion of the Woden API will conform to the W3C WSDL 2.0 specification. The implementation will be a high performance implementation directly usable in other Apache projects such as Axis2. 
 
-### Xalan for C++ XSLT Processor
+### Xalan for C++ XSLT Processor[XSLT处理的库]
 
 Description: Xalan-C++ is an XSLT processor for transforming XML documents into HTML,  text, or other XML document types. It implements XSL Transformations (XSLT)  Version 1.0 and XML Path Language (XPath) Version 1.0 and can be used from the  command line.
 
 介绍: Xalan-C++ is an XSLT processor for transforming XML documents into HTML,  text, or other XML document types. It implements XSL Transformations (XSLT)  Version 1.0 and XML Path Language (XPath) Version 1.0 and can be used from the  command line.
 
-### Xalan for Java XSLT Processor
+### Xalan for Java XSLT Processor[XSLT处理的库]
 
 Description:  Xalan-J is an XSLT processor for transforming XML documents into HTML, text, or other XML document types. It implements XSL Transformations (XSLT) Version 1.0 and XML Path Language (XPath) Version 1.0 and can be used from the command line, in an applet or a servlet, or as a module in other program. Xalan-J implements the javax.xml.transform interface in Java API for XML Processing (JAXP) 1.3. This interface provides a modular framework and a standard API for performing XML transformations, and utilizes system properties to determine which Transformer and which XML parser to use. 
 
 介绍:  Xalan-J is an XSLT processor for transforming XML documents into HTML, text, or other XML document types. It implements XSL Transformations (XSLT) Version 1.0 and XML Path Language (XPath) Version 1.0 and can be used from the command line, in an applet or a servlet, or as a module in other program. Xalan-J implements the javax.xml.transform interface in Java API for XML Processing (JAXP) 1.3. This interface provides a modular framework and a standard API for performing XML transformations, and utilizes system properties to determine which Transformer and which XML parser to use. 
 
-### Xerces for C++ XML Parser
+### Xerces for C++ XML Parser[XML解析库]
 
 Description:  Xerces-C++ is a validating XML parser written in a portable subset of C++. Xerces-C++ makes it easy to give your application the ability to read and write XML data. A shared library is provided for parsing, generating, manipulating, and validating XML documents. Xerces-C++ is faithful to the XML 1.0 and 1.1 recommendations and many associated standards. The parser provides high performance, modularity, and scalability. Source code, samples and API documentation are provided with the parser. For portability, care has been taken to make minimal use of templates, no RTTI, and minimal use of #ifdefs. 
 
 介绍:  Xerces-C++ is a validating XML parser written in a portable subset of C++. Xerces-C++ makes it easy to give your application the ability to read and write XML data. A shared library is provided for parsing, generating, manipulating, and validating XML documents. Xerces-C++ is faithful to the XML 1.0 and 1.1 recommendations and many associated standards. The parser provides high performance, modularity, and scalability. Source code, samples and API documentation are provided with the parser. For portability, care has been taken to make minimal use of templates, no RTTI, and minimal use of #ifdefs. 
 
-### Xerces for Java XML Parser
+### Xerces for Java XML Parser[XML解析库]
 
 Description:  Xerces-J is a high performance, fully compliant validating XML parser written in Java. It is a fully conforming XML Schema processor that includes a complete implementation of the Document Object Model Level 3 Core and Load/Save W3C Recommendations and provides a complete implementation of the XML Inclusions (XInclude) W3C Recommendation. It also provides support for OASIS XML Catalogs v1.1.  Xerces 2.x introduced the Xerces Native Interface (XNI), a complete framework for building parser components and configurations that is extremely modular and easy to program. XNI is merely an internal set of interfaces. There is no need for an XML application programmer to learn XNI if they only intend to interface to the Xerces2 parser using standard interfaces like JAXP, DOM, and SAX. Xerces developers and application developers that need more power and flexibility than that provided by the standard interfaces should read and understand XNI. The latest Xerces-J version released is, 2.12.2. 
 
 介绍:  Xerces-J is a high performance, fully compliant validating XML parser written in Java. It is a fully conforming XML Schema processor that includes a complete implementation of the Document Object Model Level 3 Core and Load/Save W3C Recommendations and provides a complete implementation of the XML Inclusions (XInclude) W3C Recommendation. It also provides support for OASIS XML Catalogs v1.1.  Xerces 2.x introduced the Xerces Native Interface (XNI), a complete framework for building parser components and configurations that is extremely modular and easy to program. XNI is merely an internal set of interfaces. There is no need for an XML application programmer to learn XNI if they only intend to interface to the Xerces2 parser using standard interfaces like JAXP, DOM, and SAX. Xerces developers and application developers that need more power and flexibility than that provided by the standard interfaces should read and understand XNI. The latest Xerces-J version released is, 2.12.2. 
 
-### Xerces for Perl XML Parser
+### Xerces for Perl XML Parser[XML解析库]
 
 Description: XML::Xerces is the Perl API to the Apache project's Xerces XML parser. It is implemented using the Xerces C++ API, and it provides access to most of the C++ API from Perl. Because it is based on Xerces-C, XML::Xerces provides a validating XML parser that makes it easy to give your application the ability to read and write XML data. Classes are provided for parsing, generating, manipulating, and validating XML documents. XML::Xerces is faithful to the XML 1.0 and 1.1 recommendations and associated standards (DOM levels 1, 2, and 3, SAX 1 and 2, Namespaces, and W3C XML Schema). The parser provides high performance, modularity, and scalability, and provides full support for Unicode. XML::Xerces implements the vast majority of the Xerces-C API (if you notice any discrepancies please mail the list). The exception is some functions in the C++ API which either have better Perl counterparts (such as file I/O) or which manipulate internal C++ information that has no role in the Perl module. The majority of the API is created automatically using Simplified Wrapper Interface Generator (SWIG). However, care has been taken to make most method invocations natural to perl programmers, so a number of rough C++ edges have been smoothed over (See the Special Perl API Features section). 
 
@@ -1737,31 +1737,31 @@ Description: Apache XML Graphics Commons is a library that consists of several r
 
 介绍: Apache XML Graphics Commons is a library that consists of several reusable components used by Apache Batik and Apache FOP. Many of these components can easily be used separately outside the domains of SVG and XSL-FO. You will find components such as a PDF library, an RTF library, Graphics2D implementations that let you generate PDF and PostScript files and much more.
 
-### XMLBeans
+### XMLBeans[XML和Java映射]
 
 Description: XMLBeans is a tool that allows you to access the full power of XML in a Java friendly way. The idea is that you can take advantage of the richness and features of XML and XML Schema and have these features mapped as naturally as possible to the equivalent Java language and typing constructs. XMLBeans uses XML Schema to compile Java interfaces and classes that you can then use to access and modify XML instance data. Using XMLBeans is similar to using any other Java interface/class, you will see things like getFoo or setFoo just as you would expect when working with Java. While a major use of XMLBeans is to access your XML instance data with strongly typed Java classes there are also API's that allow you access to the full XML infoset (XMLBeans keeps XML Infoset fidelity) as well as to allow you to reflect into the XML schema itself through an XML Schema Object model.  For more details on XMLBeans see the XMLBeans Wiki pages or the XMLBeans documentation (the Documentation tab on this website). What Makes XMLBeans Different  There are at least two major things that make XMLBeans unique from other XML-Java binding options.  1. Full XML Schema support. XMLBeans fully supports XML Schema and the corresponding java classes provide constructs for all of the major functionality of XML Schema. This is critical since often times you do not have control over the features of XML Schema that you need to work with in Java. Also, XML Schema oriented applications can take full advantage of the power of XML Schema and not have to restrict themselvs to a subset. 2. Full XML Infoset fidelity.When unmarshalling an XML instance the full XML infoset is kept and is available to the developer. This is critical because because of the subset of XML that is not easily represented in java. For example, order of the elements or comments might be needed in a particular application.  A major objective of XMLBeans has been to be applicable in all non-streaming (in memory) XML programming situations. You should be able to compile your XML Schema into a set of java classes and know that 1) you will be able to use XMLBeans for all of the schemas you encounter (even the warped ones) and 2) that you will be able to get to the XML at whatever level is necessary - and not have to resort to multple tools to do this.  To accomplish this XMLBeans provides three major APIs:  * XmlObject The java classes that are generated from an XML Schema are all derived from XmlObject. These provide strongly typed getters and setters for each of the elements within the defined XML. Complex types are in turn XmlObjects. For example getCustomer might return a CustomerType (which is an XmlObject). Simple types turn into simple getters and setters with the correct java type. For example getName might return a String. * XmlCursor From any XmlObject you can get an XmlCursor. This provides efficient, low level access to the XML Infoset. A cursor represents a position in the XML instance. You can move the cursor around the XML instance at any level of granularity you need from individual characters to Tokens. * SchemaType XMLBeans provides a full XML Schema object model that you can use to reflect on the underlying schema meta information. For example, you might want to generate a sample XML instance for an XML schema or perhaps find the enumerations for an element so that you can display them.  All of this was built with performance in mind. Informal benchmarks and user feedback indicate that XMLBeans is extremely fast. 
 
 介绍: XMLBeans is a tool that allows you to access the full power of XML in a Java friendly way. The idea is that you can take advantage of the richness and features of XML and XML Schema and have these features mapped as naturally as possible to the equivalent Java language and typing constructs. XMLBeans uses XML Schema to compile Java interfaces and classes that you can then use to access and modify XML instance data. Using XMLBeans is similar to using any other Java interface/class, you will see things like getFoo or setFoo just as you would expect when working with Java. While a major use of XMLBeans is to access your XML instance data with strongly typed Java classes there are also API's that allow you access to the full XML infoset (XMLBeans keeps XML Infoset fidelity) as well as to allow you to reflect into the XML schema itself through an XML Schema Object model.  For more details on XMLBeans see the XMLBeans Wiki pages or the XMLBeans documentation (the Documentation tab on this website). What Makes XMLBeans Different  There are at least two major things that make XMLBeans unique from other XML-Java binding options.  1. Full XML Schema support. XMLBeans fully supports XML Schema and the corresponding java classes provide constructs for all of the major functionality of XML Schema. This is critical since often times you do not have control over the features of XML Schema that you need to work with in Java. Also, XML Schema oriented applications can take full advantage of the power of XML Schema and not have to restrict themselvs to a subset. 2. Full XML Infoset fidelity.When unmarshalling an XML instance the full XML infoset is kept and is available to the developer. This is critical because because of the subset of XML that is not easily represented in java. For example, order of the elements or comments might be needed in a particular application.  A major objective of XMLBeans has been to be applicable in all non-streaming (in memory) XML programming situations. You should be able to compile your XML Schema into a set of java classes and know that 1) you will be able to use XMLBeans for all of the schemas you encounter (even the warped ones) and 2) that you will be able to get to the XML at whatever level is necessary - and not have to resort to multple tools to do this.  To accomplish this XMLBeans provides three major APIs:  * XmlObject The java classes that are generated from an XML Schema are all derived from XmlObject. These provide strongly typed getters and setters for each of the elements within the defined XML. Complex types are in turn XmlObjects. For example getCustomer might return a CustomerType (which is an XmlObject). Simple types turn into simple getters and setters with the correct java type. For example getName might return a String. * XmlCursor From any XmlObject you can get an XmlCursor. This provides efficient, low level access to the XML Infoset. A cursor represents a position in the XML instance. You can move the cursor around the XML instance at any level of granularity you need from individual characters to Tokens. * SchemaType XMLBeans provides a full XML Schema object model that you can use to reflect on the underlying schema meta information. For example, you might want to generate a sample XML instance for an XML schema or perhaps find the enumerations for an element so that you can display them.  All of this was built with performance in mind. Informal benchmarks and user feedback indicate that XMLBeans is extremely fast. 
 
-### Yetus
+### Yetus[系统管理工具，为软件项目提供贡献和发布流程]
 
 Description: A collection of libraries and tools that enable contribution and release processes for software projects.
 
 介绍: A collection of libraries and tools that enable contribution and release processes for software projects.
 
-### YuniKorn
+### YuniKorn[用于服务和批处理工作负载的增强型Kubernetes调度程序]
 
 Description: A light-weight universal resource scheduler for container orchestrator systems.
 
 介绍: A light-weight universal resource scheduler for container orchestrator systems.
 
-### Zeppelin
+### Zeppelin[基于Web的交互式NoteBook]
 
 Description: Zeppelin is a modern web-based tool for the data scientists to collaborate over large-scale data exploration and visualization projects. 
 
 介绍: Zeppelin is a modern web-based tool for the data scientists to collaborate over large-scale data exploration and visualization projects. 
 
-### ZooKeeper
+### ZooKeeper[高可用的分布式协调系统]
 
 Description: Apache ZooKeeper is an effort to develop and maintain an open-source server which enables highly reliable distributed coordination.
 
@@ -2253,3 +2253,6 @@ Description: Pure Java based native XML database. Supports XPath and XUpdate.
 
 介绍: Pure Java based native XML database. Supports XPath and XUpdate.
 
+
+
+[项目构建系统，类似Maven/Gradle]: 
