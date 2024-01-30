@@ -1043,7 +1043,7 @@ Description: Scalable machine learning library
 
 ### ManifoldCF[JAVA实现的爬虫框架]
 
-Description: Connectors for content repositories like Sharepoint, Documentum, etc.
+Description: ManifoldCF is an effort to provide an open source framework for connecting source content repositories like Microsoft Sharepoint and EMC Documentum, to target repositories or indexes, such as Apache Solr , OpenSearchServer or ElasticSearch. ManifoldCF also defines a security model for target repositories that permits them to enforce source-repository security policies.
 
 介绍: ManifoldCF is an effort to provide an open source framework for connecting source content repositories like Microsoft Sharepoint and EMC Documentum, to target repositories or indexes, such as Apache Solr , OpenSearchServer or ElasticSearch. ManifoldCF also defines a security model for target repositories that permits them to enforce source-repository security policies.
 
@@ -1143,6 +1143,12 @@ Description: Oozie is a workflow scheduler system to manage Apache Hadoop jobs. 
 
 介绍: Oozie is a workflow scheduler system to manage Apache Hadoop jobs. Oozie is integrated with the rest of the Hadoop stack supporting several types of Hadoop jobs out of the box (such as Java map-reduce, Streaming map-reduce, Pig, Hive, Sqoop and Distcp) as well as system specific jobs (such as Java programs and shell scripts).
 
+### OpenDAL[数据访问抽象层]
+
+Description: Apache OpenDAL is a data access layer that allows users to easily and efficiently retrieve data from various storage services in a unified way.
+
+介绍: OpenDAL 提供一个统一、简单、高效、可靠、可观察的数据访问层，让开发者可以无缝地使用不同的存储服务，并享受到最佳的用户体验。
+
 ### OpenJPA[Java持久化实现]
 
 Description: Apache OpenJPA is a Java persistence project at The Apache Software Foundation that can be used as a stand-alone POJO persistence layer or integrated into any Java EE compliant container and many other lightweight frameworks, such as Tomcat and Spring.  The 1.x releases are a production ready, feature-rich, compliant implementation of the Java Persistence API (JPA) 1.0 part of the JSR-220 Enterprise Java Beans 3.0 specification, which pass the Sun JPA 1.0b Technology Compatibility Kit.  The 2.x releases are a production ready, compliant implement of the JSR-317 Java Persistence 2.0 specification, which is backwards compatible to the JPA 1.0 specification and passes the Sun JPA 2.0 Technology Compatibility Kit.
@@ -1163,7 +1169,7 @@ Description: Apache OpenNLP software supports the most common NLP tasks, such as
 
 ### OpenOffice[类似于微软MS Office软件跨平台的办公室软件]
 
-Description: Apache OpenOffice is a leading open-source, office-document productivity suite providing six productivity applications (Writer, Calc, Impress, Draw, Math, Base) based around the OpenDocument Format (ODF). OpenOffice is released on Windows, macOS (OS X), Linux 32-bit DEB+RPM, Linux 64-bit DEB+RPM and in 41 languages.
+Description: Apache OpenOffice is a leading open-source, office-document productivity suite providing six productivity applications (Writer, Calc, Impress, Draw, Math, Base) based around the OpenDocument Format (ODF). OpenOffice is released on Windows, macOS (OS X), Linux 32-bit DEB+RPM, Linux 64-bit DEB+RPM and in 41languages. 
 
 介绍: Apache OpenOffice is a leading open-source, office-document productivity suite providing six productivity applications (Writer, Calc, Impress, Draw, Math, Base) based around the OpenDocument Format (ODF). OpenOffice is released on Windows, macOS (OS X), Linux 32-bit DEB+RPM, Linux 64-bit DEB+RPM and in 41 languages.
 
@@ -1265,7 +1271,7 @@ Description: The Apache Props Antlib is a library of supplementary handlers for 
 
 ### Pulsar[分布式发布-订阅消息系统]
 
-Description: Pulsar is a highly scalable, low latency messaging platform running on commodity hardware. It provides simple pub-sub semantics over topics, guaranteed at-least-once delivery of messages, automatic cursor management for subscribers, and cross-datacenter replication.
+Description: Apache Pulsar is an all-in-one messaging and streaming platform. Messages can be consumed and acknowledged individually or consumed as streams with less than 10ms of latency. Its layered architecture allows rapid scaling across hundreds of nodes, without data reshuffling.  Its features include multi-tenancy with resource separation and access control, geo-replication across regions, tiered storage and support for six official client languages. It supports up to one million unique topics and is designed to simplify your application architecture.
 
 介绍: Pulsar is a highly scalable, low latency messaging platform running on commodity hardware. It provides simple pub-sub semantics over topics, guaranteed at-least-once delivery of messages, automatic cursor management for subscribers, and cross-datacenter replication.
 
@@ -1283,7 +1289,7 @@ Description: Apache Qpid implements the latest AMQP specification, the first ope
 
 ### Ranger[Hadoop数据权限监控管理平台]
 
-Description:  The Ranger project is a framework to enable, monitor and manage comprehensive data security across the Hadoop platform. (The podling was originally called Argus) 
+Description: Apache Ranger is a framework to enable, monitor and manage comprehensive data security - consistently across various data processing services. Integrated with most of the Big-Data technologies (Hadoop, Hive, HBase, Spark, Trino, ...)
 
 介绍: The Ranger project is a framework to enable, monitor and manage comprehensive data security across the Hadoop platform. (The podling was originally called Argus)
 
@@ -1803,6 +1809,12 @@ Description: A blazing fast multi-language serialization framework powered by ji
 
 介绍: A blazing fast multi-language serialization framework powered by jit and zero-copy
 
+### Gluten[Incubating]
+
+Description: Gluten is a middle layer responsible for offloading JVM-based SQL engines' execution to native engines.
+
+介绍: Gluten 是负责将基于JVM的SQL引擎的执行转到本地引擎执行的中间层（用于加速 Spark SQL等）。
+
 ### HoraeDB[Incubating]
 
 Description: HoraeDB is a high-performance, distributed, cloud native time-series database.
@@ -1850,12 +1862,6 @@ Description: Nemo is a data processing system to flexibly control the runtime be
 Description: A Java API for NLU applications
 
 介绍: A Java API for NLU applications
-
-### OpenDAL[Incubating]
-
-Description: Open Data Access Layer: Access data freely, painlessly, and efficiently.
-
-介绍: Open Data Access Layer: Access data freely, painlessly, and efficiently.
 
 ### Paimon[Incubating]
 
