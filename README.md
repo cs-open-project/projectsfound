@@ -23,7 +23,7 @@ Description: ActiveMQ is a fast and powerful Message Broker which supports many 
 
 ### AGE
 
-Description: The goal of Apache AGE® is to provide graph data processing and analytics capability to all relational databases.  Through Apache AGE, PostgreSQL users will gain access to graph query modeling within the existing relational database. 
+Description: The goal of Apache AGE™ is to provide graph data processing and analytics capability to all relational databases.  Through Apache AGE, PostgreSQL users will gain access to graph query modeling within the existing relational database. 
 
 介绍: The goal of Apache AGE® is to provide graph data processing and analytics capability to all relational databases.  Through Apache AGE, PostgreSQL users will gain access to graph query modeling within the existing relational database.
 
@@ -74,12 +74,6 @@ Description: The Ant Library provides Ant tasks for testing Ant task, it can als
 Description: APISIX is a cloud-native microservices API gateway, delivering the ultimate performance, security,open source and scalable platform for all your APIs and microservices.
 
 介绍: APISIX is a cloud-native microservices API gateway, delivering the ultimate performance, security,open source and scalable platform for all your APIs and microservices.
-
-### Archiva[远程资源库maven等管理软件]
-
-Description: Archiva is the perfect companion for build tools such as Maven, Continuum, and ANT. Archiva offers several capabilities, amongst which remote repository proxying, security access management, build artifact storage, delivery, browsing, indexing and usage reporting, extensible scanning functionality and many more!
-
-介绍: Archiva is the perfect companion for build tools such as Maven, Continuum, and ANT. Archiva offers several capabilities, amongst which remote repository proxying, security access management, build artifact storage, delivery, browsing, indexing and usage reporting, extensible scanning functionality and many more!
 
 ### Aries
 
@@ -218,6 +212,12 @@ Description: Apache Causeway is a framework for rapidly developing domain-driven
 Description: Cayenne is a powerful, full-featured, opensource framework created for developers working with relational databases. it seamlessly maps any relational database to Java objects, reducing development time and adding considerable functionality to any application which requires a database. Developers using Cayenne will be able to concentrate on the core business requirements and the data model instead of the SQL details. The application can then be easily moved to any JDBC-capable database. In addition to management of persistent Java objects mapped to relational databases, Cayenne provides a plethora of features including single method call queries and updates (including atomic updates of all modified objects), seamless integration of multiple databases into a single virtual data source, three tier persistence with caching on the remote client, paging of results, record locking, and many more features.
 
 介绍: Cayenne is a powerful, full-featured, opensource framework created for developers working with relational databases. it seamlessly maps any relational database to Java objects, reducing development time and adding considerable functionality to any application which requires a database. Developers using Cayenne will be able to concentrate on the core business requirements and the data model instead of the SQL details. The application can then be easily moved to any JDBC-capable database. In addition to management of persistent Java objects mapped to relational databases, Cayenne provides a plethora of features including single method call queries and updates (including atomic updates of all modified objects), seamless integration of multiple databases into a single virtual data source, three tier persistence with caching on the remote client, paging of results, record locking, and many more features.
+
+### Celeborn
+
+Description: Celeborn is an intermediate data service for big data computing engines to boost performance, stability, and flexibility.
+
+介绍: Celeborn is an intermediate data service for big data computing engines to boost performance, stability, and flexibility.
 
 ### Celix
 
@@ -533,7 +533,7 @@ Description: Apache CouchDB is a database that completely embraces the web. Stor
 
 ### cTAKES[临床的文本分析和知识提取系统]
 
-Description: Apache clinical Text Analysis and Knowledge Extraction System (cTAKES) is an open-source natural language processing system for information extraction from electronic medical record clinical free-text. It processes clinical notes, identifying types of clinical named entities from various dictionaries including the Unified Medical Language System (UMLS) - medications, diseases/disorders, signs/symptoms, anatomical sites and procedures. Each named entity has attributes for the text span, the ontology mapping code, subject (patient, family member, etc.) and context (negated/not negated, conditional, generic, degree of certainty). Some of the attributes are expressed as relations, for example the location of a clinical condition (locationOf relation) or the severity of a clinical condition (degreeOf relation).
+Description: cTAKES (clinical Text Analysis and Knowledge Extraction System) is an natural language processing tool for information extraction from electronic medical record clinical free-text.
 
 介绍: Apache clinical Text Analysis and Knowledge Extraction System (cTAKES) is an open-source natural language processing system for information extraction from electronic medical record clinical free-text. It processes clinical notes, identifying types of clinical named entities from various dictionaries including the Unified Medical Language System (UMLS) - medications, diseases/disorders, signs/symptoms, anatomical sites and procedures. Each named entity has attributes for the text span, the ontology mapping code, subject (patient, family member, etc.) and context (negated/not negated, conditional, generic, degree of certainty). Some of the attributes are expressed as relations, for example the location of a clinical condition (locationOf relation) or the severity of a clinical condition (degreeOf relation).
 
@@ -560,6 +560,12 @@ Description: Apache Daffodil is an open-source implementation of the DFDL specif
 Description: Apache DataFu consists of two libraries:  Apache DataFu Pig is a collection of useful user-defined functions for data analysis in Apache Pig.  Apache DataFu Hourglass is a library for incrementally processing data using Apache Hadoop MapReduce. This library was inspired by the prevelance of sliding window computations over daily tracking data. Computations such as these typically happen at regular intervals (e.g. daily, weekly), and therefore the sliding nature of the computations means that much of the work is unnecessarily repeated. DataFu's Hourglass was created to make these computations more efficient, yielding sometimes 50-95% reductions in computational resources.
 
 介绍: Apache DataFu consists of two libraries:  Apache DataFu Pig is a collection of useful user-defined functions for data analysis in Apache Pig.  Apache DataFu Hourglass is a library for incrementally processing data using Apache Hadoop MapReduce. This library was inspired by the prevelance of sliding window computations over daily tracking data. Computations such as these typically happen at regular intervals (e.g. daily, weekly), and therefore the sliding nature of the computations means that much of the work is unnecessarily repeated. DataFu's Hourglass was created to make these computations more efficient, yielding sometimes 50-95% reductions in computational resources.
+
+### DataFusion
+
+Description:  Apache DataFusion is a fast, extensible query engine for building high-quality data-centric systems in Rust, using the Apache Arrow in-memory format. Python Bindings are also available. DataFusion offers SQL and Dataframe APIs, excellent performance, built-in support for CSV, Parquet, JSON, and Avro, extensive customization, and a great community. 
+
+介绍:  Apache DataFusion is a fast, extensible query engine for building high-quality data-centric systems in Rust, using the Apache Arrow in-memory format. Python Bindings are also available. DataFusion offers SQL and Dataframe APIs, excellent performance, built-in support for CSV, Parquet, JSON, and Avro, extensive customization, and a great community. 
 
 ### DataSketches[高性能大数据流算法库]
 
@@ -1197,9 +1203,15 @@ Description: Apache Ozone is a highly scalable, distributed storage for Analytic
 
 介绍: Apache Ozone is a highly scalable, distributed storage for Analytics, Big data and Cloud Native applications. Ozone supports S3 compatible object APIs as well as a Hadoop Compatible File System implementation. It is optimized for both efficient object store and file system operations. It is built on a highly available, replicated block storage layer called Hadoop Distributed Data Store (HDDS). Applications using frameworks like Apache Spark, YARN and Hive work natively without any modifications.
 
+### Paimon
+
+Description: Paimon is a unified lake storage to build dynamic tables for both stream and batch processing with big data compute engines, supporting high-speed data ingestion and real-time data query.
+
+介绍: Paimon is a unified lake storage to build dynamic tables for both stream and batch processing with big data compute engines, supporting high-speed data ingestion and real-time data query.
+
 ### Parquet[列式存储格式]
 
-Description: Apache Parquet is an open source, column-oriented data file format designed for efficient data storage and retrieval. It provides efficient data compression and encoding schemes with enhanced performance to handle complex data in bulk. Parquet is available in multiple languages including Java, C++, and Python.
+Description: Apache Parquet is an open source, column-oriented data file format designed for efficient data storage and retrieval. It provides high performance compression and encoding schemes to handle complex data in bulk and is supported in many programming language and analytics tools.
 
 介绍: Apache Parquet is an open source, column-oriented data file format designed for efficient data storage and retrieval. It provides efficient data compression and encoding schemes with enhanced performance to handle complex data in bulk. Parquet is available in multiple languages including Java, C++, and Python.
 
@@ -1208,6 +1220,12 @@ Description: Apache Parquet is an open source, column-oriented data file format 
 Description: The Apache PDFBox library is an open source Java tool for working with PDF documents.
 
 介绍: The Apache PDFBox library is an open source Java tool for working with PDF documents.
+
+### Pekko
+
+Description: Pekko is a toolkit and an ecosystem for building highly concurrent, distributed, reactive and resilient applications for Java and Scala.
+
+介绍: Pekko is a toolkit and an ecosystem for building highly concurrent, distributed, reactive and resilient applications for Java and Scala.
 
 ### Petri
 
@@ -1352,6 +1370,12 @@ Description: Apache Sandesha2 is an Axis2 module that implements the WS-Reliable
 Description: Library implementing XML Digital Signature Specification & XML Encryption Specification
 
 介绍: Library implementing XML Digital Signature Specification & XML Encryption Specification
+
+### SDAP
+
+Description: SDAP is an integrated data analytic center for Big Science problems.
+
+介绍: SDAP is an integrated data analytic center for Big Science problems.
 
 ### SeaTunnel[数据集成框架]
 
@@ -1499,7 +1523,7 @@ Description: Subversion exists to be universally recognized and adopted as an op
 
 ### Superset[数据可视化平台]
 
-Description: Superset is an enterprise-ready web application for data exploration, data visualization and dashboarding.
+Description: Superset is a fast, lightweight, intuitive, business intelligence platform. Loaded with options, Superset makes it easy for users of all skill sets to explore and visualize their data, from simple line charts to highly detailed geospatial charts.  * Powerful yet easy to use: Superset makes it easy to explore your data, using either our simple no-code viz builder or state-of-the-art SQL IDE.  * Integrates with modern databases Superset can connect to any SQL-based databases including modern cloud-native databases and engines at petabyte scale.  * Modern architecture Superset is lightweight and highly scalable, leveraging the power of your existing data infrastructure without requiring yet another ingestion layer.  * Rich visualizations and dashboards Superset ships with 40+ pre-installed visualization types. Our plug-in architecture makes it easy to build custom visualizations.  
 
 介绍: Superset is an enterprise-ready web application for data exploration, data visualization and dashboarding.
 
@@ -1601,7 +1625,7 @@ Description: Apache Traffic Server is fast, scalable and extensible HTTP/1.1 com
 
 ### TsFile
 
-Description: 
+Description: TsFile is a columnar storage file format designed for time series data, which supports efficient compression, high throughput of read and write, and compatibility with various frameworks, such as Spark and Flink. It is easy to integrate TsFile into IoT big data processing frameworks.
 
 介绍: 
 
@@ -1773,6 +1797,12 @@ Description: Apache ZooKeeper is an effort to develop and maintain an open-sourc
 
 介绍: Apache ZooKeeper is an effort to develop and maintain an open-source server which enables highly reliable distributed coordination.
 
+### Amoro[Incubating]
+
+Description: Amoro is a Lakehouse management system built on open data lake formats like Apache Iceberg and Apache Paimon.
+
+介绍: Amoro is a Lakehouse management system built on open data lake formats like Apache Iceberg and Apache Paimon.
+
 ### Annotator[Incubating]
 
 Description: Apache Annotator is a collaborative community for creating annotation related code which works to provide a future for Annotator.js-based projects and plugins while enabling W3C spec-compliant Web Annotation in Web browsers, Web Publication readers, and the servers that serve them.
@@ -1791,12 +1821,6 @@ Description: Apache Baremaps is a toolkit and a set of infrastructure components
 
 介绍: Apache Baremaps is a toolkit and a set of infrastructure components for creating, publishing, and operating online maps.
 
-### Celeborn[Incubating]
-
-Description: Celeborn is an intermediate data service for big data computing engines to boost performance, stability, and flexibility.
-
-介绍: Celeborn is an intermediate data service for big data computing engines to boost performance, stability, and flexibility.
-
 ### DevLake[Incubating]
 
 Description: DevLake is a development data platform, providing the data infrastructure for developer teams to analyze and improve their engineering productivity.
@@ -1814,6 +1838,18 @@ Description: A blazing fast multi-language serialization framework powered by ji
 Description: Gluten is a middle layer responsible for offloading JVM-based SQL engines' execution to native engines.
 
 介绍: Gluten 是负责将基于JVM的SQL引擎的执行转到本地引擎执行的中间层（用于加速 Spark SQL等）。
+
+### GraphAr[Incubating]
+
+Description: GraphAr is an open-source and language-independent data file format designed for efficient graph data storage and retrieval.
+
+介绍: GraphAr is an open-source and language-independent data file format designed for efficient graph data storage and retrieval.
+
+### HertzBeat[Incubating]
+
+Description: HertzBeat is an easy-to-use, open source, real-time monitoring system. It features an agentless architecture, high-performance clustering, Prometheus compatibility, and powerful custom monitoring and status page building capabilities.
+
+介绍: HertzBeat is an easy-to-use, open source, real-time monitoring system. It features an agentless architecture, high-performance clustering, Prometheus compatibility, and powerful custom monitoring and status page building capabilities.
 
 ### HoraeDB[Incubating]
 
@@ -1863,23 +1899,11 @@ Description: A Java API for NLU applications
 
 介绍: A Java API for NLU applications
 
-### Paimon[Incubating]
-
-Description: Paimon is a unified lake storage to build dynamic tables for both stream and batch processing with big data compute engines, supporting high-speed data ingestion and real-time data query.
-
-介绍: Paimon is a unified lake storage to build dynamic tables for both stream and batch processing with big data compute engines, supporting high-speed data ingestion and real-time data query.
-
 ### Pegasus[Incubating]
 
 Description: Pegasus is a distributed key-value storage system which is designed to be simple, horizontally scalable, strongly consistent and high-performance.
 
 介绍: Pegasus is a distributed key-value storage system which is designed to be simple, horizontally scalable, strongly consistent and high-performance.
-
-### Pekko[Incubating]
-
-Description: Pekko is a toolkit and an ecosystem for building highly concurrent, distributed, reactive and resilient applications for Java and Scala.
-
-介绍: Pekko is a toolkit and an ecosystem for building highly concurrent, distributed, reactive and resilient applications for Java and Scala.
 
 ### Pony Mail[Incubating]
 
@@ -1893,17 +1917,17 @@ Description: ResilientDB is a distributed blockchain framework that is open-sour
 
 介绍: ResilientDB is a distributed blockchain framework that is open-source, lightweight, modular, and highly performant.
 
-### SDAP[Incubating]
-
-Description: SDAP is an integrated data analytic center for Big Science problems.
-
-介绍: SDAP is an integrated data analytic center for Big Science problems.
-
 ### Seata[Incubating]
 
 Description: Seata(Simple Extensible Autonomous Transaction Architecture)is an easy-to-use and high-performance distributed transaction solution, used to solve the data consistency problem.
 
 介绍: Seata(Simple Extensible Autonomous Transaction Architecture)is an easy-to-use and high-performance distributed transaction solution, used to solve the data consistency problem.
+
+### StormCrawler[Incubating]
+
+Description: StormCrawler is a collection of resources for building low-latency, customisable and scalable web crawlers on Apache Storm.
+
+介绍: StormCrawler is a collection of resources for building low-latency, customisable and scalable web crawlers on Apache Storm.
 
 ### StreamPark[Incubating]
 
@@ -1941,6 +1965,12 @@ Description: Wayang is a cross-platform data processing system that aims at deco
 
 介绍: Wayang is a cross-platform data processing system that aims at decoupling the business logic of data analytics applications from concrete data processing platforms, such as Apache Flink or Apache Spark. Hence, it tames the complexity that arises from the "Cambrian explosion" of novel data processing platforms that we currently witness.
 
+### XTable[Incubating]
+
+Description: XTable is an omni-directional converter for table formats that facilitates interoperability across data processing systems and query engines.
+
+介绍: XTable is an omni-directional converter for table formats that facilitates interoperability across data processing systems and query engines.
+
 ### Any23[Attic]
 
 Description: Apache Any23 is used in major Web of Data applications. It is written in Java and licensed under the Apache License v2.0. Apache Any23 can be used in various ways: * As a library in Java applications that consume structured data from the Web. * As a command-line tool for extracting and converting between the supported formats. * As online service API available at any23.org.
@@ -1952,6 +1982,12 @@ Description: Apache Any23 is used in major Web of Data applications. It is writt
 Description: Apache Apex is a unified platform for big data stream and batch processing. Use cases include ingestion, ETL, real-time analytics, alerts and real-time actions. Apex is a Hadoop-native YARN implementation and uses HDFS by default. It simplifies development and productization of Hadoop applications by reducing time to market. Key features include Enterprise Grade Operability with Fault Tolerance, State Management, Event Processing Guarantees, No Data Loss, In-memory Performance & Scalability and Native Window Support.
 
 介绍: Apache Apex is a unified platform for big data stream and batch processing. Use cases include ingestion, ETL, real-time analytics, alerts and real-time actions. Apex is a Hadoop-native YARN implementation and uses HDFS by default. It simplifies development and productization of Hadoop applications by reducing time to market. Key features include Enterprise Grade Operability with Fault Tolerance, State Management, Event Processing Guarantees, No Data Loss, In-memory Performance & Scalability and Native Window Support.
+
+### Archiva[Attic][远程资源库maven等管理软件]
+
+Description: Archiva is the perfect companion for build tools such as Maven, Continuum, and ANT. Archiva offers several capabilities, amongst which remote repository proxying, security access management, build artifact storage, delivery, browsing, indexing and usage reporting, extensible scanning functionality and many more!
+
+介绍: Archiva is the perfect companion for build tools such as Maven, Continuum, and ANT. Archiva offers several capabilities, amongst which remote repository proxying, security access management, build artifact storage, delivery, browsing, indexing and usage reporting, extensible scanning functionality and many more!
 
 ### Beehive[Attic]
 
