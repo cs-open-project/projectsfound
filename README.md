@@ -533,7 +533,7 @@ Description: Apache CouchDB is a database that completely embraces the web. Stor
 
 ### cTAKES[临床的文本分析和知识提取系统]
 
-Description: cTAKES (clinical Text Analysis and Knowledge Extraction System) is an natural language processing tool for information extraction from electronic medical record clinical free-text.
+Description: Apache clinical Text Analysis and Knowledge Extraction System (cTAKES) is an open-source natural language processing system for information extraction from electronic medical record clinical free-text. It processes clinical notes, identifying types of clinical named entities from various dictionaries including the Unified Medical Language System (UMLS) - medications, diseases/disorders, signs/symptoms, anatomical sites and procedures. Each named entity has attributes for the text span, the ontology mapping code, subject (patient, family member, etc.) and context (negated/not negated, conditional, generic, degree of certainty). Some of the attributes are expressed as relations, for example the location of a clinical condition (locationOf relation) or the severity of a clinical condition (degreeOf relation).
 
 介绍: Apache clinical Text Analysis and Knowledge Extraction System (cTAKES) is an open-source natural language processing system for information extraction from electronic medical record clinical free-text. It processes clinical notes, identifying types of clinical named entities from various dictionaries including the Unified Medical Language System (UMLS) - medications, diseases/disorders, signs/symptoms, anatomical sites and procedures. Each named entity has attributes for the text span, the ontology mapping code, subject (patient, family member, etc.) and context (negated/not negated, conditional, generic, degree of certainty). Some of the attributes are expressed as relations, for example the location of a clinical condition (locationOf relation) or the severity of a clinical condition (degreeOf relation).
 
@@ -565,7 +565,13 @@ Description: Apache DataFu consists of two libraries:  Apache DataFu Pig is a co
 
 Description:  Apache DataFusion is a fast, extensible query engine for building high-quality data-centric systems in Rust, using the Apache Arrow in-memory format. Python Bindings are also available. DataFusion offers SQL and Dataframe APIs, excellent performance, built-in support for CSV, Parquet, JSON, and Avro, extensive customization, and a great community. 
 
-介绍:  Apache DataFusion is a fast, extensible query engine for building high-quality data-centric systems in Rust, using the Apache Arrow in-memory format. Python Bindings are also available. DataFusion offers SQL and Dataframe APIs, excellent performance, built-in support for CSV, Parquet, JSON, and Avro, extensive customization, and a great community. 
+介绍: Apache DataFusion is a fast, extensible query engine for building high-quality data-centric systems in Rust, using the Apache Arrow in-memory format. Python Bindings are also available. DataFusion offers SQL and Dataframe APIs, excellent performance, built-in support for CSV, Parquet, JSON, and Avro, extensive customization, and a great community.
+
+### datasketches
+
+Description: In the analysis of big data there are often problem queries that don’t scale because they require huge compute resources and time to generate exact results. Examples include count distinct, quantiles, distribution analysis, most-frequent items, joins, matrix computations, and graph analysis.  If approximate results are acceptable, there is a class of specialized algorithms, called streaming algorithms, or sketches, that can produce results orders-of magnitude faster and with mathematically proven error bounds. For interactive queries there may not be other viable alternatives, and in the case of real-time analysis, sketches are the only known solution.
+
+介绍: In the analysis of big data there are often problem queries that don’t scale because they require huge compute resources and time to generate exact results. Examples include count distinct, quantiles, distribution analysis, most-frequent items, joins, matrix computations, and graph analysis.  If approximate results are acceptable, there is a class of specialized algorithms, called streaming algorithms, or sketches, that can produce results orders-of magnitude faster and with mathematically proven error bounds. For interactive queries there may not be other viable alternatives, and in the case of real-time analysis, sketches are the only known solution.
 
 ### DataSketches[高性能大数据流算法库]
 
@@ -851,7 +857,7 @@ Description: Apache Ignite is a distributed database for high-performance comput
 
 ### Impala[MPP SQL查询]
 
-Description: Impala is a high-performance C++ and Java SQL query engine for data stored in Apache Hadoop-based clusters.
+Description: Apache Impala is the open source, native analytic database for open data and table formats.
 
 介绍: Impala is a high-performance C++ and Java SQL query engine for data stored in Apache Hadoop-based clusters.
 
@@ -1022,6 +1028,12 @@ Description: Apache log4net provides logging services for .NET.
 Description: Apache log4php is a logging framework for PHP.
 
 介绍: Apache log4php is a logging framework for PHP.
+
+### Logo Development
+
+Description: 
+
+介绍: 
 
 ### Lucene Core[搜索引擎库]
 
@@ -1509,12 +1521,6 @@ Description: The Apache Struts Project offers the Apache Struts 2 web framework 
 
 介绍: The Apache Struts Project offers the Apache Struts 2 web framework which is a comprehensive and modular tooling stack for creating web-based Java applications. Struts 2, emerged from the WebWork 2 framework, is an excellent choice for teams who value elegant solutions to difficult problems.
 
-### Submarine[云原生的机器学习平台]
-
-Description: Apache Submarine (Submarine for short) is an End-to-End Machine Learning Platform to allow data scientists to create end-to-end machine learning workflows. On Submarine, data scientists can finish each stage in the ML model lifecycle, including data exploration, data pipeline creation, model training, serving, and monitoring.
-
-介绍: Apache Submarine (Submarine for short) is an End-to-End Machine Learning Platform to allow data scientists to create end-to-end machine learning workflows. On Submarine, data scientists can finish each stage in the ML model lifecycle, including data exploration, data pipeline creation, model training, serving, and monitoring.
-
 ### Subversion[开源的集中式版本控制系统]
 
 Description: Subversion exists to be universally recognized and adopted as an open-source, centralized version control system characterized by its reliability as a safe haven for valuable data; the simplicity of its model and usage; and its ability to support the needs of a wide variety of users and projects, from individuals to large-scale enterprise operations.
@@ -1649,7 +1655,7 @@ Description: The Apache UIMA project supports the community working on the analy
 
 ### Unomi[Java开源客户数据平台CDP,Customer Data Platform]
 
-Description: Unomi is a reference implementation of the OASIS Context Server specification currently being worked on by the OASIS Context Server Technical Committee. It provides a high-performance user profile and event tracking server.
+Description: Apache Unomi is a REST server that manages user profiles and events related to the profiles. It can be used to integrate personalization and profile management within very different systems such as CMS, CRMs, Issue Trackers, native mobile application. It was designed to be easy to integrate with external systems, promoting profile sharing and re-use in very different applications.  Basically the server tracks users using different mechanisms (by default cookies), builds a progressively populated profile and associates events that are performed by a user with his profile. Events may range from a click on a page, to a file being downloaded, a native mobile application button being clicked, or anything that can be sent to the server.  The server has a built-in rule system that makes it possible to perform any action when an event is collected for a profile. It also has the notion of user segments, making it possible to classify user profiles into dynamic sub-groups, notably to build personalized experiences for specific segments.
 
 介绍: Unomi is a reference implementation of the OASIS Context Server specification currently being worked on by the OASIS Context Server Technical Committee. It provides a high-performance user profile and event tracking server.
 
@@ -1821,6 +1827,12 @@ Description: Apache Baremaps is a toolkit and a set of infrastructure components
 
 介绍: Apache Baremaps is a toolkit and a set of infrastructure components for creating, publishing, and operating online maps.
 
+### Cloudberry[Incubating]
+
+Description:  Cloudberry Database, built on the latest PostgreSQL kernel, is one of the most advanced and mature open-source MPP (Massively Parallel Processing) databases available. 
+
+介绍:  Cloudberry Database, built on the latest PostgreSQL kernel, is one of the most advanced and mature open-source MPP (Massively Parallel Processing) databases available. 
+
 ### DevLake[Incubating]
 
 Description: DevLake is a development data platform, providing the data infrastructure for developer teams to analyze and improve their engineering productivity.
@@ -1844,6 +1856,12 @@ Description: Gluten is a middle layer responsible for offloading JVM-based SQL e
 Description: GraphAr is an open-source and language-independent data file format designed for efficient graph data storage and retrieval.
 
 介绍: GraphAr is an open-source and language-independent data file format designed for efficient graph data storage and retrieval.
+
+### Gravitino[Incubating]
+
+Description: Gravitino is a high-performance, geo-distributed, and federated metadata like designed to manage metadata seamlessly across diverse data sources, vendors, and regions. Its primary goal is to provide users with unified metadata access for both data and AI assets.
+
+介绍: Gravitino is a high-performance, geo-distributed, and federated metadata like designed to manage metadata seamlessly across diverse data sources, vendors, and regions. Its primary goal is to provide users with unified metadata access for both data and AI assets.
 
 ### HertzBeat[Incubating]
 
@@ -1899,11 +1917,29 @@ Description: A Java API for NLU applications
 
 介绍: A Java API for NLU applications
 
+### OpenServerless[Incubating]
+
+Description: OpenServerless is an open source, cloud-agnostic, serverless platform. It offers a complete environment for serverless applications development, based on Kubernetes. With Apache OpenWhisk as its FaaS engine, it provides an unified developer experience with a plethora of services (SQL or noSQL databases, key-value stores, object storage, LLMs services, function schedulers) managed by the platform's core: the operator, along with tooling (the CLI) to simplify (and interact with) deployments, integrated ide and starter application and optimized runtimes integrated with the staters.
+
+介绍: OpenServerless is an open source, cloud-agnostic, serverless platform. It offers a complete environment for serverless applications development, based on Kubernetes. With Apache OpenWhisk as its FaaS engine, it provides an unified developer experience with a plethora of services (SQL or noSQL databases, key-value stores, object storage, LLMs services, function schedulers) managed by the platform's core: the operator, along with tooling (the CLI) to simplify (and interact with) deployments, integrated ide and starter application and optimized runtimes integrated with the staters.
+
+### OzHera[Incubating]
+
+Description: OzHera is an application observation platform (APM) in the era of cloud native, with the application as its core, integrating capabilities such as metric monitoring, trace tracking, logging, and alerting
+
+介绍: OzHera is an application observation platform (APM) in the era of cloud native, with the application as its core, integrating capabilities such as metric monitoring, trace tracking, logging, and alerting
+
 ### Pegasus[Incubating]
 
 Description: Pegasus is a distributed key-value storage system which is designed to be simple, horizontally scalable, strongly consistent and high-performance.
 
 介绍: Pegasus is a distributed key-value storage system which is designed to be simple, horizontally scalable, strongly consistent and high-performance.
+
+### Polaris[Incubating]
+
+Description: Polaris is a catalog for data lakes. It provides new levels of choice, flexibility and control over data, with full enterprise security and Apache Iceberg interoperability across a multitude of engines and infrastructure.
+
+介绍: Polaris is a catalog for data lakes. It provides new levels of choice, flexibility and control over data, with full enterprise security and Apache Iceberg interoperability across a multitude of engines and infrastructure.
 
 ### Pony Mail[Incubating]
 
@@ -2252,6 +2288,12 @@ Description: Apache Stanbol is a modular software stack and reusable set of comp
 Description: Apache Stratos is a highly-extensible Platform-as-a-Service (PaaS) framework that helps run Apache Tomcat, PHP, and MySQL applications and can be extended to support many more environments on all major cloud infrastructures. For developers, Stratos provides a cloud-based environment for developing, testing, and running scalable applications. IT providers benefit from high utilization rates, automated resource management, and platform-wide insight including monitoring and billing.
 
 介绍: Apache Stratos is a highly-extensible Platform-as-a-Service (PaaS) framework that helps run Apache Tomcat, PHP, and MySQL applications and can be extended to support many more environments on all major cloud infrastructures. For developers, Stratos provides a cloud-based environment for developing, testing, and running scalable applications. IT providers benefit from high utilization rates, automated resource management, and platform-wide insight including monitoring and billing.
+
+### Submarine[Attic][云原生的机器学习平台]
+
+Description: Apache Submarine (Submarine for short) is an End-to-End Machine Learning Platform to allow data scientists to create end-to-end machine learning workflows. On Submarine, data scientists can finish each stage in the ML model lifecycle, including data exploration, data pipeline creation, model training, serving, and monitoring.
+
+介绍: Apache Submarine (Submarine for short) is an End-to-End Machine Learning Platform to allow data scientists to create end-to-end machine learning workflows. On Submarine, data scientists can finish each stage in the ML model lifecycle, including data exploration, data pipeline creation, model training, serving, and monitoring.
 
 ### Tajo[Attic]
 

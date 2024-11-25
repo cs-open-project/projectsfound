@@ -36,3 +36,21 @@
 
 - Project Attic: Archiva
 
+2024-11-25
+
+- Project New: Cloudberry
+
+- Project New: Gravitino
+
+- Project New: OpenServerless
+
+- Project New: OzHera
+
+- Project New: Polaris
+
+- Project New: datasketches
+
+- Project New: Logo Development
+
+- Project Attic: Submarine
+
