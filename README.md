@@ -57,6 +57,12 @@ Description: Anakia is an XML transformation tool that uses JDOM and Velocity to
 
 介绍: Anakia is an XML transformation tool that uses JDOM and Velocity to transform XML documents into the format of your choice. It provides an alternative to using Ant's style task and XSL to process XML files.
 
+### Answer
+
+Description: A Q-and-A platform software for teams at any scales.
+
+介绍: A Q-and-A platform software for teams at any scales.
+
 ### Ant[构建工具]
 
 Description: Apache Ant is a Java-based build tool.
@@ -839,7 +845,7 @@ Description:  HttpCore is a set of low level HTTP transport components that can 
 
 ### Hudi[数据湖]
 
-Description: Hudi (pronounced “Hoodie”) brings stream processing to big data, providing upserts, deletes and incremental data streams.
+Description: Hudi brings transactions, stream processing, indexes, mutability and incremental processing to data lakes.
 
 介绍: Hudi (pronounced “Hoodie”) brings stream processing to big data, providing upserts, deletes and incremental data streams.
 
@@ -1815,12 +1821,6 @@ Description: Apache Annotator is a collaborative community for creating annotati
 
 介绍: Apache Annotator is a collaborative community for creating annotation related code which works to provide a future for Annotator.js-based projects and plugins while enabling W3C spec-compliant Web Annotation in Web browsers, Web Publication readers, and the servers that serve them.
 
-### Answer[Incubating]
-
-Description: A Q-and-A platform software for teams at any scales.
-
-介绍: A Q-and-A platform software for teams at any scales.
-
 ### Baremaps[Incubating]
 
 Description: Apache Baremaps is a toolkit and a set of infrastructure components for creating, publishing, and operating online maps.
@@ -1831,7 +1831,7 @@ Description: Apache Baremaps is a toolkit and a set of infrastructure components
 
 Description:  Cloudberry Database, built on the latest PostgreSQL kernel, is one of the most advanced and mature open-source MPP (Massively Parallel Processing) databases available. 
 
-介绍:  Cloudberry Database, built on the latest PostgreSQL kernel, is one of the most advanced and mature open-source MPP (Massively Parallel Processing) databases available. 
+介绍: Cloudberry Database, built on the latest PostgreSQL kernel, is one of the most advanced and mature open-source MPP (Massively Parallel Processing) databases available.
 
 ### DevLake[Incubating]
 
@@ -1880,6 +1880,12 @@ Description: HoraeDB is a high-performance, distributed, cloud native time-serie
 Description: A large-scale and easy-to-use graph database
 
 介绍: A large-scale and easy-to-use graph database
+
+### Hunter[Incubating]
+
+Description:  Hunter, a command-line tool, written in Python, that detects statistically significant changes in time-series data stored either in databases or CSV files. 
+
+介绍:  Hunter, a command-line tool, written in Python, that detects statistically significant changes in time-series data stored either in databases or CSV files. 
 
 ### KIE[Incubating]
 
