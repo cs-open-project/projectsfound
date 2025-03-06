@@ -89,7 +89,7 @@ Description: The Aries project is delivering a set of pluggable Java components 
 
 ### Arrow[跨语言的内存数据格式]
 
-Description: Apache Arrow defines a language-independent columnar memory format for flat and hierarchical data, organized for efficient analytic operations on modern hardware like CPUs and GPUs. The Arrow memory format also supports zero-copy reads for lightning-fast data access without serialization overhead.  Arrow's libraries implement the format and provide building blocks for a range of use cases, including high performance analytics. Many popular projects use Arrow to ship columnar data efficiently or as the basis for analytic engines.  Libraries are available for C, C++, C#, Go, Java, JavaScript, Julia, MATLAB, Python, R, Ruby, and Rust.  Apache Arrow is software created by and for the developer community. We are dedicated to open, kind communication and consensus decision making. Our committers come from a range of organizations and backgrounds, and we welcome all to participate with us.
+Description: Apache Arrow defines a language-independent columnar memory format for flat and nested data, organized for efficient analytic operations on modern hardware like CPUs and GPUs. The Arrow memory format also supports zero-copy reads for lightning-fast data access without serialization overhead.  Arrow's libraries implement the format and provide building blocks for a range of use cases, including high performance analytics. Many popular projects use Arrow to ship columnar data efficiently or as the basis for analytic engines.  Libraries are available for C, C++, C#, Go, Java, JavaScript, Julia, MATLAB, Python, R, Ruby, and Rust.  Apache Arrow is software created by and for the developer community. We are dedicated to open, kind communication and consensus decision making. Our committers come from a range of organizations and backgrounds, and we welcome all to participate with us.
 
 介绍: Apache Arrow defines a language-independent columnar memory format for flat and hierarchical data, organized for efficient analytic operations on modern hardware like CPUs and GPUs. The Arrow memory format also supports zero-copy reads for lightning-fast data access without serialization overhead.  Arrow's libraries implement the format and provide building blocks for a range of use cases, including high performance analytics. Many popular projects use Arrow to ship columnar data efficiently or as the basis for analytic engines.  Libraries are available for C, C++, C#, Go, Java, JavaScript, Julia, MATLAB, Python, R, Ruby, and Rust.  Apache Arrow is software created by and for the developer community. We are dedicated to open, kind communication and consensus decision making. Our committers come from a range of organizations and backgrounds, and we welcome all to participate with us.
 
@@ -209,7 +209,7 @@ Description: Linear scalability and proven fault-tolerance on commodity hardware
 
 ### Causeway[Java开发App框架]
 
-Description: Apache Causeway is a framework for rapidly developing domain-driven apps in Java. Write your business logic in entities, domain services and repositories, and the framework dynamically (at runtime) generates a representation of that domain model as a webapp or as a RESTful API. For prototyping or production.
+Description: Apache Causeway is a framework for rapidly developing domain-driven apps in Java. Write your business logic in entities, domain services and repositories, and the framework dynamically (at runtime) generates a representation of that domain model as a webapp, RESTful or GraphQL API. For prototyping or production.
 
 介绍: Apache Causeway is a framework for rapidly developing domain-driven apps in Java. Write your business logic in entities, domain services and repositories, and the framework dynamically (at runtime) generates a representation of that domain model as a webapp or as a RESTful API. For prototyping or production.
 
@@ -242,12 +242,6 @@ Description: Apache Chainsaw is a GUI log viewer.
 Description: Apache CloudStack is open source software designed to deploy and manage large  networks of virtual machines, as a highly available, highly scalable Infrastructure as  a Service (IaaS) cloud computing platform. CloudStack is used by a number of service  providers to offer public cloud services, and by many companies to provide an  on-premises (private) cloud offering, or as part of a hybrid cloud solution.  CloudStack is a turnkey solution that includes the entire "stack" of features most  organizations want with an IaaS cloud: compute orchestration, Network-as-a-Service,  user and account management, a full and open native API, resource accounting, and a  first-class User Interface (UI).  CloudStack currently supports the most popular hypervisors: VMware, KVM, XenServer and  Xen Cloud Platform (XCP).  Users can manage their cloud with an easy to use Web interface, command line tools, and  / or a full-featured RESTful API. In addition, CloudStack provides an API that's  compatible with AWS EC2 and S3 for organizations that wish to deploy hybrid clouds.
 
 介绍: Apache CloudStack is open source software designed to deploy and manage large  networks of virtual machines, as a highly available, highly scalable Infrastructure as  a Service (IaaS) cloud computing platform. CloudStack is used by a number of service  providers to offer public cloud services, and by many companies to provide an  on-premises (private) cloud offering, or as part of a hybrid cloud solution.  CloudStack is a turnkey solution that includes the entire "stack" of features most  organizations want with an IaaS cloud: compute orchestration, Network-as-a-Service,  user and account management, a full and open native API, resource accounting, and a  first-class User Interface (UI).  CloudStack currently supports the most popular hypervisors: VMware, KVM, XenServer and  Xen Cloud Platform (XCP).  Users can manage their cloud with an easy to use Web interface, command line tools, and  / or a full-featured RESTful API. In addition, CloudStack provides an API that's  compatible with AWS EC2 and S3 for organizations that wish to deploy hybrid clouds.
-
-### Cocoon[Web开发框架]
-
-Description: Apache Cocoon is a web development framework built around the concepts of separation of concerns (making sure people can interact and collaborate on a project, without stepping on each other toes) and component-based web development. Cocoon implements these concepts around the notion of "component pipelines", each component on the pipeline specializing on a particular operation. This makes it possible to use a "building block" approach for web solutions, hooking together components into pipelines without any required programming.
-
-介绍: Apache Cocoon is a web development framework built around the concepts of separation of concerns (making sure people can interact and collaborate on a project, without stepping on each other toes) and component-based web development. Cocoon implements these concepts around the notion of "component pipelines", each component on the pipeline specializing on a particular operation. This makes it possible to use a "building block" approach for web solutions, hooking together components into pipelines without any required programming.
 
 ### Commons BCEL
 
@@ -557,7 +551,7 @@ Description: Apache CXF is an open source services framework. CXF helps you buil
 
 ### Daffodil[数据格式描述语言DFDL开源实现]
 
-Description: Apache Daffodil is an open-source implementation of the DFDL specification that uses DFDL data descriptions to parse fixed format data into an infoset. This infoset is commonly converted into XML or JSON to enable the use of well-established XML or JSON technologies and libraries to consume, inspect, and manipulate fixed format data in existing solutions. Daffodil is also capable of serializing or "unparsing" data back to the original data format. The DFDL infoset can also be converted directly to/from the  data structures carried by data processing frameworks so as to bypass any XML/JSON overheads. 
+Description: Apache Daffodil is an open-source implementation of the DFDL specification that uses DFDL data descriptions to parse fixed format data into an infoset. This infoset is commonly converted into XML or JSON to enable the use of well-established XML or JSON technologies and libraries to consume, inspect, and manipulate fixed format data in existing solutions. Daffodil is also capable of serializing or "unparsing" data back to the original data format. The DFDL infoset can also be converted directly to/from the data structures carried by data processing frameworks so as to bypass any XML/JSON overheads. 
 
 介绍: 库，数据格式描述语言（Data Format Description Language）DFDL 1.0 规范的开源实现，以实现通用数据交换。
 
@@ -1161,12 +1155,6 @@ Description: Apache Olingo is a Java library that implements the Open Data Proto
 
 介绍: Apache Olingo is a Java library that implements the Open Data Protocol (OData). Apache Olingo serves client and server aspects of OData. It currently supports OData 2.0 and support OData 4.0 (beta). The latter is the OASIS version of the protocol: OASIS Open Data Protocol (OData) TC.  The extensions part of Olingo for OData 2.0 contains additional features like the support of JPA persistency or annotated bean classes.
 
-### Oozie[Hadoop工作流调度]
-
-Description: Oozie is a workflow scheduler system to manage Apache Hadoop jobs. Oozie is integrated with the rest of the Hadoop stack supporting several types of Hadoop jobs out of the box (such as Java map-reduce, Streaming map-reduce, Pig, Hive, Sqoop and Distcp) as well as system specific jobs (such as Java programs and shell scripts).
-
-介绍: Oozie is a workflow scheduler system to manage Apache Hadoop jobs. Oozie is integrated with the rest of the Hadoop stack supporting several types of Hadoop jobs out of the box (such as Java map-reduce, Streaming map-reduce, Pig, Hive, Sqoop and Distcp) as well as system specific jobs (such as Java programs and shell scripts).
-
 ### OpenDAL[数据访问抽象层]
 
 Description: Apache OpenDAL is a data access layer that allows users to easily and efficiently retrieve data from various storage services in a unified way.
@@ -1268,12 +1256,6 @@ Description: Apache Pig is a platform for analyzing large data sets that consist
 Description: Apache Pinot is a real-time distributed online analytical processing (OLAP) datastore. Use Pinot to ingest and immediately query data from streaming or batch data sources (including, Apache Kafka, Amazon Kinesis, Hadoop HDFS, Amazon S3, Azure ADLS, and Google Cloud Storage). Apache Pinot includes the following: Ultra low-latency analytics even at extremely high throughput. Columnar data store with several smart indexing and pre-aggregation techniques. Scaling up and out with no upper bound. Consistent performance based on the size of your cluster and an expected query per second (QPS) threshold. It's perfect for user-facing real-time analytics and other analytical use cases, including internal dashboards, anomaly detection, and ad hoc data exploration.
 
 介绍: Apache Pinot is a real-time distributed online analytical processing (OLAP) datastore. Use Pinot to ingest and immediately query data from streaming or batch data sources (including, Apache Kafka, Amazon Kinesis, Hadoop HDFS, Amazon S3, Azure ADLS, and Google Cloud Storage). Apache Pinot includes the following: Ultra low-latency analytics even at extremely high throughput. Columnar data store with several smart indexing and pre-aggregation techniques. Scaling up and out with no upper bound. Consistent performance based on the size of your cluster and an expected query per second (QPS) threshold. It's perfect for user-facing real-time analytics and other analytical use cases, including internal dashboards, anomaly detection, and ad hoc data exploration.
-
-### Pivot[构建可安装的网络应用]
-
-Description: Apache Pivot is an open-source platform for building installable Internet applications (IIAs). It combines the enhanced productivity and usability features of a modern user interface toolkit with the robustness of the Java platform. 
-
-介绍: Apache Pivot is an open-source platform for building installable Internet applications (IIAs). It combines the enhanced productivity and usability features of a modern user interface toolkit with the robustness of the Java platform.
 
 ### PLC4X[可编程逻辑控制器的统一API]
 
@@ -1509,6 +1491,12 @@ Description: Apache Storm is a distributed real-time computation system. Similar
 
 介绍: Apache Storm is a distributed real-time computation system. Similar to how Hadoop provides a set of general primitives for doing batch processing, Storm provides a set of general primitives for doing real-time computation.
 
+### StreamPark
+
+Description: StreamPark is a streaming application development platform.
+
+介绍: StreamPark is a streaming application development platform.
+
 ### StreamPipes[企业IoT工具箱，用于连接、分析、探索IoT数据]
 
 Description: StreamPipes is a self-service (Industrial) IoT toolbox to enable non-technical users to connect, analyze and explore (Industrial) IoT data streams.
@@ -1658,6 +1646,12 @@ Description: Apache TVM is an open source machine learning compiler framework fo
 Description: The Apache UIMA project supports the community working on the analysis of unstructured information with a unifying Java and C++ framework, tooling, and analysis components, guided by the OASIS UIMA standard. It includes support for very large scaleout using networked clusters of compute nodes.
 
 介绍: The Apache UIMA project supports the community working on the analysis of unstructured information with a unifying Java and C++ framework, tooling, and analysis components, guided by the OASIS UIMA standard. It includes support for very large scaleout using networked clusters of compute nodes.
+
+### Uniffle
+
+Description: Uniffle is an unified Remote Shuffle Service
+
+介绍: Uniffle is an unified Remote Shuffle Service
 
 ### Unomi[Java开源客户数据平台CDP,Customer Data Platform]
 
@@ -1851,6 +1845,12 @@ Description: Gluten is a middle layer responsible for offloading JVM-based SQL e
 
 介绍: Gluten 是负责将基于JVM的SQL引擎的执行转到本地引擎执行的中间层（用于加速 Spark SQL等）。
 
+### Grails[Incubating]
+
+Description: A powerful Groovy-based web application framework for the JVM built on top of Spring Boot
+
+介绍: A powerful Groovy-based web application framework for the JVM built on top of Spring Boot
+
 ### GraphAr[Incubating]
 
 Description: GraphAr is an open-source and language-independent data file format designed for efficient graph data storage and retrieval.
@@ -1883,9 +1883,15 @@ Description: A large-scale and easy-to-use graph database
 
 ### Hunter[Incubating]
 
-Description:  Hunter, a command-line tool, written in Python, that detects statistically significant changes in time-series data stored either in databases or CSV files. 
+Description: Hunter, a command-line tool, written in Python, that detects statistically significant changes in time-series data stored either in databases or CSV files.
 
-介绍:  Hunter, a command-line tool, written in Python, that detects statistically significant changes in time-series data stored either in databases or CSV files. 
+介绍: Hunter, a command-line tool, written in Python, that detects statistically significant changes in time-series data stored either in databases or CSV files.
+
+### Iggy[Incubating]
+
+Description: Iggy is a high-performance, ultra-low latency and large-scale persistent message streaming platform written in Rust.
+
+介绍: Iggy is a high-performance, ultra-low latency and large-scale persistent message streaming platform written in Rust.
 
 ### KIE[Incubating]
 
@@ -1929,6 +1935,12 @@ Description: OpenServerless is an open source, cloud-agnostic, serverless platfo
 
 介绍: OpenServerless is an open source, cloud-agnostic, serverless platform. It offers a complete environment for serverless applications development, based on Kubernetes. With Apache OpenWhisk as its FaaS engine, it provides an unified developer experience with a plethora of services (SQL or noSQL databases, key-value stores, object storage, LLMs services, function schedulers) managed by the platform's core: the operator, along with tooling (the CLI) to simplify (and interact with) deployments, integrated ide and starter application and optimized runtimes integrated with the staters.
 
+### Otava[Incubating]
+
+Description:  Otava, a command-line tool, written in Python, that detects statistically significant changes in time-series data stored either in databases or CSV files. Otava entered Incubation as Hunter 
+
+介绍:  Otava, a command-line tool, written in Python, that detects statistically significant changes in time-series data stored either in databases or CSV files. Otava entered Incubation as Hunter 
+
 ### OzHera[Incubating]
 
 Description: OzHera is an application observation platform (APM) in the era of cloud native, with the application as its core, integrating capabilities such as metric monitoring, trace tracking, logging, and alerting
@@ -1971,12 +1983,6 @@ Description: StormCrawler is a collection of resources for building low-latency,
 
 介绍: StormCrawler is a collection of resources for building low-latency, customisable and scalable web crawlers on Apache Storm.
 
-### StreamPark[Incubating]
-
-Description: StreamPark is a streaming application development platform.
-
-介绍: StreamPark is a streaming application development platform.
-
 ### Teaclave[Incubating]
 
 Description: Teaclave is a universal secure computing platform.
@@ -1994,12 +2000,6 @@ Description: Toree provides applications with a mechanism to interactively and r
 Description: The Training project aims to develop resources which can be used for training purposes in various media formats, languages and for various Apache and non-Apache target projects.
 
 介绍: The Training project aims to develop resources which can be used for training purposes in various media formats, languages and for various Apache and non-Apache target projects.
-
-### Uniffle[Incubating]
-
-Description: Uniffle is an unified Remote Shuffle Service
-
-介绍: Uniffle is an unified Remote Shuffle Service
 
 ### Wayang[Incubating]
 
@@ -2066,6 +2066,12 @@ Description: Clerezza allows to easily develop semantic web applications by prov
 Description: Apache Click is a modern Java web application framework, providing a natural rich client style programming model. Click provides a page and component oriented design with a event based programming model. Leveraging a stateless architecture Click encourages loosely coupled pages for easier maintenance. Click is designed to be very easy to learn and use, with developers getting up and running within a day. Support is provided for Velocity, JSP or FreeMarker page rendering. Click also provides exceptional performance for high volume web sites. 
 
 介绍: Apache Click is a modern Java web application framework, providing a natural rich client style programming model. Click provides a page and component oriented design with a event based programming model. Leveraging a stateless architecture Click encourages loosely coupled pages for easier maintenance. Click is designed to be very easy to learn and use, with developers getting up and running within a day. Support is provided for Velocity, JSP or FreeMarker page rendering. Click also provides exceptional performance for high volume web sites.
+
+### Cocoon[Attic][Web开发框架]
+
+Description: Apache Cocoon is a web development framework built around the concepts of separation of concerns (making sure people can interact and collaborate on a project, without stepping on each other toes) and component-based web development. Cocoon implements these concepts around the notion of "component pipelines", each component on the pipeline specializing on a particular operation. This makes it possible to use a "building block" approach for web solutions, hooking together components into pipelines without any required programming.
+
+介绍: Apache Cocoon is a web development framework built around the concepts of separation of concerns (making sure people can interact and collaborate on a project, without stepping on each other toes) and component-based web development. Cocoon implements these concepts around the notion of "component pipelines", each component on the pipeline specializing on a particular operation. This makes it possible to use a "building block" approach for web solutions, hooking together components into pipelines without any required programming.
 
 ### Continuum[Attic]
 
@@ -2223,6 +2229,12 @@ Description: Apache OODT software is component based, and offers a software arch
 
 介绍: Apache OODT software is component based, and offers a software architecture beyond simple science applications.
 
+### Oozie[Attic][Hadoop工作流调度]
+
+Description: Oozie is a workflow scheduler system to manage Apache Hadoop jobs. Oozie is integrated with the rest of the Hadoop stack supporting several types of Hadoop jobs out of the box (such as Java map-reduce, Streaming map-reduce, Pig, Hive, Sqoop and Distcp) as well as system specific jobs (such as Java programs and shell scripts).
+
+介绍: Oozie is a workflow scheduler system to manage Apache Hadoop jobs. Oozie is integrated with the rest of the Hadoop stack supporting several types of Hadoop jobs out of the box (such as Java map-reduce, Streaming map-reduce, Pig, Hive, Sqoop and Distcp) as well as system specific jobs (such as Java programs and shell scripts).
+
 ### Open Climate Workbench[Attic]
 
 Description: Apache Open Climate Workbench is an effort to develop software that performs climate model evaluation using model outputs from a variety of different sources (the Earth System Grid Federation, the Coordinated Regional Downscaling Experiment, the U.S. National Climate Assessment and the North American Regional Climate Change Assessment Program) and temporal/spatial scales with remote sensing data from NASA, NOAA and other agencies. The toolkit includes capabilities for rebinning, metrics computation and visualization.
@@ -2234,6 +2246,12 @@ Description: Apache Open Climate Workbench is an effort to develop software that
 Description: A set of text-processing Java classes that provide Perl5 compatible regular expressions, AWK-like regular expressions, glob expressions, and utility classes for performing substitutions, splits, filtering filenames, etc.
 
 介绍: A set of text-processing Java classes that provide Perl5 compatible regular expressions, AWK-like regular expressions, glob expressions, and utility classes for performing substitutions, splits, filtering filenames, etc.
+
+### Pivot[Attic][构建可安装的网络应用]
+
+Description: Apache Pivot is an open-source platform for building installable Internet applications (IIAs). It combines the enhanced productivity and usability features of a modern user interface toolkit with the robustness of the Java platform. 
+
+介绍: Apache Pivot is an open-source platform for building installable Internet applications (IIAs). It combines the enhanced productivity and usability features of a modern user interface toolkit with the robustness of the Java platform.
 
 ### Polygene[Attic]
 

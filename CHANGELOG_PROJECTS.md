@@ -60,3 +60,21 @@
 
 - Project Graduated: Answer
 
+2025-03-06
+
+- Project New: Grails
+
+- Project New: Iggy
+
+- Project New: Otava
+
+- Project Graduated: Uniffle
+
+- Project Graduated: StreamPark
+
+- Project Attic: Cocoon
+
+- Project Attic: Oozie
+
+- Project Attic: Pivot
+
