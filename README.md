@@ -47,7 +47,7 @@ Description: Apache Allura is an open source implementation of a software "forge
 
 ### Ambari[Hadoop管理监控工具]
 
-Description: Apache Ambari makes Hadoop cluster provisioning, managing, and monitoring dead simple.
+Description: Ambari is a monitoring, administration and lifecycle management project for Apache Hadoop clusters. (Formerly known as HMS)
 
 介绍: Apache Ambari makes Hadoop cluster provisioning, managing, and monitoring dead simple.
 
@@ -753,12 +753,6 @@ Description: A distributed data integration framework that simplifies common asp
 
 介绍: A distributed data integration framework that simplifies common aspects of big data integration such as data ingestion, replication, organization and lifecycle management for both streaming and batch data ecosystems.
 
-### Gora[ORM框架，为大数据提供内存数据模型与数据的持久化]
-
-Description: Although there are various excellent ORM frameworks for relational databases, data modeling in NoSQL data stores differ profoundly from their relational cousins. Moreover, data-model agnostic frameworks such as JDO are not sufficient for use cases, where one needs to use the full power of the data models in column stores. Gora fills this gap by giving the user an easy-to-use in-memory data model and persistence for big data framework with data store specific mappings and built in Apache Hadoop support.
-
-介绍: Although there are various excellent ORM frameworks for relational databases, data modeling in NoSQL data stores differ profoundly from their relational cousins. Moreover, data-model agnostic frameworks such as JDO are not sufficient for use cases, where one needs to use the full power of the data models in column stores. Gora fills this gap by giving the user an easy-to-use in-memory data model and persistence for big data framework with data store specific mappings and built in Apache Hadoop support.
-
 ### Griffin[大数据的数据质量解决方案]
 
 Description: Griffin is a open source Data Quality solution for distributed data systems at any scale in both streaming or batch data context
@@ -1013,7 +1007,7 @@ Description: Apache log4cxx provides logging services for C++.
 
 ### Log4j
 
-Description: Apache log4j provides logging services for Java.
+Description: Apache Log4j is a versatile, feature-rich, efficient logging API and backend for Java.
 
 介绍: Apache log4j provides logging services for Java.
 
@@ -1939,7 +1933,7 @@ Description: OpenServerless is an open source, cloud-agnostic, serverless platfo
 
 Description:  Otava, a command-line tool, written in Python, that detects statistically significant changes in time-series data stored either in databases or CSV files. Otava entered Incubation as Hunter 
 
-介绍:  Otava, a command-line tool, written in Python, that detects statistically significant changes in time-series data stored either in databases or CSV files. Otava entered Incubation as Hunter 
+介绍: Otava, a command-line tool, written in Python, that detects statistically significant changes in time-series data stored either in databases or CSV files. Otava entered Incubation as Hunter
 
 ### OzHera[Incubating]
 
@@ -2144,6 +2138,12 @@ Description:  Apache Forrest™ software is a publishing framework that transfor
 Description: Apache Giraph is an iterative graph processing system built for high scalability. For example, it is currently used at Facebook to analyze the social graph formed by users and their connections. 
 
 介绍: Apache Giraph is an iterative graph processing system built for high scalability. For example, it is currently used at Facebook to analyze the social graph formed by users and their connections.
+
+### Gora[Attic][ORM框架，为大数据提供内存数据模型与数据的持久化]
+
+Description: Although there are various excellent ORM frameworks for relational databases, data modeling in NoSQL data stores differ profoundly from their relational cousins. Moreover, data-model agnostic frameworks such as JDO are not sufficient for use cases, where one needs to use the full power of the data models in column stores. Gora fills this gap by giving the user an easy-to-use in-memory data model and persistence for big data framework with data store specific mappings and built in Apache Hadoop support.
+
+介绍: Although there are various excellent ORM frameworks for relational databases, data modeling in NoSQL data stores differ profoundly from their relational cousins. Moreover, data-model agnostic frameworks such as JDO are not sufficient for use cases, where one needs to use the full power of the data models in column stores. Gora fills this gap by giving the user an easy-to-use in-memory data model and persistence for big data framework with data store specific mappings and built in Apache Hadoop support.
 
 ### Hama[Attic]
 
