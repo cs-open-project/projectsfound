@@ -82,3 +82,63 @@
 
 - Project Attic: Gora
 
+2025-07-25
+
+- Project New: BifroMQ
+
+- Project New: Burr
+
+- Project New: Fluss
+
+- Project New: GeaFlow
+
+- Project New: Hamilton
+
+- Project New: PouchDB
+
+- Project New: Texera
+
+- Project New: Apisix
+
+- Project New: Asterixdb
+
+- Project New: Buildstream
+
+- Project New: Dolphinscheduler
+
+- Project New: Fory
+
+- Project New: Logodev
+
+- Project New: Madlib
+
+- Project New: Nuttx
+
+- Project New: Openwhisk
+
+- Project New: Rocketmq
+
+- Project New: Sdap
+
+- Project New: Servicecomb
+
+- Project New: Shardingsphere
+
+- Project New: Shenyu
+
+- Project New: Singa
+
+- Project New: Stormcrawler
+
+- Project New: Streampark
+
+- Project New: Streampipes
+
+- Project New: Systemds
+
+- Project New: Tinkerpop
+
+- Project Graduated: Gravitino
+
+- Project Attic: jclouds
+

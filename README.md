@@ -47,7 +47,7 @@ Description: Apache Allura is an open source implementation of a software "forge
 
 ### Ambari[Hadoop管理监控工具]
 
-Description: Ambari is a monitoring, administration and lifecycle management project for Apache Hadoop clusters. (Formerly known as HMS)
+Description: Apache Ambari simplifies provisioning, managing, and monitoring of Apache Hadoop clusters.
 
 介绍: Apache Ambari makes Hadoop cluster provisioning, managing, and monitoring dead simple.
 
@@ -75,6 +75,12 @@ Description: The Ant Library provides Ant tasks for testing Ant task, it can als
 
 介绍: The Ant Library provides Ant tasks for testing Ant task, it can also be used to drive functional and integration tests of arbitrary applications with Ant.
 
+### Apisix
+
+Description: 
+
+介绍: 
+
 ### APISIX[云原生的API服务网关]
 
 Description: APISIX is a cloud-native microservices API gateway, delivering the ultimate performance, security,open source and scalable platform for all your APIs and microservices.
@@ -92,6 +98,12 @@ Description: The Aries project is delivering a set of pluggable Java components 
 Description: Apache Arrow defines a language-independent columnar memory format for flat and nested data, organized for efficient analytic operations on modern hardware like CPUs and GPUs. The Arrow memory format also supports zero-copy reads for lightning-fast data access without serialization overhead.  Arrow's libraries implement the format and provide building blocks for a range of use cases, including high performance analytics. Many popular projects use Arrow to ship columnar data efficiently or as the basis for analytic engines.  Libraries are available for C, C++, C#, Go, Java, JavaScript, Julia, MATLAB, Python, R, Ruby, and Rust.  Apache Arrow is software created by and for the developer community. We are dedicated to open, kind communication and consensus decision making. Our committers come from a range of organizations and backgrounds, and we welcome all to participate with us.
 
 介绍: Apache Arrow defines a language-independent columnar memory format for flat and hierarchical data, organized for efficient analytic operations on modern hardware like CPUs and GPUs. The Arrow memory format also supports zero-copy reads for lightning-fast data access without serialization overhead.  Arrow's libraries implement the format and provide building blocks for a range of use cases, including high performance analytics. Many popular projects use Arrow to ship columnar data efficiently or as the basis for analytic engines.  Libraries are available for C, C++, C#, Go, Java, JavaScript, Julia, MATLAB, Python, R, Ruby, and Rust.  Apache Arrow is software created by and for the developer community. We are dedicated to open, kind communication and consensus decision making. Our committers come from a range of organizations and backgrounds, and we welcome all to participate with us.
+
+### Asterixdb
+
+Description: 
+
+介绍: 
 
 ### AsterixDB[大数据管理系统]
 
@@ -170,6 +182,12 @@ Description: Brooklyn is about deploying and managing applications: composing a 
 Description: bRPC is an Industrial-grade RPC framework using C++ Language, which is often used in high performance system such as Search, Storage, Machine learning, Advertisement, Recommendation etc. "bRPC" means "better RPC".
 
 介绍: bRPC is an Industrial-grade RPC framework using C++ Language, which is often used in high performance system such as Search, Storage, Machine learning, Advertisement, Recommendation etc. "bRPC" means "better RPC".
+
+### Buildstream
+
+Description: 
+
+介绍: 
 
 ### BuildStream
 
@@ -609,6 +627,12 @@ Description: Apache Directory Studio is a complete directory tooling platform in
 
 介绍: Apache Directory Studio is a complete directory tooling platform intended to be used with any LDAP server however it is particularly designed for use with ApacheDS. It is an Eclipse RCP application, composed of several Eclipse (OSGi) plugins, that can be easily upgraded with additional ones. These plugins can even run within Eclipse itself.
 
+### Dolphinscheduler
+
+Description: 
+
+介绍: 
+
 ### DolphinScheduler[分布式可视化DAG工作流任务调度系统]
 
 Description: DolphinScheduler is a distributed ETL scheduling engine with powerful DAG visualization interface..
@@ -723,6 +747,12 @@ Description: Apache Fortress is a standards-based authorization system, written 
 
 介绍: Apache Fortress is a standards-based authorization system, written in Java, that provides role-based access control, delegated administration and password policy services using an LDAP backend.
 
+### Fory
+
+Description: 
+
+介绍: 
+
 ### FreeMarker[模板引擎类库]
 
 Description:  Apache FreeMarker is a template engine: a Java library to generate text output (HTML web pages, e-mails, configuration files, source code, etc.) based on templates and changing data. Templates are written in the FreeMarker Template Language (FTL), which is a simple, specialized language (not a full-blown programming language). Usually, a general-purpose programming language (like Java) is used to prepare the data (issue database queries, do business calculations). Then, Apache FreeMarker displays that prepared data using templates. In the template you are focusing on how to present the data, and outside the template you are focusing on what data to present. 
@@ -752,6 +782,12 @@ Description: Apache Geronimo is an open source server runtime that integrates th
 Description: A distributed data integration framework that simplifies common aspects of big data integration such as data ingestion, replication, organization and lifecycle management for both streaming and batch data ecosystems.
 
 介绍: A distributed data integration framework that simplifies common aspects of big data integration such as data ingestion, replication, organization and lifecycle management for both streaming and batch data ecosystems.
+
+### Gravitino
+
+Description: Gravitino is a high-performance, geo-distributed, and federated metadata like designed to manage metadata seamlessly across diverse data sources, vendors, and regions. Its primary goal is to provide users with unified metadata access for both data and AI assets.
+
+介绍: Gravitino is a high-performance, geo-distributed, and federated metadata like designed to manage metadata seamlessly across diverse data sources, vendors, and regions. Its primary goal is to provide users with unified metadata access for both data and AI assets.
 
 ### Griffin[大数据的数据质量解决方案]
 
@@ -891,12 +927,6 @@ Description: The Apache Java Enterprise Mail Server (a.k.a. Apache James) is a 1
 
 介绍: The Apache Java Enterprise Mail Server (a.k.a. Apache James) is a 100% pure Java SMTP and POP3 Mail server and NNTP News server. We have designed James to be a complete and portable enterprise mail engine solution based on currently available open protocols.  James is also a mail application platform. We have developed a Java API to let you write Java code to process emails that we call the mailet API. A mailet can generate an automatic reply, update a database, prevent spam, build a message archive, or whatever you can imagine. A matcher determines whether your mailet should process an email in the server. The James project hosts the Mailet API, and James provides an implementation of this mail application platform API.
 
-### jclouds[云计算 Java 开发工具包]
-
-Description: Apache jclouds is an open source multi-cloud toolkit for the Java platform that gives you the freedom to create applications that are portable across clouds while giving you full control to use cloud-specific features.
-
-介绍: Apache jclouds is an open source multi-cloud toolkit for the Java platform that gives you the freedom to create applications that are portable across clouds while giving you full control to use cloud-specific features.
-
 ### JDO
 
 Description: The POJO approach separates data manipulation (done by accessing Java data members in the Java domain objects) from database manipulation (done by calling the JDO interface methods). This separation of concerns leads to a high degree of independence of the Java view of data from the database view of the data.
@@ -1029,6 +1059,12 @@ Description:
 
 介绍: 
 
+### Logodev
+
+Description: 
+
+介绍: 
+
 ### Lucene Core[搜索引擎库]
 
 Description: Apache Lucene is a high-performance, full-featured text search engine library written entirely in Java. It is a technology suitable for nearly any application that requires full-text search, especially cross-platform. 
@@ -1040,6 +1076,12 @@ Description: Apache Lucene is a high-performance, full-featured text search engi
 Description: Lucene.Net is a port of the Lucene search engine library, written in C# and targeted at .NET runtime users. The Lucene search library is based on an inverted index. Lucene.Net has three primary goals:  1. Maintain the existing line-by-line port from Java to C#, fully automating and commoditizing the process such that the project can easily synchronize with the Java Lucene release schedule; 2. Maintaining the high-performance requirements expected of a first class C# search engine library; 3. Maximize usability and power when used within the .NET runtime. To that end, it will present a highly idiomatic, carefully tailored API that takes advantage of many of the special features of the .NET runtime. 
 
 介绍: Lucene.Net is a port of the Lucene search engine library, written in C# and targeted at .NET runtime users. The Lucene search library is based on an inverted index. Lucene.Net has three primary goals:  1. Maintain the existing line-by-line port from Java to C#, fully automating and commoditizing the process such that the project can easily synchronize with the Java Lucene release schedule; 2. Maintaining the high-performance requirements expected of a first class C# search engine library; 3. Maximize usability and power when used within the .NET runtime. To that end, it will present a highly idiomatic, carefully tailored API that takes advantage of many of the special features of the .NET runtime.
+
+### Madlib
+
+Description: 
+
+介绍: 
 
 ### MADlib[基于SQL的数据库内置的可扩展机的器学习库]
 
@@ -1131,6 +1173,12 @@ Description: Apache Nutch is a highly extensible and scalable open source web cr
 
 介绍: Apache Nutch is a highly extensible and scalable open source web crawler software project. Stemming from Apache Lucene, Nutch is a well matured, production ready batch crawler relying on Apache Hadoop data structures, which are great for batch processing. Nutch has a modular architecture and provides pluggable and extensible interfaces such as Parse, Index and ScoringFilter's for custom implementations e.g. Apache Tika for parsing. Additionally, pluggable indexers exists for Apache Solr, Elastic Search, etc. Nutch can run on a single machine, but gains a lot of its strength from running in a Hadoop cluster. The now retired branch Nutch 2.x differed from 1.x in one key area: storage is abstracted away from any specific underlying data store by using Apache Gora for handling object to persistent mappings and to store fetch time, status, content, parsed text, outlinks, inlinks, etc. into a number of NoSQL storage solutions.
 
+### Nuttx
+
+Description: 
+
+介绍: 
+
 ### NuttX
 
 Description: NuttX is a mature, real-time embedded operating system (RTOS).
@@ -1184,6 +1232,12 @@ Description: Apache OpenOffice is a leading open-source, office-document product
 Description: OpenWebBeans is an ALv2-licensed implementation of the "Contexts and Dependency Injection for the Java EE platform" specification which is defined as JSR-299.
 
 介绍: OpenWebBeans is an ALv2-licensed implementation of the "Contexts and Dependency Injection for the Java EE platform" specification which is defined as JSR-299.
+
+### Openwhisk
+
+Description: 
+
+介绍: 
 
 ### OpenWhisk[分布式无服务器平台，开源FaaS平台]
 
@@ -1323,6 +1377,12 @@ Description: Apache Rivet is a system for creating dynamic web content via the T
 
 介绍: Apache Rivet is a system for creating dynamic web content via the Tcl programming language integrated with Apache Web Server. It is designed to be fast, powerful and extensible, consume few system resources, be easy to learn, and to provide the user with a platform that can also be used for other programming tasks outside the web (GUI's, system administration tasks, text processing, database manipulation, XML, and so on). In order to meet these goals Tcl programming language was chosen to combine with the Apache HTTP Server.
 
+### Rocketmq
+
+Description: 
+
+介绍: 
+
 ### RocketMQ[消息队列]
 
 Description: RocketMQ is a fast, low latency, reliable, scalable, distributed, easy to use message-oriented middleware, especially for processing large amounts of streaming data.
@@ -1365,6 +1425,12 @@ Description: Library implementing XML Digital Signature Specification & XML Encr
 
 介绍: Library implementing XML Digital Signature Specification & XML Encryption Specification
 
+### Sdap
+
+Description: 
+
+介绍: 
+
 ### SDAP
 
 Description: SDAP is an integrated data analytic center for Big Science problems.
@@ -1389,6 +1455,12 @@ Description: The serf library is a high performance C-based HTTP client library 
 
 介绍: The serf library is a high performance C-based HTTP client library built upon the Apache Portable Runtime (APR) library
 
+### Servicecomb
+
+Description: 
+
+介绍: 
+
 ### ServiceComb[微服务框架，对标SpringCloud]
 
 Description: ServiceComb is a microservice framework that provides a set of tools and components to make development and deployment of cloud applications easier.
@@ -1401,11 +1473,23 @@ Description: Apache ServiceMix is a flexible, open-source integration container 
 
 介绍: Apache ServiceMix is a flexible, open-source integration container that unifies the features and functionality of Apache ActiveMQ, Camel, CXF, and Karaf into a powerful runtime platform you can use to build your own integrations solutions. It provides a complete, enterprise ready ESB exclusively powered by OSGi.
 
+### Shardingsphere
+
+Description: 
+
+介绍: 
+
 ### ShardingSphere[分布式数据库中间件解决方案]
 
 Description: ShardingSphere related to a database clustering system providing data sharding, distributed transactions, and distributed database management.
 
 介绍: ShardingSphere related to a database clustering system providing data sharding, distributed transactions, and distributed database management.
+
+### Shenyu
+
+Description: 
+
+介绍: 
 
 ### ShenYu[基于Java的微服务API网关]
 
@@ -1418,6 +1502,12 @@ Description: ShenYu is a high performance Microservices API gateway in Java ecos
 Description: Apache Shiro is a powerful and flexible open-source security framework that cleanly handles authentication, authorization, enterprise session management, single sign-on and cryptography services.
 
 介绍: Apache Shiro is a powerful and flexible open-source security framework that cleanly handles authentication, authorization, enterprise session management, single sign-on and cryptography services.
+
+### Singa
+
+Description: 
+
+介绍: 
 
 ### SINGA[分布式深度学习平台]
 
@@ -1485,11 +1575,29 @@ Description: Apache Storm is a distributed real-time computation system. Similar
 
 介绍: Apache Storm is a distributed real-time computation system. Similar to how Hadoop provides a set of general primitives for doing batch processing, Storm provides a set of general primitives for doing real-time computation.
 
+### Stormcrawler
+
+Description: 
+
+介绍: 
+
+### Streampark
+
+Description: 
+
+介绍: 
+
 ### StreamPark
 
 Description: StreamPark is a streaming application development platform.
 
 介绍: StreamPark is a streaming application development platform.
+
+### Streampipes
+
+Description: 
+
+介绍: 
 
 ### StreamPipes[企业IoT工具箱，用于连接、分析、探索IoT数据]
 
@@ -1533,6 +1641,12 @@ Description: Apache Syncope is an Open Source system for managing digital identi
 
 介绍: Apache Syncope is an Open Source system for managing digital identities in enterprise environments, implemented in Java EE technology and released under Apache 2.0 license.  Identity management (or IdM) represents the joint result of business process and IT to manage user data on systems and applications. IdM involves considering user attributes, roles, resources and entitlements in trying to give a decent answer to the question bumping at every time in IT administrators' mind:  Who has access to What, When, How, and Why?
 
+### Systemds
+
+Description: 
+
+介绍: 
+
 ### SystemDS[原SystemML，大数据的机器学习平台]
 
 Description: A machine learning platform optimal for big data.
@@ -1574,6 +1688,12 @@ Description: Apache Thrift allows you to define data types and service interface
 Description: The Apache Tika toolkit is an ASFv2 licensed open source tool for extracting information  from digital documents. Tika allows search engines, content management systems and other  applications that work with various kinds of digital documents to easily detect and extract  metadata and content from all major file formats. 
 
 介绍: The Apache Tika toolkit is an ASFv2 licensed open source tool for extracting information  from digital documents. Tika allows search engines, content management systems and other  applications that work with various kinds of digital documents to easily detect and extract  metadata and content from all major file formats.
+
+### Tinkerpop
+
+Description: 
+
+介绍: 
 
 ### TinkerPop[Java图计算系统]
 
@@ -1815,6 +1935,18 @@ Description: Apache Baremaps is a toolkit and a set of infrastructure components
 
 介绍: Apache Baremaps is a toolkit and a set of infrastructure components for creating, publishing, and operating online maps.
 
+### BifroMQ[Incubating]
+
+Description: BifroMQ is a Java-based, high-performance, distributed MQTT broker with native multi-tenancy support, designed for large-scale connections and message delivery.
+
+介绍: BifroMQ is a Java-based, high-performance, distributed MQTT broker with native multi-tenancy support, designed for large-scale connections and message delivery.
+
+### Burr[Incubating]
+
+Description: Burr is a lightweight in-process python framework that standardizes the expression and execution of state machines as action-driven graphs, while making graph execution easily observable. It is particularly suited for AI agent workflows, simulations, and other dynamic systems, and comes with a self-hostable observability UI that integrates with OpenTelemetry.
+
+介绍: Burr is a lightweight in-process python framework that standardizes the expression and execution of state machines as action-driven graphs, while making graph execution easily observable. It is particularly suited for AI agent workflows, simulations, and other dynamic systems, and comes with a self-hostable observability UI that integrates with OpenTelemetry.
+
 ### Cloudberry[Incubating]
 
 Description:  Cloudberry Database, built on the latest PostgreSQL kernel, is one of the most advanced and mature open-source MPP (Massively Parallel Processing) databases available. 
@@ -1827,11 +1959,23 @@ Description: DevLake is a development data platform, providing the data infrastr
 
 介绍: DevLake is a development data platform, providing the data infrastructure for developer teams to analyze and improve their engineering productivity.
 
+### Fluss[Incubating]
+
+Description: Fluss is a streaming storage built for real-time analytics which can serve as the real-time data layer for Lakehouse architectures.
+
+介绍: Fluss is a streaming storage built for real-time analytics which can serve as the real-time data layer for Lakehouse architectures.
+
 ### Fury[Incubating]
 
 Description: A blazing fast multi-language serialization framework powered by jit and zero-copy
 
 介绍: A blazing fast multi-language serialization framework powered by jit and zero-copy
+
+### GeaFlow[Incubating]
+
+Description: GeaFlow is a distributed stream and batch integration graph compute engine.
+
+介绍: GeaFlow is a distributed stream and batch integration graph compute engine.
 
 ### Gluten[Incubating]
 
@@ -1851,11 +1995,11 @@ Description: GraphAr is an open-source and language-independent data file format
 
 介绍: GraphAr is an open-source and language-independent data file format designed for efficient graph data storage and retrieval.
 
-### Gravitino[Incubating]
+### Hamilton[Incubating]
 
-Description: Gravitino is a high-performance, geo-distributed, and federated metadata like designed to manage metadata seamlessly across diverse data sources, vendors, and regions. Its primary goal is to provide users with unified metadata access for both data and AI assets.
+Description: Hamilton is a lightweight in-process framework to define, execute, and observe directed acyclic graphs (DAGs) that express data transformations. In Hamilton, one can express complex DAGs of transformations, e.g. from dataframe transformations (using pandas, polars, PySpark), machine learning pipelines, through to regular software engineering API request and LLM API based workflows. Observability hooks are built into the framework. The Hamilton UI is a self-hostable service to capture observability output from workflow runs.
 
-介绍: Gravitino is a high-performance, geo-distributed, and federated metadata like designed to manage metadata seamlessly across diverse data sources, vendors, and regions. Its primary goal is to provide users with unified metadata access for both data and AI assets.
+介绍: Hamilton is a lightweight in-process framework to define, execute, and observe directed acyclic graphs (DAGs) that express data transformations. In Hamilton, one can express complex DAGs of transformations, e.g. from dataframe transformations (using pandas, polars, PySpark), machine learning pipelines, through to regular software engineering API request and LLM API based workflows. Observability hooks are built into the framework. The Hamilton UI is a self-hostable service to capture observability output from workflow runs.
 
 ### HertzBeat[Incubating]
 
@@ -1959,6 +2103,12 @@ Description: Pony Mail is a mail-archiving, archive viewing, and interaction ser
 
 介绍: Pony Mail is a mail-archiving, archive viewing, and interaction service, that can be integrated with many email platforms.
 
+### PouchDB[Incubating]
+
+Description: PouchDB is an open-source JavaScript database inspired by Apache CouchDB that is designed to run well within the browser.
+
+介绍: PouchDB is an open-source JavaScript database inspired by Apache CouchDB that is designed to run well within the browser.
+
 ### ResilientDB[Incubating]
 
 Description: ResilientDB is a distributed blockchain framework that is open-source, lightweight, modular, and highly performant.
@@ -1982,6 +2132,12 @@ Description: StormCrawler is a collection of resources for building low-latency,
 Description: Teaclave is a universal secure computing platform.
 
 介绍: Teaclave is a universal secure computing platform.
+
+### Texera[Incubating]
+
+Description: Texera is an open-source system to support collaborative data science, AI, and ML using GUI-based workflows. Our vision is to develop a system to support cloud platforms on which users can easily analyze data and use AI/ML techniques provided as operators. Users with various backgrounds, irrespective of whether they know coding or not, can collaborate on the same project to construct a pipeline. Experienced users can use programming languages such as Python, R, Java, and Scala to implement customized computation logic. The platform allows users to pause the execution of a workflow to investigate the operator states, and resume the execution at a later time. The platform can be used by a research community to publish valuable resources such as data sets, workflows, and ML models to share their domain-specific knowledge and support reproducibility of scientific research. The platform also allows users to elastically request computing resources from public clouds for computationally-intensive tasks.
+
+介绍: Texera is an open-source system to support collaborative data science, AI, and ML using GUI-based workflows. Our vision is to develop a system to support cloud platforms on which users can easily analyze data and use AI/ML techniques provided as operators. Users with various backgrounds, irrespective of whether they know coding or not, can collaborate on the same project to construct a pipeline. Experienced users can use programming languages such as Python, R, Java, and Scala to implement customized computation logic. The platform allows users to pause the execution of a workflow to investigate the operator states, and resume the execution at a later time. The platform can be used by a research community to publish valuable resources such as data sets, workflows, and ML models to share their domain-specific knowledge and support reproducibility of scientific research. The platform also allows users to elastically request computing resources from public clouds for computationally-intensive tasks.
 
 ### Toree[Incubating]
 
@@ -2141,7 +2297,7 @@ Description: Apache Giraph is an iterative graph processing system built for hig
 
 ### Gora[Attic][ORM框架，为大数据提供内存数据模型与数据的持久化]
 
-Description: Although there are various excellent ORM frameworks for relational databases, data modeling in NoSQL data stores differ profoundly from their relational cousins. Moreover, data-model agnostic frameworks such as JDO are not sufficient for use cases, where one needs to use the full power of the data models in column stores. Gora fills this gap by giving the user an easy-to-use in-memory data model and persistence for big data framework with data store specific mappings and built in Apache Hadoop support.
+Description: Although there are various excellent ORM frameworks for relational databases, data modeling in NoSQL data stores differ profoundly from their relational cousins. Moreover, data-model agnostic frameworks such as JDO are not sufficient for use cases, where one needs to use the full power of the data models in column stores. Gora fills this gap by giving the user an easy-to-use in-memory data model and persistence for big data framework with data store specific mappings and built in Apache Hadoop MapReduce, Apache Spark, Apache Flink and Apache Pig support.
 
 介绍: Although there are various excellent ORM frameworks for relational databases, data modeling in NoSQL data stores differ profoundly from their relational cousins. Moreover, data-model agnostic frameworks such as JDO are not sufficient for use cases, where one needs to use the full power of the data models in column stores. Gora fills this gap by giving the user an easy-to-use in-memory data model and persistence for big data framework with data store specific mappings and built in Apache Hadoop support.
 
@@ -2168,6 +2324,12 @@ Description: HiveMind is a framework for creating applications, not an applicati
 Description: The intent of Cactus is to lower the cost of writing tests for server-side code. It uses JUnit and extends it.  Cactus implements an in-container strategy, meaning that tests are executed inside the container. 
 
 介绍: The intent of Cactus is to lower the cost of writing tests for server-side code. It uses JUnit and extends it.  Cactus implements an in-container strategy, meaning that tests are executed inside the container.
+
+### jclouds[Attic][云计算 Java 开发工具包]
+
+Description: Apache jclouds is an open source multi-cloud toolkit for the Java platform that gives you the freedom to create applications that are portable across clouds while giving you full control to use cloud-specific features.
+
+介绍: Apache jclouds is an open source multi-cloud toolkit for the Java platform that gives you the freedom to create applications that are portable across clouds while giving you full control to use cloud-specific features.
 
 ### Lens[Attic]
 
