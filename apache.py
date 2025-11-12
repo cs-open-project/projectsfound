@@ -1,7 +1,13 @@
 import json
 import logging
 from urllib import request
+import ssl
 
+# 创建一个SSL上下文对象
+context = ssl.create_default_context()
+# 忽略SSL证书验证
+context.check_hostname = False
+context.verify_mode = ssl.CERT_NONE
 
 def splitStr(content):
     datas = str.split(content, ",")
@@ -10,7 +16,7 @@ def splitStr(content):
 
 
 def getIncubatingProjects(url):
-    response = request.urlopen(url)
+    response = request.urlopen(url, context=context)
     data = response.read()
 
     incubatings = json.loads(data)
@@ -31,7 +37,7 @@ def getIncubatingProjects(url):
 
 
 def getProjects(url):
-    response = request.urlopen(url)
+    response = request.urlopen(url, context=context)
     data = response.read()
     jsonData = json.loads(data)
 
@@ -73,7 +79,7 @@ def handlerNoDOAPProjects(committees, existProjects):
 
 
 def updateNonExistDescription(url, non_exist):
-    response = request.urlopen(url)
+    response = request.urlopen(url, context=context)
     data = response.read()
 
     jsonData = json.loads(data)
@@ -88,7 +94,7 @@ def updateNonExistDescription(url, non_exist):
 
 # 获取所有的 committees，有的 apache 项目共用一个 committee （如 apache commons 存在多个链接），incubating 项目都属于一个 Incubator committee
 def getCommittees(url):
-    response = request.urlopen(url)
+    response = request.urlopen(url, context=context)
     data = response.read()
 
     committees = {}
