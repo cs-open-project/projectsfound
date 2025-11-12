@@ -142,3 +142,27 @@
 
 - Project Attic: jclouds
 
+2025-11-12
+
+- Project New: Auron
+
+- Project New: Fesod
+
+- Project New: Devlake
+
+- Project New: Hertzbeat
+
+- Project Graduated: Grails
+
+- Project Graduated: Teaclave
+
+- Project Graduated: Training
+
+- Project Attic: Kibble
+
+- Project Attic: Mesos
+
+- Project Attic: Portals
+
+- Project Attic: Traffic Control
+

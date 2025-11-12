@@ -605,9 +605,15 @@ Description: Apache DeltaSpike is  a suite of portable CDI (Contexts & Dependenc
 
 ### Derby[关系型数据库，可内嵌]
 
-Description: Apache Derby is an open source relational database implemented entirely in Java. It has a small footprint that makes it easy to embed in any Java-based application, but it also supports the more familiar client/server mode. It is based on the Java, JDBC, and SQL standards, making code developed more portable to standards-compliant databases.
+Description: Apache Derby is an open source relational database implemented entirely in Java. It has a small footprint that makes it easy to embed in any Java-based application, but it also supports the more familiar client/server mode. It is based on the Java, JDBC, and SQL standards, making code developed more portable to standards-compliant databases. The developer community voted to retire the project and move it into a read-only mode as of 2025-10-10. See https://lists.apache.org/thread/q7xnvbyo818vvtyh2b5oljr8won4zjx7
 
 介绍: Apache Derby is an open source relational database implemented entirely in Java. It has a small footprint that makes it easy to embed in any Java-based application, but it also supports the more familiar client/server mode. It is based on the Java, JDBC, and SQL standards, making code developed more portable to standards-compliant databases.
+
+### Devlake
+
+Description: 
+
+介绍: 
 
 ### Directory[LDAP和Kerberos标准实现]
 
@@ -783,6 +789,12 @@ Description: A distributed data integration framework that simplifies common asp
 
 介绍: A distributed data integration framework that simplifies common aspects of big data integration such as data ingestion, replication, organization and lifecycle management for both streaming and batch data ecosystems.
 
+### Grails
+
+Description: Grails is a powerful Groovy-based web application framework for the JVM built on top of Spring Boot that has many plugins to further extend its functionality.
+
+介绍: A powerful Groovy-based web application framework for the JVM built on top of Spring Boot
+
 ### Gravitino
 
 Description: Gravitino is a high-performance, geo-distributed, and federated metadata like designed to manage metadata seamlessly across diverse data sources, vendors, and regions. Its primary goal is to provide users with unified metadata access for both data and AI assets.
@@ -836,6 +848,12 @@ Description: Use Apache HBase software when you need random, realtime read/write
 Description: Apache Helix is a generic cluster management framework used for the automatic management of partitioned, replicated and distributed resources hosted on a cluster of nodes. Helix automates reassignment of resources in the face of node failure and recovery, cluster expansion, and reconfiguration.
 
 介绍: Apache Helix is a generic cluster management framework used for the automatic management of partitioned, replicated and distributed resources hosted on a cluster of nodes. Helix automates reassignment of resources in the face of node failure and recovery, cluster expansion, and reconfiguration.
+
+### Hertzbeat
+
+Description: 
+
+介绍: 
 
 ### Hive[Hadoop数据仓库]
 
@@ -981,12 +999,6 @@ Description: Apache Kerby is a Java Kerberos binding. It provides a rich, intuit
 
 介绍: Apache Kerby is a Java Kerberos binding. It provides a rich, intuitive and interoperable implementation, library, KDC and various facilities that integrates PKI, OTP and token (OAuth2) as desired in modern environments such as cloud, Hadoop and mobile.
 
-### Kibble[可视化活动报告分析平台]
-
-Description: Apache Kibble is a suite of tools for collecting, aggregating and visualizing activity in software projects. 
-
-介绍: 一个活动报告平台，用于收集、汇总、分析和可视化软件项目和社区中的活动。
-
 ### Knox[Hadoop 部署交互的应用网关]
 
 Description: The Apache Knox Gateway is a REST API Gateway for interacting with Hadoop clusters.  The Knox Gateway provides a single access point for all REST interactions with Hadoop clusters.  In this capacity, the Knox Gateway is able to provide valuable functionality to aid in the control, integration, monitoring and automation of critical administrative and analytical needs of the enterprise.  Authentication (LDAP and Active Directory Authentication Provider) Federation/SSO (HTTP Header Based Identity Federation) Authorization (Service Level Authorization) Auditing While there are a number of benefits for unsecured Hadoop clusters, the Knox Gateway also complements the kerberos secured cluster quite nicely.  Coupled with proper network isolation of a Kerberos secured Hadoop cluster, the Knox Gateway provides the enterprise with a solution that:  Integrates well with enterprise identity management solutions Protects the details of the Hadoop cluster deployment (hosts and ports are hidden from endusers) Simplifies the number of services that clients need to interact with
@@ -1113,12 +1125,6 @@ Description: Doxia is a content generation framework which aims to provide its u
 
 介绍: Doxia is a content generation framework which aims to provide its users with powerful techniques for generating static and dynamic content: Doxia can be used in web-based publishing context to generate static sites, in addition to being incorporated into dynamic content generation systems like blogs, wikis and content management systems.
 
-### Mesos[集群资源管理框架]
-
-Description: Apache Mesos is a cluster manager that provides efficient resource isolation  and sharing across distributed applications, or frameworks. It can run Hadoop,  MPI, Hypertable, Spark, and other frameworks on a dynamically shared pool of  nodes. 
-
-介绍: Apache Mesos is a cluster manager that provides efficient resource isolation  and sharing across distributed applications, or frameworks. It can run Hadoop,  MPI, Hypertable, Spark, and other frameworks on a dynamically shared pool of  nodes.
-
 ### MINA[网络应用框架]
 
 Description: Apache MINA is a network application framework which helps users develop high performance and high scalability network applications easily. It provides an abstract, event-driven, asynchronous API over various transports such as TCP/IP and UDP/IP via Java NIO.
@@ -1163,7 +1169,7 @@ Description: Apache NetBeans is and IDE for many language (java, php, ...). Apac
 
 ### NiFi[数据流设计的可靠的数据处理和分发系统]
 
-Description: The mission of NiFi is the creation and maintenance of software related to providing an easy to use, powerful, and reliable system to process and distribute data.  Apache NiFi MiNiFi is an edge data collection agent built to seamlessly integrate with and leverage the command and control of NiFi. There are both Java and C++ implementations.  Apache NiFi Registry is a centralized registry for key configuration items including flow versions, assets, and extensions for Apache NiFi and Apache MiNiFi.
+Description:  The mission of NiFi is the creation and maintenance of software related to providing an easy to use, powerful, and reliable system to process and distribute data. Apache NiFi MiNiFi is an edge data collection agent built to seamlessly integrate with and leverage the command and control of NiFi. Apache NiFi Registry is a centralized registry for key configuration items including flow versions, assets, and extensions for Apache NiFi and Apache MiNiFi. 
 
 介绍: The mission of NiFi is the creation and maintenance of software related to providing an easy to use, powerful, and reliable system to process and distribute data.  Apache NiFi MiNiFi is an edge data collection agent built to seamlessly integrate with and leverage the command and control of NiFi. There are both Java and C++ implementations.  Apache NiFi Registry is a centralized registry for key configuration items including flow versions, assets, and extensions for Apache NiFi and Apache MiNiFi.
 
@@ -1322,12 +1328,6 @@ Description: APIs for manipulating various file formats based upon Open Office X
 Description:  The mission of the Apache Portable Runtime (APR) project is to create and maintain software libraries that provide a predictable and consistent interface to underlying platform-specific implementations. The primary goal is to provide an API to which software developers may code and be assured of predictable if not identical behaviour regardless of the platform on which their software is built, relieving them of the need to code special-case conditions to work around or take advantage of platform-specific deficiencies or features. 
 
 介绍: The mission of the Apache Portable Runtime (APR) project is to create and maintain software libraries that provide a predictable and consistent interface to underlying platform-specific implementations. The primary goal is to provide an API to which software developers may code and be assured of predictable if not identical behaviour regardless of the platform on which their software is built, relieving them of the need to code special-case conditions to work around or take advantage of platform-specific deficiencies or features.
-
-### Portals[协作的软件开发项目，提供门户网站相关软件]
-
-Description: The Apache Portals project provides various software products, including Apache Jetspeed-2, Apache Pluto, and Apache Portals Applications.
-
-介绍: The Apache Portals project provides various software products, including Apache Jetspeed-2, Apache Pluto, and Apache Portals Applications.
 
 ### Props Ant Library
 
@@ -1659,6 +1659,12 @@ Description: Tapestry is a component-oriented Java web application framework. It
 
 介绍: Tapestry is a component-oriented Java web application framework. Its design emphasizes ease of use and developer productivity. Component classes are simple POJOs, with Tapestry using byte code manipulation to enhance classes at runtime. Configuration is via annotations and naming conventions rather than XML. Web page and component templates use regular (X)HTML that can be edited by any web designer. Live Class Reloading enables you to edit Java code and immediately see results by reloading the page in the web browser, resulting in a very fast "code it - see it - fix it" loop.
 
+### Teaclave
+
+Description: Teaclave is a universal secure computing platform.
+
+介绍: Teaclave is a universal secure computing platform.
+
 ### Tentacles
 
 Description: Apache Tentacles helps the reviewer by automating interactions with the repository containing the artifacts comprising the release.
@@ -1725,17 +1731,17 @@ Description: Torque is an object-relational mapper for Java. In other words, Tor
 
 介绍: Torque is an object-relational mapper for Java. In other words, Torque lets you access and manipulate data in a relational database using java objects. Unlike most other object-relational mappers, Torque does not use reflection to access user-provided classes, but it generates the necessary classes (including the Data Objects) from an XML schema describing the database layout (which can either be written by hand or generated from an existing database). The XML schema can also be used to generate and execute a SQL script which creates all the tables in the database.
 
-### Traffic Control[分布式、可扩展的冗余解决方案，可用于构建CDN]
-
-Description: With Apache Traffic Control, operators can setup a Content Delivery Network to quickly and efficiently deliver content to their users. Traffic Control is a highly distributed, scalable and redundant solution meeting the needs of operators from small to large.
-
-介绍: With Apache Traffic Control, operators can setup a Content Delivery Network to quickly and efficiently deliver content to their users. Traffic Control is a highly distributed, scalable and redundant solution meeting the needs of operators from small to large.
-
 ### Traffic Server[HTTP缓存代理服务器]
 
 Description: Apache Traffic Server is fast, scalable and extensible HTTP/1.1 compliant caching proxy server. ATS can be used as a reverse, forward or even transparent HTTP proxy. 
 
 介绍: Apache Traffic Server is fast, scalable and extensible HTTP/1.1 compliant caching proxy server. ATS can be used as a reverse, forward or even transparent HTTP proxy.
+
+### Training
+
+Description: The Training project aims to develop resources which can be used for training purposes in various media formats, languages and for various Apache and non-Apache target projects.
+
+介绍: The Training project aims to develop resources which can be used for training purposes in various media formats, languages and for various Apache and non-Apache target projects.
 
 ### TsFile
 
@@ -1929,6 +1935,12 @@ Description: Apache Annotator is a collaborative community for creating annotati
 
 介绍: Apache Annotator is a collaborative community for creating annotation related code which works to provide a future for Annotator.js-based projects and plugins while enabling W3C spec-compliant Web Annotation in Web browsers, Web Publication readers, and the servers that serve them.
 
+### Auron[Incubating]
+
+Description: Auron accelerates Apache Spark SQL by providing an alternative vectorized execution layer implemented in Rust, enabling native performance while maintaining full Spark compatibility.
+
+介绍: Auron accelerates Apache Spark SQL by providing an alternative vectorized execution layer implemented in Rust, enabling native performance while maintaining full Spark compatibility.
+
 ### Baremaps[Incubating]
 
 Description: Apache Baremaps is a toolkit and a set of infrastructure components for creating, publishing, and operating online maps.
@@ -1949,7 +1961,7 @@ Description: Burr is a lightweight in-process python framework that standardizes
 
 ### Cloudberry[Incubating]
 
-Description:  Cloudberry Database, built on the latest PostgreSQL kernel, is one of the most advanced and mature open-source MPP (Massively Parallel Processing) databases available. 
+Description: Cloudberry Database, built on the latest PostgreSQL kernel, is one of the most advanced and mature open-source MPP (Massively Parallel Processing) databases available. 
 
 介绍: Cloudberry Database, built on the latest PostgreSQL kernel, is one of the most advanced and mature open-source MPP (Massively Parallel Processing) databases available.
 
@@ -1958,6 +1970,12 @@ Description:  Cloudberry Database, built on the latest PostgreSQL kernel, is one
 Description: DevLake is a development data platform, providing the data infrastructure for developer teams to analyze and improve their engineering productivity.
 
 介绍: DevLake is a development data platform, providing the data infrastructure for developer teams to analyze and improve their engineering productivity.
+
+### Fesod[Incubating]
+
+Description: Fesod is a high-performance and memory-efficient Java library for reading and writing Excel files, designed to simplify development and ensure reliability.
+
+介绍: Fesod is a high-performance and memory-efficient Java library for reading and writing Excel files, designed to simplify development and ensure reliability.
 
 ### Fluss[Incubating]
 
@@ -1982,12 +2000,6 @@ Description: GeaFlow is a distributed stream and batch integration graph compute
 Description: Gluten is a middle layer responsible for offloading JVM-based SQL engines' execution to native engines.
 
 介绍: Gluten 是负责将基于JVM的SQL引擎的执行转到本地引擎执行的中间层（用于加速 Spark SQL等）。
-
-### Grails[Incubating]
-
-Description: A powerful Groovy-based web application framework for the JVM built on top of Spring Boot
-
-介绍: A powerful Groovy-based web application framework for the JVM built on top of Spring Boot
 
 ### GraphAr[Incubating]
 
@@ -2075,7 +2087,7 @@ Description: OpenServerless is an open source, cloud-agnostic, serverless platfo
 
 ### Otava[Incubating]
 
-Description:  Otava, a command-line tool, written in Python, that detects statistically significant changes in time-series data stored either in databases or CSV files. Otava entered Incubation as Hunter 
+Description: Otava, a command-line tool, written in Python, that detects statistically significant changes in time-series data stored either in databases or CSV files. Otava entered Incubation as Hunter 
 
 介绍: Otava, a command-line tool, written in Python, that detects statistically significant changes in time-series data stored either in databases or CSV files. Otava entered Incubation as Hunter
 
@@ -2127,12 +2139,6 @@ Description: StormCrawler is a collection of resources for building low-latency,
 
 介绍: StormCrawler is a collection of resources for building low-latency, customisable and scalable web crawlers on Apache Storm.
 
-### Teaclave[Incubating]
-
-Description: Teaclave is a universal secure computing platform.
-
-介绍: Teaclave is a universal secure computing platform.
-
 ### Texera[Incubating]
 
 Description: Texera is an open-source system to support collaborative data science, AI, and ML using GUI-based workflows. Our vision is to develop a system to support cloud platforms on which users can easily analyze data and use AI/ML techniques provided as operators. Users with various backgrounds, irrespective of whether they know coding or not, can collaborate on the same project to construct a pipeline. Experienced users can use programming languages such as Python, R, Java, and Scala to implement customized computation logic. The platform allows users to pause the execution of a workflow to investigate the operator states, and resume the execution at a later time. The platform can be used by a research community to publish valuable resources such as data sets, workflows, and ML models to share their domain-specific knowledge and support reproducibility of scientific research. The platform also allows users to elastically request computing resources from public clouds for computationally-intensive tasks.
@@ -2144,12 +2150,6 @@ Description: Texera is an open-source system to support collaborative data scien
 Description: Toree provides applications with a mechanism to interactively and remotely access Apache Spark.
 
 介绍: Toree provides applications with a mechanism to interactively and remotely access Apache Spark.
-
-### Training[Incubating]
-
-Description: The Training project aims to develop resources which can be used for training purposes in various media formats, languages and for various Apache and non-Apache target projects.
-
-介绍: The Training project aims to develop resources which can be used for training purposes in various media formats, languages and for various Apache and non-Apache target projects.
 
 ### Wayang[Incubating]
 
@@ -2331,6 +2331,12 @@ Description: Apache jclouds is an open source multi-cloud toolkit for the Java p
 
 介绍: Apache jclouds is an open source multi-cloud toolkit for the Java platform that gives you the freedom to create applications that are portable across clouds while giving you full control to use cloud-specific features.
 
+### Kibble[Attic][可视化活动报告分析平台]
+
+Description: Apache Kibble is a suite of tools for collecting, aggregating and visualizing activity in software projects. 
+
+介绍: 一个活动报告平台，用于收集、汇总、分析和可视化软件项目和社区中的活动。
+
 ### Lens[Attic]
 
 Description: Lens provides an Unified Analytics interface. Lens aims to cut the Data Analytics silos by providing a single view of data across multiple tiered data stores and optimal execution environment for the analytical query. It seamlessly integrates Hadoop with traditional data warehouses to appear like one. 
@@ -2354,6 +2360,12 @@ Description: The Apache Lucy search engine library provides full-text search for
 Description: The goal of Apache Marmotta is to provide an open implementation of a Linked Data Platform that can be used, extended and deployed easily by organizations who want to publish Linked Data or build custom applications on Linked Data
 
 介绍: The goal of Apache Marmotta is to provide an open implementation of a Linked Data Platform that can be used, extended and deployed easily by organizations who want to publish Linked Data or build custom applications on Linked Data
+
+### Mesos[Attic][集群资源管理框架]
+
+Description: Apache Mesos is a cluster manager that provides efficient resource isolation  and sharing across distributed applications, or frameworks. It can run Hadoop,  MPI, Hypertable, Spark, and other frameworks on a dynamically shared pool of  nodes. 
+
+介绍: Apache Mesos is a cluster manager that provides efficient resource isolation  and sharing across distributed applications, or frameworks. It can run Hadoop,  MPI, Hypertable, Spark, and other frameworks on a dynamically shared pool of  nodes.
 
 ### MetaModel[Attic]
 
@@ -2420,6 +2432,12 @@ Description: Apache Pivot is an open-source platform for building installable In
 Description: Apache Polygene is a community based effort exploring Composite Oriented Programming for domain centric application development. This includes evolved concepts from Aspect Oriented Programming, Dependency Injection and Domain Driven Design. Composite Oriented Programming allows developers to work with 'fragments', smaller than classes, and 'compose' fragments into larger 'composites' which acts like the regular objects. Polygene also tackles the enforcement of application composition, i.e. composites are declared in modules, modules are contained in layers and access between layers are controlled/enforced. Apache Polygene™ (Java Edition), first Apache Polygene sub-project, is an implementation of Composite Oriented Programming, using the standard Java platform, without the use of any pre-processors or new language elements. Everything you know from Java still applies and you can leverage both your experience and toolkits to become more productive with Composite Oriented Programming today.
 
 介绍: Apache Polygene is a community based effort exploring Composite Oriented Programming for domain centric application development. This includes evolved concepts from Aspect Oriented Programming, Dependency Injection and Domain Driven Design. Composite Oriented Programming allows developers to work with 'fragments', smaller than classes, and 'compose' fragments into larger 'composites' which acts like the regular objects. Polygene also tackles the enforcement of application composition, i.e. composites are declared in modules, modules are contained in layers and access between layers are controlled/enforced. Apache Polygene™ (Java Edition), first Apache Polygene sub-project, is an implementation of Composite Oriented Programming, using the standard Java platform, without the use of any pre-processors or new language elements. Everything you know from Java still applies and you can leverage both your experience and toolkits to become more productive with Composite Oriented Programming today.
+
+### Portals[Attic][协作的软件开发项目，提供门户网站相关软件]
+
+Description: The Apache Portals project provides various software products, including Apache Jetspeed-2, Apache Pluto, and Apache Portals Applications.
+
+介绍: The Apache Portals project provides various software products, including Apache Jetspeed-2, Apache Pluto, and Apache Portals Applications.
 
 ### PredictionIO[Attic]
 
@@ -2492,6 +2510,12 @@ Description:  The main goal of Apache Tajo project is to build an advanced open 
 Description: Apache Tiles™ is a templating framework built to simplify the development of web application user interfaces.  Tiles allows authors to define page fragments which can be assembled into a  complete page at runtime. These fragments, or tiles, can be used as simple  includes in order to reduce the duplication of common page elements or embedded  within other tiles to develop a series of reusable templates. These templates  streamline the development of a consistent look and feel across an entire application. 
 
 介绍: Apache Tiles™ is a templating framework built to simplify the development of web application user interfaces.  Tiles allows authors to define page fragments which can be assembled into a  complete page at runtime. These fragments, or tiles, can be used as simple  includes in order to reduce the duplication of common page elements or embedded  within other tiles to develop a series of reusable templates. These templates  streamline the development of a consistent look and feel across an entire application.
+
+### Traffic Control[Attic][分布式、可扩展的冗余解决方案，可用于构建CDN]
+
+Description: With Apache Traffic Control, operators can setup a Content Delivery Network to quickly and efficiently deliver content to their users. Traffic Control is a highly distributed, scalable and redundant solution meeting the needs of operators from small to large.
+
+介绍: With Apache Traffic Control, operators can setup a Content Delivery Network to quickly and efficiently deliver content to their users. Traffic Control is a highly distributed, scalable and redundant solution meeting the needs of operators from small to large.
 
 ### Trafodion[Attic]
 
