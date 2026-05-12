@@ -99,6 +99,12 @@ Description: Apache Arrow defines a language-independent columnar memory format 
 
 介绍: Apache Arrow defines a language-independent columnar memory format for flat and hierarchical data, organized for efficient analytic operations on modern hardware like CPUs and GPUs. The Arrow memory format also supports zero-copy reads for lightning-fast data access without serialization overhead.  Arrow's libraries implement the format and provide building blocks for a range of use cases, including high performance analytics. Many popular projects use Arrow to ship columnar data efficiently or as the basis for analytic engines.  Libraries are available for C, C++, C#, Go, Java, JavaScript, Julia, MATLAB, Python, R, Ruby, and Rust.  Apache Arrow is software created by and for the developer community. We are dedicated to open, kind communication and consensus decision making. Our committers come from a range of organizations and backgrounds, and we welcome all to participate with us.
 
+### Artemis
+
+Description: 
+
+介绍: 
+
 ### Asterixdb
 
 Description: 
@@ -621,9 +627,15 @@ Description: The Apache Directory project provides directory solutions entirely 
 
 介绍: The Apache Directory project provides directory solutions entirely written in Java. These include a directory server, which has been certified as LDAP v3 compliant by the Open Group (ApacheDS), and Eclipse-based directory tools (Apache Directory Studio).
 
+### Directory LDAP API
+
+Description: The Apache Directory LDAP API is an ongoing effort to provide an enhanced LDAP API, as a replacement for JNDI and the existing LDAP API (jLdap and Mozilla LDAP API).
+
+介绍: The Apache Directory LDAP API is an ongoing effort to provide an enhanced LDAP API, as a replacement for JNDI and the existing LDAP API (jLdap and Mozilla LDAP API).
+
 ### Directory Server
 
-Description: ApacheDS is an extensible and embeddable directory server entirely written in Java, which has been certified LDAPv3 compatible by the Open Group. Besides LDAP it supports Kerberos 5 and the Change Password Protocol. It has been designed to introduce triggers, stored procedures, queues and views to the world of LDAP which has lacked these rich constructs.
+Description: ApacheDS is an extensible and embeddable directory server entirely written in Java, which has been certified LDAPv3 compatible by the Open Group. It has been designed to introduce triggers, stored procedures, queues and views to the world of LDAP which has lacked these rich constructs.
 
 介绍: ApacheDS is an extensible and embeddable directory server entirely written in Java, which has been certified LDAPv3 compatible by the Open Group. Besides LDAP it supports Kerberos 5 and the Change Password Protocol. It has been designed to introduce triggers, stored procedures, queues and views to the world of LDAP which has lacked these rich constructs.
 
@@ -783,6 +795,12 @@ Description: Apache Geronimo is an open source server runtime that integrates th
 
 介绍: Apache Geronimo is an open source server runtime that integrates the best open source projects to create Java/OSGi server runtimes that meet the needs of enterprise developers and system administrators. Our most popular distribution is a fully certified Java EE 5 application server runtime.
 
+### Gluten
+
+Description: Gluten is a middle layer responsible for offloading JVM-based SQL engines' execution to native engines.
+
+介绍: Gluten 是负责将基于JVM的SQL引擎的执行转到本地引擎执行的中间层（用于加速 Spark SQL等）。
+
 ### Gobblin[Hadoop 通用数据摄取框架]
 
 Description: A distributed data integration framework that simplifies common aspects of big data integration such as data ingestion, replication, organization and lifecycle management for both streaming and batch data ecosystems.
@@ -800,12 +818,6 @@ Description: Grails is a powerful Groovy-based web application framework for the
 Description: Gravitino is a high-performance, geo-distributed, and federated metadata like designed to manage metadata seamlessly across diverse data sources, vendors, and regions. Its primary goal is to provide users with unified metadata access for both data and AI assets.
 
 介绍: Gravitino is a high-performance, geo-distributed, and federated metadata like designed to manage metadata seamlessly across diverse data sources, vendors, and regions. Its primary goal is to provide users with unified metadata access for both data and AI assets.
-
-### Griffin[大数据的数据质量解决方案]
-
-Description: Griffin is a open source Data Quality solution for distributed data systems at any scale in both streaming or batch data context
-
-介绍: Griffin is a open source Data Quality solution for distributed data systems at any scale in both streaming or batch data context
 
 ### Groovy[基于 JVM 平台的动态/敏捷编程语言]
 
@@ -890,6 +902,12 @@ Description:  HttpCore is a set of low level HTTP transport components that can 
 Description: Hudi brings transactions, stream processing, indexes, mutability and incremental processing to data lakes.
 
 介绍: Hudi (pronounced “Hoodie”) brings stream processing to big data, providing upserts, deletes and incremental data streams.
+
+### Hugegraph
+
+Description: 
+
+介绍: 
 
 ### Iceberg[数据湖]
 
@@ -995,7 +1013,7 @@ Description: Apache Karaf is a small OSGi based runtime which provides a lightwe
 
 ### Kerby[Java Kerberos]
 
-Description: Apache Kerby is a Java Kerberos binding. It provides a rich, intuitive and interoperable implementation, library, KDC and various facilities that integrates PKI, OTP and token (OAuth2) as desired in modern environments such as cloud, Hadoop and mobile.
+Description: Apache Kerby, as an Apache Directory sub project, is a Java Kerberos binding. It provides a rich, intuitive and interoperable implementation, library, KDC and various facilities that integrates PKI, OTP and token (OAuth2) as desired in modern environments such as cloud, Hadoop and mobile.
 
 介绍: Apache Kerby is a Java Kerberos binding. It provides a rich, intuitive and interoperable implementation, library, KDC and various facilities that integrates PKI, OTP and token (OAuth2) as desired in modern environments such as cloud, Hadoop and mobile.
 
@@ -1049,7 +1067,7 @@ Description: Apache log4cxx provides logging services for C++.
 
 ### Log4j
 
-Description: Apache Log4j is a versatile, feature-rich, efficient logging API and backend for Java.
+Description: Log4j is a versatile, feature-rich, efficient logging API and backend for Java.
 
 介绍: Apache log4j provides logging services for Java.
 
@@ -1161,6 +1179,12 @@ Description: Apache Mynewt is a community-driven module OS for constrained, embe
 
 介绍: Apache Mynewt is a community-driven module OS for constrained, embedded applications. Mynewt provides a real-time operating system, flash file system, network stacks, and support utilities for real-world embedded systems. Its goal is to make it easy to develop applications for microcontroller environments where power and cost are driving factors.
 
+### Neethi
+
+Description: Apache Neethi is a Java implementation of the WS-Policy Specification.
+
+介绍: Apache Neethi is a Java implementation of the WS-Policy Specification.
+
 ### NetBeans
 
 Description: Apache NetBeans is and IDE for many language (java, php, ...). Apache NetBeans is a platform that can be extended by third party developer.
@@ -1197,12 +1221,6 @@ Description:  Apache OFBiz is an open source product for the automation of enter
 
 介绍: Apache OFBiz is an open source product for the automation of enterprise processes that includes framework components and business applications for ERP (Enterprise Resource Planning), CRM (Customer Relationship Management), E-Business / E-Commerce, SCM (Supply Chain Management), MRP (Manufacturing Resource Planning), MMS/EAM (Maintenance Management System/Enterprise Asset Management). Apache OFBiz provides a foundation and starting point for reliable, secure and scalable enterprise solutions, see https://ofbiz.apache.org/ for more.
 
-### Olingo[实现开放数据协议(OData)的Java库]
-
-Description: Apache Olingo is a Java library that implements the Open Data Protocol (OData). Apache Olingo serves client and server aspects of OData. It currently supports OData 2.0 and support OData 4.0 (beta). The latter is the OASIS version of the protocol: OASIS Open Data Protocol (OData) TC.  The extensions part of Olingo for OData 2.0 contains additional features like the support of JPA persistency or annotated bean classes. 
-
-介绍: Apache Olingo is a Java library that implements the Open Data Protocol (OData). Apache Olingo serves client and server aspects of OData. It currently supports OData 2.0 and support OData 4.0 (beta). The latter is the OASIS version of the protocol: OASIS Open Data Protocol (OData) TC.  The extensions part of Olingo for OData 2.0 contains additional features like the support of JPA persistency or annotated bean classes.
-
 ### OpenDAL[数据访问抽象层]
 
 Description: Apache OpenDAL is a data access layer that allows users to easily and efficiently retrieve data from various storage services in a unified way.
@@ -1229,7 +1247,7 @@ Description: Apache OpenNLP software supports the most common NLP tasks, such as
 
 ### OpenOffice[类似于微软MS Office软件跨平台的办公室软件]
 
-Description: Apache OpenOffice is a leading open-source, office-document productivity suite providing six productivity applications (Writer, Calc, Impress, Draw, Math, Base) based around the OpenDocument Format (ODF). OpenOffice is released on Windows, macOS (OS X), Linux 32-bit DEB+RPM, Linux 64-bit DEB+RPM and in 41languages. 
+Description: Apache OpenOffice is a leading open-source, office-document productivity suite providing six productivity applications (Writer, Calc, Impress, Draw, Math, Base) based around the OpenDocument Format (ODF). OpenOffice is released on Windows, macOS (OS X), Linux 32-bit DEB+RPM, Linux 64-bit DEB+RPM and in 41 languages. 
 
 介绍: Apache OpenOffice is a leading open-source, office-document productivity suite providing six productivity applications (Writer, Calc, Impress, Draw, Math, Base) based around the OpenDocument Format (ODF). OpenOffice is released on Windows, macOS (OS X), Linux 32-bit DEB+RPM, Linux 64-bit DEB+RPM and in 41 languages.
 
@@ -1322,6 +1340,12 @@ Description: PLC4X is a set of libraries for communicating with industrial progr
 Description: APIs for manipulating various file formats based upon Open Office XML (ECMA-376) and Microsoft's OLE 2 Compound Document formats using pure Java. Apache POI is your Java Excel, Word and PowerPoint solution. We have a complete API for porting other OOXML and OLE 2 Compound Document formats and welcome others to participate.
 
 介绍: APIs for manipulating various file formats based upon Open Office XML (ECMA-376) and Microsoft's OLE 2 Compound Document formats using pure Java. Apache POI is your Java Excel, Word and PowerPoint solution. We have a complete API for porting other OOXML and OLE 2 Compound Document formats and welcome others to participate.
+
+### Polaris
+
+Description: Apache Polaris implements the Apache Iceberg REST API, enabling seamless multi-engine interoperability across a wide range of platforms, including Apache Doris, Apache Flink, Apache Spark, ...
+
+介绍: Polaris is a catalog for data lakes. It provides new levels of choice, flexibility and control over data, with full enterprise security and Apache Iceberg interoperability across a multitude of engines and infrastructure.
 
 ### Portable Runtime[跨平台库]
 
@@ -1466,12 +1490,6 @@ Description:
 Description: ServiceComb is a microservice framework that provides a set of tools and components to make development and deployment of cloud applications easier.
 
 介绍: ServiceComb is a microservice framework that provides a set of tools and components to make development and deployment of cloud applications easier.
-
-### ServiceMix[开源ESB,适合SOA项目的集成]
-
-Description: Apache ServiceMix is a flexible, open-source integration container that unifies the features and functionality of Apache ActiveMQ, Camel, CXF, and Karaf into a powerful runtime platform you can use to build your own integrations solutions. It provides a complete, enterprise ready ESB exclusively powered by OSGi.
-
-介绍: Apache ServiceMix is a flexible, open-source integration container that unifies the features and functionality of Apache ActiveMQ, Camel, CXF, and Karaf into a powerful runtime platform you can use to build your own integrations solutions. It provides a complete, enterprise ready ESB exclusively powered by OSGi.
 
 ### Shardingsphere
 
@@ -1745,7 +1763,7 @@ Description: The Training project aims to develop resources which can be used fo
 
 ### TsFile
 
-Description: TsFile is a columnar storage file format designed for time series data, which supports efficient compression, high throughput of read and write, and compatibility with various frameworks, such as Spark and Flink. It is easy to integrate TsFile into IoT big data processing frameworks.
+Description: TsFile is a high-performance columnar storage file format designed for industrial time-series data, featuring multi-language interfaces, high compression ratios, high read/write throughput, and fast random access capabilities. It is ideal for scenarios such as building high-quality datasets, managing data assets, conducting data analytics, and training AI models.
 
 介绍: 
 
@@ -1815,6 +1833,12 @@ Description: Apache Vysper aims to be a modular, full featured XMPP (Jabber) ser
 
 介绍: Apache Vysper aims to be a modular, full featured XMPP (Jabber) server. Vysper is implemented in Java.
 
+### Wayang
+
+Description: Wayang is a cross-platform data processing system that aims at decoupling the business logic of data analytics applications from concrete data processing platforms, such as Apache Flink or Apache Spark. Hence, it tames the complexity that arises from the "Cambrian explosion" of novel data processing platforms that we currently witness.
+
+介绍: Wayang is a cross-platform data processing system that aims at decoupling the business logic of data analytics applications from concrete data processing platforms, such as Apache Flink or Apache Spark. Hence, it tames the complexity that arises from the "Cambrian explosion" of novel data processing platforms that we currently witness.
+
 ### Websh
 
 Description: Websh is a rapid development environment for building powerful, fast, and reliable web applications in Tcl. Websh is versatile and handles everything from HTML generation to data-base driven one-to-one page customization. Websh can be run in CGI environments and as Apache module. 
@@ -1844,6 +1868,12 @@ Description: Write maintainable, secure and scalable web applications using just
 Description: The Woden project is a subproject of the Apache Web Services Project to develop a Java class library for reading, manipulating, creating and writing WSDL documents, initially to support WSDL 2.0 but with the longer term aim of supporting past, present and future versions of WSDL.  There are two main deliverables: an API and an implementation. The Woden API will consist of a set of Java interfaces. The WSDL 2.0-specific portion of the Woden API will conform to the W3C WSDL 2.0 specification. The implementation will be a high performance implementation directly usable in other Apache projects such as Axis2. 
 
 介绍: The Woden project is a subproject of the Apache Web Services Project to develop a Java class library for reading, manipulating, creating and writing WSDL documents, initially to support WSDL 2.0 but with the longer term aim of supporting past, present and future versions of WSDL.  There are two main deliverables: an API and an implementation. The Woden API will consist of a set of Java interfaces. The WSDL 2.0-specific portion of the Woden API will conform to the W3C WSDL 2.0 specification. The implementation will be a high performance implementation directly usable in other Apache projects such as Axis2.
+
+### WSS4J
+
+Description: The Apache WSS4J project provides a Java implementation of the primary security standards for Web Services, namely the OASIS Web Services Security (WS-Security) specifications from the OASIS Web Services Security TC.
+
+介绍: The Apache WSS4J project provides a Java implementation of the primary security standards for Web Services, namely the OASIS Web Services Security (WS-Security) specifications from the OASIS Web Services Security TC.
 
 ### Xalan for C++ XSLT Processor[XSLT处理的库]
 
@@ -1898,6 +1928,12 @@ Description: Apache XML Graphics Commons is a library that consists of several r
 Description: XMLBeans is a tool that allows you to access the full power of XML in a Java friendly way. The idea is that you can take advantage of the richness and features of XML and XML Schema and have these features mapped as naturally as possible to the equivalent Java language and typing constructs. XMLBeans uses XML Schema to compile Java interfaces and classes that you can then use to access and modify XML instance data. Using XMLBeans is similar to using any other Java interface/class, you will see things like getFoo or setFoo just as you would expect when working with Java. While a major use of XMLBeans is to access your XML instance data with strongly typed Java classes there are also API's that allow you access to the full XML infoset (XMLBeans keeps XML Infoset fidelity) as well as to allow you to reflect into the XML schema itself through an XML Schema Object model.  For more details on XMLBeans see the XMLBeans Wiki pages or the XMLBeans documentation (the Documentation tab on this website). What Makes XMLBeans Different  There are at least two major things that make XMLBeans unique from other XML-Java binding options.  1. Full XML Schema support. XMLBeans fully supports XML Schema and the corresponding java classes provide constructs for all of the major functionality of XML Schema. This is critical since often times you do not have control over the features of XML Schema that you need to work with in Java. Also, XML Schema oriented applications can take full advantage of the power of XML Schema and not have to restrict themselvs to a subset. 2. Full XML Infoset fidelity.When unmarshalling an XML instance the full XML infoset is kept and is available to the developer. This is critical because because of the subset of XML that is not easily represented in java. For example, order of the elements or comments might be needed in a particular application.  A major objective of XMLBeans has been to be applicable in all non-streaming (in memory) XML programming situations. You should be able to compile your XML Schema into a set of java classes and know that 1) you will be able to use XMLBeans for all of the schemas you encounter (even the warped ones) and 2) that you will be able to get to the XML at whatever level is necessary - and not have to resort to multple tools to do this.  To accomplish this XMLBeans provides three major APIs:  * XmlObject The java classes that are generated from an XML Schema are all derived from XmlObject. These provide strongly typed getters and setters for each of the elements within the defined XML. Complex types are in turn XmlObjects. For example getCustomer might return a CustomerType (which is an XmlObject). Simple types turn into simple getters and setters with the correct java type. For example getName might return a String. * XmlCursor From any XmlObject you can get an XmlCursor. This provides efficient, low level access to the XML Infoset. A cursor represents a position in the XML instance. You can move the cursor around the XML instance at any level of granularity you need from individual characters to Tokens. * SchemaType XMLBeans provides a full XML Schema object model that you can use to reflect on the underlying schema meta information. For example, you might want to generate a sample XML instance for an XML schema or perhaps find the enumerations for an element so that you can display them.  All of this was built with performance in mind. Informal benchmarks and user feedback indicate that XMLBeans is extremely fast. 
 
 介绍: XMLBeans is a tool that allows you to access the full power of XML in a Java friendly way. The idea is that you can take advantage of the richness and features of XML and XML Schema and have these features mapped as naturally as possible to the equivalent Java language and typing constructs. XMLBeans uses XML Schema to compile Java interfaces and classes that you can then use to access and modify XML instance data. Using XMLBeans is similar to using any other Java interface/class, you will see things like getFoo or setFoo just as you would expect when working with Java. While a major use of XMLBeans is to access your XML instance data with strongly typed Java classes there are also API's that allow you access to the full XML infoset (XMLBeans keeps XML Infoset fidelity) as well as to allow you to reflect into the XML schema itself through an XML Schema Object model.  For more details on XMLBeans see the XMLBeans Wiki pages or the XMLBeans documentation (the Documentation tab on this website). What Makes XMLBeans Different  There are at least two major things that make XMLBeans unique from other XML-Java binding options.  1. Full XML Schema support. XMLBeans fully supports XML Schema and the corresponding java classes provide constructs for all of the major functionality of XML Schema. This is critical since often times you do not have control over the features of XML Schema that you need to work with in Java. Also, XML Schema oriented applications can take full advantage of the power of XML Schema and not have to restrict themselvs to a subset. 2. Full XML Infoset fidelity.When unmarshalling an XML instance the full XML infoset is kept and is available to the developer. This is critical because because of the subset of XML that is not easily represented in java. For example, order of the elements or comments might be needed in a particular application.  A major objective of XMLBeans has been to be applicable in all non-streaming (in memory) XML programming situations. You should be able to compile your XML Schema into a set of java classes and know that 1) you will be able to use XMLBeans for all of the schemas you encounter (even the warped ones) and 2) that you will be able to get to the XML at whatever level is necessary - and not have to resort to multple tools to do this.  To accomplish this XMLBeans provides three major APIs:  * XmlObject The java classes that are generated from an XML Schema are all derived from XmlObject. These provide strongly typed getters and setters for each of the elements within the defined XML. Complex types are in turn XmlObjects. For example getCustomer might return a CustomerType (which is an XmlObject). Simple types turn into simple getters and setters with the correct java type. For example getName might return a String. * XmlCursor From any XmlObject you can get an XmlCursor. This provides efficient, low level access to the XML Infoset. A cursor represents a position in the XML instance. You can move the cursor around the XML instance at any level of granularity you need from individual characters to Tokens. * SchemaType XMLBeans provides a full XML Schema object model that you can use to reflect on the underlying schema meta information. For example, you might want to generate a sample XML instance for an XML schema or perhaps find the enumerations for an element so that you can display them.  All of this was built with performance in mind. Informal benchmarks and user feedback indicate that XMLBeans is extremely fast.
+
+### XMLSchema
+
+Description: Apache XMLSchema is a lightweight Java object model that can be used to manipulate and generate XML schema representations.
+
+介绍: Apache XMLSchema is a lightweight Java object model that can be used to manipulate and generate XML schema representations.
 
 ### Yetus[系统管理工具，为软件项目提供贡献和发布流程]
 
@@ -1959,6 +1995,18 @@ Description: Burr is a lightweight in-process python framework that standardizes
 
 介绍: Burr is a lightweight in-process python framework that standardizes the expression and execution of state machines as action-driven graphs, while making graph execution easily observable. It is particularly suited for AI agent workflows, simulations, and other dynamic systems, and comes with a self-hostable observability UI that integrates with OpenTelemetry.
 
+### Caldera[Incubating]
+
+Description: Caldera provides a modular platform for modeling, scripting, and executing adversary behavior. It allows users to construct emulation plans, provides agents for communicating with the command and control server, and enables users to evaluate security detections in a structured, scalable, and repeatable way. With the use of plug-ins and community-contributed features, Caldera supports a range of use cases including adversary emulation, purple teaming, detection engineering, and continuous security validation. Using Caldera, defenders can emulate known threat actor behavior and perform other red team activity to evaluate their organization’s defensive capabilities, test analytics, and find detection gaps. As a modular tool based on the MITRE ATT&CK framework, Caldera is designed to be extensible, intelligence-driven, and automation-friendly.
+
+介绍: Caldera provides a modular platform for modeling, scripting, and executing adversary behavior. It allows users to construct emulation plans, provides agents for communicating with the command and control server, and enables users to evaluate security detections in a structured, scalable, and repeatable way. With the use of plug-ins and community-contributed features, Caldera supports a range of use cases including adversary emulation, purple teaming, detection engineering, and continuous security validation. Using Caldera, defenders can emulate known threat actor behavior and perform other red team activity to evaluate their organization’s defensive capabilities, test analytics, and find detection gaps. As a modular tool based on the MITRE ATT&CK framework, Caldera is designed to be extensible, intelligence-driven, and automation-friendly.
+
+### Casbin[Incubating]
+
+Description: Casbin is a powerful, open-source access control framework that provides a unified, model-driven approach to authorization.
+
+介绍: Casbin is a powerful, open-source access control framework that provides a unified, model-driven approach to authorization.
+
 ### Cloudberry[Incubating]
 
 Description: Cloudberry Database, built on the latest PostgreSQL kernel, is one of the most advanced and mature open-source MPP (Massively Parallel Processing) databases available. 
@@ -1994,12 +2042,6 @@ Description: A blazing fast multi-language serialization framework powered by ji
 Description: GeaFlow is a distributed stream and batch integration graph compute engine.
 
 介绍: GeaFlow is a distributed stream and batch integration graph compute engine.
-
-### Gluten[Incubating]
-
-Description: Gluten is a middle layer responsible for offloading JVM-based SQL engines' execution to native engines.
-
-介绍: Gluten 是负责将基于JVM的SQL引擎的执行转到本地引擎执行的中间层（用于加速 Spark SQL等）。
 
 ### GraphAr[Incubating]
 
@@ -2103,12 +2145,6 @@ Description: Pegasus is a distributed key-value storage system which is designed
 
 介绍: Pegasus is a distributed key-value storage system which is designed to be simple, horizontally scalable, strongly consistent and high-performance.
 
-### Polaris[Incubating]
-
-Description: Polaris is a catalog for data lakes. It provides new levels of choice, flexibility and control over data, with full enterprise security and Apache Iceberg interoperability across a multitude of engines and infrastructure.
-
-介绍: Polaris is a catalog for data lakes. It provides new levels of choice, flexibility and control over data, with full enterprise security and Apache Iceberg interoperability across a multitude of engines and infrastructure.
-
 ### Pony Mail[Incubating]
 
 Description: Pony Mail is a mail-archiving, archive viewing, and interaction service, that can be integrated with many email platforms.
@@ -2150,12 +2186,6 @@ Description: Texera is an open-source system to support collaborative data scien
 Description: Toree provides applications with a mechanism to interactively and remotely access Apache Spark.
 
 介绍: Toree provides applications with a mechanism to interactively and remotely access Apache Spark.
-
-### Wayang[Incubating]
-
-Description: Wayang is a cross-platform data processing system that aims at decoupling the business logic of data analytics applications from concrete data processing platforms, such as Apache Flink or Apache Spark. Hence, it tames the complexity that arises from the "Cambrian explosion" of novel data processing platforms that we currently witness.
-
-介绍: Wayang is a cross-platform data processing system that aims at decoupling the business logic of data analytics applications from concrete data processing platforms, such as Apache Flink or Apache Spark. Hence, it tames the complexity that arises from the "Cambrian explosion" of novel data processing platforms that we currently witness.
 
 ### XTable[Incubating]
 
@@ -2301,6 +2331,12 @@ Description: Although there are various excellent ORM frameworks for relational 
 
 介绍: Although there are various excellent ORM frameworks for relational databases, data modeling in NoSQL data stores differ profoundly from their relational cousins. Moreover, data-model agnostic frameworks such as JDO are not sufficient for use cases, where one needs to use the full power of the data models in column stores. Gora fills this gap by giving the user an easy-to-use in-memory data model and persistence for big data framework with data store specific mappings and built in Apache Hadoop support.
 
+### Griffin[Attic][大数据的数据质量解决方案]
+
+Description: Big Data Quality Solution For Batch and Streaming.
+
+介绍: Griffin is a open source Data Quality solution for distributed data systems at any scale in both streaming or batch data context
+
 ### Hama[Attic]
 
 Description: The Apache Hama is an efficient and scalable general-purpose BSP computing engine which can be used to speed up a large variety of compute-intensive analytics applications.
@@ -2391,6 +2427,12 @@ Description: Apache ODE (Orchestration Director Engine) executes business proces
 
 介绍: Apache ODE (Orchestration Director Engine) executes business processes written following the WS-BPEL standard. It talks to web services, sending and receiving messages, handling data manipulation and error recovery as described by your process definition. It supports both long and short living process executions to orchestrate all the services that are part of your application.  WS-BPEL is an XML-based language defining several constructs to write business processes. It defines a set of basic control structures like conditions or loops as well as elements to invoke web services and receive messages from services. It relies on WSDL to express web services interfaces. Message structures can be manipulated, assigning parts or the whole of them to variables that can in turn be used to send other messages.
 
+### Olingo[Attic][实现开放数据协议(OData)的Java库]
+
+Description: Apache Olingo is a Java library that implements the Open Data Protocol (OData). Apache Olingo serves client and server aspects of OData. It currently supports OData 2.0 and support OData 4.0 (beta). The latter is the OASIS version of the protocol: OASIS Open Data Protocol (OData) TC.  The extensions part of Olingo for OData 2.0 contains additional features like the support of JPA persistency or annotated bean classes. 
+
+介绍: Apache Olingo is a Java library that implements the Open Data Protocol (OData). Apache Olingo serves client and server aspects of OData. It currently supports OData 2.0 and support OData 4.0 (beta). The latter is the OASIS version of the protocol: OASIS Open Data Protocol (OData) TC.  The extensions part of Olingo for OData 2.0 contains additional features like the support of JPA persistency or annotated bean classes.
+
 ### Oltu - Parent[Attic]
 
 Description: Apache Oltu is an OAuth protocol implementation in Java.
@@ -2462,6 +2504,12 @@ Description: 100% Pure Java Regular Expression package
 Description: Apache River software provides a JINI service, which is a service oriented architecture that defines a programming model which both exploits and extends Java technology to enable the construction of secure, distributed systems consisting of federations of services and clients. Jini technology can be used to build adaptive network systems that are scalable, evolvable and flexible as typically required in dynamic computing environments.
 
 介绍: Apache River software provides a JINI service, which is a service oriented architecture that defines a programming model which both exploits and extends Java technology to enable the construction of secure, distributed systems consisting of federations of services and clients. Jini technology can be used to build adaptive network systems that are scalable, evolvable and flexible as typically required in dynamic computing environments.
+
+### ServiceMix[Attic][开源ESB,适合SOA项目的集成]
+
+Description: Apache ServiceMix is a flexible, open-source integration container that unifies the features and functionality of Apache ActiveMQ, Camel, CXF, and Karaf into a powerful runtime platform you can use to build your own integrations solutions. It provides a complete, enterprise ready ESB exclusively powered by OSGi.
+
+介绍: Apache ServiceMix is a flexible, open-source integration container that unifies the features and functionality of Apache ActiveMQ, Camel, CXF, and Karaf into a powerful runtime platform you can use to build your own integrations solutions. It provides a complete, enterprise ready ESB exclusively powered by OSGi.
 
 ### Shale[Attic]
 

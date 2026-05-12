@@ -166,3 +166,33 @@
 
 - Project Attic: Traffic Control
 
+2026-05-12
+
+- Project New: Caldera
+
+- Project New: Casbin
+
+- Project New: Artemis
+
+- Project New: Directory LDAP API
+
+- Project New: Hugegraph
+
+- Project New: Neethi
+
+- Project New: WSS4J
+
+- Project New: XMLSchema
+
+- Project Graduated: Gluten
+
+- Project Graduated: Polaris
+
+- Project Graduated: Wayang
+
+- Project Attic: Griffin
+
+- Project Attic: Olingo
+
+- Project Attic: ServiceMix
+
