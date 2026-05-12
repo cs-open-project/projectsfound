@@ -18,6 +18,7 @@ stages:
         displayName: Python 构建
         pythonVersion: '3.9'
         commands:
+          - git checkout -B master
           - python3 ./main.py > release.txt
           - git config --global user.email "923463801@qq.com"
           - git config --global user.name "xliuqq"
