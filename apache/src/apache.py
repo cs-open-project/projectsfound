@@ -130,10 +130,32 @@ def getApacheProjects():
     logging.info("update no doap projects")
     all_projects.update(non_exist)
 
-    format_projects = {}
+    # 按全大写名称去重，保留 description 更长的
+    upper_to_name = {}  # 全大写名称 -> 原始名称
+    upper_to_project = {}  # 全大写名称 -> 项目信息
+
     for name in all_projects:
         project = all_projects[name]
         format_name = str.removeprefix(project["name"], "Apache").strip()
-        project["name"] = format_name
-        format_projects[format_name] = project
+        upper_name = format_name.upper()
+
+        # 如果已存在同名项目，选择 description 更长的
+        if upper_name in upper_to_project:
+            existing_desc = upper_to_project[upper_name]["description"] or ""
+            new_desc = project["description"] or ""
+            if len(new_desc) > len(existing_desc):
+                upper_to_project[upper_name] = project
+                upper_to_name[upper_name] = format_name
+        else:
+            upper_to_project[upper_name] = project
+            upper_to_name[upper_name] = format_name
+
+    # 转换为最终格式，key 和 name 都使用大写
+    format_projects = {}
+    for upper_name in upper_to_project:
+        project = upper_to_project[upper_name]
+        project["name"] = upper_name
+        project["original_name"] = upper_to_name[upper_name]
+        format_projects[upper_name] = project
+
     return format_projects

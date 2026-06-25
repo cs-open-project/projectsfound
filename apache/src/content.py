@@ -25,9 +25,8 @@ DESCRIPTION = "description"
 # }
 
 def update_projects(old, new):
-    for name in new:
-        new_project = new[name]
-        old_project = old.get(name)
+    for key, new_project in new.items():
+        old_project = old.get(key)
         if old_project is not None:
             new_project[ZH_DESCRIPTION] = old_project[ZH_DESCRIPTION]
             if new_project.get(DESCRIPTION).strip() == "":
@@ -64,7 +63,9 @@ def generate_md(projects, filename="README.md"):
 
 
 def write_project(file_out, project, suffix=""):
-    name = "### " + project[NAME] + suffix
+    # 使用 original_name 显示，如果没有则使用 name
+    display_name = project.get("original_name") or project[NAME]
+    name = "### " + display_name + suffix
     if project.get(ZH_NAME) is not None:
         name = name + "[" + project.get(ZH_NAME) + "]"
 
@@ -140,6 +141,8 @@ def read_md():
             file.readline()
             project = read_project(name, description, zh_description)
 
-            projects[project[NAME]] = project
+            # 使用大写作为 key
+            upper_name = project[NAME].upper()
+            projects[upper_name] = project
 
     return projects
