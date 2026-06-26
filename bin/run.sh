@@ -3,10 +3,11 @@
 BASE_DIR=$(cd "$(dirname "$0")/../" && pwd)
 
 usage() {
-    echo "Usage: $0 [apache|cncf|all]"
+    echo "Usage: $0 [apache|cncf|lfai|all]"
     echo ""
     echo "  apache  - Update Apache projects"
-    echo "  cncf    - Update CNCF projects"
+    echo "  cncf    - Update CNCF projects (Linux Foundation)"
+    echo "  lfai    - Update LF AI & Data projects (Linux Foundation)"
     echo "  all     - Update all projects (default)"
     exit 1
 }
@@ -24,8 +25,17 @@ run_cncf() {
     echo "=============================="
     echo " Updating CNCF Projects"
     echo "=============================="
-    cd "${BASE_DIR}/cncf" && python main.py
+    cd "${BASE_DIR}/linux/cncf" && python main.py
     echo "CNCF projects updated."
+    echo ""
+}
+
+run_lfai() {
+    echo "=============================="
+    echo " Updating LF AI & Data Projects"
+    echo "=============================="
+    cd "${BASE_DIR}/linux/lfai" && python main.py
+    echo "LF AI & Data projects updated."
     echo ""
 }
 
@@ -38,9 +48,13 @@ case "$TARGET" in
     cncf)
         run_cncf
         ;;
+    lfai)
+        run_lfai
+        ;;
     all)
         run_apache
         run_cncf
+        run_lfai
         ;;
     *)
         usage

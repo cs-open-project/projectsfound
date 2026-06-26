@@ -6,8 +6,6 @@ import requests
 from datetime import datetime
 from typing import Dict, List, Any
 
-LANDSCAPE_URL = "https://raw.githubusercontent.com/cncf/landscape/master/landscape.yml"
-
 MATURITY_MAP = {
     "graduated": "Graduated",
     "incubating": "Incubating",
@@ -16,22 +14,21 @@ MATURITY_MAP = {
 }
 
 
-def fetch_landscape_data() -> Dict[str, Any]:
-    """从 GitHub 获取 CNCF Landscape 数据"""
-    response = requests.get(LANDSCAPE_URL, timeout=60)
+def fetch_landscape_data(landscape_url: str) -> Dict[str, Any]:
+    """从 GitHub 获取 Landscape 数据"""
+    response = requests.get(landscape_url, timeout=60)
     response.raise_for_status()
     data = yaml.safe_load(response.text)
     return data
 
 
 def process_projects(landscape_data: Dict) -> Dict[str, Dict[str, List[Dict]]]:
-    """解析并分类所有项目"""
-    categorized = {
-        "graduated": {},
-        "incubating": {},
-        "sandbox": {},
-        "archived": {},
-    }
+    """解析并分类所有项目
+
+    按照成熟度（project 字段）分类，结构为：
+    {maturity: {category: {subcategory: [projects]}}}
+    """
+    categorized = {}
 
     landscape = landscape_data.get("landscape", [])
 
@@ -57,6 +54,8 @@ def process_projects(landscape_data: Dict) -> Dict[str, Dict[str, List[Dict]]]:
 
                 project_info = _extract_project_info(item, category_name, subcategory_name)
 
+                if maturity not in categorized:
+                    categorized[maturity] = {}
                 if category_name not in categorized[maturity]:
                     categorized[maturity][category_name] = {}
                 if subcategory_name not in categorized[maturity][category_name]:
@@ -69,10 +68,9 @@ def process_projects(landscape_data: Dict) -> Dict[str, Dict[str, List[Dict]]]:
 def count_projects(categorized: Dict) -> Dict[str, int]:
     """统计每个成熟度的项目数量"""
     counts = {}
-    for maturity in ["graduated", "incubating", "sandbox", "archived"]:
+    for maturity, categories in categorized.items():
         count = 0
-        cats = categorized.get(maturity, {})
-        for cat_name, subcats in cats.items():
+        for cat_name, subcats in categories.items():
             for subcat_name, projects in subcats.items():
                 if isinstance(projects, list):
                     count += len(projects)
@@ -93,7 +91,7 @@ def _get_maturity(item: Dict) -> str:
     - graduated: 毕业项目
     - archived: 已归档项目
 
-    如果没有 project 字段，返回 None（表示不是 CNCF 项目）
+    如果没有 project 字段，返回 None（表示不是基金会项目）
     """
     project = item.get("project")
     if project in ["sandbox", "incubating", "graduated", "archived"]:
@@ -108,7 +106,6 @@ def _extract_project_info(item: Dict, category: str, subcategory: str) -> Dict:
     repo_url = item.get("repo_url", "")
     extra = item.get("extra") or {}
 
-    # 优先使用 item.description，其次用 summary_use_case，最后用 summary_business_use_case
     description = item.get("description", "") or ""
     if not description:
         description = extra.get("summary_use_case", "") or ""
@@ -128,22 +125,27 @@ def _extract_project_info(item: Dict, category: str, subcategory: str) -> Dict:
     }
 
 
-def generate_markdown(categorized: Dict) -> str:
-    """生成 Markdown 格式的项目列表，按成熟度 → 分类 → 子分类层级展示"""
+def generate_markdown(categorized: Dict, foundation_name: str, foundation_title: str, landscape_url: str = "https://landscape.cncf.io/") -> str:
+    """生成 Markdown 格式的项目列表，按成熟度 → 分类 → 子分类层级展示
+
+    Args:
+        categorized: 分类后的项目数据
+        foundation_name: 基金会英文名称（用于标题，如 CNCF、LF AI & Data）
+        foundation_title: 文档标题（如 "# CNCF Projects"）
+        landscape_url: Landscape 官网链接
+    """
     lines = []
 
     counts = count_projects(categorized)
     total = sum(counts.values())
 
-    # 文件头部：自动生成声明、标题、数据来源、更新时间
     lines.append("<!-- 此文件由程序自动生成，请勿手动修改 -->")
     lines.append("")
-    lines.append("# CNCF Projects")
+    lines.append(foundation_title)
     lines.append("")
-    lines.append(f"> 数据来源: [CNCF Landscape](https://landscape.cncf.io/)")
+    lines.append(f"> 数据来源: [{foundation_name} Landscape]({landscape_url})")
     lines.append(f"> 更新时间: {datetime.now().strftime('%Y-%m-%d')}")
     lines.append("")
-    # 统计概览表格，带锚点跳转到对应章节
     lines.append("## 项目统计")
     lines.append("")
     lines.append("| 状态 | 数量 |")
@@ -154,7 +156,6 @@ def generate_markdown(categorized: Dict) -> str:
     lines.append(f"| **总计** | **{total}** |")
     lines.append("")
 
-    # 按成熟度分组展示项目
     section_num = 1
     for maturity in ["graduated", "incubating", "sandbox", "archived"]:
         categories = categorized.get(maturity, {})
@@ -167,7 +168,6 @@ def generate_markdown(categorized: Dict) -> str:
         lines.append(f"## {MATURITY_MAP[maturity]} ({maturity_count})")
         lines.append("")
 
-        # 按分类展示
         for cat_name in sorted(categories.keys()):
             subcats = categories[cat_name]
             cat_count = 0
@@ -178,7 +178,6 @@ def generate_markdown(categorized: Dict) -> str:
             lines.append(f"### {cat_name} ({cat_count})")
             lines.append("")
 
-            # 按子分类展示项目列表
             for subcat_name in sorted(subcats.keys()):
                 projects = subcats[subcat_name]
                 if not projects:
@@ -186,10 +185,8 @@ def generate_markdown(categorized: Dict) -> str:
                 lines.append(f"#### {subcat_name}")
                 lines.append("")
 
-                # 项目按名称字母排序
                 for proj in sorted(projects, key=lambda x: x["name"].lower()):
                     proj_name = proj["name"]
-                    # 有主页链接则加超链接
                     if proj.get("homepage_url"):
                         name_display = f"[{proj_name}]({proj['homepage_url']})"
                     else:
@@ -208,7 +205,7 @@ def generate_markdown(categorized: Dict) -> str:
 
     lines.append("---")
     lines.append("")
-    lines.append("Data source: [CNCF Landscape](https://landscape.cncf.io/)")
+    lines.append(f"Data source: [{foundation_name} Landscape]({landscape_url})")
     lines.append(f"Updated: {datetime.now().strftime('%Y-%m-%d')}")
 
     return "\n".join(lines)

@@ -22,13 +22,14 @@ CNCF 项目通过 maturity 字段区分状态：
 CNCF 项目变更包括：
 
 - **New**: 新增到某个状态的项目
+- **Incubating**: 从 Sandbox 晋级到 Incubating
 - **Graduated**: 从 Incubating 升级到 Graduated
 - **Archived**: 变为 Archived 状态
 
 ## 运行方式
 
 ```bash
-cd cncf
+cd linux/cncf
 python main.py
 ```
 
