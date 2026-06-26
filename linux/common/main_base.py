@@ -219,14 +219,51 @@ def run_foundation(
             changelog_title,
         )
 
+        # 构建项目名到描述的映射
+        name_to_desc = {}
+        for maturity, categories in categorized.items():
+            for cat_name, subcats in categories.items():
+                for subcat_name, projects in subcats.items():
+                    for proj in projects:
+                        name_to_desc[proj["name"]] = proj.get("description") or ""
+
+        print(f"\n{'='*50}")
+        print(f" {foundation_name} 项目变更")
+        print(f"{'='*50}")
+
         if new_projects:
-            print("new projects:", ",".join(new_projects.keys()))
+            print(f"\n🆕 新增项目 ({len(new_projects)}):")
+            for name in sorted(new_projects.keys()):
+                maturity = new_projects[name]["maturity"]
+                desc = name_to_desc.get(name, "")
+                desc_line = f" - {desc[:128]}..." if len(desc) > 128 else (f" - {desc}" if desc else "")
+                print(f"   • {name} [{maturity}]{desc_line}")
+
         if graduate_projects:
-            print("graduated projects:", ",".join(graduate_projects.keys()))
+            print(f"\n🎓 毕业升级 ({len(graduate_projects)}):")
+            for name in sorted(graduate_projects.keys()):
+                prev = graduate_projects[name].get("prev_maturity", "unknown")
+                desc = name_to_desc.get(name, "")
+                desc_line = f" - {desc[:128]}..." if len(desc) > 128 else (f" - {desc}" if desc else "")
+                print(f"   • {name} [{prev} → graduated]{desc_line}")
+
         if incubating_projects:
-            print("incubating projects:", ",".join(incubating_projects.keys()))
+            print(f"\n🔄 孵化晋级 ({len(incubating_projects)}):")
+            for name in sorted(incubating_projects.keys()):
+                prev = incubating_projects[name].get("prev_maturity", "unknown")
+                desc = name_to_desc.get(name, "")
+                desc_line = f" - {desc[:128]}..." if len(desc) > 128 else (f" - {desc}" if desc else "")
+                print(f"   • {name} [{prev} → incubating]{desc_line}")
+
         if archived_projects:
-            print("archived projects:", ",".join(archived_projects.keys()))
+            print(f"\n📁 已归档 ({len(archived_projects)}):")
+            for name in sorted(archived_projects.keys()):
+                prev = archived_projects[name].get("prev_maturity", "unknown")
+                desc = name_to_desc.get(name, "")
+                desc_line = f" - {desc[:128]}..." if len(desc) > 128 else (f" - {desc}" if desc else "")
+                print(f"   • {name} [{prev} → archived]{desc_line}")
+
+        print(f"{'='*50}\n")
 
     content = generate_markdown(categorized, foundation_name, foundation_title, landscape_site_url)
     with open(readme_path, "w", encoding="utf-8") as f:

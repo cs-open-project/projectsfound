@@ -36,8 +36,38 @@ def distinguish(existed_projects, all_projects):
 
 
 def generate_changelog(new_projects, graduate_projects, attic_projects):
-    if len(new_projects) == 0 and len(attic_projects) == 0 and len(graduate_projects) == 0:
-        return
+    has_changes = (len(new_projects) > 0 or len(graduate_projects) > 0 or len(attic_projects) > 0)
+
+    if has_changes:
+        print(f"\n{'='*50}")
+        print(f" Apache 项目变更")
+        print(f"{'='*50}")
+
+        if new_projects:
+            print(f"\n🆕 新增项目 ({len(new_projects)}):")
+            for key, proj in sorted(new_projects.items()):
+                name = proj.get("original_name") or key
+                desc = proj.get("description") or ""
+                desc_line = f" - {desc[:128]}..." if len(desc) > 128 else (f" - {desc}" if desc else "")
+                print(f"   • {name}{desc_line}")
+
+        if graduate_projects:
+            print(f"\n🎓 毕业升级 ({len(graduate_projects)}):")
+            for key, proj in sorted(graduate_projects.items()):
+                name = proj.get("original_name") or key
+                desc = proj.get("description") or ""
+                desc_line = f" - {desc[:128]}..." if len(desc) > 128 else (f" - {desc}" if desc else "")
+                print(f"   • {name}{desc_line}")
+
+        if attic_projects:
+            print(f"\n📁 已归档 ({len(attic_projects)}):")
+            for key, proj in sorted(attic_projects.items()):
+                name = proj.get("original_name") or key
+                desc = proj.get("description") or ""
+                desc_line = f" - {desc[:128]}..." if len(desc) > 128 else (f" - {desc}" if desc else "")
+                print(f"   • {name}{desc_line}")
+
+        print(f"{'='*50}\n")
 
     changelog_path = "CHANGELOG_PROJECTS.md"
     header = """<!-- 此文件由程序自动生成，请勿手动修改 -->
@@ -74,18 +104,6 @@ def generate_changelog(new_projects, graduate_projects, attic_projects):
 
 
 def generate_readme(existed_projects, all_projects):
-    if len(new_projects) == 0 and len(attic_projects) == 0 and len(graduate_projects) == 0:
-        return
-
-    if len(new_projects) != 0:
-        names = [proj.get("original_name") or key for key, proj in new_projects.items()]
-        print("new projects:" + str.join(",", names))
-    if len(graduate_projects) != 0:
-        names = [proj.get("original_name") or key for key, proj in graduate_projects.items()]
-        print("graduated projects:" + str.join(",", names))
-    if len(attic_projects) != 0:
-        names = [proj.get("original_name") or key for key, proj in attic_projects.items()]
-        print("attic projects:" + str.join(",", names))
     content.update_projects(existed_projects, all_projects)
     content.generate_md(all_projects)
 
