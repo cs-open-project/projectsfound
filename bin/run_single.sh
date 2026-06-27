@@ -105,16 +105,16 @@ if git status --porcelain | grep CHANGELOG > /dev/null; then
     NOTIFY_TITLE="[ProjectsFound] ${PROJECT_NAME} 项目更新"
 
     # 提取项目变更部分，转换为 markdown
-    CHANGE_MD=cat "$OUTPUT_FILE"
+    CHANGE_MD=$(cat "$OUTPUT_FILE")
 else
     # 情形 2: 执行成功但无项目变更（可能有描述更新或无更新）
     # 检查是否有 git 变更
     if has_changes; then
         CHANGE_TYPE="Description Update"
         NOTIFY_TITLE="[ProjectsFound] ${PROJECT_NAME} 描述更新"
-        CHANGE_MD="没有更新的项目"
+        CHANGE_MD="没有项目变化"
     else
-        # 没有任何变更，跳过提交和通知
+        # 不会走到这里，因为 README.md 的时间肯定会变的
         echo "${PROJECT_NAME}: no changes."
         rm -f "$OUTPUT_FILE"
         exit 0
