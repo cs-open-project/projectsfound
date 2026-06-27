@@ -1,3 +1,6 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
 import os
 import sys
 import time
@@ -38,36 +41,32 @@ def distinguish(existed_projects, all_projects):
 def generate_changelog(new_projects, graduate_projects, attic_projects):
     has_changes = (len(new_projects) > 0 or len(graduate_projects) > 0 or len(attic_projects) > 0)
 
-    if has_changes:
-        print(f"\n{'='*50}")
-        print(f" Apache 项目变更")
-        print(f"{'='*50}")
+    if not has_changes:
+        return
 
-        if new_projects:
-            print(f"\n🆕 新增项目 ({len(new_projects)}):")
-            for key, proj in sorted(new_projects.items()):
-                name = proj.get("original_name") or key
-                desc = proj.get("description") or ""
-                desc_line = f" - {desc[:128]}..." if len(desc) > 128 else (f" - {desc}" if desc else "")
-                print(f"   • {name}{desc_line}")
+    if new_projects:
+        print(f"\n🆕 新增项目 ({len(new_projects)}):")
+        for key, proj in sorted(new_projects.items()):
+            name = proj.get("original_name") or key
+            desc = proj.get("description") or ""
+            desc_line = f" - {desc[:256]}..." if len(desc) > 256 else (f" - {desc}" if desc else "")
+            print(f"   • {name}{desc_line}")
 
-        if graduate_projects:
-            print(f"\n🎓 毕业升级 ({len(graduate_projects)}):")
-            for key, proj in sorted(graduate_projects.items()):
-                name = proj.get("original_name") or key
-                desc = proj.get("description") or ""
-                desc_line = f" - {desc[:128]}..." if len(desc) > 128 else (f" - {desc}" if desc else "")
-                print(f"   • {name}{desc_line}")
+    if graduate_projects:
+        print(f"\n🎓 毕业升级 ({len(graduate_projects)}):")
+        for key, proj in sorted(graduate_projects.items()):
+            name = proj.get("original_name") or key
+            desc = proj.get("description") or ""
+            desc_line = f" - {desc[:256]}..." if len(desc) > 256 else (f" - {desc}" if desc else "")
+            print(f"   • {name}{desc_line}")
 
-        if attic_projects:
-            print(f"\n📁 已归档 ({len(attic_projects)}):")
-            for key, proj in sorted(attic_projects.items()):
-                name = proj.get("original_name") or key
-                desc = proj.get("description") or ""
-                desc_line = f" - {desc[:128]}..." if len(desc) > 128 else (f" - {desc}" if desc else "")
-                print(f"   • {name}{desc_line}")
-
-        print(f"{'='*50}\n")
+    if attic_projects:
+        print(f"\n📁 已归档 ({len(attic_projects)}):")
+        for key, proj in sorted(attic_projects.items()):
+            name = proj.get("original_name") or key
+            desc = proj.get("description") or ""
+            desc_line = f" - {desc[:256]}..." if len(desc) > 256 else (f" - {desc}" if desc else "")
+            print(f"   • {name}{desc_line}")
 
     changelog_path = "CHANGELOG_PROJECTS.md"
     header = """<!-- 此文件由程序自动生成，请勿手动修改 -->
@@ -108,8 +107,8 @@ def generate_readme(existed_projects, all_projects):
     content.generate_md(all_projects)
 
 
-all_projects = apache.getApacheProjects()
 existed_projects = content.read_md()
+all_projects = apache.getApacheProjects()
 new_projects, graduate_projects, attic_projects = distinguish(existed_projects, all_projects)
 
 generate_changelog(new_projects, graduate_projects, attic_projects)

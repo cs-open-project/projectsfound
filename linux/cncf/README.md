@@ -3,7 +3,8 @@
 # CNCF Projects
 
 > 数据来源: [CNCF Landscape](https://landscape.cncf.io/)
-> 更新时间: 2026-06-26
+>
+> 更新时间: 2026-06-27
 
 ## 项目统计
 
@@ -553,8 +554,3 @@
 
 - **[Krustlet](https://krustlet.dev)**
 - **[rkt](https://github.com/rkt/rkt)**
-
----
-
-Data source: [CNCF Landscape](https://landscape.cncf.io/)
-Updated: 2026-06-26

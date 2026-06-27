@@ -1,19 +1,16 @@
+from datetime import datetime
+
 APACHE_PROJECTS = "## Apache Projects"
 Incubating_Mark = "Incubating"
 Attic_Mark = "Attic"
-
-header = """
-# Open Source Project
-
-{}
-
-""".format(APACHE_PROJECTS)
 
 PMC = "pmc"
 NAME = "name"
 ZH_NAME = "zh_name"
 ZH_DESCRIPTION = "zh_description"
 DESCRIPTION = "description"
+
+LANDSCAPE_URL = "https://projects.apache.org/"
 
 # project is a dict with key，中间表示形式，Apache 和 README.md 都需要转换成该形式
 # {'annotator': {
@@ -52,12 +49,37 @@ def generate_md(projects, filename="README.md"):
         else:
             graduated_projects.append(project[1])
 
+    today = datetime.now().strftime('%Y-%m-%d')
+
+    header_lines = []
+    header_lines.append("<!-- 此文件由程序自动生成，请勿手动修改 -->")
+    header_lines.append("")
+    header_lines.append("# Apache Projects")
+    header_lines.append("")
+    header_lines.append(f"> 数据来源: [Apache Projects]({LANDSCAPE_URL})")
+    header_lines.append(">")
+    header_lines.append(f"> 更新时间: {today}")
+    header_lines.append("")
+    header_lines.append("项目统计")
+    header_lines.append("")
+    header_lines.append("| 状态 | 数量 |")
+    header_lines.append("|------|------|")
+    header_lines.append(f"| [Graduated](#graduated) | {len(graduated_projects)} |")
+    header_lines.append(f"| [Incubating](#incubating) | {len(incubating_projects)} |")
+    header_lines.append(f"| [Attic](#attic) | {len(attic_projects)} |")
+    header_lines.append(f"| **总计** | **{len(sorted_projects)}** |")
+    header_lines.append("")
+
     with open(filename, "w", encoding="utf-8") as file:
-        file.write(header)
+        file.write("\n".join(header_lines))
+        file.write("---\n\n")
+        file.write("## Graduated\n\n")
         for project in graduated_projects:
             write_project(file, project)
+        file.write("## Incubating\n\n")
         for project in incubating_projects:
             write_project(file, project, "[{}]".format(Incubating_Mark))
+        file.write("## Attic\n\n")
         for project in attic_projects:
             write_project(file, project, "[{}]".format(Attic_Mark))
 
@@ -122,9 +144,9 @@ def read_md():
     # 介绍:
     projects = {}
     with open("README.md", "r", encoding="utf-8") as file:
-        # skip header until Apache projects
+        # skip header until '## Graduated'
         line = file.readline()
-        while not line.startswith(APACHE_PROJECTS):
+        while not line.startswith("## "):
             line = file.readline()
         # skip empty line
         file.readline()
@@ -133,6 +155,10 @@ def read_md():
             name = file.readline()
             if not name:
                 break
+            # skip '## Incubating' and '## Attic'
+            if name.startswith("## "):
+                file.readline()
+                continue
             name = name.strip()
             file.readline()
             description = file.readline().strip()

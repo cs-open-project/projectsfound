@@ -45,8 +45,10 @@ send_dingtalk() {
 ENDJSON
 )
 
+    echo "Sending DingTalk notification..."
+    echo "$PAYLOAD"
     curl -s -X POST "$DINGTALK_WEBHOOK" \
-        -H 'Content-Type: application/json' \
+        -H 'Content-Type: application/json; charset=utf-8' \
         -d "$PAYLOAD" \
         > /dev/null 2>&1
     if [ $? -eq 0 ]; then
@@ -71,7 +73,9 @@ bash -c "$RUN_COMMAND" > "$OUTPUT_FILE" 2>&1
 EXIT_CODE=$?
 
 # 打印输出
+echo "execute output start"
 cat "$OUTPUT_FILE"
+echo "execute output end"
 
 if [ $EXIT_CODE -ne 0 ]; then
     # 情形 1: 执行失败
@@ -87,9 +91,7 @@ if [ $EXIT_CODE -ne 0 ]; then
 \`\`\`
 ${LAST_LINES}
 \`\`\`
-
----
-*ProjectsFound*"
+"
     send_dingtalk "$NOTIFY_TITLE" "$NOTIFY_TEXT"
 
     rm -f "$OUTPUT_FILE"
@@ -103,21 +105,14 @@ if grep -q "项目变更" "$OUTPUT_FILE"; then
     NOTIFY_TITLE="[ProjectsFound] ${PROJECT_NAME} 项目更新"
 
     # 提取项目变更部分，转换为 markdown
-    CHANGE_MD=$(sed -n '/项目变更/,/====/p' "$OUTPUT_FILE" \
-        | sed 's/"/\\"/g' \
-        | sed '/^[=]*$/d' \
-        | sed 's/🆕 新增项目/#### 🆕 新增项目/g' \
-        | sed 's/🎓 毕业升级/#### 🎓 毕业升级/g' \
-        | sed 's/🔄 孵化晋级/#### 🔄 孵化晋级/g' \
-        | sed 's/📁 已归档/#### 📁 已归档/g' \
-        | sed 's/^   • /- /g')
+    CHANGE_MD=cat "$OUTPUT_FILE"
 else
     # 情形 2: 执行成功但无项目变更（可能有描述更新或无更新）
     # 检查是否有 git 变更
     if has_changes; then
         CHANGE_TYPE="Description Update"
         NOTIFY_TITLE="[ProjectsFound] ${PROJECT_NAME} 描述更新"
-        CHANGE_MD="描述内容有更新"
+        CHANGE_MD="没有更新的项目"
     else
         # 没有任何变更，跳过提交和通知
         echo "${PROJECT_NAME}: no changes."
@@ -131,35 +126,28 @@ rm -f "$OUTPUT_FILE"
 # Git 提交
 echo ""
 echo "Committing ${PROJECT_NAME} changes..."
-git add -A
-
-STATS=$(git diff --cached --stat)
-SHORT_STATS=$(echo "$STATS" | tail -1)
 
 COMMIT_MSG="[${PROJECT_NAME}] ${CHANGE_TYPE}: $(date '+%Y-%m-%d %H:%M:%S')
 
-${SHORT_STATS}"
-git commit -m "$COMMIT_MSG"
+${CHANGE_MD}"
 
 echo "Committed: ${COMMIT_MSG}"
 
 # 推送
-echo "Pushing to remote..."
-git push
+# git add -A
+# git commit -m "$COMMIT_MSG"
+# echo "Pushing to remote..."
+# git push
 
 # 发送通知
 NOTIFY_TEXT="### 📝 ${NOTIFY_TITLE}
 
 **更新时间**: $(date '+%Y-%m-%d %H:%M:%S')
 
-**变更统计**: \`${SHORT_STATS}\`
-
 ---
 
 ${CHANGE_MD}
-
----
-*ProjectsFound*"
+"
 send_dingtalk "$NOTIFY_TITLE" "$NOTIFY_TEXT"
 
 echo "${PROJECT_NAME} done."

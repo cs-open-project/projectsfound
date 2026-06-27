@@ -3,7 +3,8 @@
 # LF AI & Data Projects
 
 > 数据来源: [LF AI & Data Landscape](https://landscape.lfai.foundation/)
-> 更新时间: 2026-06-26
+>
+> 更新时间: 2026-06-27
 
 ## 项目统计
 
@@ -288,8 +289,3 @@
 #### Natural Language Processing
 
 - **[DELTA](https://delta-didi.readthedocs.io/en/latest)** — End-to-end speech and language processing framework for building production-grade dialogue systems
-
----
-
-Data source: [LF AI & Data Landscape](https://landscape.lfai.foundation/)
-Updated: 2026-06-26

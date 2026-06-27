@@ -144,6 +144,7 @@ def generate_markdown(categorized: Dict, foundation_name: str, foundation_title:
     lines.append(foundation_title)
     lines.append("")
     lines.append(f"> 数据来源: [{foundation_name} Landscape]({landscape_url})")
+    lines.append(">")
     lines.append(f"> 更新时间: {datetime.now().strftime('%Y-%m-%d')}")
     lines.append("")
     lines.append("## 项目统计")
@@ -202,10 +203,5 @@ def generate_markdown(categorized: Dict, foundation_name: str, foundation_title:
                 lines.append("")
 
         section_num += 1
-
-    lines.append("---")
-    lines.append("")
-    lines.append(f"Data source: [{foundation_name} Landscape]({landscape_url})")
-    lines.append(f"Updated: {datetime.now().strftime('%Y-%m-%d')}")
 
     return "\n".join(lines)

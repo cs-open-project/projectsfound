@@ -227,16 +227,12 @@ def run_foundation(
                     for proj in projects:
                         name_to_desc[proj["name"]] = proj.get("description") or ""
 
-        print(f"\n{'='*50}")
-        print(f" {foundation_name} 项目变更")
-        print(f"{'='*50}")
-
         if new_projects:
             print(f"\n🆕 新增项目 ({len(new_projects)}):")
             for name in sorted(new_projects.keys()):
                 maturity = new_projects[name]["maturity"]
                 desc = name_to_desc.get(name, "")
-                desc_line = f" - {desc[:128]}..." if len(desc) > 128 else (f" - {desc}" if desc else "")
+                desc_line = f" - {desc[:256]}..." if len(desc) > 256 else (f" - {desc}" if desc else "")
                 print(f"   • {name} [{maturity}]{desc_line}")
 
         if graduate_projects:
@@ -244,7 +240,7 @@ def run_foundation(
             for name in sorted(graduate_projects.keys()):
                 prev = graduate_projects[name].get("prev_maturity", "unknown")
                 desc = name_to_desc.get(name, "")
-                desc_line = f" - {desc[:128]}..." if len(desc) > 128 else (f" - {desc}" if desc else "")
+                desc_line = f" - {desc[:256]}..." if len(desc) > 256 else (f" - {desc}" if desc else "")
                 print(f"   • {name} [{prev} → graduated]{desc_line}")
 
         if incubating_projects:
@@ -252,7 +248,7 @@ def run_foundation(
             for name in sorted(incubating_projects.keys()):
                 prev = incubating_projects[name].get("prev_maturity", "unknown")
                 desc = name_to_desc.get(name, "")
-                desc_line = f" - {desc[:128]}..." if len(desc) > 128 else (f" - {desc}" if desc else "")
+                desc_line = f" - {desc[:256]}..." if len(desc) > 256 else (f" - {desc}" if desc else "")
                 print(f"   • {name} [{prev} → incubating]{desc_line}")
 
         if archived_projects:
@@ -260,10 +256,8 @@ def run_foundation(
             for name in sorted(archived_projects.keys()):
                 prev = archived_projects[name].get("prev_maturity", "unknown")
                 desc = name_to_desc.get(name, "")
-                desc_line = f" - {desc[:128]}..." if len(desc) > 128 else (f" - {desc}" if desc else "")
+                desc_line = f" - {desc[:256]}..." if len(desc) > 256 else (f" - {desc}" if desc else "")
                 print(f"   • {name} [{prev} → archived]{desc_line}")
-
-        print(f"{'='*50}\n")
 
     content = generate_markdown(categorized, foundation_name, foundation_title, landscape_site_url)
     with open(readme_path, "w", encoding="utf-8") as f:

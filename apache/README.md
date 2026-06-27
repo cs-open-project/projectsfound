@@ -1,7 +1,22 @@
+<!-- 此文件由程序自动生成，请勿手动修改 -->
 
-# Open Source Project
+# Apache Projects
 
-## Apache Projects
+> 数据来源: [Apache Projects](https://projects.apache.org/)
+>
+> 更新时间: 2026-06-27
+
+项目统计
+
+| 状态 | 数量 |
+|------|------|
+| [Graduated](#graduated) | 309 |
+| [Incubating](#incubating) | 36 |
+| [Attic](#attic) | 70 |
+| **总计** | **415** |
+---
+
+## Graduated
 
 ### .NET Ant Library
 
@@ -579,7 +594,7 @@ Description:  Apache DataFusion is a fast, extensible query engine for building 
 
 介绍: Apache DataFusion is a fast, extensible query engine for building high-quality data-centric systems in Rust, using the Apache Arrow in-memory format. Python Bindings are also available. DataFusion offers SQL and Dataframe APIs, excellent performance, built-in support for CSV, Parquet, JSON, and Avro, extensive customization, and a great community.
 
-### datasketches[高性能大数据流算法库]
+### DataSketches[高性能大数据流算法库]
 
 Description: In the analysis of big data there are often problem queries that don’t scale because they require huge compute resources and time to generate exact results. Examples include count distinct, quantiles, distribution analysis, most-frequent items, joins, matrix computations, and graph analysis.  If approximate results are acceptable, there is a class of specialized algorithms, called streaming algorithms, or sketches, that can produce results orders-of magnitude faster and with mathematically proven error bounds. For interactive queries there may not be other viable alternatives, and in the case of real-time analysis, sketches are the only known solution.
 
@@ -1851,6 +1866,8 @@ Description: Apache ZooKeeper is an effort to develop and maintain an open-sourc
 
 介绍: Apache ZooKeeper is an effort to develop and maintain an open-source server which enables highly reliable distributed coordination.
 
+## Incubating
+
 ### Amoro[Incubating]
 
 Description: Amoro is a Lakehouse management system built on open data lake formats like Apache Iceberg and Apache Paimon.
@@ -2066,6 +2083,8 @@ Description: Toree provides applications with a mechanism to interactively and r
 Description: XTable is an omni-directional converter for table formats that facilitates interoperability across data processing systems and query engines.
 
 介绍: XTable is an omni-directional converter for table formats that facilitates interoperability across data processing systems and query engines.
+
+## Attic
 
 ### Any23[Attic]
 
