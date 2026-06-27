@@ -1,64 +1,48 @@
 #!/usr/bin/env bash
+# -*- coding: utf-8 -*-
+# 更新所有项目
 
 BASE_DIR=$(cd "$(dirname "$0")/../" && pwd)
 
-usage() {
-    echo "Usage: $0 [apache|cncf|lfai|all]"
-    echo ""
-    echo "  apache  - Update Apache projects"
-    echo "  cncf    - Update CNCF projects (Linux Foundation)"
-    echo "  lfai    - Update LF AI & Data projects (Linux Foundation)"
-    echo "  all     - Update all projects (default)"
-    exit 1
-}
+echo "========================================"
+echo " Starting All Projects Update"
+echo "========================================"
+echo ""
 
-run_apache() {
-    echo "=============================="
-    echo " Updating Apache Projects"
-    echo "=============================="
-    cd "${BASE_DIR}/apache" && python main.py
-    echo "Apache projects updated."
-    echo ""
-}
+# Apache
+bash "${BASE_DIR}/bin/run_single.sh" "Apache" "cd apache && python main.py"
+APACHE_EXIT=$?
 
-run_cncf() {
-    echo "=============================="
-    echo " Updating CNCF Projects"
-    echo "=============================="
-    cd "${BASE_DIR}/linux/cncf" && python main.py
-    echo "CNCF projects updated."
-    echo ""
-}
+# CNCF
+bash "${BASE_DIR}/bin/run_single.sh" "CNCF" "cd linux/cncf && python main.py"
+CNCF_EXIT=$?
 
-run_lfai() {
-    echo "=============================="
-    echo " Updating LF AI & Data Projects"
-    echo "=============================="
-    cd "${BASE_DIR}/linux/lfai" && python main.py
-    echo "LF AI & Data projects updated."
-    echo ""
-}
+# LF AI & Data
+bash "${BASE_DIR}/bin/run_single.sh" "LF AI & Data" "cd linux/lfai && python main.py"
+LFAI_EXIT=$?
 
-TARGET="${1:-all}"
+# 汇总
+echo "========================================"
+echo " Summary"
+echo "========================================"
 
-case "$TARGET" in
-    apache)
-        run_apache
-        ;;
-    cncf)
-        run_cncf
-        ;;
-    lfai)
-        run_lfai
-        ;;
-    all)
-        run_apache
-        run_cncf
-        run_lfai
-        ;;
-    *)
-        usage
-        ;;
-esac
+if [ $APACHE_EXIT -eq 0 ]; then
+    echo "  Apache:        ✅ OK"
+else
+    echo "  Apache:        ❌ FAILED"
+fi
 
-echo "Done."
+if [ $CNCF_EXIT -eq 0 ]; then
+    echo "  CNCF:          ✅ OK"
+else
+    echo "  CNCF:          ❌ FAILED"
+fi
+
+if [ $LFAI_EXIT -eq 0 ]; then
+    echo "  LF AI & Data:  ✅ OK"
+else
+    echo "  LF AI & Data:  ❌ FAILED"
+fi
+
+echo "========================================"
+echo "All done."
