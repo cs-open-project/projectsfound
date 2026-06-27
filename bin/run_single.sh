@@ -98,8 +98,8 @@ ${LAST_LINES}
     exit $EXIT_CODE
 fi
 
-# 检查输出中是否有项目变更（包含"项目变更"分隔线表示有变更打印）
-if grep -q "项目变更" "$OUTPUT_FILE"; then
+# 检查输出中是否有 CHANGELOG 变更
+if git status --porcelain | grep CHANGELOG > /dev/null; then
     # 情形 3: 执行成功且有项目变更
     CHANGE_TYPE="Project Update"
     NOTIFY_TITLE="[ProjectsFound] ${PROJECT_NAME} 项目更新"
@@ -134,10 +134,10 @@ ${CHANGE_MD}"
 echo "Committed: ${COMMIT_MSG}"
 
 # 推送
-# git add -A
-# git commit -m "$COMMIT_MSG"
-# echo "Pushing to remote..."
-# git push
+git add -A
+git commit -m "$COMMIT_MSG"
+echo "Pushing to remote..."
+git push
 
 # 发送通知
 NOTIFY_TEXT="### 📝 ${NOTIFY_TITLE}

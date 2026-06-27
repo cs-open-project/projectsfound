@@ -4,6 +4,8 @@
 
 BASE_DIR=$(cd "$(dirname "$0")/../" && pwd)
 
+source $BASE_DIR/bin/env.sh
+
 echo "========================================"
 echo " Starting All Projects Update"
 echo "========================================"
