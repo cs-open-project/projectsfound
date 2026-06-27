@@ -134,6 +134,7 @@ ${CHANGE_MD}"
 echo "Committed: ${COMMIT_MSG}"
 
 # 推送
+git pull --rebase
 git add -A
 git commit -m "$COMMIT_MSG"
 echo "Pushing to remote..."
