@@ -1044,6 +1044,12 @@ Description: Apache Linkis is a computation middleware project, which decouples 
 
 介绍: Apache Linkis is a computation middleware project, which decouples the upper applications and the underlying data engines, provides standardized interfaces (REST, JDBC etc.) to easily connect to various underlying engines (Spark, Presto, Flink, etc.).
 
+### Livy
+
+Description: Livy is web service that exposes a REST interface for managing long running Apache Spark contexts in your cluster. With Livy, new applications can be built on top of Apache Spark that require fine grained interaction with many Spark contexts.
+
+介绍: Livy is web service that exposes a REST interface for managing long running Apache Spark contexts in your cluster. With Livy, new applications can be built on top of Apache Spark that require fine grained interaction with many Spark contexts.
+
 ### log4cxx
 
 Description: Apache log4cxx provides logging services for C++.
@@ -1994,12 +2000,6 @@ Description: Apache Liminal is an end-to-end platform for data engineers and sci
 
 介绍: Apache Liminal is an end-to-end platform for data engineers and scientists, allowing them to build, train and deploy machine learning models in a robust and agile way.
 
-### Livy[Incubating]
-
-Description: Livy is web service that exposes a REST interface for managing long running Apache Spark contexts in your cluster. With Livy, new applications can be built on top of Apache Spark that require fine grained interaction with many Spark contexts.
-
-介绍: Livy is web service that exposes a REST interface for managing long running Apache Spark contexts in your cluster. With Livy, new applications can be built on top of Apache Spark that require fine grained interaction with many Spark contexts.
-
 ### Milagro[Incubating]
 
 Description: Milagro is crypto libraries and core security infrastructure for decentralized networks and distributed systems.
@@ -2023,6 +2023,12 @@ Description: A Java API for NLU applications
 Description: OpenServerless is an open source, cloud-agnostic, serverless platform. It offers a complete environment for serverless applications development, based on Kubernetes. With Apache OpenWhisk as its FaaS engine, it provides an unified developer experience with a plethora of services (SQL or noSQL databases, key-value stores, object storage, LLMs services, function schedulers) managed by the platform's core: the operator, along with tooling (the CLI) to simplify (and interact with) deployments, integrated ide and starter application and optimized runtimes integrated with the staters.
 
 介绍: OpenServerless is an open source, cloud-agnostic, serverless platform. It offers a complete environment for serverless applications development, based on Kubernetes. With Apache OpenWhisk as its FaaS engine, it provides an unified developer experience with a plethora of services (SQL or noSQL databases, key-value stores, object storage, LLMs services, function schedulers) managed by the platform's core: the operator, along with tooling (the CLI) to simplify (and interact with) deployments, integrated ide and starter application and optimized runtimes integrated with the staters.
+
+### Ossie[Incubating]
+
+Description: Apache Ossie comes from Open Semantic Interchange. It is an open specification that  defines a vendor-neutral format for expressing business metrics, dimensions, and their  relationships. It enables any tool to consume and produce semantic definitions without loss  of meaning.
+
+介绍: Apache Ossie comes from Open Semantic Interchange. It is an open specification that  defines a vendor-neutral format for expressing business metrics, dimensions, and their  relationships. It enables any tool to consume and produce semantic definitions without loss  of meaning.
 
 ### Otava[Incubating]
 

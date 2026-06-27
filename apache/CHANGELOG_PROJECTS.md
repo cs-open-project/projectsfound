@@ -2,6 +2,12 @@
 
 # 项目历史
 
+2026-06-27
+
+- Project New: Ossie
+
+- Project Graduated: Livy
+
 2026-06-25
 
 - Project New: CycloneDX Ant Library
