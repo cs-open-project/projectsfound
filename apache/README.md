@@ -4,16 +4,16 @@
 
 > 数据来源: [Apache Projects](https://projects.apache.org/)
 >
-> 更新时间: 2026-06-27
+> 更新时间: 2026-06-29
 
 项目统计
 
 | 状态 | 数量 |
 |------|------|
-| [Graduated](#graduated) | 309 |
-| [Incubating](#incubating) | 36 |
+| [Graduated](#graduated) | 312 |
+| [Incubating](#incubating) | 35 |
 | [Attic](#attic) | 70 |
-| **总计** | **415** |
+| **总计** | **417** |
 ---
 
 ## Graduated
@@ -894,6 +894,12 @@ Description: Hudi brings transactions, stream processing, indexes, mutability an
 
 介绍: Hudi (pronounced “Hoodie”) brings stream processing to big data, providing upserts, deletes and incremental data streams.
 
+### Hugegraph
+
+Description: A large-scale and easy-to-use graph database
+
+介绍: A large-scale and easy-to-use graph database
+
 ### Iceberg[数据湖]
 
 Description: Iceberg brings the reliability and simplicity of SQL tables to big data, while making it possible for engines like Spark, Trino, Flink, Presto, Hive and Impala to safely work with the same tables, at the same time.
@@ -1367,6 +1373,18 @@ Description: Apache Rat improves accuracy and efficiency when reviewing and audi
 Description: Ratis is a java implementation for RAFT consensus protocol
 
 介绍: Ratis is a java implementation for RAFT consensus protocol
+
+### Retired: Apache .NET Ant Library
+
+Description: This retired library was a library of Ant tasks that helped developing .NET software.  It included the "old" .NET tasks like a C# compiler task but also came with support for NUnit testing or running the (then) popular NAnt or MSBuild build tools.
+
+介绍: This retired library was a library of Ant tasks that helped developing .NET software.  It included the "old" .NET tasks like a C# compiler task but also came with support for NUnit testing or running the (then) popular NAnt or MSBuild build tools.
+
+### Retired: Apache VSS Ant Library
+
+Description: The retired Apache VSS Antlib provided an interface to the Microsoft Visual SourceSafe SCM. The original Ant tasks have been expanded upon in this Antlib. Some fixes to issues in the original tasks have also been incorporated.
+
+介绍: The retired Apache VSS Antlib provided an interface to the Microsoft Visual SourceSafe SCM. The original Ant tasks have been expanded upon in this Antlib. Some fixes to issues in the original tasks have also been incorporated.
 
 ### rivet[Tcl 语义的Web框架]
 
@@ -1969,12 +1987,6 @@ Description: Hamilton is a lightweight in-process framework to define, execute, 
 Description: HoraeDB is a high-performance, distributed, cloud native time-series database.
 
 介绍: HoraeDB is a high-performance, distributed, cloud native time-series database.
-
-### HugeGraph[Incubating]
-
-Description: A large-scale and easy-to-use graph database
-
-介绍: A large-scale and easy-to-use graph database
 
 ### Hunter[Incubating]
 

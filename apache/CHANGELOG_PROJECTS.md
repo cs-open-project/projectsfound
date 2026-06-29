@@ -2,6 +2,14 @@
 
 # 项目历史
 
+2026-06-29
+
+- Project New: Retired: Apache .NET Ant Library
+
+- Project New: Retired: Apache VSS Ant Library
+
+- Project Graduated: Hugegraph
+
 2026-06-27
 
 - Project New: Ossie
