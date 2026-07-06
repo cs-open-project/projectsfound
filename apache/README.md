@@ -4,7 +4,7 @@
 
 > 数据来源: [Apache Projects](https://projects.apache.org/)
 >
-> 更新时间: 2026-06-29
+> 更新时间: 2026-07-06
 
 项目统计
 
@@ -1112,7 +1112,7 @@ Description: Big Data Machine Learning in SQL for Data Scientists.
 
 ### Magpie
 
-Description: 
+Description: Apache Magpie is a project-agnostic, agent-assisted maintainership and development framework that any open-source project — ASF or not — can adopt. It ships independently-toggleable modes (Triage, Mentoring, Drafting, Pairing, and Auto-merge) as reusable agent skills, so each project picks the automation level that fits its culture and risk tolerance. Magpie covers security-issue handling, contributor mentoring, agent-drafted remediation under human review, and developer-side development-cycle workflows, with a privacy-aware model-routing posture for sensitive content.
 
 介绍: 
 
