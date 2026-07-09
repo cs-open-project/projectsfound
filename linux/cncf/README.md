@@ -4,15 +4,15 @@
 
 > 数据来源: [CNCF Landscape](https://landscape.cncf.io/)
 >
-> 更新时间: 2026-06-27
+> 更新时间: 2026-07-09
 
 ## 项目统计
 
 | 状态 | 数量 |
 |------|------|
 | [Graduated](#graduated) | 36 |
-| [Incubating](#incubating) | 36 |
-| [Sandbox](#sandbox) | 153 |
+| [Incubating](#incubating) | 38 |
+| [Sandbox](#sandbox) | 151 |
 | [Archived](#archived) | 27 |
 | **总计** | **252** |
 
@@ -116,7 +116,7 @@
 
 ---
 
-## Incubating (36)
+## Incubating (38)
 
 ### App Definition and Development (10)
 
@@ -165,7 +165,7 @@
 - **[Cortex](https://cortexmetrics.io/)** — Horizontally scalable, highly available, multi-tenant, long term storage for Prometheus.
 - **[Thanos](https://thanos.io/)** — global scale metrics-based monitoring and alerting
 
-### Orchestration & Management (8)
+### Orchestration & Management (9)
 
 #### API Gateway
 
@@ -178,6 +178,7 @@
 #### Scheduling & Orchestration
 
 - **[Fluid](https://fluid-cloudnative.github.io/)** — Fluid is an orchestration platform for elastic data abstraction and acceleration in cloud native environment.
+- **[hami](https://project-hami.github.io/HAMi/)** — Heterogeneous AI Computing Virtualization Middleware
 - **[Karmada](https://karmada.io/)** — Karmada (Kubernetes Armada) is a Kubernetes management system that enables you to run your cloud-native applications across multiple Kubernetes clusters and clouds, with no changes to your applications. By speaking Kubernetes-native APIs and providing advanced scheduling  capabilities, Karmada enables truly open, multi-cloud Kubernetes. Karmada aims to provide turnkey automation for multi-cluster application management in multi-cloud and hybrid cloud scenarios, with key  features such as centralized multi-cloud management, high availability, failure recovery, and traffic scheduling.
 - **[Kubeflow](https://kubeflow.org)** — Kubeflow is the foundation of tools for AI Platforms on Kubernetes.
 - **[Volcano](https://volcano.sh/)**
@@ -193,7 +194,7 @@
 
 - **[Flatcar Container Linux](https://www.flatcar.org/)** — A community Linux distribution designed for container workloads, with high security and low maintenance
 
-### Provisioning (7)
+### Provisioning (8)
 
 #### Automation & Configuration
 
@@ -203,6 +204,7 @@
 
 #### Security & Compliance
 
+- **[Confidential Containers](https://confidentialcontainers.org/)** — Confidential Containers is an open source community working to enable cloud native  confidential computing by leveraging Trusted Execution Environments to protect  containers and data.
 - **[Keycloak](https://www.keycloak.org/)** — Keycloak is an open-source identity and access management solution for modern applications and services,  built on top of industry security standard protocols.
 - **[Kubescape](https://kubescape.io/)** — Kubescape is an open source security and compliance platform that scans clusters, Kubernetes manifest files (YAML files, and Helm charts), code repositories, container registries and images. It detects misconfigurations according to frameworks such as the NSA-CISA,  MITRE ATT&CK® and CIS, as well as software vulnerabilities, and calculates risk scores.
 - **[Notary Project](https://notaryproject.dev/)**
@@ -224,7 +226,7 @@
 
 ---
 
-## Sandbox (153)
+## Sandbox (151)
 
 ### App Definition and Development (31)
 
@@ -298,7 +300,7 @@
 - **[Pixie](https://px.dev/)** — Open source Kubernetes observability for developers
 - **[Trickster](https://trickstercache.org)**
 
-### Orchestration & Management (35)
+### Orchestration & Management (34)
 
 #### API Gateway
 
@@ -326,7 +328,6 @@
 - **[CoHDI](https://github.com/CoHDI)** — CoHDI (Composable Hardware in Disaggregated Infrastructure) enables dynamic device scaling across next-generation architectures. As a community-driven, standards-based open ecosystem, CoHDI focuses on expanding cloud-native frameworks built on disaggregate infrastructure. Our core objective is to bridge the gap between Kubernetes and underlying hardware by actively collaborating with upstream projects to increase cloud native composability, specifically Dynamic Resource Allocation (DRA), Autoscaler, and Scheduling. By integrating these cloud-native capabilities, CoHDI empowers data center and infrastructure operators to maximize cost efficiency, achieve high availability, and drive sustainability through a seamlessly disaggregated computing system.
 - **[Cozystack](https://cozystack.io)** — Cozystack is a free PaaS platform and framework for building private clouds and providing users/customers with managed Kubernetes,  KubeVirt-based VMs, databases as a service, NATS, message brokers, etc. with GPU support in VMs and Kubernetes clusters.
 - **[Eraser](https://eraser-dev.github.io/eraser/)** — Eraser uses vulnerability data to remove non-running images from all Kubernetes nodes in a cluster.
-- **[hami](https://project-hami.github.io/HAMi/)** — Heterogeneous AI Computing Virtualization Middleware
 - **[k0s](https://k0sproject.io/)**
 - **[KAI Scheduler](https://github.com/kai-scheduler/KAI-Scheduler)** — KAI Scheduler is a robust, efficient, and scalable Kubernetes scheduler that optimizes GPU resource allocation for AI workloads in large-scale clusters.
 - **[kcp](https://kcp.io)**
@@ -363,7 +364,7 @@
 
 - **[KubeClipper](https://www.kubeclipper.io/)** — Manage kubernetes in the most light and convenient way.
 
-### Provisioning (40)
+### Provisioning (39)
 
 #### Automation & Configuration
 
@@ -399,7 +400,6 @@
 - **[bpfman](https://bpfman.io/)** — An eBPF Manager for Linux and Kubernetes
 - **[Cartography](https://cartography.dev)** — Cartography is a Python tool that consolidates infrastructure assets and the relationships between them in an intuitive graph view.
 - **[Cedar](https://cedarpolicy.com)** — Cedar is an open source authorization policy language that enables developers to express fine-grained permissions as easy-to-understand policies enforced in their applications, and decouple access control from application logic. Cedar is designed to be ergonomic, fast, safe, and analyzable using automated reasoning. Cedar's simple and intuitive syntax supports common authorization use-cases with readable policies, naturally expressing concepts from role-based, attribute-based, and relation-based access control models. Cedar's policy structure enables authorization requests to be decided quickly. Its policy validator uses optional typing to help policy writers avoid mistakes, but not get in their way. Cedar's design has been finely balanced to allow for a sound, complete, and decidable logical encoding, which enables precise automated analysis of Cedar policies, e.g., to ensure that policy refactoring preserves existing permissions. Cedar's language specification has been formally verified using a theorem prover to satisfy key security properties like "deny trumps allow," and its implementation in Rust undergoes rigorous differential random testing against its formal specification. By combining mathematical rigor with developer-friendly design, Cedar offers a practical approach to secure, maintainable authorization for modern applications.
-- **[Confidential Containers](https://confidentialcontainers.org/)** — Confidential Containers is an open source community working to enable cloud native  confidential computing by leveraging Trusted Execution Environments to protect  containers and data.
 - **[ContainerSSH](https://containerssh.io)** — ContainerSSH launches a new container for each SSH connection in Kubernetes, Podman or Docker. The user is transparently dropped in the container and the container is removed when the user disconnects. Authentication and container configuration are dynamic using webhooks, no system users required.
 - **[Copa](https://project-copacetic.github.io/copacetic/)** — CLI tool for directly patching container image vulnerabilities
 - **[Dex](https://dexidp.io/)**
