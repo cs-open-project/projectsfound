@@ -4,7 +4,7 @@
 
 > 数据来源: [CNCF Landscape](https://landscape.cncf.io/)
 >
-> 更新时间: 2026-07-09
+> 更新时间: 2026-07-13
 
 ## 项目统计
 
@@ -12,8 +12,8 @@
 |------|------|
 | [Graduated](#graduated) | 36 |
 | [Incubating](#incubating) | 38 |
-| [Sandbox](#sandbox) | 151 |
-| [Archived](#archived) | 27 |
+| [Sandbox](#sandbox) | 150 |
+| [Archived](#archived) | 28 |
 | **总计** | **252** |
 
 ---
@@ -178,7 +178,7 @@
 #### Scheduling & Orchestration
 
 - **[Fluid](https://fluid-cloudnative.github.io/)** — Fluid is an orchestration platform for elastic data abstraction and acceleration in cloud native environment.
-- **[hami](https://project-hami.github.io/HAMi/)** — Heterogeneous AI Computing Virtualization Middleware
+- **[HAMi](https://project-hami.github.io/HAMi/)** — Heterogeneous AI Computing Virtualization Middleware
 - **[Karmada](https://karmada.io/)** — Karmada (Kubernetes Armada) is a Kubernetes management system that enables you to run your cloud-native applications across multiple Kubernetes clusters and clouds, with no changes to your applications. By speaking Kubernetes-native APIs and providing advanced scheduling  capabilities, Karmada enables truly open, multi-cloud Kubernetes. Karmada aims to provide turnkey automation for multi-cluster application management in multi-cloud and hybrid cloud scenarios, with key  features such as centralized multi-cloud management, high availability, failure recovery, and traffic scheduling.
 - **[Kubeflow](https://kubeflow.org)** — Kubeflow is the foundation of tools for AI Platforms on Kubernetes.
 - **[Volcano](https://volcano.sh/)**
@@ -226,7 +226,7 @@
 
 ---
 
-## Sandbox (151)
+## Sandbox (150)
 
 ### App Definition and Development (31)
 
@@ -417,7 +417,7 @@
 - **[SOPS](https://github.com/getsops)** — sops is an editor of encrypted files that supports YAML, JSON, ENV, INI and BINARY formats and encrypts with AWS KMS, GCP KMS, Azure Key Vault, age, and PGP.
 - **[Tokenetes](https://tokenetes.io/)** — Tokenetes implements Transaction Tokens (TraTs) for microservices call chains.  It's a Kubernetes-native framework providing immutable identity and context in  service-to-service communication to prevent attacks like software supply chain  or privileged user compromise.
 
-### Runtime (26)
+### Runtime (25)
 
 #### Cloud Native Network
 
@@ -438,7 +438,6 @@
 - **[OpenEBS](https://www.openebs.io/)**
 - **[Piraeus Datastore](https://piraeus.io/)**
 - **[Velero](https://velero.io)**
-- **[Vineyard](https://v6d.io)** — Vineyard (v6d) is an in-memory immutable data manager.
 
 #### Container Runtime
 
@@ -477,7 +476,7 @@
 
 ---
 
-## Archived (27)
+## Archived (28)
 
 ### App Definition and Development (6)
 
@@ -539,7 +538,7 @@
 - **[Curiefense](https://www.curiefense.io/)**
 - **[Hexa](https://hexaorchestration.org/)**
 
-### Runtime (5)
+### Runtime (6)
 
 #### Cloud Native Network
 
@@ -549,6 +548,7 @@
 #### Cloud Native Storage
 
 - **[Curve](http://www.opencurve.io/)** — Curve is a distributed storage system designed and developed independently by NetEase,  featured with high performance, high availability, high reliability and well expansibility,  and it can serve as the basis for storage systems designed for different scenario.
+- **[Vineyard](https://v6d.io)** — Vineyard (v6d) is an in-memory immutable data manager.
 
 #### Container Runtime
 

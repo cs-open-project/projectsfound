@@ -2,7 +2,10 @@
 
 # CNCF 项目历史
 
-2026-07-09
+2026-07-13
+
+- Project Archived: Vineyard [from sandbox]
+
 
 - Project Incubating: Confidential Containers [from sandbox]
 
