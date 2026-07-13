@@ -4,7 +4,7 @@
 
 > 数据来源: [Apache Projects](https://projects.apache.org/)
 >
-> 更新时间: 2026-07-09
+> 更新时间: 2026-07-13
 
 项目统计
 
@@ -588,9 +588,9 @@ Description: Apache DataFu consists of two libraries:  Apache DataFu Pig is a co
 
 介绍: Apache DataFu consists of two libraries:  Apache DataFu Pig is a collection of useful user-defined functions for data analysis in Apache Pig.  Apache DataFu Hourglass is a library for incrementally processing data using Apache Hadoop MapReduce. This library was inspired by the prevelance of sliding window computations over daily tracking data. Computations such as these typically happen at regular intervals (e.g. daily, weekly), and therefore the sliding nature of the computations means that much of the work is unnecessarily repeated. DataFu's Hourglass was created to make these computations more efficient, yielding sometimes 50-95% reductions in computational resources.
 
-### Datafusion
+### DataFusion
 
-Description: Apache DataFusion is a fast, extensible query engine for building high-quality data-centric systems in Rust, using the Apache Arrow in-memory format. Python Bindings are also available. DataFusion offers SQL and Dataframe APIs, excellent performance, built-in support for CSV, Parquet, JSON, and Avro, extensive customization, and a great community.
+Description:  Apache DataFusion is a fast, extensible query engine for building high-quality data-centric systems in Rust, using the Apache Arrow in-memory format. Python Bindings are also available. DataFusion offers SQL and Dataframe APIs, excellent performance, built-in support for CSV, Parquet, JSON, and Avro, extensive customization, and a great community. 
 
 介绍: Apache DataFusion is a fast, extensible query engine for building high-quality data-centric systems in Rust, using the Apache Arrow in-memory format. Python Bindings are also available. DataFusion offers SQL and Dataframe APIs, excellent performance, built-in support for CSV, Parquet, JSON, and Avro, extensive customization, and a great community.
 
@@ -918,7 +918,7 @@ Description: Apache Impala is the open source, native analytic database for open
 
 介绍: Impala is a high-performance C++ and Java SQL query engine for data stored in Apache Hadoop-based clusters.
 
-### Inlong[数据集成框架]
+### InLong[数据集成框架]
 
 Description: Apache InLong is a one-stop, full-scenario integration framework for massive data that supports Data Ingestion, Data Synchronization, and Data Subscription, and it provides automatic, safe, reliable, and high-performance data transmission capabilities to facilitate the construction of streaming-based data analysis, modeling, and applications.
 
@@ -1736,7 +1736,7 @@ Description: VCL is a modular cloud computing platform which dynamically provisi
 
 ### Velocity[基于Java的模板引擎]
 
-Description: Velocity is a Java-based template engine. It permits anyone to use a simple yet powerful template language to reference objects defined in Java code.  When Velocity is used for web development, Web designers can work in parallel with Java programmers to develop web sites according to the Model-View-Controller (MVC) model, meaning that web page designers can focus solely on creating a site that looks good, and programmers can focus solely on writing top-notch code. Velocity separates Java code from the web pages, making the web site more maintainable over its lifespan and providing a viable alternative to Java Server Pages (JSPs) or PHP.
+Description: Velocity is a Java-based template engine. It permits anyone to use a simple yet powerful template language to reference objects defined in Java code.  When Velocity is used for web development, Web designers can work in parallel with Java programmers to develop web sites according to the Model-View-Controller (MVC) model, meaning that web page designers can focus solely on creating a site that looks good, and programmers can focus solely on writing top-notch code. Velocity separates Java code from the web pages, making the web site more maintainable over its lifespan and providing a viable alternative to Java Server Pages (JSPs) or PHP. 
 
 介绍: Velocity is a Java-based template engine. It permits anyone to use a simple yet powerful template language to reference objects defined in Java code.  When Velocity is used for web development, Web designers can work in parallel with Java programmers to develop web sites according to the Model-View-Controller (MVC) model, meaning that web page designers can focus solely on creating a site that looks good, and programmers can focus solely on writing top-notch code. Velocity separates Java code from the web pages, making the web site more maintainable over its lifespan and providing a viable alternative to Java Server Pages (JSPs) or PHP.
 
