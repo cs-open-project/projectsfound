@@ -4,16 +4,16 @@
 
 > 数据来源: [Apache Projects](https://projects.apache.org/)
 >
-> 更新时间: 2026-07-13
+> 更新时间: 2026-07-20
 
 项目统计
 
 | 状态 | 数量 |
 |------|------|
-| [Graduated](#graduated) | 312 |
+| [Graduated](#graduated) | 313 |
 | [Incubating](#incubating) | 35 |
 | [Attic](#attic) | 70 |
-| **总计** | **417** |
+| **总计** | **418** |
 ---
 
 ## Graduated
@@ -1226,7 +1226,7 @@ Description: Apache OpenJPA is a Java persistence project at The Apache Software
 
 ### OpenMeetings[视频会议，及时消息]
 
-Description:  The Apache OpenMeetings provides video conferencing, instant messaging, white board,  collaborative document editing and other groupware tools using API functions  of the Red5 Streaming Server for Remoting and Streaming. 
+Description:  The Apache OpenMeetings provides video conferencing, instant messaging, white board, collaborative document editing and other groupware tools. Kurento Media Server is used or audio/video communication. 
 
 介绍: The Apache OpenMeetings provides video conferencing, instant messaging, white board,  collaborative document editing and other groupware tools using API functions  of the Red5 Streaming Server for Remoting and Streaming.
 
@@ -1325,6 +1325,12 @@ Description: APIs for manipulating various file formats based upon Open Office X
 Description: Apache Polaris implements the Apache Iceberg REST API, enabling seamless multi-engine interoperability across a wide range of platforms, including Apache Doris, Apache Flink, Apache Spark, ...
 
 介绍: Polaris is a catalog for data lakes. It provides new levels of choice, flexibility and control over data, with full enterprise security and Apache Iceberg interoperability across a multitude of engines and infrastructure.
+
+### Ponymail
+
+Description: 
+
+介绍: 
 
 ### Portable Runtime[跨平台库]
 
