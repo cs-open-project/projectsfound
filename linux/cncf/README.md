@@ -4,26 +4,27 @@
 
 > 数据来源: [CNCF Landscape](https://landscape.cncf.io/)
 >
-> 更新时间: 2026-07-13
+> 更新时间: 2026-07-27
 
 ## 项目统计
 
 | 状态 | 数量 |
 |------|------|
-| [Graduated](#graduated) | 36 |
+| [Graduated](#graduated) | 38 |
 | [Incubating](#incubating) | 38 |
 | [Sandbox](#sandbox) | 150 |
 | [Archived](#archived) | 28 |
-| **总计** | **252** |
+| **总计** | **254** |
 
 ---
 
-## Graduated (36)
+## Graduated (38)
 
-### App Definition and Development (7)
+### App Definition and Development (8)
 
 #### Application Definition & Image Build
 
+- **[Buildpacks](https://buildpacks.io/)**
 - **[Dapr](https://dapr.io)** — The Distributed Application Runtime (Dapr) provides APIs that simplify microservice architecture development and increases developer productivity. Whether your communication pattern is service-to-service invocation or pub/sub messaging, Dapr helps you write resilient and secured microservices. By letting Dapr’s sidecar take care of the complex challenges such as service discovery, message broker integration, encryption, observability, and secret management, developers can focus on business logic and keep their code simple.
 - **[Helm](https://helm.sh/)**
 
@@ -47,10 +48,10 @@
 
 - **[Fluentd](https://www.fluentd.org/)**
 - **[Jaeger](https://www.jaegertracing.io/)** — tracing-based observability for distributed systems
-- **[OpenTelemetry](https://opentelemetry.io/)** — Enabling built-in observability for cloud-native systems.
+- **[OpenTelemetry](https://opentelemetry.io/)** — High-quality, ubiquitous, and portable telemetry to enable effective observability
 - **[Prometheus](https://prometheus.io/)** — metrics-based monitoring and alerting
 
-### Orchestration & Management (9)
+### Orchestration & Management (10)
 
 #### Coordination & Service Discovery
 
@@ -62,6 +63,7 @@
 - **[Crossplane](https://crossplane.io/)** — Crossplane is the cloud native control plane framework that allows you to build control planes without needing to write code. Crossplane has a highly extensible backend that enables you to orchestrate applications and infrastructure no matter where they run and a highly configurable frontend that lets you define the declarative API it offers.
 - **[KEDA](https://keda.sh/)**
 - **[Knative](https://knative.dev)** — Knative is a developer-focused serverless application layer which is a great complement to the existing Kubernetes application constructs. Knative consists of three components: an HTTP-triggered autoscaling container runtime called “Knative Serving”, a CloudEvents-over-HTTP asynchronous routing layer called “Knative Eventing”, and a developer-focused function framework which leverages the Serving and Eventing components, called "Knative Functions".
+- **[Kubeflow](https://kubeflow.org)** — Kubeflow is the foundation of tools for AI Platforms on Kubernetes.
 - **[Kubernetes](https://kubernetes.io/)** — Kubernetes is an open-source system for automating deployment, scaling, and management of containerized applications
 
 #### Service Mesh
@@ -124,15 +126,15 @@
 
 - **[Artifact Hub](https://artifacthub.io)**
 - **[Backstage](https://backstage.io/)** — Backstage is an open platform for building developer portals, which unify all your infrastructure tooling, services, and documentation with a single, consistent UI.
-- **[Buildpacks](https://buildpacks.io/)**
 - **[KubeVela](https://kubevela.io)** — KubeVela is a modern software delivery platform that makes deploying and operating applications across today's hybrid, multi-cloud environments easier, faster and more reliable.
-- **[KubeVirt](https://kubevirt.io/)**
+- **[KubeVirt](https://kubevirt.io/)** — Kubernetes Virtualization API and runtime in order to define and manage virtual machines
 - **[Microcks](https://microcks.io)** — Microcks is a tool for mocking and testing your APIs and microservices. It leverages API standards to provide a uniform and multi-protocol approach for simulating complex distributed environments and validating service components in isolation.
 - **[Operator Framework](https://operatorframework.io/)**
 
 #### Continuous Integration & Delivery
 
 - **[OpenKruise](https://openkruise.io/)**
+- **[Tekton](https://tekton.dev/)** — A powerful and flexible open source framework for creating continuous integration and delivery (CI/CD) systems that allow developers to build, test, and deploy across multiple cloud providers and on-premises systems by abstracting away the underlying implementation details.
 
 #### Streaming & Messaging
 
@@ -171,6 +173,10 @@
 
 - **[Emissary-Ingress](https://emissary-ingress.dev/)** — Emissary-Ingress is a k8s-native, Envoy-based API gateway. It is designed to allow teams to work in a more decentralized way than the traditional Ingress object. Emissary-Ingress can scan for its CRDs across all namespaces, so development teams can deploy new network routing rules along with the apps that use them, increasing velocity. Emissary-Ingress can be extended via API calls with authentication and rate limiting services. It is compatible with all the CNCF service meshes, and facilitates canary deployments when integrated with Argo Rollouts.
 
+#### Coordination & Service Discovery
+
+- **[k8gb](https://www.k8gb.io)** — K8GB is a powerful tool for managing global Kubernetes deployments and provides features such as load balancing, failover, and intelligent routing. K8GB works by creating a set of custom resource definitions (CRDs) in the Kubernetes cluster, which define the global traffic routing policies. These policies are used by K8GB to configure the DNS servers to route traffic to the appropriate cluster or region.
+
 #### Remote Procedure Call
 
 - **[gRPC](https://grpc.io)** — A high performance, open source universal RPC framework.
@@ -178,9 +184,8 @@
 #### Scheduling & Orchestration
 
 - **[Fluid](https://fluid-cloudnative.github.io/)** — Fluid is an orchestration platform for elastic data abstraction and acceleration in cloud native environment.
-- **[HAMi](https://project-hami.github.io/HAMi/)** — Heterogeneous AI Computing Virtualization Middleware
+- **[HAMi](https://project-hami.io/)** — Heterogeneous AI Computing Virtualization Middleware
 - **[Karmada](https://karmada.io/)** — Karmada (Kubernetes Armada) is a Kubernetes management system that enables you to run your cloud-native applications across multiple Kubernetes clusters and clouds, with no changes to your applications. By speaking Kubernetes-native APIs and providing advanced scheduling  capabilities, Karmada enables truly open, multi-cloud Kubernetes. Karmada aims to provide turnkey automation for multi-cluster application management in multi-cloud and hybrid cloud scenarios, with key  features such as centralized multi-cloud management, high availability, failure recovery, and traffic scheduling.
-- **[Kubeflow](https://kubeflow.org)** — Kubeflow is the foundation of tools for AI Platforms on Kubernetes.
 - **[Volcano](https://volcano.sh/)**
 - **[wasmCloud](https://wasmcloud.com)**
 
@@ -236,13 +241,13 @@
 - **[Dalec](https://project-dalec.github.io/dalec/)** — Dalec provides a declarative format for building system packages and containers from those packages in a secure way for supply chain security.
 - **[Devfile](https://devfile.io)**
 - **[DevSpace](https://devspace.sh)**
-- **[ko](https://ko.build/)**
+- **[ko](https://ko.build/)** — ko is a tool to simplify building Go container images
 - **[Konveyor](https://www.konveyor.io/)** — Konveyor is an open-source application modernization platform that helps organizations safely and predictably modernize applications to new technologies, with an initial focus on accelerating the adoption of legacy applications to Kubernetes.
-- **[KUDO](https://kudo.dev/)**
+- **[KUDO](https://kudo.dev/)** — Kubernetes Universal Declarative Operator
 - **[ModelPack](https://github.com/modelpack/model-spec)** — The project establishes open standards for packaging, distributing and running AI artifacts in the cloud-native environment.
 - **[ORAS](https://oras.land/)** — Multi-language OCI Registry SDKs and CLI
 - **[Podman Desktop](https://podman-desktop.io/)** — An open-source tool for developers to work with containers and Kubernetes with an intuitive and user-friendly interface to effortlessly build, manage, and deploy containers and Kubernetes — all from the desktop.
-- **[Porter](https://porter.sh/)**
+- **[Porter](https://porter.sh/)** — Porter enables you to package your application artifact, client tools, configuration and deployment logic together as a versioned bundle that you can distribute, and install with a single command
 - **[Radius](https://radapp.io/)** — Radius is a cloud-native application platform that enables developers and the platform engineers that support them to collaborate on delivering and managing cloud-native applications that follow organizational best practices for cost, operations and security, by default.
 - **[Score](https://score.dev/)** — Score is an open-source workload specification designed to simplify development for cloud-native developers.
 - **[Serverless Workflow](https://serverlessworkflow.io)**
@@ -254,7 +259,7 @@
 
 #### Continuous Integration & Delivery
 
-- **[Kube-burner](https://kube-burner.github.io/kube-burner/)**
+- **[Kube-burner](https://kube-burner.github.io/kube-burner/)** — Kubernetes performance and scale test orchestration framework written in golang
 - **[OpenChoreo](https://openchoreo.dev)** — A developer platform for Kubernetes that delivers higher-level abstractions with a Backstage-powered portal, CI/CD, GitOps, and built-in observability.
 - **[OpenGitOps](https://opengitops.dev/)**
 - **[PipeCD](https://pipecd.dev/)** — GitOps style continuous delivery platform that provides consistent deployment and operations experience for any applications
@@ -292,26 +297,25 @@
 - **[Headlamp](https://headlamp.dev)** — Extensible open source multi-cluster Kubernetes user interface
 - **[HolmesGPT](https://holmesgpt.dev)** — HolmesGPT is an AI agent that automates cloud-native troubleshooting, bridging knowledge gaps by investigating alerts, executing runbooks, and correlating observability data in cloud-native platforms.
 - **[Inspektor Gadget](https://inspektor-gadget.io/)** — Open source eBPF debugging and data collection tool for Kubernetes and Linux
-- **[K8sGPT](https://www.k8sgpt.ai)**
+- **[K8sGPT](https://www.k8sgpt.ai)** — Giving Kubernetes Superpowers to everyone
 - **[Kepler](https://sustainable-computing.io/)** — Kepler (Kubernetes-based Efficient Power Level Exporter) uses eBPF to probe energy related system stats and exports as Prometheus metrics.
-- **[Kuberhealthy](https://github.com/kuberhealthy/kuberhealthy)**
-- **[Logging Operator (Kube Logging)](https://kube-logging.dev/)**
+- **[Kuberhealthy](https://github.com/kuberhealthy/kuberhealthy)** — A Kubernetes operator for running synthetic checks as pods. Works great with Prometheus!
+- **[Logging Operator (Kube Logging)](https://kube-logging.dev/)** — Logging operator for Kubernetes
 - **[Perses](https://perses.dev)** — Perses is a dashboard tool to visualize observability data from Prometheus/Thanos/Jaeger.
 - **[Pixie](https://px.dev/)** — Open source Kubernetes observability for developers
 - **[Trickster](https://trickstercache.org)**
 
-### Orchestration & Management (34)
+### Orchestration & Management (33)
 
 #### API Gateway
 
-- **[Easegress](https://megaease.com/easegress)**
-- **[Higress](https://higress.io)**
+- **[Easegress](https://megaease.cn/easegress/)** — A Cloud Native traffic orchestration system
+- **[Higress](https://higress.io)** — An AI-native API gateway built on Envoy for ingress, microservice, and LLM traffic
 - **[Kgateway](https://kgateway.dev/)** — An Envoy-powered, Kubernetes-native API Gateway that integrates Kubernetes Gateway API with a control plane for API connectivity in any cloud environment.
 - **[Kuadrant](https://kuadrant.io)** — Kuadrant combines Gateway API and Istio-based gateway controllers to enhance application connectivity. It enables platform engineers  and application developers to easily connect, secure, and protect their services and infrastructure across multiple clusters  with policies for TLS, DNS, application authentication & authorization, and rate limiting.
 
 #### Coordination & Service Discovery
 
-- **[k8gb](https://www.k8gb.io)** — K8GB is a powerful tool for managing global Kubernetes deployments and provides features such as load balancing, failover, and intelligent routing. K8GB works by creating a set of custom resource definitions (CRDs) in the Kubernetes cluster, which define the global traffic routing policies. These policies are used by K8GB to configure the DNS servers to route traffic to the appropriate cluster or region.
 - **[Oxia](https://oxia-db.github.io)** — Oxia is a scalable metadata store and coordination system
 
 #### Remote Procedure Call
@@ -321,7 +325,7 @@
 #### Scheduling & Orchestration
 
 - **[Agones](https://agones.dev/site/)** — Agones is a library for hosting, running, and scaling dedicated game servers on Kubernetes.
-- **[Armada](https://armadaproject.io/)**
+- **[Armada](https://armadaproject.io/)** — Armada is a multi-Kubernetes cluster batch job scheduler
 - **[Capsule](https://capsule.clastix.io)** — Capsule implements a multi-tenant and policy-based environment in your Kubernetes cluster. It is designed as a micro-services-based ecosystem with the minimalist approach, leveraging only on upstream Kubernetes.
 - **[Clusternet](https://clusternet.io)** — [CNCF Sandbox Project] Managing your Kubernetes clusters (including public, private, edge, etc.) as easily as visiting the Internet
 - **[Clusterpedia](https://clusterpedia.io)** — Clusterpedia is used for complex resources search across multiple clusters, support simultaneous search of a single kind of resource  or multiple kinds of resources existing in multiple clusters.
@@ -334,8 +338,8 @@
 - **[Koordinator](https://koordinator.sh)** — QoS based scheduling system for hybrid orchestration workloads on Kubernetes, bringing workloads the best layout and status.
 - **[kube-rs](https://kube.rs)** — kube-rs is the core Rust ecosystem for building applications against Kubernetes
 - **[KubeFleet](https://kubefleet.dev/)** — A multi-cluster solution that enables users to effectively manage their applications running in multiple Kubernetes clusters.
-- **[KubeSlice](https://kubeslice.io)**
-- **[KubeStellar](https://kubestellar.io)**
+- **[KubeSlice](https://kubeslice.io)** — Applications provided by Avesha Systems, ready to launch on Kubernetes using Kubernetes Helm
+- **[KubeStellar](https://kubestellar.io)** — KubeStellar - a flexible solution for challenges associated with multi-cluster configuration management for edge, multi-cloud, and hybrid cloud
 - **[Kured](https://kured.dev)** — Kured (KUbernetes REboot Daemon) is a Kubernetes daemonset that performs safe automatic node reboots when the need to do so is indicated by the package management system of the underlying OS
 - **[Open Cluster Management](https://open-cluster-management.io/)**
 - **[OpenFunction](https://openfunction.dev)** — Users can use OpenFunction in several different ways including building functions or applications only, running sync or async serverless functions or applications, building and then running serverless functions or applications, building and then running serverless wasm applications(In progress).  In all use cases, users can utilize Dapr to communicate with various backend services (BaaS).
@@ -352,7 +356,7 @@
 
 - **[BFE](https://www.bfe-networks.net)** — Open-source layer 7 load balancer derived from proprietary Baidu FrontEnd
 - **[LoxiLB](https://loxilb.io)** — eBPF based cloud-native load-balancer. Powering Kubernetes|Edge|5G|IoT|XaaS Apps.
-- **[MetalLB](https://metallb.universe.tf)**
+- **[MetalLB](https://metallb.universe.tf)** — A network load-balancer implementation for Kubernetes using standard routing protocols
 
 ### Platform (2)
 
@@ -376,9 +380,9 @@
 - **[Kairos](https://kairos.io)** — Transform any Linux system into a secure, customizable, and easily managed platform for edge computing with or without Kubernetes.
 - **[KCL](https://kcl-lang.io/)** — A constraint-based record & functional language mainly used in configuration and policy scenarios.
 - **[KitOps](https://kitops.org/)** — An open standard for packaging, managing, and deploying ML models and artifacts across different systems
-- **[kpt](https://kpt.dev)**
+- **[kpt](https://kpt.dev)** — Automate Kubernetes Configuration Editing
 - **[Kubean](https://kubean-io.github.io/kubean/)** — Product ready cluster lifecycle management toolchains based on kubespray and other cluster LCM engine.
-- **[KusionStack](https://kusionstack.io/)**
+- **[KusionStack](https://kusionstack.io/)** — Declarative Intent Driven Platform Orchestrator for Internal Developer Platform (IDP)
 - **[Meshery](https://meshery.io)** — As a self-service engineering platform, Meshery enables collaborative design and operation of cloud and  cloud native infrastructure.
 - **[NMstate](https://nmstate.io/)** — NMstate is a library with an accompanying command line tool that manages host networking settings in a declarative manner. When used in the Kubernetes environment it allows for declarative node network configuration through the Kubernetes API.
 - **[OpenTofu](https://opentofu.org/)** — OpenTofu is an open source infrastructure as code tool that enables users to safely and predictably provision and manage cloud and on-prem infrastructure. It's a community-driven fork of Terraform that maintains backward compatibility while offering enhanced features, stability.
@@ -387,7 +391,7 @@
 
 #### Container Registry
 
-- **[Distribution](https://github.com/distribution/distribution)**
+- **[Distribution](https://github.com/distribution/distribution)** — The toolkit to pack, ship, store, and deliver container content
 - **[zot](https://zotregistry.dev/)** — Zot is an OCI-native container registry for distributing container images and OCI artifacts.
 
 #### Key Management
@@ -402,7 +406,7 @@
 - **[Cedar](https://cedarpolicy.com)** — Cedar is an open source authorization policy language that enables developers to express fine-grained permissions as easy-to-understand policies enforced in their applications, and decouple access control from application logic. Cedar is designed to be ergonomic, fast, safe, and analyzable using automated reasoning. Cedar's simple and intuitive syntax supports common authorization use-cases with readable policies, naturally expressing concepts from role-based, attribute-based, and relation-based access control models. Cedar's policy structure enables authorization requests to be decided quickly. Its policy validator uses optional typing to help policy writers avoid mistakes, but not get in their way. Cedar's design has been finely balanced to allow for a sound, complete, and decidable logical encoding, which enables precise automated analysis of Cedar policies, e.g., to ensure that policy refactoring preserves existing permissions. Cedar's language specification has been formally verified using a theorem prover to satisfy key security properties like "deny trumps allow," and its implementation in Rust undergoes rigorous differential random testing against its formal specification. By combining mathematical rigor with developer-friendly design, Cedar offers a practical approach to secure, maintainable authorization for modern applications.
 - **[ContainerSSH](https://containerssh.io)** — ContainerSSH launches a new container for each SSH connection in Kubernetes, Podman or Docker. The user is transparently dropped in the container and the container is removed when the user disconnects. Authentication and container configuration are dynamic using webhooks, no system users required.
 - **[Copa](https://project-copacetic.github.io/copacetic/)** — CLI tool for directly patching container image vulnerabilities
-- **[Dex](https://dexidp.io/)**
+- **[Dex](https://dexidp.io/)** — OpenID Connect (OIDC) identity and OAuth 2.0 provider with pluggable connectors
 - **[external-secrets](https://external-secrets.io/)** — External Secrets Operator is a Kubernetes operator that integrates external secret management systems like AWS Secrets Manager, HashiCorp Vault, Google Secrets Manager, Azure Key Vault, IBM Cloud Secrets Manager, Akeyless, CyberArk Conjur and many more. The operator reads information from external APIs and automatically injects the values into a Kubernetes Secret. From there the secret can be consumed by a pod or used by other Kubernetes resources.
 - **[Keylime](https://keylime.dev/)** — Bootstrap & Maintain Trust on the Edge / Cloud and IoT.
 - **[KubeArmor](https://kubearmor.io/)** — Runtime protection for Kubernetes & other cloud Workloads. Kubearmor provides a observability and policy enforcement system to restrict any unwanted, malicious behaviour of cloud-native workloads at runtime.
@@ -417,12 +421,12 @@
 - **[SOPS](https://github.com/getsops)** — sops is an editor of encrypted files that supports YAML, JSON, ENV, INI and BINARY formats and encrypts with AWS KMS, GCP KMS, Azure Key Vault, age, and PGP.
 - **[Tokenetes](https://tokenetes.io/)** — Tokenetes implements Transaction Tokens (TraTs) for microservices call chains.  It's a Kubernetes-native framework providing immutable identity and context in  service-to-service communication to prevent attacks like software supply chain  or privileged user compromise.
 
-### Runtime (25)
+### Runtime (26)
 
 #### Cloud Native Network
 
 - **[Antrea](https://antrea.io/)** — Kubernetes networking based on Open vSwitch
-- **[Kube-OVN](https://kube-ovn.io)**
+- **[Kube-OVN](https://kube-ovn.io)** — A Kubernetes Network Fabric for Enterprises that is Rich in Functions and Easy in Operations
 - **[kube-vip](https://kube-vip.io)** — Kubernetes Virtual IP and Load-Balancer for both control plane and Kubernetes services
 - **[Network Service Mesh](https://networkservicemesh.io/)**
 - **[OVN-Kubernetes](https://ovn-kubernetes.io/)** — OVN-Kubernetes is a robust Kubernetes Networking platform, built from the ground up by leveraging Open vSwitch (OVS) as the data plane, and Open Virtual Network (OVN) as the SDN Controller.
@@ -431,10 +435,11 @@
 
 #### Cloud Native Storage
 
-- **[Carina](https://carina-io.github.io/)**
+- **[Carina](https://carina-io.github.io/)** — Carina: an high performance and ops-free local storage for kubernetes
+- **[Curvine](https://curvineio.github.io/)** — Curvine is a high-performance distributed multi-tier caching system written in Rust (memory/SSD/HDD), providing POSIX (FUSE), S3, and HDFS access to cloud object storage, with Kubernetes CSI integration.
 - **[HwameiStor](https://hwameistor.io/)** — Hwameistor is an HA local storage system for cloud-native stateful workloads
 - **[K8up](https://www.k8up.io/)**
-- **[Kanister](https://kanister.io)**
+- **[Kanister](https://kanister.io)** — An extensible framework for application-level data management on Kubernetes
 - **[OpenEBS](https://www.openebs.io/)**
 - **[Piraeus Datastore](https://piraeus.io/)**
 - **[Velero](https://velero.io)**
@@ -444,7 +449,7 @@
 - **[bootc](https://bootc-dev.github.io)** — The bootc provides transactional, in-place operating system images and updates using OCI/Docker container images. This project applies the Docker container layering model to bootable host systems, using standard OCI/Docker containers as a transport and delivery format for base operating system updates.
 - **[composefs](https://github.com/containers/composefs)** — A project that combines Linux kernel features to provide read-only mountable filesystem trees stacking on top of an underlying "lower" Linux filesystem, particularly useful for mounting container images.
 - **[Hyperlight](https://github.com/hyperlight-dev/hyperlight)** — A lightweight, secure container runtime solution designed for modern cloud-native workloads
-- **[Inclavare Containers](https://github.com/inclavare-containers/)**
+- **[Inclavare Containers](https://github.com/inclavare-containers/)** — A novel container runtime, aka confidential container, for cloud-native confidential computing and enclave runtime ecosystem
 - **[Interlink](https://interlink-project.dev)** — InterLink aims to provide an abstraction for the execution of a Kubernetes pod on any remote resource capable of managing a Container execution lifecycle thanks to the Virtual Kubelet interface. It allows you to extend your cloud environment anywhere by running Kubernetes workloads on various infrastructures, creating a seamless cloud-native experience across diverse environments.
 - **[Kuasar](https://kuasar.io/)** — A multi-sandbox container runtime that provides cloud-native, all-scenario multiple sandbox container solutions.
 - **[Podman Container Tools](https://podman.io/)** — A set of tools providing full management of container lifecycle, including Podman, Buildah, and Skopeo,  which manage containers and images without requiring a daemon or root privileges.
@@ -455,12 +460,9 @@
 
 ### Serverless (2)
 
-#### Framework
-
-- **[KubeElasti](https://kubeelasti.dev)** — Auto scale-to-zero pods when idle and scale up pods when traffic arrives, without losing any requests. KubeElasti uses a smart proxy that queues incoming requests while scaling up targets, ensuring no request loss. It works with existing Kubernetes services and deployments without requiring code changes.
-
 #### Installable Platform
 
+- **[KubeElasti](https://kubeelasti.dev)** — Auto scale-to-zero pods when idle and scale up pods when traffic arrives, without losing any requests. KubeElasti uses a smart proxy that queues incoming requests while scaling up targets, ensuring no request loss. It works with existing Kubernetes services and deployments without requiring code changes.
 - **[SlimFaaS](https://github.com/SlimPlanet/SlimFaas)** — The slimest and simplest Function As A Service
 
 ### Wasm (3)

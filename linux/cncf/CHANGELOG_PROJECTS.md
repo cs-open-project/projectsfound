@@ -2,7 +2,18 @@
 
 # CNCF 项目历史
 
-2026-07-13
+2026-07-27
+
+- Project New: Curvine [sandbox]
+
+- Project New: Tekton [incubating]
+
+- Project Graduated: Kubeflow [from incubating]
+
+- Project Graduated: Buildpacks [from incubating]
+
+- Project Incubating: k8gb [from sandbox]
+
 
 - Project Archived: Vineyard [from sandbox]
 
