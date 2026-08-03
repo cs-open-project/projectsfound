@@ -4,14 +4,14 @@
 
 > 数据来源: [Apache Projects](https://projects.apache.org/)
 >
-> 更新时间: 2026-07-27
+> 更新时间: 2026-08-03
 
 项目统计
 
 | 状态 | 数量 |
 |------|------|
-| [Graduated](#graduated) | 313 |
-| [Incubating](#incubating) | 35 |
+| [Graduated](#graduated) | 315 |
+| [Incubating](#incubating) | 33 |
 | [Attic](#attic) | 70 |
 | **总计** | **418** |
 ---
@@ -140,7 +140,7 @@ Description: Apache Axiom is a StAX-based, XML Infoset compliant object model wh
 
 ### Axis2[Web服务的核心支援引擎]
 
-Description: Apache Axis2 is a toolkit for creating and using Web Services, including SOAP, MTOM, XML/HTTP and advanced WS-* standards such as WSRM and WSSecurity. Axis2 includes a very fast runtime engine, together with tooling support for WSDL and WS-Policy, and plugin support for WS-Addressing, WS-ReliableMessaging, WS-Security,  WS-Eventing, WS-Transactions, WS-Trust and WS-SecureConversation. Axis2 runs either standalone or hosted in Tomcat or other servlet containers.  
+Description: Apache Axis2 is a toolkit for creating and using Web Services, including SOAP, MTOM, XML/HTTP and advanced WS-* standards such as WSRM and WSSecurity. Axis2 includes a very fast runtime engine, together with tooling support for WSDL and WS-Policy, and plugin support for WS-Addressing, WS-ReliableMessaging, WS-Security,  WS-Eventing, WS-Transactions, WS-Trust and WS-SecureConversation. Axis2 runs either standalone or hosted in Tomcat or other servlet containers.
 
 介绍: Apache Axis2 is a toolkit for creating and using Web Services, including SOAP, MTOM, XML/HTTP and advanced WS-* standards such as WSRM and WSSecurity. Axis2 includes a very fast runtime engine, together with tooling support for WSDL and WS-Policy, and plugin support for WS-Addressing, WS-ReliableMessaging, WS-Security,  WS-Eventing, WS-Transactions, WS-Trust and WS-SecureConversation. Axis2 runs either standalone or hosted in Tomcat or other servlet containers.
 
@@ -744,6 +744,12 @@ Description: Apache Fluo YARN is a tool for running Apache Fluo applications in 
 
 介绍: Apache Fluo YARN is a tool for running Apache Fluo applications in Apache Hadoop YARN.
 
+### Fluss
+
+Description: Fluss is a streaming storage built for real-time analytics which can serve as the real-time data layer for Lakehouse architectures.
+
+介绍: Fluss is a streaming storage built for real-time analytics which can serve as the real-time data layer for Lakehouse architectures.
+
 ### FOP
 
 Description: FOP (Formatting Objects Processor) is the world's first print formatter driven by XSL formatting objects (XSL-FO) and the world's first output independent formatter. It is a Java application that reads a formatting object (FO) tree and renders the resulting pages to a specified output. Output formats  currently supported include PDF, PCL, PS, SVG, XML (area tree representation), Print, AWT, MIF and TXT. The primary output target is PDF.
@@ -1325,6 +1331,12 @@ Description: APIs for manipulating various file formats based upon Open Office X
 Description: Apache Polaris implements the Apache Iceberg REST API, enabling seamless multi-engine interoperability across a wide range of platforms, including Apache Doris, Apache Flink, Apache Spark, ...
 
 介绍: Polaris is a catalog for data lakes. It provides new levels of choice, flexibility and control over data, with full enterprise security and Apache Iceberg interoperability across a multitude of engines and infrastructure.
+
+### Pony Mail
+
+Description: Apache Pony Mail is a web-based mail archive browser and interaction platform for mailing lists. It provides full-text search, threading, and real-time interaction with archived mailing lists, and is the engine behind lists.apache.org.
+
+介绍: Pony Mail is a mail-archiving, archive viewing, and interaction service, that can be integrated with many email platforms.
 
 ### Ponymail
 
@@ -1958,12 +1970,6 @@ Description: Fesod is a high-performance and memory-efficient Java library for r
 
 介绍: Fesod is a high-performance and memory-efficient Java library for reading and writing Excel files, designed to simplify development and ensure reliability.
 
-### Fluss[Incubating]
-
-Description: Fluss is a streaming storage built for real-time analytics which can serve as the real-time data layer for Lakehouse architectures.
-
-介绍: Fluss is a streaming storage built for real-time analytics which can serve as the real-time data layer for Lakehouse architectures.
-
 ### Fury[Incubating]
 
 Description: A blazing fast multi-language serialization framework powered by jit and zero-copy
@@ -2065,12 +2071,6 @@ Description: OzHera is an application observation platform (APM) in the era of c
 Description: Pegasus is a distributed key-value storage system which is designed to be simple, horizontally scalable, strongly consistent and high-performance.
 
 介绍: Pegasus is a distributed key-value storage system which is designed to be simple, horizontally scalable, strongly consistent and high-performance.
-
-### Pony Mail[Incubating]
-
-Description: Pony Mail is a mail-archiving, archive viewing, and interaction service, that can be integrated with many email platforms.
-
-介绍: Pony Mail is a mail-archiving, archive viewing, and interaction service, that can be integrated with many email platforms.
 
 ### PouchDB[Incubating]
 

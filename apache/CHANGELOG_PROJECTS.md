@@ -2,6 +2,12 @@
 
 # 项目历史
 
+2026-08-03
+
+- Project Graduated: Fluss
+
+- Project Graduated: Pony Mail
+
 2026-07-20
 
 - Project New: Ponymail
