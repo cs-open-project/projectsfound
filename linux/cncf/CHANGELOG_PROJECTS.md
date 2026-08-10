@@ -2,7 +2,10 @@
 
 # CNCF 项目历史
 
-2026-07-27
+2026-08-10
+
+- Project New: kbind [sandbox]
+
 
 - Project New: Curvine [sandbox]
 

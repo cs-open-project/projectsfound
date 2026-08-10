@@ -4,7 +4,7 @@
 
 > 数据来源: [CNCF Landscape](https://landscape.cncf.io/)
 >
-> 更新时间: 2026-07-27
+> 更新时间: 2026-08-10
 
 ## 项目统计
 
@@ -12,9 +12,9 @@
 |------|------|
 | [Graduated](#graduated) | 38 |
 | [Incubating](#incubating) | 38 |
-| [Sandbox](#sandbox) | 150 |
+| [Sandbox](#sandbox) | 151 |
 | [Archived](#archived) | 28 |
-| **总计** | **254** |
+| **总计** | **255** |
 
 ---
 
@@ -134,7 +134,7 @@
 #### Continuous Integration & Delivery
 
 - **[OpenKruise](https://openkruise.io/)**
-- **[Tekton](https://tekton.dev/)** — A powerful and flexible open source framework for creating continuous integration and delivery (CI/CD) systems that allow developers to build, test, and deploy across multiple cloud providers and on-premises systems by abstracting away the underlying implementation details.
+- **[Tekton](https://tekton.dev)** — A powerful and flexible open source framework for creating continuous integration and delivery (CI/CD) systems that allow developers to build, test, and deploy across multiple cloud providers and on-premises systems by abstracting away the underlying implementation details.
 
 #### Streaming & Messaging
 
@@ -231,7 +231,7 @@
 
 ---
 
-## Sandbox (150)
+## Sandbox (151)
 
 ### App Definition and Development (31)
 
@@ -239,8 +239,8 @@
 
 - **[Carvel](https://carvel.dev)** — Carvel provides a set of reliable, single-purpose, composable tools that aid in your application building, configuration, and deployment to Kubernetes.
 - **[Dalec](https://project-dalec.github.io/dalec/)** — Dalec provides a declarative format for building system packages and containers from those packages in a secure way for supply chain security.
-- **[Devfile](https://devfile.io)**
-- **[DevSpace](https://devspace.sh)**
+- **[Devfile](https://devfile.io)** — An open standard defining containerized development environments that enables developer tools to simplify and accelerate workflows
+- **[DevSpace](https://devspace.sh)** — Client-Only Developer Tool for Cloud-Native Development with Kubernetes
 - **[ko](https://ko.build/)** — ko is a tool to simplify building Go container images
 - **[Konveyor](https://www.konveyor.io/)** — Konveyor is an open-source application modernization platform that helps organizations safely and predictably modernize applications to new technologies, with an initial focus on accelerating the adoption of legacy applications to Kubernetes.
 - **[KUDO](https://kudo.dev/)** — Kubernetes Universal Declarative Operator
@@ -250,7 +250,7 @@
 - **[Porter](https://porter.sh/)** — Porter enables you to package your application artifact, client tools, configuration and deployment logic together as a versioned bundle that you can distribute, and install with a single command
 - **[Radius](https://radapp.io/)** — Radius is a cloud-native application platform that enables developers and the platform engineers that support them to collaborate on delivering and managing cloud-native applications that follow organizational best practices for cost, operations and security, by default.
 - **[Score](https://score.dev/)** — Score is an open-source workload specification designed to simplify development for cloud-native developers.
-- **[Serverless Workflow](https://serverlessworkflow.io)**
+- **[Serverless Workflow](https://serverlessworkflow.io)** — Standards-based DSL and open-source dev tools and runtimes are at the heart of the Serverless Workflow project
 - **[Shipwright](https://shipwright.io)**
 - **[Stacker](https://stackerbuild.io)** — Stacker is a tool for building OCI images and related artifacts such as SBOMs natively via a declarative yaml format.
 - **[Telepresence](https://www.telepresence.io/)** — Telepresence is a local-to-remote kubernetes debugging tool that creates a two-way proxy from your laptop to the cluster. You can access cluster resources as if they were local and intercept traffic to one or more services to develop in an integrated environment without the need for a container build-push-deploy loop.
@@ -261,7 +261,7 @@
 
 - **[Kube-burner](https://kube-burner.github.io/kube-burner/)** — Kubernetes performance and scale test orchestration framework written in golang
 - **[OpenChoreo](https://openchoreo.dev)** — A developer platform for Kubernetes that delivers higher-level abstractions with a Backstage-powered portal, CI/CD, GitOps, and built-in observability.
-- **[OpenGitOps](https://opengitops.dev/)**
+- **[OpenGitOps](https://opengitops.dev/)** — OpenGitOps is a set of open-source standards, best practices, and community-focused education to help organizations adopt a structured, standardized approach to implementing GitOps
 - **[PipeCD](https://pipecd.dev/)** — GitOps style continuous delivery platform that provides consistent deployment and operations experience for any applications
 - **[werf](https://werf.io/)** — werf is a solution for implementing efficient and consistent software delivery to Kubernetes. It covers the entire CI/CD lifecycle and all related artifacts, glues commonly used tools (Git, Docker/Buildah, Helm, K8s) and facilitates best practices.
 
@@ -276,7 +276,7 @@
 
 - **[Apicurio Registry](https://www.apicur.io)** — Apicurio Registry is a runtime server system that stores a specific set of artifacts as files.
 - **[Drasi](https://drasi.io)** — A data change processing platform to simplify change-driven systems that need to detect, evaluate, and react to data changes quickly and efficiently at scale.
-- **[Tremor](https://www.tremor.rs/)**
+- **[Tremor](https://www.tremor.rs/)** — An early-stage event processing system for unstructured data with rich support for structural pattern-matching, filtering and transformation
 
 ### Inference (2)
 
@@ -303,7 +303,7 @@
 - **[Logging Operator (Kube Logging)](https://kube-logging.dev/)** — Logging operator for Kubernetes
 - **[Perses](https://perses.dev)** — Perses is a dashboard tool to visualize observability data from Prometheus/Thanos/Jaeger.
 - **[Pixie](https://px.dev/)** — Open source Kubernetes observability for developers
-- **[Trickster](https://trickstercache.org)**
+- **[Trickster](https://trickstercache.org)** — Open Source HTTP Reverse Proxy Cache and Time Series Dashboard Accelerator
 
 ### Orchestration & Management (33)
 
@@ -341,9 +341,9 @@
 - **[KubeSlice](https://kubeslice.io)** — Applications provided by Avesha Systems, ready to launch on Kubernetes using Kubernetes Helm
 - **[KubeStellar](https://kubestellar.io)** — KubeStellar - a flexible solution for challenges associated with multi-cluster configuration management for edge, multi-cloud, and hybrid cloud
 - **[Kured](https://kured.dev)** — Kured (KUbernetes REboot Daemon) is a Kubernetes daemonset that performs safe automatic node reboots when the need to do so is indicated by the package management system of the underlying OS
-- **[Open Cluster Management](https://open-cluster-management.io/)**
+- **[Open Cluster Management](https://open-cluster-management.io/)** — A lightweight, open standard for multi-cluster Kubernetes management built on a hub-spoke architecture.
 - **[OpenFunction](https://openfunction.dev)** — Users can use OpenFunction in several different ways including building functions or applications only, running sync or async serverless functions or applications, building and then running serverless functions or applications, building and then running serverless wasm applications(In progress).  In all use cases, users can utilize Dapr to communicate with various backend services (BaaS).
-- **[Serverless Devs](https://www.serverless-devs.com/)**
+- **[Serverless Devs](https://www.serverless-devs.com/)** — Serverless Devs developer tool ( Serverless Devs 开发者工具 )
 
 #### Service Mesh
 
@@ -368,16 +368,17 @@
 
 - **[KubeClipper](https://www.kubeclipper.io/)** — Manage kubernetes in the most light and convenient way.
 
-### Provisioning (39)
+### Provisioning (40)
 
 #### Automation & Configuration
 
-- **[Akri](https://docs.akri.sh)**
+- **[Akri](https://docs.akri.sh)** — A Kubernetes Resource Interface for the Edge
 - **[Atlantis](https://www.runatlantis.io/)** — Terraform Pull Request Automation for Teams
 - **[Cadence Workflow](https://cadenceworkflow.io/)** — Cadence is a distributed, scalable, durable, and highly available fault-oblivious stateful code platform.
 - **[CDK for Kubernetes (CDK8s)](https://cdk8s.io/)** — CDK8s lets you define Kubernetes apps and components using familiar programming languages and object-oriented APIs.
 - **[kagent](https://kagent.dev/)** — Kagent is an open source programming framework designed for DevOps and platform engineers to run AI agents in Kubernetes
 - **[Kairos](https://kairos.io)** — Transform any Linux system into a secure, customizable, and easily managed platform for edge computing with or without Kubernetes.
+- **[kbind](https://kbind.dev/)** — kbind aims to provide better support for service providers and consumers that reside in distinct Kubernetes clusters.
 - **[KCL](https://kcl-lang.io/)** — A constraint-based record & functional language mainly used in configuration and policy scenarios.
 - **[KitOps](https://kitops.org/)** — An open standard for packaging, managing, and deploying ML models and artifacts across different systems
 - **[kpt](https://kpt.dev)** — Automate Kubernetes Configuration Editing
@@ -387,7 +388,7 @@
 - **[NMstate](https://nmstate.io/)** — NMstate is a library with an accompanying command line tool that manages host networking settings in a declarative manner. When used in the Kubernetes environment it allows for declarative node network configuration through the Kubernetes API.
 - **[OpenTofu](https://opentofu.org/)** — OpenTofu is an open source infrastructure as code tool that enables users to safely and predictably provision and manage cloud and on-prem infrastructure. It's a community-driven fork of Terraform that maintains backward compatibility while offering enhanced features, stability.
 - **[Runme Notebooks](https://runme.dev/)** — A toolchain that turns Markdown into interactive, cloud-native, runnable Notebook experiences for DevOps.
-- **[Tinkerbell](https://tinkerbell.org/)**
+- **[Tinkerbell](https://tinkerbell.org/)** — Bare metal provisioning engine, supporting network and ISO booting, BMC interactions, metadata service, and workflow engine.
 
 #### Container Registry
 
@@ -413,9 +414,9 @@
 - **[Kubewarden](https://www.kubewarden.io)** — Kubewarden is a Policy Engine powered by WebAssembly policies. Its policies can be written in CEL, Rego (OPA & Gatekeeper flavours), Rust, Go, YAML, and others. Kubewarden simplifies Policy-As-Code by allowing policy authors and consumers to use their preferred tooling and stack, develop and test policies out of cluster.
 - **[OAuth2 Proxy](https://oauth2-proxy.github.io/oauth2-proxy/)** — A generic reverse proxy that provides authentication with Google, Azure, OpenID Connect and many more identity providers.
 - **[Open Policy Containers](https://openpolicycontainers.com)** — A docker-inspired CLI for building, tagging, pushing, pulling, and signing OPA policies to and from OCI-compliant registries.
-- **[OSCAL-COMPASS](https://github.com/oscal-compass/community)** — The OSCAL COMPASS project is set of tools that enable the creation, validation, and governance of documentation artifacts for compliance needs. It leverages NIST's OSCAL (Open Security Controls Assessment Language) as a standard data format for interchange between tools and people, and provides an opinionated approach to OSCAL SDK and adoption by policy engines.
+- **[OSCAL-COMPASS](https://oscal-compass.dev/)** — The OSCAL COMPASS project is set of tools that enable the creation, validation, and governance of documentation artifacts for compliance needs. It leverages NIST's OSCAL (Open Security Controls Assessment Language) as a standard data format for interchange between tools and people, and provides an opinionated approach to OSCAL SDK and adoption by policy engines.
 - **[Paralus](https://www.paralus.io/)** — Paralus is a free, open source tool that enables controlled, audited access to Kubernetes infrastructure and Zero trust Kubernetes with zero friction.
-- **[Parsec](https://parsec.community/)**
+- **[Parsec](https://parsec.community/)** — Platform AbstRaction for SECurity service
 - **[Ratify](https://ratify.dev/)** — A verification engine on Kubernetes which enables verification of artifact security metadata and admits for deployment only those that comply with policies you create.
 - **[SlimToolkit](https://slimtoolkit.org/)** — Inspect, Optimize and Debug Your Containers
 - **[SOPS](https://github.com/getsops)** — sops is an editor of encrypted files that supports YAML, JSON, ENV, INI and BINARY formats and encrypts with AWS KMS, GCP KMS, Azure Key Vault, age, and PGP.
@@ -428,7 +429,7 @@
 - **[Antrea](https://antrea.io/)** — Kubernetes networking based on Open vSwitch
 - **[Kube-OVN](https://kube-ovn.io)** — A Kubernetes Network Fabric for Enterprises that is Rich in Functions and Easy in Operations
 - **[kube-vip](https://kube-vip.io)** — Kubernetes Virtual IP and Load-Balancer for both control plane and Kubernetes services
-- **[Network Service Mesh](https://networkservicemesh.io/)**
+- **[Network Service Mesh](https://networkservicemesh.io/)** — The Hybrid/Multi-cloud IP Service Mesh
 - **[OVN-Kubernetes](https://ovn-kubernetes.io/)** — OVN-Kubernetes is a robust Kubernetes Networking platform, built from the ground up by leveraging Open vSwitch (OVS) as the data plane, and Open Virtual Network (OVN) as the SDN Controller.
 - **[Spiderpool](https://spidernet-io.github.io/spiderpool/)** — Spiderpool is the underlay and RDMA network solution of the Kubernetes, for bare metal, VM and public cloud
 - **[Submariner](https://submariner.io)** — Submariner enables direct networking between Pods and Services in different Kubernetes clusters, either on-premises or in the cloud.
@@ -441,7 +442,7 @@
 - **[K8up](https://www.k8up.io/)**
 - **[Kanister](https://kanister.io)** — An extensible framework for application-level data management on Kubernetes
 - **[OpenEBS](https://www.openebs.io/)**
-- **[Piraeus Datastore](https://piraeus.io/)**
+- **[Piraeus Datastore](https://piraeus.io/)** — The Piraeus Operator manages LINSTOR clusters in Kubernetes.
 - **[Velero](https://velero.io)**
 
 #### Container Runtime
