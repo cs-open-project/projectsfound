@@ -4,26 +4,27 @@
 
 > 数据来源: [LF AI & Data Landscape](https://landscape.lfai.foundation/)
 >
-> 更新时间: 2026-07-27
+> 更新时间: 2026-08-10
 
 ## 项目统计
 
 | 状态 | 数量 |
 |------|------|
-| [Graduated](#graduated) | 12 |
+| [Graduated](#graduated) | 13 |
 | [Incubating](#incubating) | 25 |
-| [Sandbox](#sandbox) | 22 |
+| [Sandbox](#sandbox) | 21 |
 | [Archived](#archived) | 5 |
 | **总计** | **64** |
 
 ---
 
-## Graduated (12)
+## Graduated (13)
 
-### Data (5)
+### Data (6)
 
 #### Governance
 
+- **[Bitol](https://bitol.io)** — Home of the Open Data Contract Standard (ODCS) for data governance and interoperability
 - **[Egeria](https://egeria-project.org)** — Open metadata and governance standard for the free flow of metadata across data technologies
 
 #### Lineage
@@ -76,7 +77,7 @@
 
 ## Incubating (25)
 
-### Data (9)
+### Data (8)
 
 #### Education
 
@@ -85,10 +86,6 @@
 #### Feature Engineering
 
 - **[Feast](https://feast.dev/)** — Open source feature store for machine learning, managing infrastructure to productionize analytic data for model training and online inference
-
-#### Governance
-
-- **[Bitol](https://bitol.io)** — Home of the Open Data Contract Standard (ODCS) for data governance and interoperability
 
 #### Operations
 
@@ -117,7 +114,7 @@
 - **[Open Voice Interoperability](https://openvoicenetwork.org/interoperability-initiative/)** — Open standards and protocols for voice interoperability across voice assistants and devices
 - **[sparklyr](https://sparklyr.ai)** — R interface for Apache Spark, enabling distributed data processing and machine learning from R
 
-### Generative AI (2)
+### Generative AI (3)
 
 #### Models
 
@@ -126,6 +123,7 @@
 #### Tools
 
 - **[BeeAI](https://www.ibm.com/think/news/beeai-open-source-multiagent)** — Build production-ready multi-agent systems in Python or TypeScript
+- **[Monocole](http://monocle2ai.org/)** — Open-source tracing and testing for GenAI apps and agents
 
 ### Machine Learning (2)
 
@@ -171,7 +169,7 @@
 
 ---
 
-## Sandbox (22)
+## Sandbox (21)
 
 ### Data (6)
 
@@ -207,15 +205,11 @@
 
 - **[BeyondML](https://github.com/Beyond-ML-Labs/mann)** — Framework for developing multi-task, multi-modal AI models
 
-### Generative AI (2)
+### Generative AI (1)
 
 #### Models
 
 - **[Open Model Initiative](https://github.com/orgs/Open-Model-Initiative/)** — Open model standards for AI/ML model packaging, exchange, and lifecycle management
-
-#### Tools
-
-- **[Monocole](http://monocle2ai.org/)** — Open-source tracing and testing for GenAI apps and agents
 
 ### Machine Learning (6)
 
