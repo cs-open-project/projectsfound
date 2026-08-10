@@ -4,7 +4,7 @@
 
 > 数据来源: [Apache Projects](https://projects.apache.org/)
 >
-> 更新时间: 2026-08-03
+> 更新时间: 2026-08-10
 
 项目统计
 
@@ -140,7 +140,7 @@ Description: Apache Axiom is a StAX-based, XML Infoset compliant object model wh
 
 ### Axis2[Web服务的核心支援引擎]
 
-Description: Apache Axis2 is a toolkit for creating and using Web Services, including SOAP, MTOM, XML/HTTP and advanced WS-* standards such as WSRM and WSSecurity. Axis2 includes a very fast runtime engine, together with tooling support for WSDL and WS-Policy, and plugin support for WS-Addressing, WS-ReliableMessaging, WS-Security,  WS-Eventing, WS-Transactions, WS-Trust and WS-SecureConversation. Axis2 runs either standalone or hosted in Tomcat or other servlet containers.
+Description: Apache Axis2 is a toolkit for creating and using Web Services, including SOAP, MTOM, XML/HTTP and advanced WS-* standards such as WSRM and WSSecurity. Axis2 includes a very fast runtime engine, together with tooling support for WSDL and WS-Policy, and plugin support for WS-Addressing, WS-ReliableMessaging, WS-Security,  WS-Eventing, WS-Transactions, WS-Trust and WS-SecureConversation. Axis2 runs either standalone or hosted in Tomcat or other servlet containers.  
 
 介绍: Apache Axis2 is a toolkit for creating and using Web Services, including SOAP, MTOM, XML/HTTP and advanced WS-* standards such as WSRM and WSSecurity. Axis2 includes a very fast runtime engine, together with tooling support for WSDL and WS-Policy, and plugin support for WS-Addressing, WS-ReliableMessaging, WS-Security,  WS-Eventing, WS-Transactions, WS-Trust and WS-SecureConversation. Axis2 runs either standalone or hosted in Tomcat or other servlet containers.
 
