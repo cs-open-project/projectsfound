@@ -4,16 +4,16 @@
 
 > 数据来源: [Apache Projects](https://projects.apache.org/)
 >
-> 更新时间: 2026-08-10
+> 更新时间: 2026-08-17
 
 项目统计
 
 | 状态 | 数量 |
 |------|------|
 | [Graduated](#graduated) | 315 |
-| [Incubating](#incubating) | 33 |
+| [Incubating](#incubating) | 34 |
 | [Attic](#attic) | 70 |
-| **总计** | **418** |
+| **总计** | **419** |
 ---
 
 ## Graduated
@@ -2023,6 +2023,12 @@ Description: KIE (Knowledge is Everything) is a community of solutions and suppo
 Description: Apache Liminal is an end-to-end platform for data engineers and scientists, allowing them to build, train and deploy machine learning models in a robust and agile way.
 
 介绍: Apache Liminal is an end-to-end platform for data engineers and scientists, allowing them to build, train and deploy machine learning models in a robust and agile way.
+
+### Maka[Incubating]
+
+Description: Maka is a local-first AI agent runtime and workspace. It records model messages, tool calls, tool results, permission decisions, and termination events in append-only logs.
+
+介绍: Maka is a local-first AI agent runtime and workspace. It records model messages, tool calls, tool results, permission decisions, and termination events in append-only logs.
 
 ### Milagro[Incubating]
 

@@ -2,6 +2,10 @@
 
 # 项目历史
 
+2026-08-17
+
+- Project New: Maka
+
 2026-08-03
 
 - Project Graduated: Fluss
