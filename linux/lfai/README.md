@@ -4,17 +4,17 @@
 
 > 数据来源: [LF AI & Data Landscape](https://landscape.lfai.foundation/)
 >
-> 更新时间: 2026-08-10
+> 更新时间: 2026-08-24
 
 ## 项目统计
 
 | 状态 | 数量 |
 |------|------|
 | [Graduated](#graduated) | 13 |
-| [Incubating](#incubating) | 25 |
-| [Sandbox](#sandbox) | 21 |
+| [Incubating](#incubating) | 23 |
+| [Sandbox](#sandbox) | 22 |
 | [Archived](#archived) | 5 |
-| **总计** | **64** |
+| **总计** | **63** |
 
 ---
 
@@ -75,13 +75,9 @@
 
 ---
 
-## Incubating (25)
+## Incubating (23)
 
-### Data (8)
-
-#### Education
-
-- **[OpenDS4All](https://github.com/odpi/OpenDS4All)** — Open source educational resources for data science and AI
+### Data (7)
 
 #### Feature Engineering
 
@@ -125,15 +121,11 @@
 - **[BeeAI](https://www.ibm.com/think/news/beeai-open-source-multiagent)** — Build production-ready multi-agent systems in Python or TypeScript
 - **[Monocole](http://monocle2ai.org/)** — Open-source tracing and testing for GenAI apps and agents
 
-### Machine Learning (2)
+### Machine Learning (1)
 
 #### Framework
 
-- **[Data Prep Kit](https://developer.ibm.com/components/data-prep-kit/)** — Open source project for data preparation for GenAI applications
-
-#### Platform
-
-- **[ForestFlow](https://forestflow.ai)** — ForestFlow is a policy-driven Machine Learning Model Server
+- **[Data-Prep-Kit](https://developer.ibm.com/components/data-prep-kit/)**
 
 ### Model (4)
 
@@ -169,7 +161,7 @@
 
 ---
 
-## Sandbox (21)
+## Sandbox (22)
 
 ### Data (6)
 
@@ -211,10 +203,11 @@
 
 - **[Open Model Initiative](https://github.com/orgs/Open-Model-Initiative/)** — Open model standards for AI/ML model packaging, exchange, and lifecycle management
 
-### Machine Learning (6)
+### Machine Learning (7)
 
 #### Framework
 
+- **[AIRSEAI](https://airs.cuhk.edu.cn/en/airseai)**
 - **[OAAX](https://www.oaax.org)** — Open AI Accelerator eXchange - open standard for AI accelerator interfaces
 
 #### Library

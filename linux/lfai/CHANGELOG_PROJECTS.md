@@ -2,7 +2,12 @@
 
 # LF AI & Data 项目历史
 
-2026-08-10
+2026-08-24
+
+- Project New: AIRSEAI [sandbox]
+
+- Project New: Data-Prep-Kit [incubating]
+
 
 - Project Graduated: Bitol [from incubating]
 
