@@ -2,7 +2,10 @@
 
 # CNCF 项目历史
 
-2026-08-10
+2026-08-24
+
+- Project New: Open Workflow Specification [sandbox]
+
 
 - Project New: kbind [sandbox]
 

@@ -4,7 +4,7 @@
 
 > 数据来源: [CNCF Landscape](https://landscape.cncf.io/)
 >
-> 更新时间: 2026-08-10
+> 更新时间: 2026-08-24
 
 ## 项目统计
 
@@ -245,13 +245,13 @@
 - **[Konveyor](https://www.konveyor.io/)** — Konveyor is an open-source application modernization platform that helps organizations safely and predictably modernize applications to new technologies, with an initial focus on accelerating the adoption of legacy applications to Kubernetes.
 - **[KUDO](https://kudo.dev/)** — Kubernetes Universal Declarative Operator
 - **[ModelPack](https://github.com/modelpack/model-spec)** — The project establishes open standards for packaging, distributing and running AI artifacts in the cloud-native environment.
+- **[Open Workflow Specification](https://open-workflow-specification.org)** — Standards-based DSL and open-source dev tools and runtimes are at the heart of the Serverless Workflow project
 - **[ORAS](https://oras.land/)** — Multi-language OCI Registry SDKs and CLI
 - **[Podman Desktop](https://podman-desktop.io/)** — An open-source tool for developers to work with containers and Kubernetes with an intuitive and user-friendly interface to effortlessly build, manage, and deploy containers and Kubernetes — all from the desktop.
 - **[Porter](https://porter.sh/)** — Porter enables you to package your application artifact, client tools, configuration and deployment logic together as a versioned bundle that you can distribute, and install with a single command
 - **[Radius](https://radapp.io/)** — Radius is a cloud-native application platform that enables developers and the platform engineers that support them to collaborate on delivering and managing cloud-native applications that follow organizational best practices for cost, operations and security, by default.
 - **[Score](https://score.dev/)** — Score is an open-source workload specification designed to simplify development for cloud-native developers.
-- **[Serverless Workflow](https://serverlessworkflow.io)** — Standards-based DSL and open-source dev tools and runtimes are at the heart of the Serverless Workflow project
-- **[Shipwright](https://shipwright.io)**
+- **[Shipwright](https://shipwright.io)** — Community documentation for Shipwright
 - **[Stacker](https://stackerbuild.io)** — Stacker is a tool for building OCI images and related artifacts such as SBOMs natively via a declarative yaml format.
 - **[Telepresence](https://www.telepresence.io/)** — Telepresence is a local-to-remote kubernetes debugging tool that creates a two-way proxy from your laptop to the cluster. You can access cluster resources as if they were local and intercept traffic to one or more services to develop in an integrated environment without the need for a container build-push-deploy loop.
 - **[Visual Studio Code Kubernetes Tools](https://marketplace.visualstudio.com/items?itemName=ms-kubernetes-tools.vscode-kubernetes-tools)** — The extension for developers building applications to run in Kubernetes clusters and for DevOps staff troubleshooting Kubernetes applications.
@@ -270,7 +270,7 @@
 - **[CloudNativePG](https://www.cloudnative-pg.io/)** — CloudNativePG is a comprehensive platform designed to seamlessly manage PostgreSQL databases within Kubernetes environments, covering the entire operational lifecycle from initial deployment to ongoing maintenance
 - **[OpenEverest](https://openeverest.io/)** — The open-source platform for automated database provisioning and management. It supports multiple database technologies and can be hosted on any Kubernetes infrastructure, in the cloud or on-premises.
 - **[openGemini](https://www.opengemini.org)** — openGemini is an open source distributed time series DBMS with high concurrency, high performance, and high scalability, focusing on the storage and analysis of massive observability data.
-- **[SchemaHero](https://schemahero.io)**
+- **[SchemaHero](https://schemahero.io)** — A Kubernetes operator for declarative database schema management (gitops for database schemas)
 
 #### Streaming & Messaging
 
@@ -455,7 +455,7 @@
 - **[Kuasar](https://kuasar.io/)** — A multi-sandbox container runtime that provides cloud-native, all-scenario multiple sandbox container solutions.
 - **[Podman Container Tools](https://podman.io/)** — A set of tools providing full management of container lifecycle, including Podman, Buildah, and Skopeo,  which manage containers and images without requiring a daemon or root privileges.
 - **[urunc](https://urunc.io/)** — A CRI-compatible runtime for running unikernels and application kernels as containers.  urunc bridges the gap between unikernels and containerized environments, enabling seamless  integration with cloud-native architectures while maintaining OCI compatibility.
-- **[Virtual Kubelet](https://virtual-kubelet.io/)**
+- **[Virtual Kubelet](https://virtual-kubelet.io/)** — Virtual Kubelet is an open source Kubernetes kubelet implementation
 - **[WasmEdge Runtime](https://wasmedge.org/)** — WasmEdge provides a high-performance, lightweight, secure, and extensible WebAssembly runtime for cloud-native applications. It is an OCI compliant container that is integrated into Docker, containerd, crun and many Kubernetes projects.  Compared with traditional Linux container apps, WasmEdge apps are more secure, more portable, cold-start 100x faster and only take 1/10 of the space.
 - **[youki](https://youki-dev.github.io/youki/)**
 
