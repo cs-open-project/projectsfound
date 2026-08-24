@@ -4,16 +4,16 @@
 
 > 数据来源: [Apache Projects](https://projects.apache.org/)
 >
-> 更新时间: 2026-08-17
+> 更新时间: 2026-08-24
 
 项目统计
 
 | 状态 | 数量 |
 |------|------|
-| [Graduated](#graduated) | 315 |
+| [Graduated](#graduated) | 317 |
 | [Incubating](#incubating) | 34 |
 | [Attic](#attic) | 70 |
-| **总计** | **419** |
+| **总计** | **421** |
 ---
 
 ## Graduated
@@ -912,6 +912,12 @@ Description: Iceberg brings the reliability and simplicity of SQL tables to big 
 
 介绍: Iceberg brings the reliability and simplicity of SQL tables to big data, while making it possible for engines like Spark, Trino, Flink, Presto, Hive and Impala to safely work with the same tables, at the same time.
 
+### Iggy
+
+Description: Iggy is a high-performance, ultra-low latency and large-scale persistent message streaming platform written in Rust.
+
+介绍: Iggy is a high-performance, ultra-low latency and large-scale persistent message streaming platform written in Rust.
+
 ### Ignite[分布式数据库]
 
 Description: Apache Ignite is a distributed database for high-performance computing with in-memory speed.
@@ -1530,6 +1536,12 @@ Description: Manages Solr resources in Kubernetes
 
 介绍: Manages Solr resources in Kubernetes
 
+### Sourcelume
+
+Description: 
+
+介绍: 
+
 ### SpamAssassin[识别垃圾邮件的系统]
 
 Description: Apache SpamAssassin is an extensible email filter which is used to identify spam. Using its rule base, it uses a wide range of advanced heuristic and statistical analysis tests on mail headers and body text to identify "spam", also known as unsolicited bulk email. Once identified, the mail can then be optionally tagged as spam for later filtering. It provides a command line tool to perform filtering, a client-server system to filter large volumes of mail, and Mail::SpamAssassin, a set of Perl modules.
@@ -1922,6 +1934,12 @@ Description: Apache Annotator is a collaborative community for creating annotati
 
 介绍: Apache Annotator is a collaborative community for creating annotation related code which works to provide a future for Annotator.js-based projects and plugins while enabling W3C spec-compliant Web Annotation in Web browsers, Web Publication readers, and the servers that serve them.
 
+### Asyncband[Incubating]
+
+Description: Asyncband is a runtime-agnostic library providing essential synchronization primitives for asynchronous Rust programming.
+
+介绍: Asyncband is a runtime-agnostic library providing essential synchronization primitives for asynchronous Rust programming.
+
 ### Auron[Incubating]
 
 Description: Auron accelerates Apache Spark SQL by providing an alternative vectorized execution layer implemented in Rust, enabling native performance while maintaining full Spark compatibility.
@@ -2005,12 +2023,6 @@ Description: HoraeDB is a high-performance, distributed, cloud native time-serie
 Description: Hunter, a command-line tool, written in Python, that detects statistically significant changes in time-series data stored either in databases or CSV files.
 
 介绍: Hunter, a command-line tool, written in Python, that detects statistically significant changes in time-series data stored either in databases or CSV files.
-
-### Iggy[Incubating]
-
-Description: Iggy is a high-performance, ultra-low latency and large-scale persistent message streaming platform written in Rust.
-
-介绍: Iggy is a high-performance, ultra-low latency and large-scale persistent message streaming platform written in Rust.
 
 ### KIE[Incubating]
 

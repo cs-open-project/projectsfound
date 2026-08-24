@@ -2,6 +2,14 @@
 
 # 项目历史
 
+2026-08-24
+
+- Project New: Asyncband
+
+- Project New: Sourcelume
+
+- Project Graduated: Iggy
+
 2026-08-17
 
 - Project New: Maka
