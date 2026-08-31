@@ -4,7 +4,7 @@
 
 > 数据来源: [CNCF Landscape](https://landscape.cncf.io/)
 >
-> 更新时间: 2026-08-24
+> 更新时间: 2026-08-31
 
 ## 项目统计
 
@@ -186,7 +186,7 @@
 - **[Fluid](https://fluid-cloudnative.github.io/)** — Fluid is an orchestration platform for elastic data abstraction and acceleration in cloud native environment.
 - **[HAMi](https://project-hami.io/)** — Heterogeneous AI Computing Virtualization Middleware
 - **[Karmada](https://karmada.io/)** — Karmada (Kubernetes Armada) is a Kubernetes management system that enables you to run your cloud-native applications across multiple Kubernetes clusters and clouds, with no changes to your applications. By speaking Kubernetes-native APIs and providing advanced scheduling  capabilities, Karmada enables truly open, multi-cloud Kubernetes. Karmada aims to provide turnkey automation for multi-cluster application management in multi-cloud and hybrid cloud scenarios, with key  features such as centralized multi-cloud management, high availability, failure recovery, and traffic scheduling.
-- **[Volcano](https://volcano.sh/)**
+- **[Volcano](https://volcano.sh/)** — A Kubernetes native system for high-performance workloads
 - **[wasmCloud](https://wasmcloud.com)**
 
 #### Service Proxy
@@ -457,7 +457,7 @@
 - **[urunc](https://urunc.io/)** — A CRI-compatible runtime for running unikernels and application kernels as containers.  urunc bridges the gap between unikernels and containerized environments, enabling seamless  integration with cloud-native architectures while maintaining OCI compatibility.
 - **[Virtual Kubelet](https://virtual-kubelet.io/)** — Virtual Kubelet is an open source Kubernetes kubelet implementation
 - **[WasmEdge Runtime](https://wasmedge.org/)** — WasmEdge provides a high-performance, lightweight, secure, and extensible WebAssembly runtime for cloud-native applications. It is an OCI compliant container that is integrated into Docker, containerd, crun and many Kubernetes projects.  Compared with traditional Linux container apps, WasmEdge apps are more secure, more portable, cold-start 100x faster and only take 1/10 of the space.
-- **[youki](https://youki-dev.github.io/youki/)**
+- **[youki](https://youki-dev.github.io/youki/)** — A container runtime written in Rust
 
 ### Serverless (2)
 
