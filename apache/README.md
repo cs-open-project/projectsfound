@@ -4,7 +4,7 @@
 
 > 数据来源: [Apache Projects](https://projects.apache.org/)
 >
-> 更新时间: 2026-08-24
+> 更新时间: 2026-08-31
 
 项目统计
 
@@ -2092,7 +2092,7 @@ Description: Pegasus is a distributed key-value storage system which is designed
 
 ### PouchDB[Incubating]
 
-Description: PouchDB is an open-source JavaScript database inspired by Apache CouchDB that is designed to run well within the browser.
+Description: PouchDB is an open-source JavaScript database inspired by Apache CouchDB that is designed to run well within the browser.  PouchDB was created to help web developers build applications that work as well offline as they do online.  It enables applications to store data locally while offline, then synchronize it with CouchDB and compatible servers when the application is back online, keeping the user's data in sync no matter where they next log in.
 
 介绍: PouchDB is an open-source JavaScript database inspired by Apache CouchDB that is designed to run well within the browser.
 
