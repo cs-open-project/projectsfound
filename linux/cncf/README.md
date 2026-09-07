@@ -4,21 +4,21 @@
 
 > 数据来源: [CNCF Landscape](https://landscape.cncf.io/)
 >
-> 更新时间: 2026-08-31
+> 更新时间: 2026-09-07
 
 ## 项目统计
 
 | 状态 | 数量 |
 |------|------|
-| [Graduated](#graduated) | 38 |
-| [Incubating](#incubating) | 38 |
+| [Graduated](#graduated) | 39 |
+| [Incubating](#incubating) | 37 |
 | [Sandbox](#sandbox) | 151 |
 | [Archived](#archived) | 28 |
 | **总计** | **255** |
 
 ---
 
-## Graduated (38)
+## Graduated (39)
 
 ### App Definition and Development (8)
 
@@ -47,11 +47,11 @@
 #### Observability
 
 - **[Fluentd](https://www.fluentd.org/)**
-- **[Jaeger](https://www.jaegertracing.io/)** — tracing-based observability for distributed systems
+- **[Jaeger](https://www.jaegertracing.io/)** — Jaeger: open source, end-to-end distributed tracing. Monitor and troubleshoot transactions in complex distributed systems
 - **[OpenTelemetry](https://opentelemetry.io/)** — High-quality, ubiquitous, and portable telemetry to enable effective observability
 - **[Prometheus](https://prometheus.io/)** — metrics-based monitoring and alerting
 
-### Orchestration & Management (10)
+### Orchestration & Management (11)
 
 #### Coordination & Service Discovery
 
@@ -61,6 +61,7 @@
 #### Scheduling & Orchestration
 
 - **[Crossplane](https://crossplane.io/)** — Crossplane is the cloud native control plane framework that allows you to build control planes without needing to write code. Crossplane has a highly extensible backend that enables you to orchestrate applications and infrastructure no matter where they run and a highly configurable frontend that lets you define the declarative API it offers.
+- **[Karmada](https://karmada.io/)** — Karmada (Kubernetes Armada) is a Kubernetes management system that enables you to run your cloud-native applications across multiple Kubernetes clusters and clouds, with no changes to your applications. By speaking Kubernetes-native APIs and providing advanced scheduling  capabilities, Karmada enables truly open, multi-cloud Kubernetes. Karmada aims to provide turnkey automation for multi-cluster application management in multi-cloud and hybrid cloud scenarios, with key  features such as centralized multi-cloud management, high availability, failure recovery, and traffic scheduling.
 - **[KEDA](https://keda.sh/)**
 - **[Knative](https://knative.dev)** — Knative is a developer-focused serverless application layer which is a great complement to the existing Kubernetes application constructs. Knative consists of three components: an HTTP-triggered autoscaling container runtime called “Knative Serving”, a CloudEvents-over-HTTP asynchronous routing layer called “Knative Eventing”, and a developer-focused function framework which leverages the Serving and Eventing components, called "Knative Functions".
 - **[Kubeflow](https://kubeflow.org)** — Kubeflow is the foundation of tools for AI Platforms on Kubernetes.
@@ -97,7 +98,7 @@
 - **[Falco](https://falco.org/)** — Falco is a cloud-native runtime security project that makes it easy to consume kernel events. Falco enriches these events with additional information from the Kubernetes platform and ecosystem as well as the rest of the cloud native stack. Falco can also be extended to other data sources through the use of plugins. Falco offers a rich set of security rules designed for Kubernetes, Linux, and cloud native environments. When a rule is violated in the system, Falco alerts users with details about the violation and severity.
 - **[in-toto](https://in-toto.io)** — in-toto provides security for the software supply chain.  It can cryptographically track  and validate the build, version control, testing, deployment, dependency, etc. actions that happen as you make your software.  in-toto also can enforce policies over these actions, so that your supply chain is performed in the way that you describe.
 - **[Kyverno](https://kyverno.io/)** — Pod security,Policy-as-code,Governance,Software supply chain
-- **[Open Policy Agent (OPA)](https://www.openpolicyagent.org/)**
+- **[Open Policy Agent (OPA)](https://www.openpolicyagent.org/)** — An open source, general-purpose policy engine
 - **[The Update Framework (TUF)](https://theupdateframework.github.io/)** — TUF secures container registries, package repositories, etc. so that the system resists successful attacks and can recover securely.  TUF uses a combination of security mechanisms and tooling to provide a strong root of trust used by other security projects as well, such as Sigstore.  It is easy to integrate and simple to manage; try it for yourself
 
 ### Runtime (5)
@@ -118,7 +119,7 @@
 
 ---
 
-## Incubating (38)
+## Incubating (37)
 
 ### App Definition and Development (10)
 
@@ -133,7 +134,7 @@
 
 #### Continuous Integration & Delivery
 
-- **[OpenKruise](https://openkruise.io/)**
+- **[OpenKruise](https://openkruise.io/)** — Automate application management on Kubernetes
 - **[Tekton](https://tekton.dev)** — A powerful and flexible open source framework for creating continuous integration and delivery (CI/CD) systems that allow developers to build, test, and deploy across multiple cloud providers and on-premises systems by abstracting away the underlying implementation details.
 
 #### Streaming & Messaging
@@ -165,9 +166,9 @@
 #### Observability
 
 - **[Cortex](https://cortexmetrics.io/)** — Horizontally scalable, highly available, multi-tenant, long term storage for Prometheus.
-- **[Thanos](https://thanos.io/)** — global scale metrics-based monitoring and alerting
+- **[Thanos](https://thanos.io/)** — Open source, highly available Prometheus setup with long term storage capabilities
 
-### Orchestration & Management (9)
+### Orchestration & Management (8)
 
 #### API Gateway
 
@@ -185,13 +186,12 @@
 
 - **[Fluid](https://fluid-cloudnative.github.io/)** — Fluid is an orchestration platform for elastic data abstraction and acceleration in cloud native environment.
 - **[HAMi](https://project-hami.io/)** — Heterogeneous AI Computing Virtualization Middleware
-- **[Karmada](https://karmada.io/)** — Karmada (Kubernetes Armada) is a Kubernetes management system that enables you to run your cloud-native applications across multiple Kubernetes clusters and clouds, with no changes to your applications. By speaking Kubernetes-native APIs and providing advanced scheduling  capabilities, Karmada enables truly open, multi-cloud Kubernetes. Karmada aims to provide turnkey automation for multi-cluster application management in multi-cloud and hybrid cloud scenarios, with key  features such as centralized multi-cloud management, high availability, failure recovery, and traffic scheduling.
 - **[Volcano](https://volcano.sh/)** — A Kubernetes native system for high-performance workloads
 - **[wasmCloud](https://wasmcloud.com)**
 
 #### Service Proxy
 
-- **[Contour](https://projectcontour.io)**
+- **[Contour](https://projectcontour.io)** — Contour is an open source Kubernetes ingress controller providing the control plane for the Envoy edge and service proxy
 
 ### Platform (1)
 
@@ -443,7 +443,7 @@
 - **[Kanister](https://kanister.io)** — An extensible framework for application-level data management on Kubernetes
 - **[OpenEBS](https://www.openebs.io/)**
 - **[Piraeus Datastore](https://piraeus.io/)** — The Piraeus Operator manages LINSTOR clusters in Kubernetes.
-- **[Velero](https://velero.io)**
+- **[Velero](https://velero.io)** — Kubernetes has no built-in backup capability. Velero backs up and restores Kubernetes cluster resources and persistent volume data, so teams can recover from data loss, accidental deletion, or cluster failure. It also enables migrating workloads between clusters and cloud providers, and replicating environments. Backups run on demand or on a schedule, with support for CSI snapshots and filesystem-level backup of volume data.
 
 #### Container Runtime
 

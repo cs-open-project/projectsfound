@@ -2,7 +2,10 @@
 
 # CNCF 项目历史
 
-2026-08-24
+2026-09-07
+
+- Project Graduated: Karmada [from incubating]
+
 
 - Project New: Open Workflow Specification [sandbox]
 
