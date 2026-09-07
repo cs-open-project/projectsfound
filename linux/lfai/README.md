@@ -4,23 +4,23 @@
 
 > 数据来源: [LF AI & Data Landscape](https://landscape.lfai.foundation/)
 >
-> 更新时间: 2026-08-31
+> 更新时间: 2026-09-07
 
 ## 项目统计
 
 | 状态 | 数量 |
 |------|------|
 | [Graduated](#graduated) | 13 |
-| [Incubating](#incubating) | 23 |
+| [Incubating](#incubating) | 21 |
 | [Sandbox](#sandbox) | 22 |
 | [Archived](#archived) | 5 |
-| **总计** | **63** |
+| **总计** | **61** |
 
 ---
 
 ## Graduated (13)
 
-### Data (6)
+### Data (7)
 
 #### Governance
 
@@ -38,6 +38,7 @@
 #### Store & Format
 
 - **[Docarray](https://docarray.jina.ai/)** — The data structure for multimodal data
+- **[Docling](https://research.ibm.com/blog/docling-generative-AI)** — Simplifies document processing by parsing diverse formats including advanced PDF understanding
 - **[Milvus](https://milvus.io)** — High-performance vector database built for scale, powering AI applications by efficiently searching vast amounts of unstructured data
 
 ### Machine Learning (1)
@@ -46,15 +47,11 @@
 
 - **[Angel-ML](https://angelml.ai/)** — A Flexible and Powerful Parameter Server for large-scale machine learning
 
-### Model (4)
+### Model (3)
 
 #### Format & Interface
 
 - **[ONNX](https://onnx.ai/)** — Open Neural Network Exchange - open format for representing machine learning models across different frameworks
-
-#### Training
-
-- **[Horovod](https://horovod.ai/)** — Distributed deep learning training framework for TensorFlow, Keras, PyTorch, and Apache MXNet
 
 #### Workflow
 
@@ -75,9 +72,9 @@
 
 ---
 
-## Incubating (23)
+## Incubating (21)
 
-### Data (7)
+### Data (5)
 
 #### Feature Engineering
 
@@ -85,13 +82,11 @@
 
 #### Operations
 
-- **[Amundsen](https://www.amundsen.io/)** — Open source data discovery and metadata platform that helps data scientists find and understand data
 - **[Datashim](https://github.com/datashim-io/datashim)** — Kubernetes-native framework for transparent access to datasets for AI/ML workloads
 
 #### Store & Format
 
 - **[Delta Lake](https://delta.io/)** — Open-source storage framework that enables building a Lakehouse architecture with compute engines including Spark, PrestoDB, Flink, and more
-- **[Docling](https://research.ibm.com/blog/docling-generative-AI)** — Simplifies document processing by parsing diverse formats including advanced PDF understanding
 - **[JanusGraph](https://janusgraph.org/)** — Highly scalable graph database optimized for storing and querying graphs containing hundreds of billions of vertices
 
 #### Stream Processing
@@ -163,7 +158,7 @@
 
 ## Sandbox (22)
 
-### Data (6)
+### Data (7)
 
 #### Feature Engineering
 
@@ -171,6 +166,7 @@
 
 #### Governance
 
+- **[OpenSharing](https://opensharing.io)**
 - **[Unity Catalog](https://www.unitycatalog.io/)** — Universal catalog for data and AI, providing unified governance across all data and AI assets
 
 #### Lineage
@@ -221,15 +217,11 @@
 
 - **[Open Platform for Enterprise AI (OPEA)](https://opea.dev)** — Open Platform for Enterprise AI - collaborative framework for production-grade GenAI solutions
 
-### Model (5)
+### Model (4)
 
 #### Federated Learning
 
 - **[OpenFL](https://openfl.readthedocs.io/en/latest)** — Open framework for Federated Learning, enabling distributed training across multiple organizations
-
-#### Marketplace
-
-- **[Machine Learning eXchange](https://www.ml-exchange.org/)** — Machine Learning eXchange (MLX) - platform for data and AI asset catalog, discovery, and execution
 
 #### Tool
 

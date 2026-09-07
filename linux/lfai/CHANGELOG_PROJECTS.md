@@ -2,7 +2,12 @@
 
 # LF AI & Data 项目历史
 
-2026-08-24
+2026-09-07
+
+- Project New: OpenSharing [sandbox]
+
+- Project Graduated: Docling [from incubating]
+
 
 - Project New: AIRSEAI [sandbox]
 
