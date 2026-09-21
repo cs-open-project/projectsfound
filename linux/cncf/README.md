@@ -4,15 +4,15 @@
 
 > 数据来源: [CNCF Landscape](https://landscape.cncf.io/)
 >
-> 更新时间: 2026-09-07
+> 更新时间: 2026-09-21
 
 ## 项目统计
 
 | 状态 | 数量 |
 |------|------|
 | [Graduated](#graduated) | 39 |
-| [Incubating](#incubating) | 37 |
-| [Sandbox](#sandbox) | 151 |
+| [Incubating](#incubating) | 38 |
+| [Sandbox](#sandbox) | 150 |
 | [Archived](#archived) | 28 |
 | **总计** | **255** |
 
@@ -26,7 +26,7 @@
 
 - **[Buildpacks](https://buildpacks.io/)**
 - **[Dapr](https://dapr.io)** — The Distributed Application Runtime (Dapr) provides APIs that simplify microservice architecture development and increases developer productivity. Whether your communication pattern is service-to-service invocation or pub/sub messaging, Dapr helps you write resilient and secured microservices. By letting Dapr’s sidecar take care of the complex challenges such as service discovery, message broker integration, encryption, observability, and secret management, developers can focus on business logic and keep their code simple.
-- **[Helm](https://helm.sh/)**
+- **[Helm](https://helm.sh/)** — The Kubernetes Package Manager
 
 #### Continuous Integration & Delivery
 
@@ -46,10 +46,10 @@
 
 #### Observability
 
-- **[Fluentd](https://www.fluentd.org/)**
+- **[Fluentd](https://www.fluentd.org/)** — Fluentd is an open source data collector for unified logging layer
 - **[Jaeger](https://www.jaegertracing.io/)** — Jaeger: open source, end-to-end distributed tracing. Monitor and troubleshoot transactions in complex distributed systems
 - **[OpenTelemetry](https://opentelemetry.io/)** — High-quality, ubiquitous, and portable telemetry to enable effective observability
-- **[Prometheus](https://prometheus.io/)** — metrics-based monitoring and alerting
+- **[Prometheus](https://prometheus.io/)** — The Prometheus monitoring system and time series database
 
 ### Orchestration & Management (11)
 
@@ -62,7 +62,7 @@
 
 - **[Crossplane](https://crossplane.io/)** — Crossplane is the cloud native control plane framework that allows you to build control planes without needing to write code. Crossplane has a highly extensible backend that enables you to orchestrate applications and infrastructure no matter where they run and a highly configurable frontend that lets you define the declarative API it offers.
 - **[Karmada](https://karmada.io/)** — Karmada (Kubernetes Armada) is a Kubernetes management system that enables you to run your cloud-native applications across multiple Kubernetes clusters and clouds, with no changes to your applications. By speaking Kubernetes-native APIs and providing advanced scheduling  capabilities, Karmada enables truly open, multi-cloud Kubernetes. Karmada aims to provide turnkey automation for multi-cluster application management in multi-cloud and hybrid cloud scenarios, with key  features such as centralized multi-cloud management, high availability, failure recovery, and traffic scheduling.
-- **[KEDA](https://keda.sh/)**
+- **[KEDA](https://keda.sh/)** — KEDA is a Kubernetes-based Event Driven Autoscaling component. It provides event driven scale for any container running in Kubernetes
 - **[Knative](https://knative.dev)** — Knative is a developer-focused serverless application layer which is a great complement to the existing Kubernetes application constructs. Knative consists of three components: an HTTP-triggered autoscaling container runtime called “Knative Serving”, a CloudEvents-over-HTTP asynchronous routing layer called “Knative Eventing”, and a developer-focused function framework which leverages the Serving and Eventing components, called "Knative Functions".
 - **[Kubeflow](https://kubeflow.org)** — Kubeflow is the foundation of tools for AI Platforms on Kubernetes.
 - **[Kubernetes](https://kubernetes.io/)** — Kubernetes is an open-source system for automating deployment, scaling, and management of containerized applications
@@ -119,7 +119,7 @@
 
 ---
 
-## Incubating (37)
+## Incubating (38)
 
 ### App Definition and Development (10)
 
@@ -152,8 +152,8 @@
 
 #### Chaos Engineering
 
-- **[Chaos Mesh](https://chaos-mesh.org/)**
-- **[Litmus](https://litmuschaos.io/)**
+- **[Chaos Mesh](https://chaos-mesh.org/)** — A Chaos Engineering Platform for Kubernetes
+- **[Litmus](https://litmuschaos.io/)** — Litmus is an open source Chaos Engineering platform that enables teams to identify weaknesses & potential outages in infrastructures by inducing chaos tests in a controlled way
 
 #### Continuous Optimization
 
@@ -185,7 +185,7 @@
 #### Scheduling & Orchestration
 
 - **[Fluid](https://fluid-cloudnative.github.io/)** — Fluid is an orchestration platform for elastic data abstraction and acceleration in cloud native environment.
-- **[HAMi](https://project-hami.io/)** — Heterogeneous AI Computing Virtualization Middleware
+- **[HAMi](https://project-hami.github.io/HAMi/)** — Heterogeneous AI Computing Virtualization Middleware
 - **[Volcano](https://volcano.sh/)** — A Kubernetes native system for high-performance workloads
 - **[wasmCloud](https://wasmcloud.com)**
 
@@ -199,11 +199,12 @@
 
 - **[Flatcar Container Linux](https://www.flatcar.org/)** — A community Linux distribution designed for container workloads, with high security and low maintenance
 
-### Provisioning (8)
+### Provisioning (9)
 
 #### Automation & Configuration
 
-- **[Cloud Custodian](https://cloudcustodian.io/)**
+- **[Cloud Custodian](https://cloudcustodian.io/)** — Rules engine for cloud security, cost optimization, and governance, DSL in yaml for policies to query, filter, and take actions on resources
+- **[Meshery](https://meshery.io)** — As a self-service engineering platform, Meshery enables collaborative design and operation of cloud and  cloud native infrastructure.
 - **[metal3-io](https://metal3.io/)** — Provision bare metal hardware via k8s-native APIs, including integration with the Cluster API.
 - **[OpenYurt](https://openyurt.io/)** — An open platform that extends upstream Kubernetes to Edge.
 
@@ -212,7 +213,7 @@
 - **[Confidential Containers](https://confidentialcontainers.org/)** — Confidential Containers is an open source community working to enable cloud native  confidential computing by leveraging Trusted Execution Environments to protect  containers and data.
 - **[Keycloak](https://www.keycloak.org/)** — Keycloak is an open-source identity and access management solution for modern applications and services,  built on top of industry security standard protocols.
 - **[Kubescape](https://kubescape.io/)** — Kubescape is an open source security and compliance platform that scans clusters, Kubernetes manifest files (YAML files, and Helm charts), code repositories, container registries and images. It detects misconfigurations according to frameworks such as the NSA-CISA,  MITRE ATT&CK® and CIS, as well as software vulnerabilities, and calculates risk scores.
-- **[Notary Project](https://notaryproject.dev/)**
+- **[Notary Project](https://notaryproject.dev/)** — A CLI tool to sign and verify artifacts
 - **[OpenFGA](https://openfga.dev)** — OpenFGA is a high performance and flexible authorization/permission system built for developers and inspired by Google Zanzibar
 
 ### Runtime (3)
@@ -231,7 +232,7 @@
 
 ---
 
-## Sandbox (151)
+## Sandbox (150)
 
 ### App Definition and Development (31)
 
@@ -246,7 +247,7 @@
 - **[KUDO](https://kudo.dev/)** — Kubernetes Universal Declarative Operator
 - **[ModelPack](https://github.com/modelpack/model-spec)** — The project establishes open standards for packaging, distributing and running AI artifacts in the cloud-native environment.
 - **[Open Workflow Specification](https://open-workflow-specification.org)** — Standards-based DSL and open-source dev tools and runtimes are at the heart of the Serverless Workflow project
-- **[ORAS](https://oras.land/)** — Multi-language OCI Registry SDKs and CLI
+- **[ORAS](https://oras.land/)** — ORAS is the tool for working with OCI Artifacts
 - **[Podman Desktop](https://podman-desktop.io/)** — An open-source tool for developers to work with containers and Kubernetes with an intuitive and user-friendly interface to effortlessly build, manage, and deploy containers and Kubernetes — all from the desktop.
 - **[Porter](https://porter.sh/)** — Porter enables you to package your application artifact, client tools, configuration and deployment logic together as a versioned bundle that you can distribute, and install with a single command
 - **[Radius](https://radapp.io/)** — Radius is a cloud-native application platform that enables developers and the platform engineers that support them to collaborate on delivering and managing cloud-native applications that follow organizational best practices for cost, operations and security, by default.
@@ -274,7 +275,7 @@
 
 #### Streaming & Messaging
 
-- **[Apicurio Registry](https://www.apicur.io)** — Apicurio Registry is a runtime server system that stores a specific set of artifacts as files.
+- **[Apicurio Registry](https://www.apicur.io)** — Apicurio Registry is an open-source registry for API and schema artifacts (OpenAPI, AsyncAPI, Avro, Protobuf, JSON Schema, GraphQL and more) and AI agent artifacts (A2A Agent Cards, MCP tool definitions, prompt templates, model schemas), with immutable versioning, validity and compatibility rules, role-based access control, and standards-based discovery through AI Catalog and ARD well-known endpoints.
 - **[Drasi](https://drasi.io)** — A data change processing platform to simplify change-driven systems that need to detect, evaluate, and react to data changes quickly and efficiently at scale.
 - **[Tremor](https://www.tremor.rs/)** — An early-stage event processing system for unstructured data with rich support for structural pattern-matching, filtering and transformation
 
@@ -289,7 +290,7 @@
 
 #### Chaos Engineering
 
-- **[Chaosblade](https://chaosblade.io/)**
+- **[Chaosblade](https://chaosblade.io/)** — An easy to use and powerful chaos engineering experiment toolkit.
 - **[Krkn](https://krkn-chaos.github.io/krkn)** — Chaos testing tool for Kubernetes to identify bottlenecks and improve resilience and performance under failure conditions.
 
 #### Observability
@@ -332,7 +333,7 @@
 - **[CoHDI](https://github.com/CoHDI)** — CoHDI (Composable Hardware in Disaggregated Infrastructure) enables dynamic device scaling across next-generation architectures. As a community-driven, standards-based open ecosystem, CoHDI focuses on expanding cloud-native frameworks built on disaggregate infrastructure. Our core objective is to bridge the gap between Kubernetes and underlying hardware by actively collaborating with upstream projects to increase cloud native composability, specifically Dynamic Resource Allocation (DRA), Autoscaler, and Scheduling. By integrating these cloud-native capabilities, CoHDI empowers data center and infrastructure operators to maximize cost efficiency, achieve high availability, and drive sustainability through a seamlessly disaggregated computing system.
 - **[Cozystack](https://cozystack.io)** — Cozystack is a free PaaS platform and framework for building private clouds and providing users/customers with managed Kubernetes,  KubeVirt-based VMs, databases as a service, NATS, message brokers, etc. with GPU support in VMs and Kubernetes clusters.
 - **[Eraser](https://eraser-dev.github.io/eraser/)** — Eraser uses vulnerability data to remove non-running images from all Kubernetes nodes in a cluster.
-- **[k0s](https://k0sproject.io/)**
+- **[k0s](https://k0sproject.io/)** — k0s is a CNCF-certified lightweight, Kubernetes distribution with zero dependencies and zero opinion.
 - **[KAI Scheduler](https://github.com/kai-scheduler/KAI-Scheduler)** — KAI Scheduler is a robust, efficient, and scalable Kubernetes scheduler that optimizes GPU resource allocation for AI workloads in large-scale clusters.
 - **[kcp](https://kcp.io)**
 - **[Koordinator](https://koordinator.sh)** — QoS based scheduling system for hybrid orchestration workloads on Kubernetes, bringing workloads the best layout and status.
@@ -368,7 +369,7 @@
 
 - **[KubeClipper](https://www.kubeclipper.io/)** — Manage kubernetes in the most light and convenient way.
 
-### Provisioning (40)
+### Provisioning (39)
 
 #### Automation & Configuration
 
@@ -384,7 +385,6 @@
 - **[kpt](https://kpt.dev)** — Automate Kubernetes Configuration Editing
 - **[Kubean](https://kubean-io.github.io/kubean/)** — Product ready cluster lifecycle management toolchains based on kubespray and other cluster LCM engine.
 - **[KusionStack](https://kusionstack.io/)** — Declarative Intent Driven Platform Orchestrator for Internal Developer Platform (IDP)
-- **[Meshery](https://meshery.io)** — As a self-service engineering platform, Meshery enables collaborative design and operation of cloud and  cloud native infrastructure.
 - **[NMstate](https://nmstate.io/)** — NMstate is a library with an accompanying command line tool that manages host networking settings in a declarative manner. When used in the Kubernetes environment it allows for declarative node network configuration through the Kubernetes API.
 - **[OpenTofu](https://opentofu.org/)** — OpenTofu is an open source infrastructure as code tool that enables users to safely and predictably provision and manage cloud and on-prem infrastructure. It's a community-driven fork of Terraform that maintains backward compatibility while offering enhanced features, stability.
 - **[Runme Notebooks](https://runme.dev/)** — A toolchain that turns Markdown into interactive, cloud-native, runnable Notebook experiences for DevOps.
@@ -439,7 +439,7 @@
 - **[Carina](https://carina-io.github.io/)** — Carina: an high performance and ops-free local storage for kubernetes
 - **[Curvine](https://curvineio.github.io/)** — Curvine is a high-performance distributed multi-tier caching system written in Rust (memory/SSD/HDD), providing POSIX (FUSE), S3, and HDFS access to cloud object storage, with Kubernetes CSI integration.
 - **[HwameiStor](https://hwameistor.io/)** — Hwameistor is an HA local storage system for cloud-native stateful workloads
-- **[K8up](https://www.k8up.io/)**
+- **[K8up](https://k8up.io/)** — Kubernetes and OpenShift Backup Operator
 - **[Kanister](https://kanister.io)** — An extensible framework for application-level data management on Kubernetes
 - **[OpenEBS](https://www.openebs.io/)**
 - **[Piraeus Datastore](https://piraeus.io/)** — The Piraeus Operator manages LINSTOR clusters in Kubernetes.

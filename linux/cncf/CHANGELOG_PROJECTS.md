@@ -2,7 +2,10 @@
 
 # CNCF 项目历史
 
-2026-09-07
+2026-09-21
+
+- Project Incubating: Meshery [from sandbox]
+
 
 - Project Graduated: Karmada [from incubating]
 
