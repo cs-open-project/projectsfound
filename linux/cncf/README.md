@@ -4,7 +4,7 @@
 
 > 数据来源: [CNCF Landscape](https://landscape.cncf.io/)
 >
-> 更新时间: 2026-09-21
+> 更新时间: 2026-09-28
 
 ## 项目统计
 
@@ -24,7 +24,7 @@
 
 #### Application Definition & Image Build
 
-- **[Buildpacks](https://buildpacks.io/)**
+- **[Buildpacks](https://buildpacks.io/)** — Cloud Native Buildpacks transform your application source code into images that can run on any cloud
 - **[Dapr](https://dapr.io)** — The Distributed Application Runtime (Dapr) provides APIs that simplify microservice architecture development and increases developer productivity. Whether your communication pattern is service-to-service invocation or pub/sub messaging, Dapr helps you write resilient and secured microservices. By letting Dapr’s sidecar take care of the complex challenges such as service discovery, message broker integration, encryption, observability, and secret management, developers can focus on business logic and keep their code simple.
 - **[Helm](https://helm.sh/)** — The Kubernetes Package Manager
 
@@ -55,7 +55,7 @@
 
 #### Coordination & Service Discovery
 
-- **[CoreDNS](https://coredns.io/)**
+- **[CoreDNS](https://coredns.io/)** — CoreDNS is a DNS server. It is written in Go. It can be used in a multitude of environments because of its flexibility.
 - **[etcd](https://etcd.io/)** — Etcd is a distributed, reliable key-value store for the most critical data of a distributed system. By using etcd, developers can ensure that their applications have access to up-to-date configuration data, even as they scale up or down, and can maintain consistency, fault tolerance and coordination across multiple instances of the application.
 
 #### Scheduling & Orchestration
@@ -74,7 +74,7 @@
 
 #### Service Proxy
 
-- **[Envoy](https://www.envoyproxy.io)**
+- **[Envoy](https://www.envoyproxy.io)** — Envoy is an open source edge and service proxy, designed for cloud-native applications
 
 ### Provisioning (11)
 
@@ -125,12 +125,12 @@
 
 #### Application Definition & Image Build
 
-- **[Artifact Hub](https://artifacthub.io)**
+- **[Artifact Hub](https://artifacthub.io)** — Artifact Hub is a web-based application that enables finding, installing, and publishing packages and configurations for CNCF projects
 - **[Backstage](https://backstage.io/)** — Backstage is an open platform for building developer portals, which unify all your infrastructure tooling, services, and documentation with a single, consistent UI.
 - **[KubeVela](https://kubevela.io)** — KubeVela is a modern software delivery platform that makes deploying and operating applications across today's hybrid, multi-cloud environments easier, faster and more reliable.
 - **[KubeVirt](https://kubevirt.io/)** — Kubernetes Virtualization API and runtime in order to define and manage virtual machines
 - **[Microcks](https://microcks.io)** — Microcks is a tool for mocking and testing your APIs and microservices. It leverages API standards to provide a uniform and multi-protocol approach for simulating complex distributed environments and validating service components in isolation.
-- **[Operator Framework](https://operatorframework.io/)**
+- **[Operator Framework](https://operatorframework.io/)** — SDK for building Kubernetes applications. Provides high level APIs, useful abstractions, and project scaffolding
 
 #### Continuous Integration & Delivery
 
@@ -327,7 +327,7 @@
 
 - **[Agones](https://agones.dev/site/)** — Agones is a library for hosting, running, and scaling dedicated game servers on Kubernetes.
 - **[Armada](https://armadaproject.io/)** — Armada is a multi-Kubernetes cluster batch job scheduler
-- **[Capsule](https://capsule.clastix.io)** — Capsule implements a multi-tenant and policy-based environment in your Kubernetes cluster. It is designed as a micro-services-based ecosystem with the minimalist approach, leveraging only on upstream Kubernetes.
+- **[Capsule](https://projectcapsule.dev)** — Capsule implements a multi-tenant and policy-based environment in your Kubernetes cluster. It is designed as a micro-services-based ecosystem with the minimalist approach, leveraging only on upstream Kubernetes.
 - **[Clusternet](https://clusternet.io)** — [CNCF Sandbox Project] Managing your Kubernetes clusters (including public, private, edge, etc.) as easily as visiting the Internet
 - **[Clusterpedia](https://clusterpedia.io)** — Clusterpedia is used for complex resources search across multiple clusters, support simultaneous search of a single kind of resource  or multiple kinds of resources existing in multiple clusters.
 - **[CoHDI](https://github.com/CoHDI)** — CoHDI (Composable Hardware in Disaggregated Infrastructure) enables dynamic device scaling across next-generation architectures. As a community-driven, standards-based open ecosystem, CoHDI focuses on expanding cloud-native frameworks built on disaggregate infrastructure. Our core objective is to bridge the gap between Kubernetes and underlying hardware by actively collaborating with upstream projects to increase cloud native composability, specifically Dynamic Resource Allocation (DRA), Autoscaler, and Scheduling. By integrating these cloud-native capabilities, CoHDI empowers data center and infrastructure operators to maximize cost efficiency, achieve high availability, and drive sustainability through a seamlessly disaggregated computing system.
@@ -404,7 +404,7 @@
 - **[Bank-Vaults](https://bank-vaults.dev/)** — Bank-Vaults is a Vault swiss-army knife: a K8s operator, Go client with automatic token renewal, automatic configuration, multiple unseal options and more. A CLI tool to init, unseal and configure Vault (auth methods, secret engines). Direct secret injection into Pods.
 - **[bpfman](https://bpfman.io/)** — An eBPF Manager for Linux and Kubernetes
 - **[Cartography](https://cartography.dev)** — Cartography is a Python tool that consolidates infrastructure assets and the relationships between them in an intuitive graph view.
-- **[Cedar](https://cedarpolicy.com)** — Cedar is an open source authorization policy language that enables developers to express fine-grained permissions as easy-to-understand policies enforced in their applications, and decouple access control from application logic. Cedar is designed to be ergonomic, fast, safe, and analyzable using automated reasoning. Cedar's simple and intuitive syntax supports common authorization use-cases with readable policies, naturally expressing concepts from role-based, attribute-based, and relation-based access control models. Cedar's policy structure enables authorization requests to be decided quickly. Its policy validator uses optional typing to help policy writers avoid mistakes, but not get in their way. Cedar's design has been finely balanced to allow for a sound, complete, and decidable logical encoding, which enables precise automated analysis of Cedar policies, e.g., to ensure that policy refactoring preserves existing permissions. Cedar's language specification has been formally verified using a theorem prover to satisfy key security properties like "deny trumps allow," and its implementation in Rust undergoes rigorous differential random testing against its formal specification. By combining mathematical rigor with developer-friendly design, Cedar offers a practical approach to secure, maintainable authorization for modern applications.
+- **[Cedar](https://cedarpolicy.com)** — Cedar is an open source authorization policy language that enables developers to express fine-grained permissions as easy-to-understand policies enforced in their applications, and decouple access control from application logic. Cedar is designed to be ergonomic, fast, safe, and analyzable using automated reasoning. Cedar's simple and intuitive syntax supports common authorization use-cases with readable policies, naturally expressing concepts from role-based, attribute-based, and relation-based access control models. Cedar's policy structure enables authorization requests to be decided quickly. Its policy validator uses optional typing to help policy writers avoid mistakes, but not get in their way. Cedar's design has been finely balanced to allow for a sound, complete, and decidable logical encoding, which enables precise automated analysis of Cedar policies, e.g., to ensure that policy refactoring preserves existing permissions. Cedar's language specification has been formally verified using a theorem prover to satisfy key security properties like `deny trumps allow,` and its implementation in Rust undergoes rigorous differential random testing against its formal specification. By combining mathematical rigor with developer-friendly design, Cedar offers a practical approach to secure, maintainable authorization for modern applications.
 - **[ContainerSSH](https://containerssh.io)** — ContainerSSH launches a new container for each SSH connection in Kubernetes, Podman or Docker. The user is transparently dropped in the container and the container is removed when the user disconnects. Authentication and container configuration are dynamic using webhooks, no system users required.
 - **[Copa](https://project-copacetic.github.io/copacetic/)** — CLI tool for directly patching container image vulnerabilities
 - **[Dex](https://dexidp.io/)** — OpenID Connect (OIDC) identity and OAuth 2.0 provider with pluggable connectors
@@ -447,7 +447,7 @@
 
 #### Container Runtime
 
-- **[bootc](https://bootc-dev.github.io)** — The bootc provides transactional, in-place operating system images and updates using OCI/Docker container images. This project applies the Docker container layering model to bootable host systems, using standard OCI/Docker containers as a transport and delivery format for base operating system updates.
+- **[bootc](https://bootc.dev)** — The bootc project provides transactional, in-place operating system images and updates using OCI/Docker container images. This project applies the Docker container layering model to bootable host systems, using standard OCI/Docker containers as a transport and delivery format for base operating system updates.
 - **[composefs](https://github.com/containers/composefs)** — A project that combines Linux kernel features to provide read-only mountable filesystem trees stacking on top of an underlying "lower" Linux filesystem, particularly useful for mounting container images.
 - **[Hyperlight](https://github.com/hyperlight-dev/hyperlight)** — A lightweight, secure container runtime solution designed for modern cloud-native workloads
 - **[Inclavare Containers](https://github.com/inclavare-containers/)** — A novel container runtime, aka confidential container, for cloud-native confidential computing and enclave runtime ecosystem
@@ -545,7 +545,7 @@
 
 #### Cloud Native Network
 
-- **[CNI-Genie](https://cnigenie.netlify.app)**
+- **[CNI-Genie](https://cnigenie.netlify.app)** — Container Network Interface - networking for Linux containers
 - **[FabEdge](https://github.com/FabEdge/)**
 
 #### Cloud Native Storage
