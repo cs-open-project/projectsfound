@@ -4,14 +4,14 @@
 
 > 数据来源: [Apache Projects](https://projects.apache.org/)
 >
-> 更新时间: 2026-09-21
+> 更新时间: 2026-09-28
 
 项目统计
 
 | 状态 | 数量 |
 |------|------|
-| [Graduated](#graduated) | 318 |
-| [Incubating](#incubating) | 34 |
+| [Graduated](#graduated) | 320 |
+| [Incubating](#incubating) | 32 |
 | [Attic](#attic) | 70 |
 | **总计** | **422** |
 ---
@@ -125,6 +125,12 @@ Description: Apache AsterixDB is a scalable big data management system (BDMS) th
 Description: Apache Atlas is a scalable and extensible set of core foundational governance services that enables enterprises to effectively and efficiently meet their compliance requirements within Hadoop and allows integration with the complete enterprise data ecosystem
 
 介绍: Apache Atlas is a scalable and extensible set of core foundational governance services that enables enterprises to effectively and efficiently meet their compliance requirements within Hadoop and allows integration with the complete enterprise data ecosystem
+
+### Auron
+
+Description: Auron accelerates Apache Spark SQL by providing an alternative vectorized execution layer implemented in Rust, enabling native performance while maintaining full Spark compatibility.
+
+介绍: Auron accelerates Apache Spark SQL by providing an alternative vectorized execution layer implemented in Rust, enabling native performance while maintaining full Spark compatibility.
 
 ### Avro[行式序列化]
 
@@ -1404,6 +1410,12 @@ Description:
 
 介绍: 
 
+### Resilientdb
+
+Description: ResilientDB is a distributed blockchain framework that is open-source, lightweight, modular, and highly performant.
+
+介绍: ResilientDB is a distributed blockchain framework that is open-source, lightweight, modular, and highly performant.
+
 ### Retired: Apache .NET Ant Library
 
 Description: This retired library was a library of Ant tasks that helped developing .NET software.  It included the "old" .NET tasks like a C# compiler task but also came with support for NUnit testing or running the (then) popular NAnt or MSBuild build tools.
@@ -1946,12 +1958,6 @@ Description: Asyncband is a runtime-agnostic library providing essential synchro
 
 介绍: Asyncband is a runtime-agnostic library providing essential synchronization primitives for asynchronous Rust programming.
 
-### Auron[Incubating]
-
-Description: Auron accelerates Apache Spark SQL by providing an alternative vectorized execution layer implemented in Rust, enabling native performance while maintaining full Spark compatibility.
-
-介绍: Auron accelerates Apache Spark SQL by providing an alternative vectorized execution layer implemented in Rust, enabling native performance while maintaining full Spark compatibility.
-
 ### Baremaps[Incubating]
 
 Description: Apache Baremaps is a toolkit and a set of infrastructure components for creating, publishing, and operating online maps.
@@ -2101,12 +2107,6 @@ Description: Pegasus is a distributed key-value storage system which is designed
 Description: PouchDB is an open-source JavaScript database inspired by Apache CouchDB that is designed to run well within the browser.  PouchDB was created to help web developers build applications that work as well offline as they do online.  It enables applications to store data locally while offline, then synchronize it with CouchDB and compatible servers when the application is back online, keeping the user's data in sync no matter where they next log in.
 
 介绍: PouchDB is an open-source JavaScript database inspired by Apache CouchDB that is designed to run well within the browser.
-
-### ResilientDB[Incubating]
-
-Description: ResilientDB is a distributed blockchain framework that is open-source, lightweight, modular, and highly performant.
-
-介绍: ResilientDB is a distributed blockchain framework that is open-source, lightweight, modular, and highly performant.
 
 ### Seata[Incubating]
 

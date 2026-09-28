@@ -2,6 +2,12 @@
 
 # 项目历史
 
+2026-09-28
+
+- Project Graduated: Auron
+
+- Project Graduated: Resilientdb
+
 2026-09-21
 
 - Project New: Reqsign
