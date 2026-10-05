@@ -4,16 +4,16 @@
 
 > 数据来源: [Apache Projects](https://projects.apache.org/)
 >
-> 更新时间: 2026-09-28
+> 更新时间: 2026-10-05
 
 项目统计
 
 | 状态 | 数量 |
 |------|------|
 | [Graduated](#graduated) | 320 |
-| [Incubating](#incubating) | 32 |
+| [Incubating](#incubating) | 33 |
 | [Attic](#attic) | 70 |
-| **总计** | **422** |
+| **总计** | **423** |
 ---
 
 ## Graduated
@@ -2071,6 +2071,12 @@ Description: Nemo is a data processing system to flexibly control the runtime be
 Description: A Java API for NLU applications
 
 介绍: A Java API for NLU applications
+
+### NullAway[Incubating]
+
+Description: NullAway is a fast, annotation-based nullness checker for Java that helps eliminate NullPointerExceptions at build time with minimal overhead.
+
+介绍: NullAway is a fast, annotation-based nullness checker for Java that helps eliminate NullPointerExceptions at build time with minimal overhead.
 
 ### OpenServerless[Incubating]
 

@@ -2,6 +2,10 @@
 
 # 项目历史
 
+2026-10-05
+
+- Project New: NullAway
+
 2026-09-28
 
 - Project Graduated: Auron
