@@ -4,7 +4,7 @@
 
 > 数据来源: [CNCF Landscape](https://landscape.cncf.io/)
 >
-> 更新时间: 2026-09-28
+> 更新时间: 2026-10-19
 
 ## 项目统计
 
@@ -12,9 +12,9 @@
 |------|------|
 | [Graduated](#graduated) | 39 |
 | [Incubating](#incubating) | 38 |
-| [Sandbox](#sandbox) | 150 |
+| [Sandbox](#sandbox) | 154 |
 | [Archived](#archived) | 28 |
-| **总计** | **255** |
+| **总计** | **259** |
 
 ---
 
@@ -130,7 +130,7 @@
 - **[KubeVela](https://kubevela.io)** — KubeVela is a modern software delivery platform that makes deploying and operating applications across today's hybrid, multi-cloud environments easier, faster and more reliable.
 - **[KubeVirt](https://kubevirt.io/)** — Kubernetes Virtualization API and runtime in order to define and manage virtual machines
 - **[Microcks](https://microcks.io)** — Microcks is a tool for mocking and testing your APIs and microservices. It leverages API standards to provide a uniform and multi-protocol approach for simulating complex distributed environments and validating service components in isolation.
-- **[Operator Framework](https://operatorframework.io/)** — SDK for building Kubernetes applications. Provides high level APIs, useful abstractions, and project scaffolding
+- **[Operator Framework](https://operatorframework.io/)** — An open source toolkit to manage Kubernetes native applications, called Operators in an effective, automated, and scalable way. Provides managing controllers and developer tooling
 
 #### Continuous Integration & Delivery
 
@@ -232,7 +232,13 @@
 
 ---
 
-## Sandbox (150)
+## Sandbox (154)
+
+### AI Agent (1)
+
+#### Workflow Orchestration
+
+- **[Hive Commons](https://hivecommons.dev)** — Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.
 
 ### App Definition and Development (31)
 
@@ -299,14 +305,14 @@
 - **[HolmesGPT](https://holmesgpt.dev)** — HolmesGPT is an AI agent that automates cloud-native troubleshooting, bridging knowledge gaps by investigating alerts, executing runbooks, and correlating observability data in cloud-native platforms.
 - **[Inspektor Gadget](https://inspektor-gadget.io/)** — Open source eBPF debugging and data collection tool for Kubernetes and Linux
 - **[K8sGPT](https://www.k8sgpt.ai)** — Giving Kubernetes Superpowers to everyone
-- **[Kepler](https://sustainable-computing.io/)** — Kepler (Kubernetes-based Efficient Power Level Exporter) uses eBPF to probe energy related system stats and exports as Prometheus metrics.
+- **[Kepler](https://sustainable-computing.io/)** — Kepler (Kubernetes-based Efficient Power Level Exporter) is a Prometheus exporter that measures energy consumption at the Pod and Node level by reading hardware sensors, attributing it to containers, and giving per-workload visibility into where energy goes. Let's make every watt matter.
 - **[Kuberhealthy](https://github.com/kuberhealthy/kuberhealthy)** — A Kubernetes operator for running synthetic checks as pods. Works great with Prometheus!
 - **[Logging Operator (Kube Logging)](https://kube-logging.dev/)** — Logging operator for Kubernetes
 - **[Perses](https://perses.dev)** — Perses is a dashboard tool to visualize observability data from Prometheus/Thanos/Jaeger.
 - **[Pixie](https://px.dev/)** — Open source Kubernetes observability for developers
 - **[Trickster](https://trickstercache.org)** — Open Source HTTP Reverse Proxy Cache and Time Series Dashboard Accelerator
 
-### Orchestration & Management (33)
+### Orchestration & Management (36)
 
 #### API Gateway
 
@@ -325,6 +331,7 @@
 
 #### Scheduling & Orchestration
 
+- **[Agent Substrate](https://github.com/agent-substrate/substrate)** — A secure-by-default agent execution runtime for running millions of sandboxes.
 - **[Agones](https://agones.dev/site/)** — Agones is a library for hosting, running, and scaling dedicated game servers on Kubernetes.
 - **[Armada](https://armadaproject.io/)** — Armada is a multi-Kubernetes cluster batch job scheduler
 - **[Capsule](https://projectcapsule.dev)** — Capsule implements a multi-tenant and policy-based environment in your Kubernetes cluster. It is designed as a micro-services-based ecosystem with the minimalist approach, leveraging only on upstream Kubernetes.
@@ -344,6 +351,7 @@
 - **[Kured](https://kured.dev)** — Kured (KUbernetes REboot Daemon) is a Kubernetes daemonset that performs safe automatic node reboots when the need to do so is indicated by the package management system of the underlying OS
 - **[Open Cluster Management](https://open-cluster-management.io/)** — A lightweight, open standard for multi-cluster Kubernetes management built on a hub-spoke architecture.
 - **[OpenFunction](https://openfunction.dev)** — Users can use OpenFunction in several different ways including building functions or applications only, running sync or async serverless functions or applications, building and then running serverless functions or applications, building and then running serverless wasm applications(In progress).  In all use cases, users can utilize Dapr to communicate with various backend services (BaaS).
+- **[OpenShell](https://docs.nvidia.com/openshell/latest/)** — OpenShell provides secure, policy-enforced sandboxed runtimes for autonomous AI agents.
 - **[Serverless Devs](https://www.serverless-devs.com/)** — Serverless Devs developer tool ( Serverless Devs 开发者工具 )
 
 #### Service Mesh
@@ -358,6 +366,7 @@
 - **[BFE](https://www.bfe-networks.net)** — Open-source layer 7 load balancer derived from proprietary Baidu FrontEnd
 - **[LoxiLB](https://loxilb.io)** — eBPF based cloud-native load-balancer. Powering Kubernetes|Edge|5G|IoT|XaaS Apps.
 - **[MetalLB](https://metallb.universe.tf)** — A network load-balancer implementation for Kubernetes using standard routing protocols
+- **[Praxis](https://praxis.fast)** — The cloud and AI-native proxy server and framework.
 
 ### Platform (2)
 

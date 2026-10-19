@@ -2,7 +2,16 @@
 
 # CNCF 项目历史
 
-2026-09-21
+2026-10-19
+
+- Project New: Agent Substrate [sandbox]
+
+- Project New: OpenShell [sandbox]
+
+- Project New: Praxis [sandbox]
+
+- Project New: Hive Commons [sandbox]
+
 
 - Project Incubating: Meshery [from sandbox]
 
