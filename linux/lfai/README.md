@@ -4,7 +4,7 @@
 
 > 数据来源: [LF AI & Data Landscape](https://landscape.lfai.foundation/)
 >
-> 更新时间: 2026-09-28
+> 更新时间: 2026-10-19
 
 ## 项目统计
 
