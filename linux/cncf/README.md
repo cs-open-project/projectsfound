@@ -4,7 +4,7 @@
 
 > 数据来源: [CNCF Landscape](https://landscape.cncf.io/)
 >
-> 更新时间: 2026-10-19
+> 更新时间: 2026-10-26
 
 ## 项目统计
 
