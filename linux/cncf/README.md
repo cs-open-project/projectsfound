@@ -4,7 +4,7 @@
 
 > 数据来源: [CNCF Landscape](https://landscape.cncf.io/)
 >
-> 更新时间: 2026-10-26
+> 更新时间: 2026-11-02
 
 ## 项目统计
 
@@ -187,7 +187,7 @@
 - **[Fluid](https://fluid-cloudnative.github.io/)** — Fluid is an orchestration platform for elastic data abstraction and acceleration in cloud native environment.
 - **[HAMi](https://project-hami.github.io/HAMi/)** — Heterogeneous AI Computing Virtualization Middleware
 - **[Volcano](https://volcano.sh/)** — A Kubernetes native system for high-performance workloads
-- **[wasmCloud](https://wasmcloud.com)**
+- **[wasmCloud](https://wasmcloud.com)** — wasmCloud is an open source Cloud Native Computing Foundation (CNCF) project that enables teams to build, manage, and scale polyglot apps across any cloud, K8s, or edge.
 
 #### Service Proxy
 
@@ -228,7 +228,7 @@
 
 #### Container Runtime
 
-- **[Lima](https://github.com/lima-vm/lima)** — Linux virtual machines, typically on macOS, for running containerd
+- **[Lima](https://lima-vm.io/)** — Linux virtual machines, typically on macOS, for running containerd
 
 ---
 
@@ -420,7 +420,7 @@
 - **[external-secrets](https://external-secrets.io/)** — External Secrets Operator is a Kubernetes operator that integrates external secret management systems like AWS Secrets Manager, HashiCorp Vault, Google Secrets Manager, Azure Key Vault, IBM Cloud Secrets Manager, Akeyless, CyberArk Conjur and many more. The operator reads information from external APIs and automatically injects the values into a Kubernetes Secret. From there the secret can be consumed by a pod or used by other Kubernetes resources.
 - **[Keylime](https://keylime.dev/)** — Bootstrap & Maintain Trust on the Edge / Cloud and IoT.
 - **[KubeArmor](https://kubearmor.io/)** — Runtime protection for Kubernetes & other cloud Workloads. Kubearmor provides a observability and policy enforcement system to restrict any unwanted, malicious behaviour of cloud-native workloads at runtime.
-- **[Kubewarden](https://www.kubewarden.io)** — Kubewarden is a Policy Engine powered by WebAssembly policies. Its policies can be written in CEL, Rego (OPA & Gatekeeper flavours), Rust, Go, YAML, and others. Kubewarden simplifies Policy-As-Code by allowing policy authors and consumers to use their preferred tooling and stack, develop and test policies out of cluster.
+- **[Kubewarden](https://www.kubewarden.io)** — Kubewarden is an open source security platform for Kubernetes: a set of complementary components to secure your workloads across the entire lifecycle, from admission to runtime. It includes the Admission Controller (a policy engine powered by WebAssembly policies written in CEL, Rego, Rust, Go, YAML, and others), the Network Enforcer, the Runtime Enforcer, and the SBOM Scanner.
 - **[OAuth2 Proxy](https://oauth2-proxy.github.io/oauth2-proxy/)** — A generic reverse proxy that provides authentication with Google, Azure, OpenID Connect and many more identity providers.
 - **[Open Policy Containers](https://openpolicycontainers.com)** — A docker-inspired CLI for building, tagging, pushing, pulling, and signing OPA policies to and from OCI-compliant registries.
 - **[OSCAL-COMPASS](https://oscal-compass.dev/)** — The OSCAL COMPASS project is set of tools that enable the creation, validation, and governance of documentation artifacts for compliance needs. It leverages NIST's OSCAL (Open Security Controls Assessment Language) as a standard data format for interchange between tools and people, and provides an opinionated approach to OSCAL SDK and adoption by policy engines.
