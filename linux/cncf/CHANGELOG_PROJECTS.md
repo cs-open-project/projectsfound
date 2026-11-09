@@ -2,7 +2,16 @@
 
 # CNCF 项目历史
 
-2026-10-19
+2026-11-09
+
+- Project Graduated: NATS [from incubating]
+
+- Project Graduated: KubeVirt [from incubating]
+
+- Project Incubating: Open Cluster Management [from sandbox]
+
+- Project Incubating: CloudNativePG [from sandbox]
+
 
 - Project New: Agent Substrate [sandbox]
 

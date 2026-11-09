@@ -4,29 +4,30 @@
 
 > 数据来源: [CNCF Landscape](https://landscape.cncf.io/)
 >
-> 更新时间: 2026-11-02
+> 更新时间: 2026-11-09
 
 ## 项目统计
 
 | 状态 | 数量 |
 |------|------|
-| [Graduated](#graduated) | 39 |
+| [Graduated](#graduated) | 41 |
 | [Incubating](#incubating) | 38 |
-| [Sandbox](#sandbox) | 154 |
+| [Sandbox](#sandbox) | 152 |
 | [Archived](#archived) | 28 |
 | **总计** | **259** |
 
 ---
 
-## Graduated (39)
+## Graduated (41)
 
-### App Definition and Development (8)
+### App Definition and Development (10)
 
 #### Application Definition & Image Build
 
 - **[Buildpacks](https://buildpacks.io/)** — Cloud Native Buildpacks transform your application source code into images that can run on any cloud
 - **[Dapr](https://dapr.io)** — The Distributed Application Runtime (Dapr) provides APIs that simplify microservice architecture development and increases developer productivity. Whether your communication pattern is service-to-service invocation or pub/sub messaging, Dapr helps you write resilient and secured microservices. By letting Dapr’s sidecar take care of the complex challenges such as service discovery, message broker integration, encryption, observability, and secret management, developers can focus on business logic and keep their code simple.
 - **[Helm](https://helm.sh/)** — The Kubernetes Package Manager
+- **[KubeVirt](https://kubevirt.io/)** — Kubernetes Virtualization API and runtime in order to define and manage virtual machines
 
 #### Continuous Integration & Delivery
 
@@ -41,6 +42,7 @@
 #### Streaming & Messaging
 
 - **[CloudEvents](https://cloudevents.io/)** — Standardizing common eventing metadata and their location to help with event identification and routing.
+- **[NATS](https://nats.io/)** — NATS.io is a connective technology for distributed systems and is a perfect fit to connect devices, edge, cloud or hybrid deployments. True multi-tenancy makes NATS ideal for SaaS and self-healing and scaling technology allows for topology changes anytime with zero downtime.
 
 ### Observability and Analysis (4)
 
@@ -121,14 +123,13 @@
 
 ## Incubating (38)
 
-### App Definition and Development (10)
+### App Definition and Development (9)
 
 #### Application Definition & Image Build
 
 - **[Artifact Hub](https://artifacthub.io)** — Artifact Hub is a web-based application that enables finding, installing, and publishing packages and configurations for CNCF projects
 - **[Backstage](https://backstage.io/)** — Backstage is an open platform for building developer portals, which unify all your infrastructure tooling, services, and documentation with a single, consistent UI.
 - **[KubeVela](https://kubevela.io)** — KubeVela is a modern software delivery platform that makes deploying and operating applications across today's hybrid, multi-cloud environments easier, faster and more reliable.
-- **[KubeVirt](https://kubevirt.io/)** — Kubernetes Virtualization API and runtime in order to define and manage virtual machines
 - **[Microcks](https://microcks.io)** — Microcks is a tool for mocking and testing your APIs and microservices. It leverages API standards to provide a uniform and multi-protocol approach for simulating complex distributed environments and validating service components in isolation.
 - **[Operator Framework](https://operatorframework.io/)** — An open source toolkit to manage Kubernetes native applications, called Operators in an effective, automated, and scalable way. Provides managing controllers and developer tooling
 
@@ -137,9 +138,12 @@
 - **[OpenKruise](https://openkruise.io/)** — Automate application management on Kubernetes
 - **[Tekton](https://tekton.dev)** — A powerful and flexible open source framework for creating continuous integration and delivery (CI/CD) systems that allow developers to build, test, and deploy across multiple cloud providers and on-premises systems by abstracting away the underlying implementation details.
 
+#### Database
+
+- **[CloudNativePG](https://www.cloudnative-pg.io/)** — CloudNativePG is a comprehensive platform designed to seamlessly manage PostgreSQL databases within Kubernetes environments, covering the entire operational lifecycle from initial deployment to ongoing maintenance
+
 #### Streaming & Messaging
 
-- **[NATS](https://nats.io/)** — NATS.io is a connective technology for distributed systems and is a perfect fit to connect devices, edge, cloud or hybrid deployments. True multi-tenancy makes NATS ideal for SaaS and self-healing and scaling technology allows for topology changes anytime with zero downtime.
 - **[Strimzi](https://strimzi.io/)** — Event streaming with Apache Kafka by providing Kubernetes-native Kafka deployments
 
 ### Inference (1)
@@ -168,7 +172,7 @@
 - **[Cortex](https://cortexmetrics.io/)** — Horizontally scalable, highly available, multi-tenant, long term storage for Prometheus.
 - **[Thanos](https://thanos.io/)** — Open source, highly available Prometheus setup with long term storage capabilities
 
-### Orchestration & Management (8)
+### Orchestration & Management (9)
 
 #### API Gateway
 
@@ -186,6 +190,7 @@
 
 - **[Fluid](https://fluid-cloudnative.github.io/)** — Fluid is an orchestration platform for elastic data abstraction and acceleration in cloud native environment.
 - **[HAMi](https://project-hami.github.io/HAMi/)** — Heterogeneous AI Computing Virtualization Middleware
+- **[Open Cluster Management](https://open-cluster-management.io/)** — A lightweight, open standard for multi-cluster Kubernetes management built on a hub-spoke architecture.
 - **[Volcano](https://volcano.sh/)** — A Kubernetes native system for high-performance workloads
 - **[wasmCloud](https://wasmcloud.com)** — wasmCloud is an open source Cloud Native Computing Foundation (CNCF) project that enables teams to build, manage, and scale polyglot apps across any cloud, K8s, or edge.
 
@@ -232,7 +237,7 @@
 
 ---
 
-## Sandbox (154)
+## Sandbox (152)
 
 ### AI Agent (1)
 
@@ -240,7 +245,7 @@
 
 - **[Hive Commons](https://hivecommons.dev)** — Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.
 
-### App Definition and Development (31)
+### App Definition and Development (30)
 
 #### Application Definition & Image Build
 
@@ -274,7 +279,6 @@
 
 #### Database
 
-- **[CloudNativePG](https://www.cloudnative-pg.io/)** — CloudNativePG is a comprehensive platform designed to seamlessly manage PostgreSQL databases within Kubernetes environments, covering the entire operational lifecycle from initial deployment to ongoing maintenance
 - **[OpenEverest](https://openeverest.io/)** — The open-source platform for automated database provisioning and management. It supports multiple database technologies and can be hosted on any Kubernetes infrastructure, in the cloud or on-premises.
 - **[openGemini](https://www.opengemini.org)** — openGemini is an open source distributed time series DBMS with high concurrency, high performance, and high scalability, focusing on the storage and analysis of massive observability data.
 - **[SchemaHero](https://schemahero.io)** — A Kubernetes operator for declarative database schema management (gitops for database schemas)
@@ -312,7 +316,7 @@
 - **[Pixie](https://px.dev/)** — Open source Kubernetes observability for developers
 - **[Trickster](https://trickstercache.org)** — Open Source HTTP Reverse Proxy Cache and Time Series Dashboard Accelerator
 
-### Orchestration & Management (36)
+### Orchestration & Management (35)
 
 #### API Gateway
 
@@ -341,7 +345,7 @@
 - **[Cozystack](https://cozystack.io)** — Cozystack is a free PaaS platform and framework for building private clouds and providing users/customers with managed Kubernetes,  KubeVirt-based VMs, databases as a service, NATS, message brokers, etc. with GPU support in VMs and Kubernetes clusters.
 - **[Eraser](https://eraser-dev.github.io/eraser/)** — Eraser uses vulnerability data to remove non-running images from all Kubernetes nodes in a cluster.
 - **[k0s](https://k0sproject.io/)** — k0s is a CNCF-certified lightweight, Kubernetes distribution with zero dependencies and zero opinion.
-- **[KAI Scheduler](https://github.com/kai-scheduler/KAI-Scheduler)** — KAI Scheduler is a robust, efficient, and scalable Kubernetes scheduler that optimizes GPU resource allocation for AI workloads in large-scale clusters.
+- **[KAI Scheduler](https://kai-scheduler.dev)** — KAI Scheduler is a robust, efficient, and scalable Kubernetes scheduler that optimizes GPU resource allocation for AI workloads in large-scale clusters.
 - **[kcp](https://kcp.io)**
 - **[Koordinator](https://koordinator.sh)** — QoS based scheduling system for hybrid orchestration workloads on Kubernetes, bringing workloads the best layout and status.
 - **[kube-rs](https://kube.rs)** — kube-rs is the core Rust ecosystem for building applications against Kubernetes
@@ -349,7 +353,6 @@
 - **[KubeSlice](https://kubeslice.io)** — Applications provided by Avesha Systems, ready to launch on Kubernetes using Kubernetes Helm
 - **[KubeStellar](https://kubestellar.io)** — KubeStellar - a flexible solution for challenges associated with multi-cluster configuration management for edge, multi-cloud, and hybrid cloud
 - **[Kured](https://kured.dev)** — Kured (KUbernetes REboot Daemon) is a Kubernetes daemonset that performs safe automatic node reboots when the need to do so is indicated by the package management system of the underlying OS
-- **[Open Cluster Management](https://open-cluster-management.io/)** — A lightweight, open standard for multi-cluster Kubernetes management built on a hub-spoke architecture.
 - **[OpenFunction](https://openfunction.dev)** — Users can use OpenFunction in several different ways including building functions or applications only, running sync or async serverless functions or applications, building and then running serverless functions or applications, building and then running serverless wasm applications(In progress).  In all use cases, users can utilize Dapr to communicate with various backend services (BaaS).
 - **[OpenShell](https://docs.nvidia.com/openshell/latest/)** — OpenShell provides secure, policy-enforced sandboxed runtimes for autonomous AI agents.
 - **[Serverless Devs](https://www.serverless-devs.com/)** — Serverless Devs developer tool ( Serverless Devs 开发者工具 )
@@ -463,7 +466,7 @@
 - **[Interlink](https://interlink-project.dev)** — InterLink aims to provide an abstraction for the execution of a Kubernetes pod on any remote resource capable of managing a Container execution lifecycle thanks to the Virtual Kubelet interface. It allows you to extend your cloud environment anywhere by running Kubernetes workloads on various infrastructures, creating a seamless cloud-native experience across diverse environments.
 - **[Kuasar](https://kuasar.io/)** — A multi-sandbox container runtime that provides cloud-native, all-scenario multiple sandbox container solutions.
 - **[Podman Container Tools](https://podman.io/)** — A set of tools providing full management of container lifecycle, including Podman, Buildah, and Skopeo,  which manage containers and images without requiring a daemon or root privileges.
-- **[urunc](https://urunc.io/)** — A CRI-compatible runtime for running unikernels and application kernels as containers.  urunc bridges the gap between unikernels and containerized environments, enabling seamless  integration with cloud-native architectures while maintaining OCI compatibility.
+- **[urunc](https://urunc.io/)** — An OCI- and CRI-compatible sandboxed container runtime that runs each container as a unikernel or single-application kernel in its own minimal, strongly isolated sandbox. With a pluggable design for sandbox monitors and guests, urunc supports diverse VM-based and software-based sandboxes and integrates seamlessly with cloud-native architectures.
 - **[Virtual Kubelet](https://virtual-kubelet.io/)** — Virtual Kubelet is an open source Kubernetes kubelet implementation
 - **[WasmEdge Runtime](https://wasmedge.org/)** — WasmEdge provides a high-performance, lightweight, secure, and extensible WebAssembly runtime for cloud-native applications. It is an OCI compliant container that is integrated into Docker, containerd, crun and many Kubernetes projects.  Compared with traditional Linux container apps, WasmEdge apps are more secure, more portable, cold-start 100x faster and only take 1/10 of the space.
 - **[youki](https://youki-dev.github.io/youki/)** — A container runtime written in Rust
